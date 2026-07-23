@@ -33,7 +33,7 @@ from html import escape
 REPO = os.environ.get("REPO", "ente/ente")
 FEED_PATH = os.environ.get("FEED_PATH", "docs/feed.xml")
 FEED_URL = os.environ.get("FEED_URL", "")
-LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "1"))
+LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "26"))
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "30"))
 MODEL = os.environ.get("OPENROUTER_MODEL", "gpt-5.6-luna")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -259,7 +259,11 @@ def main():
     )
 
     if not merged and not opened:
-        print("No activity in window; feed left untouched.")
+        if not os.path.exists(FEED_PATH):
+            write_feed(FEED_PATH, [])  # bootstrap an empty feed on first run
+            print("No activity; wrote empty feed so the URL resolves.")
+        else:
+            print("No activity in window; feed left untouched.")
         return
 
     guid = f"ente-digest-{NOW:%Y-%m-%d}"
