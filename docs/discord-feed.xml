@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Ente Community Discord digest</title>
+    <link>https://discord.com/channels/948937918347608085</link>
+    <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
+    <lastBuildDate>Thu, 23 Jul 2026 17:35:27 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Jul 23, 2026 - 17 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 17:35:27 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light, with 17 messages across five channels. Most discussion centered on RSS discovery and filtering in &lt;strong&gt;#off-topic&lt;/strong&gt;, alongside brief technical chatter about self-hosting, Scaleway, and Ente Auth.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Nine messages from six participants covered Windows VPN privacy, browser preferences, RSS feeds and aggregators, noisy content filtering, and whether Ente accepts UI or feature contributions. One discussion shared a &lt;a href="https://www.windowslatest.com/2026/07/10/you-cant-f"&gt;Windows Latest article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Three messages from one participant praised self-hosting while reacting to a possible Scaleway outage and “OOMs.”&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Three participants shared two meme attachments, along with a reminder to keep language appropriate for under-18 members.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One brief greeting was posted.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;A user asked whether Ente Auth works with the macOS Alfred app.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
