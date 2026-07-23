@@ -1,0 +1,43 @@
+name: Discord RSS digest
+
+on:
+  schedule:
+    - cron: "30 6 * * *" # daily 06:30 UTC (offset from the Ente feed to avoid push races)
+  workflow_dispatch: {} # manual run button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discord-feed
+  cancel-in-progress: false
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate feed
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          # Optional if the bot is in exactly one server:
+          DISCORD_GUILD_ID: ${{ vars.DISCORD_GUILD_ID }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Optional: any OpenRouter model slug
+          # OPENROUTER_MODEL: anthropic/claude-haiku-4.5
+          # Optional: comma-separated channel names/IDs to skip
+          # EXCLUDE_CHANNELS: mod-chat,staff
+          # Set to the published feed URL once known, e.g.
+          # https://brog-io.github.io/entestalking/discord-feed.xml
+          FEED_URL: ${{ vars.DISCORD_FEED_URL }}
+        run: python3 generate_discord_feed.py
+
+      - name: Commit feed
+        run: |
+          git config user.name "discord-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase
+          git add docs
+          git diff --cached --quiet || git commit -m "discord feed: $(date -u +%F)"
+          git push
