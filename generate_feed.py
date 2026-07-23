@@ -30,7 +30,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from html import escape
 
-REPO = os.environ.get("REPO", "ente-io/ente")
+REPO = os.environ.get("REPO", "ente/ente")
 FEED_PATH = os.environ.get("FEED_PATH", "docs/feed.xml")
 FEED_URL = os.environ.get("FEED_URL", "")
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "26"))

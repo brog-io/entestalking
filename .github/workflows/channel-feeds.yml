@@ -1,0 +1,46 @@
+name: Discord channel feeds
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # every 30 min (GitHub may delay these at busy times)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: channel-feeds
+  cancel-in-progress: false
+
+jobs:
+  build-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate channel feeds
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          # Comma-separated channel IDs to watch (repo variable)
+          CHANNEL_IDS: ${{ vars.CHANNEL_IDS }}
+          # e.g. https://feeds.brog.io (no trailing slash)
+          FEED_BASE_URL: ${{ vars.FEEDS_BASE_URL }}
+        run: python3 generate_channel_feeds.py
+
+      - name: Commit feeds
+        run: |
+          git config user.name "discord-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "channel feeds: $(date -u +'%F %H:%M')"
+          # retry in case another feed workflow pushed meanwhile
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+            sleep 5
+          done
+          exit 1
