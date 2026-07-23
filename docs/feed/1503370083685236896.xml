@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>#community-updates</title>
+    <link>https://discord.com/channels/948937918347608085/1503370083685236896</link>
+    <description>Discord channel #community-updates</description>
+    <lastBuildDate>Thu, 23 Jul 2026 18:38:43 +0000</lastBuildDate>
+    <generator>discord-rss (github actions)</generator>
+    <item>
+      <title>Hey &lt;@&amp;1503369065270611998&gt;,</title>
+      <link>https://discord.com/channels/948937918347608085/1503370083685236896/1519260814702542939</link>
+      <guid isPermaLink="false">discord-msg-1519260814702542939</guid>
+      <pubDate>Wed, 24 Jun 2026 08:40:04 +0000</pubDate>
+      <dc:creator>vishnu</dc:creator>
+      <description>&lt;p&gt;Hey &amp;lt;@&amp;amp;1503369065270611998&amp;gt;,&lt;br&gt;&lt;br&gt;We&amp;#x27;re now @ [github.com/ente/ente](&lt;a href="https://github.com/ente/ente)"&gt;https://github.com/ente/ente)&lt;/a&gt;&lt;br&gt;&lt;br&gt;More details here: &lt;a href="https://ente.com/blog/ente-ente/"&gt;https://ente.com/blog/ente-ente/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ente/ente"&gt;GitHub - ente/ente: 💚 End-to-end encrypted cloud for everything.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;💚 End-to-end encrypted cloud for everything. Contribute to ente/ente development by creating an account on GitHub.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ente.com/blog/ente-ente/"&gt;ente-io/ente is now ente/ente&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We&amp;#x27;ve renamed our GitHub org from ente-io to ente&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>**For Self-hosters** </title>
+      <link>https://discord.com/channels/948937918347608085/1503370083685236896/1513780073902116974</link>
+      <guid isPermaLink="false">discord-msg-1513780073902116974</guid>
+      <pubDate>Tue, 09 Jun 2026 05:41:34 +0000</pubDate>
+      <dc:creator>Manav</dc:creator>
+      <description>&lt;p&gt;**For Self-hosters** &lt;br&gt;&lt;br&gt;Museum now sends email over SMTP only. The legacy `transmail.key` (Zoho ZeptoMail&amp;#x27;s API) is no longer supported. Transmail still works (if you were using it); you just [configure it over SMTP](&lt;a href="https://help.zoho.com/portal/en/kb/zeptomail/faqs/sending-emails/articles/how-to-configure-smtp)."&gt;https://help.zoho.com/portal/en/kb/zeptomail/faqs/sending-emails/articles/how-to-configure-smtp).&lt;/a&gt;&lt;br&gt;&lt;br&gt;-# If `transmail.key` means nothing to you, this doesn&amp;#x27;t affect you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hey &lt;@&amp;1503369065270611998&gt;,</title>
+      <link>https://discord.com/channels/948937918347608085/1503370083685236896/1505968193989247037</link>
+      <guid isPermaLink="false">discord-msg-1505968193989247037</guid>
+      <pubDate>Mon, 18 May 2026 16:19:56 +0000</pubDate>
+      <dc:creator>Brogio</dc:creator>
+      <description>&lt;p&gt;Hey &amp;lt;@&amp;amp;1503369065270611998&amp;gt;,&lt;br&gt;&lt;br&gt;# New [release](&lt;a href="https://github.com/ente-io/ente/releases/tag/photos-v1.3.44µ)"&gt;https://github.com/ente-io/ente/releases/tag/photos-v1.3.44µ)&lt;/a&gt; for **Ente Photos** v1.3.44&lt;br&gt;- Android: Added support for selecting photos in 3rd party apps&lt;br&gt;- Android: Added support to review photos directly from camera apps &lt;br&gt;- Fixed issue with HEIC photos rendering &lt;br&gt;- Improvements in gallery scrolling performance ⚡ &lt;br&gt;-# Large releases and news will still be posted in &amp;lt;#948956829982031912&amp;gt;. But for smaller ones select the community role at &amp;lt;id:customize&amp;gt;. You can also subscribe with RSS via  &amp;lt;:blog:1312884589332660305&amp;gt; &lt;a href="https://feeds.brog.io"&gt;https://feeds.brog.io&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&lt;@&amp;1503369065270611998&gt; new game @ https://ente.com/404 &lt;:coolducky:1355149348698198076&gt;</title>
+      <link>https://discord.com/channels/948937918347608085/1503370083685236896/1503386574593986631</link>
+      <guid isPermaLink="false">discord-msg-1503386574593986631</guid>
+      <pubDate>Mon, 11 May 2026 13:21:30 +0000</pubDate>
+      <dc:creator>vishnu</dc:creator>
+      <description>&lt;p&gt;&amp;lt;@&amp;amp;1503369065270611998&amp;gt; new game @ &lt;a href="https://ente.com/404"&gt;https://ente.com/404&lt;/a&gt; &amp;lt;:coolducky:1355149348698198076&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/1503370083685236896/1503386574807891968/ducky-dash-465.png?ex=6a6366db&amp;amp;is=6a62155b&amp;amp;hm=79c2275deed637079e234d38937c238f3d7ccd7409f314baf21cbe4c056dbd42&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
