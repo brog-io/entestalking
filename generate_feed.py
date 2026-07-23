@@ -33,9 +33,9 @@ from html import escape
 REPO = os.environ.get("REPO", "ente-io/ente")
 FEED_PATH = os.environ.get("FEED_PATH", "docs/feed.xml")
 FEED_URL = os.environ.get("FEED_URL", "")
-LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "26"))
+LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "1"))
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "30"))
-MODEL = os.environ.get("OPENROUTER_MODEL", "anthropic/claude-haiku-4.5")
+MODEL = os.environ.get("OPENROUTER_MODEL", "gpt-5.6-luna")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
@@ -46,11 +46,14 @@ SINCE = NOW - timedelta(hours=LOOKBACK_HOURS)
 def gh_api(path, params=""):
     """GET a GitHub API path, return parsed JSON."""
     url = f"https://api.github.com{path}{params}"
-    req = urllib.request.Request(url, headers={
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "ente-rss-digest",
-        **({"Authorization": f"Bearer {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}),
-    })
+    req = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "ente-rss-digest",
+            **({"Authorization": f"Bearer {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}),
+        },
+    )
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.load(r)
 
@@ -82,14 +85,15 @@ def fetch_activity():
     seen = set()
 
     for page in (1, 2):
-        closed = gh_api(f"/repos/{REPO}/pulls",
-                        f"?state=closed&sort=updated&direction=desc&per_page=100&page={page}")
+        closed = gh_api(
+            f"/repos/{REPO}/pulls",
+            f"?state=closed&sort=updated&direction=desc&per_page=100&page={page}",
+        )
         if not closed:
             break
         for pr in closed:
             m = parse_ts(pr.get("merged_at"))
-            if m and m >= SINCE and not is_bot(pr) \
-                    and pr["number"] not in seen:
+            if m and m >= SINCE and not is_bot(pr) and pr["number"] not in seen:
                 seen.add(pr["number"])
                 merged.append(slim(pr, "merged"))
         # stop paging once everything on the page is older than the window
@@ -97,8 +101,10 @@ def fetch_activity():
             break
 
     for page in (1, 2):
-        new = gh_api(f"/repos/{REPO}/pulls",
-                     f"?state=open&sort=created&direction=desc&per_page=100&page={page}")
+        new = gh_api(
+            f"/repos/{REPO}/pulls",
+            f"?state=open&sort=created&direction=desc&per_page=100&page={page}",
+        )
         if not new:
             break
         stop = False
@@ -146,30 +152,38 @@ def ai_digest(merged, opened):
     if not OPENROUTER_API_KEY:
         return None
     data = json.dumps({"merged": merged, "opened": opened}, indent=1)
-    body = json.dumps({
-        "model": MODEL,
-        "max_tokens": 1500,
-        "messages": [{"role": "user",
-                      "content": PROMPT.format(repo=REPO, data=data)}],
-    }).encode()
+    body = json.dumps(
+        {
+            "model": MODEL,
+            "max_tokens": 1500,
+            "messages": [
+                {"role": "user", "content": PROMPT.format(repo=REPO, data=data)}
+            ],
+        }
+    ).encode()
     req = urllib.request.Request(
-        "https://openrouter.ai/api/v1/chat/completions", data=body,
+        "https://openrouter.ai/api/v1/chat/completions",
+        data=body,
         method="POST",
-        headers={"content-type": "application/json",
-                 "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-                 "HTTP-Referer": "https://github.com",
-                 "X-Title": "ente-rss-digest"})
+        headers={
+            "content-type": "application/json",
+            "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+            "HTTP-Referer": "https://github.com",
+            "X-Title": "ente-rss-digest",
+        },
+    )
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
             resp = json.load(r)
-        text = (resp.get("choices") or [{}])[0] \
-            .get("message", {}).get("content", "")
+        text = (resp.get("choices") or [{}])[0].get("message", {}).get("content", "")
         # strip accidental markdown fences
         text = re.sub(r"^```(?:html)?\s*|\s*```$", "", text.strip())
         return text or None
     except (urllib.error.URLError, urllib.error.HTTPError, KeyError) as e:
-        print(f"WARN: LLM call failed, falling back to plain listing: {e}",
-              file=sys.stderr)
+        print(
+            f"WARN: LLM call failed, falling back to plain listing: {e}",
+            file=sys.stderr,
+        )
         return None
 
 
@@ -180,13 +194,17 @@ def plain_digest(merged, opened):
         lis = "".join(
             f'<li><a href="{escape(p["url"])}">#{p["number"]}</a> '
             f'{escape(p["title"])} <em>({escape(p["author"])})</em></li>'
-            for p in prs)
+            for p in prs
+        )
         return f"<h3>{title}</h3><ul>{lis}</ul>"
-    return (section("Shipped", merged) + section("In progress", opened)) \
-        or "<p>No activity.</p>"
+
+    return (
+        section("Shipped", merged) + section("In progress", opened)
+    ) or "<p>No activity.</p>"
 
 
 # ---------------------------------------------------------------- RSS output
+
 
 def load_existing_items(path):
     if not os.path.exists(path):
@@ -210,18 +228,22 @@ def item_xml(title, html_desc, guid, pubdate):
 
 
 def write_feed(path, items):
-    rss = ET.Element("rss", version="2.0",
-                     attrib={"xmlns:atom": "http://www.w3.org/2005/Atom"})
+    rss = ET.Element(
+        "rss", version="2.0", attrib={"xmlns:atom": "http://www.w3.org/2005/Atom"}
+    )
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = "Ente development digest"
     ET.SubElement(ch, "link").text = f"https://github.com/{REPO}"
-    ET.SubElement(ch, "description").text = \
+    ET.SubElement(ch, "description").text = (
         "AI-generated daily digest of PRs opened and merged in the Ente monorepo"
+    )
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(NOW)
     if FEED_URL:
-        ET.SubElement(ch, "atom:link",
-                      attrib={"href": FEED_URL, "rel": "self",
-                              "type": "application/rss+xml"})
+        ET.SubElement(
+            ch,
+            "atom:link",
+            attrib={"href": FEED_URL, "rel": "self", "type": "application/rss+xml"},
+        )
     for it in items[:MAX_ITEMS]:
         ch.append(it)
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
@@ -231,8 +253,10 @@ def write_feed(path, items):
 
 def main():
     merged, opened = fetch_activity()
-    print(f"Found {len(merged)} merged, {len(opened)} opened PRs since "
-          f"{SINCE:%Y-%m-%d %H:%M} UTC")
+    print(
+        f"Found {len(merged)} merged, {len(opened)} opened PRs since "
+        f"{SINCE:%Y-%m-%d %H:%M} UTC"
+    )
 
     if not merged and not opened:
         print("No activity in window; feed left untouched.")
@@ -245,8 +269,10 @@ def main():
         return
 
     html = ai_digest(merged, opened) or plain_digest(merged, opened)
-    title = (f"Ente digest {NOW:%b %d, %Y} - "
-             f"{len(merged)} shipped, {len(opened)} in progress")
+    title = (
+        f"Ente digest {NOW:%b %d, %Y} - "
+        f"{len(merged)} shipped, {len(opened)} in progress"
+    )
     new_item = item_xml(title, html, guid, NOW)
     write_feed(FEED_PATH, [new_item] + existing)
     print(f"Wrote {FEED_PATH} ({1 + len(existing)} items before trim).")
