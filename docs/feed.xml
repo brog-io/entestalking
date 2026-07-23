@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Ente development digest</title>
+    <link>https://github.com/ente/ente</link>
+    <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
+    <lastBuildDate>Thu, 23 Jul 2026 15:38:54 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Jul 23, 2026 - 19 shipped, 4 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 15:38:54 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focuses on faster and more capable on-device processing in Photos and new on-device knowledge packs in Ensu. There are also several usability fixes across web and mobile, plus self-hosting and account-recovery improvements.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11571"&gt;Major ML indexing optimizations&lt;/a&gt; reduce processing overhead and improve portability across iOS CoreML and Android WebGPU/XNNPACK. &lt;a href="https://github.com/ente/ente/pull/11612"&gt;Unassigned face clusters can now be linked to contacts&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/11620"&gt;face clusters are sorted by photo count&lt;/a&gt; to make that picker easier to use.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11617"&gt;Opt-in on-device knowledge packs&lt;/a&gt; add downloadable, searchable packs with local retrieval, source citations, and controls to download, update, cancel, and enable them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11615"&gt;Contact-first avatars&lt;/a&gt; now prefer saved contact names and photos across search, sharing, and family views. &lt;a href="https://github.com/ente/ente/pull/11629"&gt;Incoming shared photos in Memories&lt;/a&gt; now show the favourite icon, and &lt;a href="https://github.com/ente/ente/pull/11611"&gt;family member names&lt;/a&gt; appear on the storage-limit page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11636"&gt;Chromecast receiver compatibility&lt;/a&gt; was fixed, while &lt;a href="https://github.com/ente/ente/pull/11628"&gt;download toasts can now be dismissed&lt;/a&gt; when retries do not help.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Platform and self-hosting:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11613"&gt;Account recovery no longer races account cleanup&lt;/a&gt;; &lt;a href="https://github.com/ente/ente/pull/11624"&gt;self-hosted API path prefixes are preserved&lt;/a&gt;; and &lt;a href="https://github.com/ente/ente/pull/11621"&gt;the recent server CORS changes were reverted&lt;/a&gt; to simplify self-hosting.&lt;/li&gt;
+&lt;li&gt;Smaller shipped fixes include &lt;a href="https://github.com/ente/ente/pull/11627"&gt;long user-agent handling in logout confirmation&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/11622"&gt;access-token use for mobile family requests&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11634"&gt;&lt;strong&gt;Server:&lt;/strong&gt; Find scheduled deletions by email&lt;/a&gt;, retaining a keyed email hash for admin lookup and recovery verification.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11635"&gt;&lt;strong&gt;Documentation:&lt;/strong&gt; Add FAQ entries&lt;/a&gt; across the Auth, Photos, and Locker docs.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11638"&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Remove the &lt;code&gt;parking_lot&lt;/code&gt; dependency&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11616"&gt;&lt;strong&gt;Auth:&lt;/strong&gt; Add DonanımHaber icon data&lt;/a&gt; to the custom icon set.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
