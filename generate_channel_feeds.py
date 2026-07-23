@@ -32,11 +32,13 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from html import escape
 
-BOT_TOKEN = os.environ.get(
-    "DISCORD_BOT_TOKEN", "948956829982031912, 1503370083685236896"
-)
+BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
 CHANNEL_IDS = [
-    c.strip() for c in os.environ.get("CHANNEL_IDS", "").split(",") if c.strip()
+    c.strip()
+    for c in os.environ.get(
+        "CHANNEL_IDS", "948956829982031912, 1503370083685236896"
+    ).split(",")
+    if c.strip()
 ]
 FEED_BASE_URL = os.environ.get("FEED_BASE_URL", "").rstrip("/")
 OUT_DIR = os.environ.get("OUT_DIR", "docs/feed")
