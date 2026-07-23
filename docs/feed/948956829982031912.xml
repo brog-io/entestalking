@@ -4,7 +4,7 @@
     <title>#announcements</title>
     <link>https://discord.com/channels/948937918347608085/948956829982031912</link>
     <description>Discord channel #announcements</description>
-    <lastBuildDate>Thu, 23 Jul 2026 20:09:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 21:34:20 +0000</lastBuildDate>
     <generator>discord-rss (github actions)</generator>
     <item>
       <title>Hey @everyone,</title>
@@ -344,7 +344,7 @@ Chapters:
       <pubDate>Fri, 10 May 2024 09:15:33 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hey @everyone, time for some goodies! 🎁&lt;br&gt;&lt;br&gt;## Cast albums to TV 📺&lt;br&gt;&lt;br&gt;You can now view a slideshow of your albums on ***any*** big screen. If you have a Chromecast device on the network, Ente will auto-pair. You can also open up `cast.ente.io` on any screen, and enter a 6 digit code to present an album.&lt;br&gt;&lt;br&gt;## Organize shared items ❤️&lt;br&gt;&lt;br&gt;You can favorite them, add them to your own albums, and organize them like yours. When you perform these actions, Ente will copy the shared items into your account, so they turn into hard copies that you own.&lt;br&gt;&lt;br&gt;## Machine Learning ⚡️&lt;br&gt;&lt;br&gt;We&amp;#x27;ve shipped massive performance improvements to **Magic Search**. We&amp;#x27;ve also updated our on-device Machine Learning infrastructure to make sure inference only runs when your device is healthy (in terms of battery and temperature).&lt;br&gt;&lt;br&gt;If you haven&amp;#x27;t already, please enable the feature from `Settings &amp;gt; Advanced &amp;gt; Machine Learning`, and let us know if you face any jank.&lt;br&gt;&lt;br&gt;## and more ✨&lt;br&gt;&lt;br&gt;This release also comes packed with some quality-of-life improvements around Android widgets, background sync, search screen, gallery load-times and downloads; and the adoption of Material You components.&lt;br&gt;&lt;br&gt;## and some more 🫶&lt;br&gt;&lt;br&gt;- We&amp;#x27;ve increased the storage included within Ente&amp;#x27;s free trial from 1 GB to **5 GBs**. We&amp;#x27;ve also reset your trial timer, so you&amp;#x27;ve 365 more days to explore the free space 🙂&lt;br&gt;- **Face Recognition** is almost ready. If you would like early access, please **[sign up here](&lt;a href="https://forms.ente.io/s/clvrwn20u01ad8j6wpcbkvztu)**."&gt;https://forms.ente.io/s/clvrwn20u01ad8j6wpcbkvztu)**.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1238419149991186513/image.png?ex=6a632d36&amp;amp;is=6a61dbb6&amp;amp;hm=da20fb335174eb581eefda41540083154393ecc629bb3ebfad75c186fdc75c25&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1238419149991186513/image.png?ex=6a63d5f6&amp;amp;is=6a628476&amp;amp;hm=425fb7acc57147b6466fbf5be41d78311bc9ad9bea53b3780ecf1ba33c798cb4&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>&lt;@&amp;1099362028147183759&gt;'s desktop app is now live 🚀</title>
