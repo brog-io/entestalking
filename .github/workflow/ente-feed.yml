@@ -1,0 +1,34 @@
+name: Ente RSS digest
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily 06:00 UTC
+  workflow_dispatch: {}    # manual run button
+
+permissions:
+  contents: write
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate feed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Optional: any OpenRouter model slug, e.g. google/gemini-2.5-flash
+          # OPENROUTER_MODEL: anthropic/claude-haiku-4.5
+          # Set to your published feed URL once Pages is enabled, e.g.
+          # https://<user>.github.io/<repo>/feed.xml
+          FEED_URL: ${{ vars.FEED_URL }}
+        run: python3 generate_feed.py
+
+      - name: Commit feed
+        run: |
+          git config user.name "ente-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/feed.xml
+          git diff --cached --quiet || git commit -m "feed: $(date -u +%F)"
+          git push
