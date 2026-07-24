@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 23 Jul 2026 15:38:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:29:24 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Jul 24, 2026 - 24 shipped, 2 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 08:29:24 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes span Photos, Space, Auth, and Ensu, with several user-facing improvements alongside infrastructure and privacy hardening. A major highlight is faster on-device ML indexing, while Ensu gains opt-in knowledge packs.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos and Space:&lt;/strong&gt; Space now supports viewing friends’ cover photos, editing captions, managing friend requests, messaging or unfriending friends, smoother feed and avatar loading, and better action menus in &lt;a href="https://github.com/ente/ente/pull/11648"&gt;PR #11648&lt;/a&gt;. Photos also gets a smoother web upload experience in &lt;a href="https://github.com/ente/ente/pull/11649"&gt;PR #11649&lt;/a&gt;, a dismissible download-error toast in &lt;a href="https://github.com/ente/ente/pull/11628"&gt;PR #11628&lt;/a&gt;, and favourite indicators for incoming shared photos in &lt;a href="https://github.com/ente/ente/pull/11629"&gt;PR #11629&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos performance:&lt;/strong&gt; Major mobile ML indexing optimizations reduce copying and processing overhead, improve model portability, and cautiously roll out Android WebGPU support in &lt;a href="https://github.com/ente/ente/pull/11571"&gt;PR #11571&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Public sharing:&lt;/strong&gt; Photos public album links now use the shorter &lt;code&gt;albums.ente.com/TOKEN#KEY&lt;/code&gt; format, with matching mobile fallback and documentation updates in &lt;a href="https://github.com/ente/ente/pull/11134"&gt;PR #11134&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Ensu now has opt-in, on-device knowledge packs with download, update, cancellation, enablement, retrieval, and source-citation support across Android and iOS in &lt;a href="https://github.com/ente/ente/pull/11617"&gt;PR #11617&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Auth and Locker:&lt;/strong&gt; Auth adds more icons and aliases in &lt;a href="https://github.com/ente/ente/pull/11546"&gt;PR #11546&lt;/a&gt;, while Locker removes the default text-input limit in &lt;a href="https://github.com/ente/ente/pull/11537"&gt;PR #11537&lt;/a&gt;. Mobile settings also adds a “More from Ente” section with platform-aware app links in &lt;a href="https://github.com/ente/ente/pull/11642"&gt;PR #11642&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security and reliability:&lt;/strong&gt; Share-password tokens now have shorter lifetimes in &lt;a href="https://github.com/ente/ente/pull/11645"&gt;PR #11645&lt;/a&gt;, and account-recovery handling is safer against cleanup races in &lt;a href="https://github.com/ente/ente/pull/11613"&gt;PR #11613&lt;/a&gt;. Documentation also gains new Auth, Photos, and Locker FAQs in &lt;a href="https://github.com/ente/ente/pull/11635"&gt;PR #11635&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; A new search bar for the Assign Person dialog will make it easier to find people without scrolling through the full list in &lt;a href="https://github.com/ente/ente/pull/11650"&gt;PR #11650&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; CollectionSelector and SingleInputDialog are being updated to their v2 versions in &lt;a href="https://github.com/ente/ente/pull/11651"&gt;PR #11651&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Jul 23, 2026 - 19 shipped, 4 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
