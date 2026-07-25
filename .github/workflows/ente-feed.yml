@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ente-feed
+  cancel-in-progress: false
+
 jobs:
   build-feed:
     runs-on: ubuntu-latest
@@ -30,5 +34,15 @@ jobs:
           git config user.name "ente-feed-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs
-          git diff --cached --quiet || git commit -m "feed: $(date -u +%F)"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "feed: $(date -u +%F)"
+          # retry in case another feed workflow pushed meanwhile
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+            sleep 5
+          done
+          exit 1
