@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 25 Jul 2026 08:08:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 08:28:07 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Jul 26, 2026 - 1 shipped, 7 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-07-26</guid>
+      <pubDate>Sun, 26 Jul 2026 08:28:07 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped a refreshed verification flow, while upcoming work spans photo editing, Auth account management, Space performance, and desktop polish. Several of these changes are focused on making everyday interactions faster and clearer across platforms.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos (mobile):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11674"&gt;Refreshed the Verification ID sheet&lt;/a&gt; to match Locker’s styling while preserving the existing copy, email, and sharing behavior.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos (web):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11684"&gt;Adding a Straighten control to the photo editor&lt;/a&gt;. Users will be able to level tilted horizons with a -45° to +45° slider, live alignment preview, and automatic cropping to remove empty corners.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth (mobile):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11682"&gt;Adding multi-account support and profile switching&lt;/a&gt;, allowing up to five online or offline vaults to remain signed in and be switched from Settings.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos (mobile):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11676"&gt;Extending the refreshed Verification ID sheet&lt;/a&gt; to album-participant and trusted-contact email verification, replacing the legacy alert dialog.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11678"&gt;Improving feed loading and caching&lt;/a&gt; with cached startup data, concurrent fetching, animated new posts, asset caching, and related cleanup and copy updates.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth (desktop):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11683"&gt;Fixing the system-tray tooltip&lt;/a&gt; so hovering the icon shows “ente Auth” instead of an operating-system default label.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop packaging:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11679"&gt;Adding standard icon sizes for Fedora Plasma&lt;/a&gt;, addressing missing icon registration in the RPM package.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11675"&gt;Keeping collection-trash processing scoped to batches&lt;/a&gt; so deletion work remains bounded and retry progress stays aligned.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Jul 25, 2026 - 18 shipped, 7 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
