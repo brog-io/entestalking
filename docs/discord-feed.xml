@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 26 Jul 2026 08:40:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 10:27:21 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Jul 27, 2026 - 23 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 10:27:21 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity across four channels, with discussion focused mainly on border-device privacy, photo metadata/import behavior, and community contributions. Off-topic was the busiest channel, followed by photos.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Twelve messages from six participants discussed border searches, device resets, access requests, and related legal considerations in the US, Canada, and elsewhere. Members also discussed a recent rise in community pull requests, with one participant noting 43 PRs, and shared &lt;a href="https://killthecookiebanner.eu/"&gt;Kill the Cookie Banner&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Eight messages from four participants covered delays in new photos appearing in galleries, Immich’s importer behavior, sidecar files, EXIF date parsing, and compatibility with Google’s formats. The channel also briefly discussed iOS deletion permissions and the use of tags such as &lt;strong&gt;[mobile][photos]&lt;/strong&gt; in pull requests.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Two participants discussed improving model selection for systems with under or over 16 GB of RAM and troubleshooting a related setup. A follow-up offered to investigate after receiving more details.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Jul 26, 2026 - 12 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
