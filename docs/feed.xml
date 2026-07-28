@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 27 Jul 2026 09:54:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 08:36:08 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Jul 28, 2026 - 32 shipped, 5 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 08:36:08 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos UI refinements alongside reliability fixes for authentication, sharing, and media handling. Work in progress includes more resilient photo imports, Android trash integration, and encrypted Space profile-sharing links.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; Refreshed the Trash empty state, gallery layout picker, referral screens, and People, Albums, and Memories widget settings with newer shared UI components: &lt;a href="https://github.com/ente/ente/pull/11727"&gt;#11727&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11716"&gt;#11716&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11712"&gt;#11712&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11715"&gt;#11715&lt;/a&gt;. A new “crafting memories” banner is also live in Photos: &lt;a href="https://github.com/ente/ente/pull/11359"&gt;#11359&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos sharing and organization:&lt;/strong&gt; Album sorting is now centralized across shared, hidden, widget, ritual, and album views; comments retain the correct collection context; contacts refresh after participant changes; and verification now consistently uses the refreshed Verification ID sheet: &lt;a href="https://github.com/ente/ente/pull/11713"&gt;#11713&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11706"&gt;#11706&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11695"&gt;#11695&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11676"&gt;#11676&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos reliability:&lt;/strong&gt; Temporary video thumbnails are cleaned up after use, and shared-memory metadata is capped before parsing or decompression to limit excessive memory use: &lt;a href="https://github.com/ente/ente/pull/11711"&gt;#11711&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11703"&gt;#11703&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Rare mobile SRP signup, password-update, and recovery failures are fixed; malformed imported OTP entries are now reported instead of silently saved; and the Windows tray icon has a clean tooltip: &lt;a href="https://github.com/ente/ente/pull/11723"&gt;#11723&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11705"&gt;#11705&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11683"&gt;#11683&lt;/a&gt;. Crypto derivation errors now correctly trigger the lower-memory recovery flow: &lt;a href="https://github.com/ente/ente/pull/11561"&gt;#11561&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space and Ensu:&lt;/strong&gt; Space starts faster with cached identity and feed data, while Ensu’s Fedora Plasma package now includes standard icon sizes: &lt;a href="https://github.com/ente/ente/pull/11678"&gt;#11678&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11679"&gt;#11679&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Other shipped maintenance includes the ONNX Runtime packaging update, public-link JWT handling, safer mailto parameters, and web dependency updates: &lt;a href="https://github.com/ente/ente/pull/11704"&gt;#11704&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11698"&gt;#11698&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11531"&gt;#11531&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11722"&gt;#11722&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11724"&gt;#11724&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos imports:&lt;/strong&gt; Invalid asset timestamps will fall back to filename, modification, or upload dates instead of aborting imports: &lt;a href="https://github.com/ente/ente/pull/11721"&gt;#11721&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Encrypted, revocable profile-sharing links—with public previews, rotation, and onboarding polish—are in progress: &lt;a href="https://github.com/ente/ente/pull/11714"&gt;#11714&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Android system-trash entries may soon appear on the Photos Trash page: &lt;a href="https://github.com/ente/ente/pull/11707"&gt;#11707&lt;/a&gt;. Documentation for shared Memory controls is also being added: &lt;a href="https://github.com/ente/ente/pull/11709"&gt;#11709&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Scheduled workflows are being adjusted to avoid running on forks: &lt;a href="https://github.com/ente/ente/pull/11697"&gt;#11697&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Jul 27, 2026 - 17 shipped, 5 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
