@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 28 Jul 2026 08:36:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 08:42:50 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Jul 29, 2026 - 25 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 08:42:50 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos usability improvements across mobile and web, including quieter sharing notifications, better video playback controls, and smoother sharing and import flows. Auth, Space, desktop ML, and platform reliability also received notable updates, while several Photos improvements are now in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11750"&gt;Shared-album notifications are now grouped&lt;/a&gt; by sender, preventing large shares from flooding recipients. &lt;a href="https://github.com/ente/ente/pull/11427"&gt;Persistent video mute&lt;/a&gt; remembers the preference across restarts and prevents audio briefly playing before muted playback begins.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos sharing:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11583"&gt;Family users can share owned albums&lt;/a&gt;, update sharing roles, and stop sharing. &lt;a href="https://github.com/ente/ente/pull/11745"&gt;Library-sharing UX&lt;/a&gt; was refined, including long-press album selection and clearer roles and defaults.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos reliability:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11739"&gt;Ritual camera startup&lt;/a&gt; now handles permissions cleanly and avoids indefinite loading. &lt;a href="https://github.com/ente/ente/pull/11721"&gt;Invalid asset dates&lt;/a&gt; fall back to other available dates instead of aborting imports, and &lt;a href="https://github.com/ente/ente/pull/11734"&gt;Memory Lane links&lt;/a&gt; filter out stale files.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11747"&gt;Archived albums no longer appear in the gallery’s horizontal bar&lt;/a&gt;, keeping that space focused on active albums. &lt;a href="https://github.com/ente/ente/pull/11735"&gt;Memory links now include branding&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11732"&gt;Desktop settings and dialogs&lt;/a&gt; received a more native layout, with centered dialogs and improved navigation. &lt;a href="https://github.com/ente/ente/pull/11726"&gt;Settings styling and transitions&lt;/a&gt; were also refined, and &lt;a href="https://github.com/ente/ente/pull/11683"&gt;Windows tray tooltips&lt;/a&gt; now display correctly.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space and security:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11714"&gt;Encrypted, revocable profile-sharing links&lt;/a&gt; landed with profile previews and onboarding polish. &lt;a href="https://github.com/ente/ente/pull/11729"&gt;2-of-3 card handling&lt;/a&gt; was hardened against a reported security advisory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Upcoming desktop ML:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11746"&gt;Rust ONNX Runtime integration&lt;/a&gt; would unify desktop ML indexing and CLIP embeddings, with native addons and guarded WebGPU acceleration.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11756"&gt;Unsupported Android media-permission handling&lt;/a&gt; would show a deletion prompt; &lt;a href="https://github.com/ente/ente/pull/11754"&gt;trash database entries&lt;/a&gt; would gain file sizes; and &lt;a href="https://github.com/ente/ente/pull/11748"&gt;the Memories banner&lt;/a&gt; would become fully tappable.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11752"&gt;Own-collect replay reconciliation&lt;/a&gt; would preserve collection identity and added timestamps. &lt;a href="https://github.com/ente/ente/pull/11730"&gt;In-app purchase updates&lt;/a&gt; target Google Play Billing 8 while retaining StoreKit 1 compatibility on iOS.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Jul 28, 2026 - 32 shipped, 5 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
