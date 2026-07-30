@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Wed, 29 Jul 2026 08:42:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 08:28:50 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Jul 30, 2026 - 14 shipped, 9 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 08:28:50 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of mobile usability and reliability improvements, alongside new Photos web referral settings and several UI refreshes. Work in progress focuses on smoother media deletion, widget setup, contacts, and Space notifications.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Media picked from SD cards and other uncommon storage locations is now copied to a temporary location before being shared with third-party apps, improving uploads on devices such as Samsung phones. &lt;a href="https://github.com/ente/ente/pull/11084"&gt;PR #11084&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Camera permission recovery now distinguishes denied, restricted, settings-required, and retryable states, with clearer recovery actions. &lt;a href="https://github.com/ente/ente/pull/11779"&gt;PR #11779&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Added native support for accessing the system trash, and stopped reporting expected upload-lock contention as errors. &lt;a href="https://github.com/ente/ente/pull/11761"&gt;PR #11761&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11777"&gt;PR #11777&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Added Referral Settings. Memories also received UI and metadata-image updates, while previously added memory-link branding was reverted. &lt;a href="https://github.com/ente/ente/pull/11758"&gt;PR #11758&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11768"&gt;PR #11768&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11766"&gt;PR #11766&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11767"&gt;PR #11767&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auth and Locker:&lt;/strong&gt; Auth HTML exports now print with a corrected layout. Locker’s legacy PDF design was refreshed, with recovery information kept visible while hidden recovery metadata was removed. &lt;a href="https://github.com/ente/ente/pull/11774"&gt;PR #11774&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11536"&gt;PR #11536&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile UI:&lt;/strong&gt; Photos title bars and gradient buttons were migrated to the current component system, including a refreshed “Free up device space” screen. Locker’s link-picker UI received the same component migration. &lt;a href="https://github.com/ente/ente/pull/11759"&gt;PR #11759&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11757"&gt;PR #11757&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11769"&gt;PR #11769&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A group of changes is adding system-trash file tracking, deletion prompts for unsupported Android media-management permissions, and file sizes to the trash database. &lt;a href="https://github.com/ente/ente/pull/11781"&gt;PR #11781&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11762"&gt;PR #11762&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11756"&gt;PR #11756&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11754"&gt;PR #11754&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unconfigured Albums, People, and Memories widgets will deep-link directly to their setup screens on Android and iOS. &lt;a href="https://github.com/ente/ente/pull/11770"&gt;PR #11770&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Space is adding web push notifications for activity and public profiles, plus PWA setup prompts and feed/messaging refinements. &lt;a href="https://github.com/ente/ente/pull/11773"&gt;PR #11773&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Other upcoming improvements include moving developer settings under Accounts, auto-creating contacts for linked people, and preserving own-collect timestamps during sync reconciliation. &lt;a href="https://github.com/ente/ente/pull/11784"&gt;PR #11784&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11775"&gt;PR #11775&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11752"&gt;PR #11752&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Jul 29, 2026 - 25 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
