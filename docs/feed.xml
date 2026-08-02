@@ -4,7 +4,23 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 01 Aug 2026 08:22:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 08:25:49 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 02, 2026 - 2 shipped, 0 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-02</guid>
+      <pubDate>Sun, 02 Aug 2026 08:25:49 +0000</pubDate>
+      <description>&lt;p&gt;A quiet day in the Ente monorepo, with two changes shipped and no new work opened. The main user-facing update improves QR handling in the mobile photo viewer; shared icon coverage also expanded.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11824"&gt;QR detection now waits for the full image to render&lt;/a&gt;, reducing premature scans. Detection results are also tied to the source photo so QR regions cannot leak between adjacent images.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Icons:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11829"&gt;VGen and Palform icons were added&lt;/a&gt; for use wherever these services are represented in the product.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;p&gt;No new pull requests were opened in the last 24 hours.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 01, 2026 - 21 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
