@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 02 Aug 2026 08:25:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 09:48:30 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 03, 2026 - 19 shipped, 8 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 09:48:30 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped several Photos usability improvements across mobile and widgets, alongside server-side sharing and account updates. In progress, the most user-visible work is a new mobile Trash view and broader access to video metadata.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Improved handling of password re-entry errors, making failed unlock or authentication attempts clearer and more reliable (&lt;a href="https://github.com/ente/ente/pull/11879"&gt;#11879&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos widgets:&lt;/strong&gt; Tapping an unconfigured Albums, People, or Memories widget now opens its matching customization screen directly on Android and iOS, instead of sending users to the app’s home screen (&lt;a href="https://github.com/ente/ente/pull/11770"&gt;#11770&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Video editor controls now use appropriately sized icons, improving their visibility in the bottom toolbar (&lt;a href="https://github.com/ente/ente/pull/11848"&gt;#11848&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Contact saves no longer accidentally remove an avatar while an avatar unlink is in progress (&lt;a href="https://github.com/ente/ente/pull/11868"&gt;#11868&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Added bounded bulk share and unshare operations for a collection and one recipient, including idempotent automatic sharing and Viewer-only uncategorized sharing (&lt;a href="https://github.com/ente/ente/pull/11809"&gt;#11809&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accounts and purchases:&lt;/strong&gt; App Store sandbox purchases now also work for &lt;code&gt;@ente.com&lt;/code&gt; accounts (&lt;a href="https://github.com/ente/ente/pull/11872"&gt;#11872&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Other shipped maintenance included removing the legacy web upload flow, updating upload documentation, and improving Linux desktop publishing (&lt;a href="https://github.com/ente/ente/pull/11858"&gt;#11858&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11860"&gt;#11860&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11870"&gt;#11870&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A new Trash feature would let users manage deleted items and free up storage space (&lt;a href="https://github.com/ente/ente/pull/11878"&gt;#11878&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Video metadata in file details is being opened to all users, rather than only internal accounts (&lt;a href="https://github.com/ente/ente/pull/11873"&gt;#11873&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memories:&lt;/strong&gt; The crafting-memories banner is receiving a visual redesign and a dismiss button (&lt;a href="https://github.com/ente/ente/pull/11864"&gt;#11864&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11869"&gt;#11869&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Upcoming platform work includes recognizing &lt;code&gt;@ente.com&lt;/code&gt; as an internal account and upgrading custom ONNX Runtime builds to 1.28 across clients (&lt;a href="https://github.com/ente/ente/pull/11881"&gt;#11881&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11874"&gt;#11874&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 02, 2026 - 2 shipped, 0 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
