@@ -4,7 +4,35 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 02 Aug 2026 08:56:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 10:24:47 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 03, 2026 - 39 messages in 7 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 10:24:47 +0000</pubDate>
+      <description>&lt;p&gt;Ente Community saw moderate activity, led by discussion in &lt;strong&gt;#photos&lt;/strong&gt; around album sharing, translations, and imports. &lt;strong&gt;#space&lt;/strong&gt; and &lt;strong&gt;#ensu&lt;/strong&gt; also had product questions and troubleshooting, while other channels were quieter.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 15 messages from 9 participants, members discussed hiding Memories from the main feed, blank video thumbnails, and making shared album links more recognizable without compromising encryption. A Crowdin translation-count issue was clarified, with related work tracked in &lt;a href="https://github.com/ente/ente/pull/11861"&gt;GitHub PR #11861&lt;/a&gt;; CLI imports for Photos were also queried.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Nine messages from 4 participants covered claiming the Space role, keeping Space separate from Photos, and its encryption model; Anand confirmed Spaces use a separate key. A browser upload failure was traced to a company proxy, and the team noted that messaging and private replies already exist, with group-context comments under consideration.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Seven messages from 2 participants focused on an iPhone/Safari web download error and differences between mobile and browser models. The app was suggested as a workaround, and the platform-specific model defaults were explained.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Four participants discussed passkey-only login, encryption constraints, and whether passkey PRF could help, including a link to &lt;a href="https://oblique.security/blog/passkey-prf/"&gt;an explanation of passkey PRF&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Two newcomers briefly introduced themselves.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One attachment was shared.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;A reminder was posted to share appropriate memes.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 02, 2026 - 68 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
