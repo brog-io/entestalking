@@ -4,8 +4,16 @@
     <title>#community-updates</title>
     <link>https://discord.com/channels/948937918347608085/1503370083685236896</link>
     <description>Discord channel #community-updates</description>
-    <lastBuildDate>Tue, 04 Aug 2026 08:02:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 11:01:51 +0000</lastBuildDate>
     <generator>discord-rss (github actions)</generator>
+    <item>
+      <title>### 🌏 Note for translators</title>
+      <link>https://discord.com/channels/948937918347608085/1503370083685236896/1534137683918716959</link>
+      <guid isPermaLink="false">discord-msg-1534137683918716959</guid>
+      <pubDate>Tue, 04 Aug 2026 09:55:26 +0000</pubDate>
+      <dc:creator>setal</dc:creator>
+      <description>&lt;p&gt;### 🌏 Note for translators&lt;br&gt;&lt;br&gt;We’ve consolidated translations for Ente Photos, Auth, and Locker into a single [Ente Mobile project on Crowdin](&lt;a href="https://crowdin.com/project/ente-photos-app)."&gt;https://crowdin.com/project/ente-photos-app).&lt;/a&gt; The former Auth and Locker specific Crowdin projects are retired.&lt;br&gt;&lt;br&gt;Translations were deduplicated and carried over. While the total number of strings has increased from a point of view of the translator for a single app, overall the total number of strings has reduced by more than a third.&lt;br&gt;&lt;br&gt;The [Ente Web project on Crowdin](&lt;a href="https://crowdin.com/project/ente-photos-web/)"&gt;https://crowdin.com/project/ente-photos-web/)&lt;/a&gt; stays unchanged.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hey &lt;@&amp;1503369065270611998&gt;,</title>
       <link>https://discord.com/channels/948937918347608085/1503370083685236896/1519260814702542939</link>
