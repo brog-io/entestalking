@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 03 Aug 2026 09:48:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 08:38:53 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 04, 2026 - 46 shipped, 7 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 08:38:53 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos improvements across sharing, downloads, account switching, and mobile usability. The next wave includes richer album metadata, faster ML indexing status, and better preservation of edited-photo metadata.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web and server:&lt;/strong&gt; Public and authenticated file, thumbnail, collection, memory, cast, and file-link downloads now use v3 URL endpoints, with compatibility fallbacks where needed: &lt;a href="https://github.com/ente/ente/pull/11916"&gt;web public downloads&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11902"&gt;web authenticated downloads&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11909"&gt;public file URLs&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/11896"&gt;file URLs&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; Library sharing is enabled using bulk sharing APIs (&lt;a href="https://github.com/ente/ente/pull/11892"&gt;#11892&lt;/a&gt;), and Trash can now be used to free up space (&lt;a href="https://github.com/ente/ente/pull/11878"&gt;#11878&lt;/a&gt;). Logout now clears account-specific caches, preventing data from one account appearing in another (&lt;a href="https://github.com/ente/ente/pull/11787"&gt;#11787&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Unconfigured Albums, People, and Memories widgets now open their setup screens directly (&lt;a href="https://github.com/ente/ente/pull/11770"&gt;#11770&lt;/a&gt;). The Memories banner is fully tappable (&lt;a href="https://github.com/ente/ente/pull/11748"&gt;#11748&lt;/a&gt;), Android shows a deletion prompt when required permissions are unsupported (&lt;a href="https://github.com/ente/ente/pull/11756"&gt;#11756&lt;/a&gt;), and Traditional Chinese is enabled (&lt;a href="https://github.com/ente/ente/pull/11884"&gt;#11884&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Mobile Photos also improved password re-entry error handling (&lt;a href="https://github.com/ente/ente/pull/11879"&gt;#11879&lt;/a&gt;) and made video-editor icons easier to see (&lt;a href="https://github.com/ente/ente/pull/11848"&gt;#11848&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web Albums:&lt;/strong&gt; Upload progress and album uploads now use the newer components, with the obsolete v1 flow removed (&lt;a href="https://github.com/ente/ente/pull/11883"&gt;progress&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11897"&gt;uploads&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11858"&gt;cleanup&lt;/a&gt;). Link previews and loading states were also improved (&lt;a href="https://github.com/ente/ente/pull/11885"&gt;#11885&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11891"&gt;#11891&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other shipped work includes restored previous mobile in-app-purchase behavior (&lt;a href="https://github.com/ente/ente/pull/11888"&gt;#11888&lt;/a&gt;) and routine dependency, build, and code cleanup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Album descriptions:&lt;/strong&gt; Mobile Photos is adding editable descriptions alongside album names and cover photos (&lt;a href="https://github.com/ente/ente/pull/11920"&gt;#11920&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ML indexing:&lt;/strong&gt; An event-driven status service would replace repeated database polling and keep progress indicators and ML settings synchronized (&lt;a href="https://github.com/ente/ente/pull/11918"&gt;#11918&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Edited photos are being updated to preserve supported EXIF metadata and enable lossless JPEG rotate/flip edits for everyone (&lt;a href="https://github.com/ente/ente/pull/11889"&gt;#11889&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Additional mobile work covers dismissing the Memories crafting banner (&lt;a href="https://github.com/ente/ente/pull/11917"&gt;#11917&lt;/a&gt;) and resolving the logged-in user’s avatar correctly (&lt;a href="https://github.com/ente/ente/pull/11914"&gt;#11914&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 03, 2026 - 19 shipped, 8 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
