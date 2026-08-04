@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 03 Aug 2026 10:24:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 09:22:18 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 04, 2026 - 18 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 09:22:18 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with discussions about translation strings, imports, and image-related features. Other channels had brief product feedback, sharing, and off-topic chatter.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Nine messages from six participants covered a Crowdin notification showing 2,000 new strings, clarified as a file move during app-wide string merging; the related &lt;a href="https://github.com/ente/ente/pull/11861"&gt;GitHub pull request&lt;/a&gt; was shared. Members also discussed low-resolution thumbnails, image embedding, and confirmed that CLI-based photo import is not currently supported.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Three messages confirmed that a company proxy was blocking access and discussed interactivity: messages and private replies already exist, while comments in group contexts are being considered.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Three messages shared a &lt;a href="https://www.tnktok.com/@random.edits_1983/video/7660991093365902623"&gt;video link&lt;/a&gt; and attachments, alongside a brief comment about Google forcefully opening ads.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Two messages consisted of an attachment and a question about Google prompting the user to open ads.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 03, 2026 - 39 messages in 7 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
