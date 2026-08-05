@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Tue, 04 Aug 2026 09:22:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 09:19:54 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 05, 2026 - 55 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 09:19:54 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#off-topic&lt;/strong&gt;, with support discussions covering video playback, service availability, sharing controls, and public Space links. Smaller conversations covered Auth access, translation updates, and a few casual posts.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 26 messages from 12 participants, members discussed slow playback for large shared videos, with video streaming suggested as a solution via &lt;a href="https://ente.com/help/photos/features/utilities/video-streaming#video-streaming"&gt;Ente’s video-streaming documentation&lt;/a&gt;. The channel also reported and resolved a Photos login/API incident, referenced &lt;a href="https://status.ente.com"&gt;Ente’s status page&lt;/a&gt;, discussed quick-action ideas, album link permissions, file extensions, and an Android locking animation issue.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Twenty-two messages from seven participants focused on whether public Ente Space links could be crawled, including discussion of &lt;a href="https://ente.space/robots.txt"&gt;robots.txt&lt;/a&gt;, account-free sharing links, link validity, and a possible expiration setting. The channel also included moderator chatter, duplicate-message cleanup, and a joking scrape attempt.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Four participants discussed a possible CORS issue on the &lt;a href="https://auth.ente.com/login"&gt;Auth login page&lt;/a&gt;, current API problems tracked on the &lt;a href="https://status.ente.com"&gt;status page&lt;/a&gt;, and the merits of keeping encrypted exports versus using automatic local backups.&lt;/p&gt;
+
+&lt;h3&gt;#community-updates&lt;/h3&gt;
+&lt;p&gt;A translation update announced that translations for Ente Photos, Auth, and Locker have been consolidated into one Ente Mobile project on Crowdin.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;A brief post celebrated securing an Ente Spaces handle.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One participant shared a video link.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 04, 2026 - 18 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
