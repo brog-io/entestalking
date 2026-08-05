@@ -4,8 +4,16 @@
     <title>#announcements</title>
     <link>https://discord.com/channels/948937918347608085/948956829982031912</link>
     <description>Discord channel #announcements</description>
-    <lastBuildDate>Wed, 05 Aug 2026 12:56:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 15:12:56 +0000</lastBuildDate>
     <generator>discord-rss (github actions)</generator>
+    <item>
+      <title>Hi @everyone,</title>
+      <link>https://discord.com/channels/948937918347608085/948956829982031912/1534546462942298132</link>
+      <guid isPermaLink="false">discord-msg-1534546462942298132</guid>
+      <pubDate>Wed, 05 Aug 2026 12:59:47 +0000</pubDate>
+      <dc:creator>setal</dc:creator>
+      <description>&lt;p&gt;Hi @everyone,&lt;br&gt;&lt;br&gt;Ensu&amp;#x27;s latest update is out across all platforms, we are introducing something interesting on the mobile app.&lt;br&gt;&lt;br&gt;** Ensu Packs**&lt;br&gt;* External knowledge packs that Ensu can use to provide more accurate answers&lt;br&gt;* [English Wikipedia](&lt;a href="https://en.wikipedia.org/wiki/English_Wikipedia),"&gt;https://en.wikipedia.org/wiki/English_Wikipedia),&lt;/a&gt; [Simple English Wikipedia](&lt;a href="https://simple.wikipedia.org/wiki/Main_Page),"&gt;https://simple.wikipedia.org/wiki/Main_Page),&lt;/a&gt; [Wikibooks](&lt;a href="https://en.wikibooks.org/wiki/Main_Page)"&gt;https://en.wikibooks.org/wiki/Main_Page)&lt;/a&gt; for factual and educational knowledge, including popular recipes&lt;br&gt;* You can enable them by going to Settings -&amp;gt; Ensu Packs&lt;br&gt;&lt;br&gt;Please try it out and let us know what you think about this, and how can we improve this.&lt;br&gt;&lt;br&gt;**What&amp;#x27;s next**&lt;br&gt;* Adding Ensu Packs to the desktop app&lt;br&gt;* Adding more packs based on your feedback&lt;br&gt;* Chat with your notes - do tell us which Notes app you use&lt;br&gt;* Reminders - Ask Ensu to create a reminder&lt;br&gt;&lt;br&gt;Ensu is an experiment for us, and we are figuring out ways to make on-device LLMs more useful. If you have any thoughts or suggestions on what you&amp;#x27;d like Ensu to do for you - feel free to share them in &amp;lt;#1478285388849221682&amp;gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hey @everyone,</title>
       <link>https://discord.com/channels/948937918347608085/948956829982031912/1521784648848506940</link>
@@ -23,7 +31,7 @@
       <pubDate>Fri, 05 Jun 2026 13:34:21 +0000</pubDate>
       <dc:creator>setal</dc:creator>
       <description>&lt;p&gt;Hi @everyone 👋&lt;br&gt;&lt;br&gt;We shipped an update to Ente Photos this week with a fresh coat of paint.&lt;br&gt;&lt;br&gt;We&amp;#x27;ve been meaning to evolve our design system toward something more fun and relaxed for a while now. Over the last two weeks, we finally got it done. Here&amp;#x27;s what changed:&lt;br&gt;&lt;br&gt;* **Refreshed visuals** - buttons, text fields, screen titles, icons, colours, and typography have all been updated to make the app easier on the eye.&lt;br&gt;* **All albums in one place** - your albums (including on-device and shared) now live on a single screen, listed all at once so you don&amp;#x27;t have to tap a chevron every time to see your full collection. Links, Uncategorised, Hidden, and Archived are grouped under **More**.&lt;br&gt;* **A dedicated Feed tab** - replacing the old Shared Albums tab, so it&amp;#x27;s easy to see what your loved ones are sharing, reacting to, and commenting on.&lt;br&gt;* **Updated bottom navigation** - new icons and a less rounded look for a more premium feel.&lt;br&gt;&lt;br&gt;We&amp;#x27;re still rolling this new design out across the rest of the app, so you&amp;#x27;ll see more of it in upcoming updates. Eventually it&amp;#x27;ll come to all our apps on every platform, giving all Ente products a consistent feel while making design and development much faster.&lt;br&gt;&lt;br&gt;We&amp;#x27;d love to hear your thoughts! We&amp;#x27;re still refining things, so your feedback is genuinely valuable. 🙏&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1512449503041425559/End-to-end_encrypted_backups.png?ex=6a73e49d&amp;amp;is=6a72931d&amp;amp;hm=db7ffe1a6768524fc9f3c0c302620f27f9682ad14506bc245f709a8585be8f25&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1512449503041425559/End-to-end_encrypted_backups.png?ex=6a748d5d&amp;amp;is=6a733bdd&amp;amp;hm=826eb0b37897e04da359e2723ceca2d0803c9198e81bfb715d40ebcfa0cf63ec&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hi @everyone! 👋</title>
@@ -335,7 +343,7 @@ Chapters:
       <pubDate>Mon, 20 May 2024 13:36:09 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hey @everyone, here to announce a major release for Auth! &lt;br&gt;# Launching Auth v3.0 🚀&lt;br&gt;This is a major release for Auth, where we&amp;#x27;ve shipped some much requested features, and polished some corners.&lt;br&gt;We hope you&amp;#x27;ll enjoy these improvements!&lt;br&gt;&lt;br&gt;## Logo 🎨&lt;br&gt;&lt;br&gt;We&amp;#x27;ve crafted a logo for Auth, one that paints a better picture for what it stands for. It&amp;#x27;s gotten us a while to get here, and we&amp;#x27;ve spent an unreasonable amount of time looking at pixels before picking this one. We hope you like it as much as we do!&lt;br&gt;&lt;br&gt;## Tagging #️⃣&lt;br&gt;&lt;br&gt;You can now organize your codes with tags (&amp;quot;Work&amp;quot; , &amp;quot;Personal&amp;quot;, &amp;quot;Social&amp;quot;, ...), and easily find what you&amp;#x27;re looking for. You can attach multiple tag to the same code, and all of this information will sync across your devices, end-to-end encrypted.&lt;br&gt;&lt;br&gt;## Pinning 📌&lt;br&gt;&lt;br&gt;Starting v3.0, you can pin your favorite / most frequently used codes to the top, to make sure they&amp;#x27;re always a single tap away. Just swipe right on a code to Pin / Unpin it. This information is also preserved, end-to-end encrypted.&lt;br&gt;&lt;br&gt;## Steam codes 🎮&lt;br&gt;&lt;br&gt;Steam comes with a non-standard protocol for it&amp;#x27;s second-factor codes, but starting this release we&amp;#x27;ve added support for their format as well.&lt;br&gt;&lt;br&gt;## Desktop support 🐧&lt;br&gt;&lt;br&gt;Starting this release, Auth should be working flawlesly on all Linux variants. If you run into any issues, please create an issue on [our Github](&lt;a href="https://github.com/ente-io/ente)."&gt;https://github.com/ente-io/ente).&lt;/a&gt;&lt;br&gt;&lt;br&gt;## Website! 🧑‍💻&lt;br&gt;&lt;br&gt;Last, but not the least, we&amp;#x27;ve launched a website for Auth. This is something we have poured a lot of love into, so do check it out and let us know how it looks! Also, we hope this will make it easy to share Auth with your friends!&lt;br&gt;&lt;br&gt;# 👉 [ente.io/auth](&lt;a href="https://ente.io/auth)"&gt;https://ente.io/auth)&lt;/a&gt; 👈&lt;br&gt;  &lt;br&gt;  &lt;br&gt;---&lt;br&gt;  &lt;br&gt;Thanks for all the love so far! If you&amp;#x27;d like to continue supporting us, please spread the word about Ente! &amp;lt;:lilducky:1069841394929238106&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1242108612202070016/image.png?ex=6a73e50a&amp;amp;is=6a72938a&amp;amp;hm=ea5836c50fd605664ec5aa6b3ec9b2a874118513431ba21b908d2be6d276bb49&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1242108612202070016/image.png?ex=6a748dca&amp;amp;is=6a733c4a&amp;amp;hm=556e7f870a57a1860f68672803c85e4365d76cb6bd81cc7e49695c17b851e7e2&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hey @everyone, time for some goodies! 🎁</title>
@@ -392,7 +400,7 @@ Chapters:
       <pubDate>Sat, 10 Feb 2024 13:23:48 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hi @everyone, we&amp;#x27;ve shipped 2 widely requested features in our latest release ✨&lt;br&gt;&lt;br&gt;- You can now view the location where a photo was clicked, within the Info section &lt;br&gt;- You can also search for popular cities (eg. &amp;quot;Zurich&amp;quot;, &amp;quot;New York&amp;quot;) to discover photos&lt;br&gt;&lt;br&gt;There are more improvements on the way (including auto-clustering photos by these locations). Please keep your feedback coming! &amp;lt;:pepeheart:972766549960192070&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1205866715066667038/image.png?ex=6a73e224&amp;amp;is=6a7290a4&amp;amp;hm=f218e0fb3c44ded67b133df4e319de20d5c2c07e644194b257f9b2e9a6e2c320&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1205866715066667038/image.png?ex=6a748ae4&amp;amp;is=6a733964&amp;amp;hm=b5a06a96544eb271773efe6edc10e5df111917503040f1d1835b35298b5ec444&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hey @everyone, **Magic Search** is now running **everywhere** 🪄</title>
@@ -449,16 +457,6 @@ Chapters:
       <pubDate>Mon, 30 Oct 2023 04:45:02 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hey @everyone! We&amp;#x27;re working on a [**new website**](&lt;a href="https://next.ente.io)"&gt;https://next.ente.io)&lt;/a&gt; ✨&lt;br&gt;&lt;br&gt;If you&amp;#x27;d like to drop us a review (on [Twitter](&lt;a href="https://twitter.com/enteio)"&gt;https://twitter.com/enteio)&lt;/a&gt; / [Mastodon](&lt;a href="https://mstdn.social/@ente)"&gt;https://mstdn.social/@ente)&lt;/a&gt; / [PlayStore](&lt;a href="https://play.google.com/store/apps/details?id=io.ente.photos)"&gt;https://play.google.com/store/apps/details?id=io.ente.photos)&lt;/a&gt; / [AppStore](&lt;a href="https://apps.apple.com/us/app/ente-photos/id1542026904)),"&gt;https://apps.apple.com/us/app/ente-photos/id1542026904)),&lt;/a&gt; now would be a great time, we&amp;#x27;d love to feature you! &amp;lt;:lilducky:1069841394929238106&amp;gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hey @everyone, our CLI is now publicly available @ https://github.com/ente-io/cli 🧑‍💻</title>
-      <link>https://discord.com/channels/948937918347608085/948956829982031912/1166721077611855953</link>
-      <guid isPermaLink="false">discord-msg-1166721077611855953</guid>
-      <pubDate>Wed, 25 Oct 2023 12:53:01 +0000</pubDate>
-      <dc:creator>vishnu</dc:creator>
-      <description>&lt;p&gt;Hey @everyone, our CLI is now publicly available @ &lt;a href="https://github.com/ente-io/cli"&gt;https://github.com/ente-io/cli&lt;/a&gt; 🧑‍💻&lt;br&gt;&lt;br&gt;You can simply add your account (w/ `ente account add`), and start your export (w/ `ente export`) ⚡️&lt;br&gt;&lt;br&gt;Please note that this is an &amp;quot;MVP&amp;quot; and we&amp;#x27;ll be prioritizing improvements based on your feedback. So give it a spin, and let us know what you&amp;#x27;d like to see! 🙏&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/ente-io/cli"&gt;GitHub - ente-io/cli: CLI client for exporting data from ente Photos&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;CLI client for exporting data from ente Photos. Contribute to ente-io/cli development by creating an account on GitHub.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
