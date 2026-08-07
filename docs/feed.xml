@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 06 Aug 2026 08:38:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 07:17:41 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 07, 2026 - 30 shipped, 10 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-07</guid>
+      <pubDate>Fri, 07 Aug 2026 07:17:41 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focused on improving Photos’ album and memory experiences, consolidating mobile UI, and making uploads and ML processing more reliable. Several platform cleanups also landed, while upcoming work includes a new web embed migration and a native video-editing stack.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Albums can now include descriptions via &lt;a href="https://github.com/ente/ente/pull/11920"&gt;#11920&lt;/a&gt;, and file details show cleaner aperture and focal-length values through &lt;a href="https://github.com/ente/ente/pull/11947"&gt;#11947&lt;/a&gt;. Smart Memories date-boundary handling was fixed in &lt;a href="https://github.com/ente/ente/pull/11972"&gt;#11972&lt;/a&gt;, while direct People navigation now returns the correct files for the “Only Them” filter in &lt;a href="https://github.com/ente/ente/pull/11990"&gt;#11990&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile platform:&lt;/strong&gt; Auth, Locker, and Photos now share more settings UI and components, reducing duplication, via &lt;a href="https://github.com/ente/ente/pull/11932"&gt;#11932&lt;/a&gt;. Accounts buttons were migrated to the current button component in &lt;a href="https://github.com/ente/ente/pull/12022"&gt;#12022&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Remaining legacy sharing controls were migrated to Locker-owned components without changing sharing or deletion behavior in &lt;a href="https://github.com/ente/ente/pull/12023"&gt;#12023&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web:&lt;/strong&gt; Casting no longer depends on the stale accounts package in &lt;a href="https://github.com/ente/ente/pull/12021"&gt;#12021&lt;/a&gt;. Bounded-memory multipart uploads can defer checksum calculation until each part is sent in &lt;a href="https://github.com/ente/ente/pull/11997"&gt;#11997&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; Ente Auth now includes a branded ONEROXE icon for TOTP accounts in &lt;a href="https://github.com/ente/ente/pull/12015"&gt;#12015&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ML and infrastructure:&lt;/strong&gt; Device-aware model selection and faster knowledge retrieval landed in &lt;a href="https://github.com/ente/ente/pull/11995"&gt;#11995&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/11998"&gt;#11998&lt;/a&gt;. Photos indexing now scopes execution-provider retries to the affected model in &lt;a href="https://github.com/ente/ente/pull/11979"&gt;#11979&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Additional maintenance covered desktop dependencies, Rust and Go cleanup, worker URLs and validation, Space organization, viewer behavior, and documentation: &lt;a href="https://github.com/ente/ente/pull/12000"&gt;#12000&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12017"&gt;#12017&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12016"&gt;#12016&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12008"&gt;#12008&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11994"&gt;#11994&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11986"&gt;#11986&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11987"&gt;#11987&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11983"&gt;#11983&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11982"&gt;#11982&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11984"&gt;#11984&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11981"&gt;#11981&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11975"&gt;#11975&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11989"&gt;#11989&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11993"&gt;#11993&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/11955"&gt;#11955&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming web embed work:&lt;/strong&gt; Migrate the embed experience to accounts-rs in &lt;a href="https://github.com/ente/ente/pull/12025"&gt;#12025&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Remove the problematic whole-file upload timeout in &lt;a href="https://github.com/ente/ente/pull/12024"&gt;#12024&lt;/a&gt;,</description>
+    </item>
     <item>
       <title>Ente digest Aug 06, 2026 - 30 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
