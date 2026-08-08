@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 07 Aug 2026 07:17:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 06:55:18 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 08, 2026 - 32 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 06:55:18 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos improvements across web and mobile, with better upload resilience, account isolation, recovery flows, and responsive UI. Work in progress is focused on polishing the mobile viewing experience and tightening Photos behavior around hidden content and face clustering.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos — mobile:&lt;/strong&gt; Upload components are now mobile responsive in &lt;a href="https://github.com/ente/ente/pull/12031"&gt;PR #12031&lt;/a&gt;, while the new album description UI landed in &lt;a href="https://github.com/ente/ente/pull/11920"&gt;PR #11920&lt;/a&gt;. The memories and gallery file viewers also received a UI update in &lt;a href="https://github.com/ente/ente/pull/12001"&gt;PR #12001&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos — uploads and editing:&lt;/strong&gt; Ente removed the whole-file upload timeout, avoiding false timeout reports when iOS is backgrounded or paused (&lt;a href="https://github.com/ente/ente/pull/12024"&gt;PR #12024&lt;/a&gt;). Video editing now uses Ente-owned native frame extraction and editing, with Android exports clamped to the actual video duration (&lt;a href="https://github.com/ente/ente/pull/12009"&gt;PR #12009&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos — reliability:&lt;/strong&gt; Social feed items and comment drafts are now isolated between account sessions (&lt;a href="https://github.com/ente/ente/pull/12037"&gt;PR #12037&lt;/a&gt;), and stale progress dialogs are dismissed during lifecycle changes (&lt;a href="https://github.com/ente/ente/pull/12035"&gt;PR #12035&lt;/a&gt;). Device-only deletion also clears stale local file IDs across all collections (&lt;a href="https://github.com/ente/ente/pull/11366"&gt;PR #11366&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos — web:&lt;/strong&gt; Public album errors now receive improved handling (&lt;a href="https://github.com/ente/ente/pull/12043"&gt;PR #12043&lt;/a&gt;), and Legacy Kit recovery sheets can be recovered from metadata, printed keys, or QR codes (&lt;a href="https://github.com/ente/ente/pull/12029"&gt;PR #12029&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accounts and Auth:&lt;/strong&gt; Web accounts and embeds migrated to &lt;code&gt;accounts-rs&lt;/code&gt; (&lt;a href="https://github.com/ente/ente/pull/12030"&gt;PR #12030&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12025"&gt;PR #12025&lt;/a&gt;). iOS Auth QR scans now stay within the visible frame (&lt;a href="https://github.com/ente/ente/pull/12033"&gt;PR #12033&lt;/a&gt;), and Auth added an ONEROXE icon (&lt;a href="https://github.com/ente/ente/pull/12015"&gt;PR #12015&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Other shipped work included more graceful unavailable-content handling in Space (&lt;a href="https://github.com/ente/ente/pull/12028"&gt;PR #12028&lt;/a&gt;) and support for up to 20 GiB Photos uploads for internal users (&lt;a href="https://github.com/ente/ente/pull/12027"&gt;PR #12027&lt;/a&gt;). Remaining changes were maintenance and dependency cleanup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos — mobile:&lt;/strong&gt; A fix prevents multiple cached images from flying across the screen when exiting the full-screen viewer (&lt;a href="https://github.com/ente/ente/pull/12044"&gt;PR #12044&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Reopening the app after backgrounding it from Hidden will now return to Home instead of displaying hidden content (&lt;a href="https://github.com/ente/ente/pull/12036"&gt;PR #12036&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos — web:&lt;/strong&gt; A fix is underway for the bad-face clustering check (&lt;a href="https://github.com/ente/ente/pull/12041"&gt;PR #12041&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 07, 2026 - 30 shipped, 10 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
