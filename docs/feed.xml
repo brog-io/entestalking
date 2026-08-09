@@ -4,7 +4,29 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 08 Aug 2026 06:55:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 06:58:09 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 09, 2026 - 6 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 06:58:09 +0000</pubDate>
+      <description>&lt;p&gt;Today’s activity focused on improving search and shared mobile UI across Ente Auth and Photos, along with more robust error handling. Several usability and support improvements are also in progress, including a unified log viewer and better self-hosting setup on Ubuntu.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Desktop users can now start searching simply by typing on the home page, while mobile type-to-search preserves IME input for languages that rely on composition (&lt;a href="https://github.com/ente/ente/pull/11352"&gt;#11352&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12053"&gt;#12053&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; Mobile users can search by uploaded file ID, making it easier to locate a specific file (&lt;a href="https://github.com/ente/ente/pull/12051"&gt;#12051&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile apps:&lt;/strong&gt; Auth now uses shared button and divider components, and update notifications use one consistent themed sheet across the apps, with changelog links and a persistent notification preference (&lt;a href="https://github.com/ente/ente/pull/12052"&gt;#12052&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12049"&gt;#12049&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos reliability:&lt;/strong&gt; Non-JSON API failures are now converted into sanitized local errors instead of exposing raw responses or creating Sentry breadcrumbs (&lt;a href="https://github.com/ente/ente/pull/12048"&gt;#12048&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Shared mobile log viewer:&lt;/strong&gt; A new unified viewer for Auth, Photos, and Locker would support complete log history, searchable matches, session navigation, and refresh (&lt;a href="https://github.com/ente/ente/pull/12054"&gt;#12054&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos payments:&lt;/strong&gt; Disconnections in the payment webview would show Ente’s standard network error dialog instead of a broken page or exposed URL (&lt;a href="https://github.com/ente/ente/pull/12047"&gt;#12047&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Self-hosting:&lt;/strong&gt; The setup command is being switched from &lt;code&gt;sh&lt;/code&gt; to &lt;code&gt;bash&lt;/code&gt; to fix installation errors on Ubuntu 24.04 (&lt;a href="https://github.com/ente/ente/pull/12045"&gt;#12045&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 08, 2026 - 32 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
