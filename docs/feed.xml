@@ -4,7 +4,41 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 09 Aug 2026 06:58:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 07:43:54 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 10, 2026 - 9 shipped, 4 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-10</guid>
+      <pubDate>Mon, 10 Aug 2026 07:43:54 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focuses on reliability and usability across Ente Photos, Locker, and shared mobile infrastructure. Several performance and offline improvements are also in progress, alongside a new backup mode and desktop chat renaming for Ensu.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Ente Photos&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12011"&gt;Fixed cross-year “On This Day” scheduling&lt;/a&gt;, preventing January memories from appearing a day early around midnight and year boundaries.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11802"&gt;Fixed a “Free Up Space” crash&lt;/a&gt; on some Samsung Android devices by replacing an unsafe per-file deletion fallback with a bounded recovery flow.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12047"&gt;Improved payment error handling&lt;/a&gt;: disconnected payment pages now show the standard network error dialog instead of a broken page or exposed URL.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12059"&gt;Reworked device health checks&lt;/a&gt; behind a Photos-owned platform bridge, with clearer handling for stale, unsupported, or unavailable system signals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Locker and shared mobile&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12067"&gt;Prevented sharing-menu freezes in Locker&lt;/a&gt; by building menu items lazily for large participant lists.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12061"&gt;Unified email composition across Photos, Auth, and Locker&lt;/a&gt;, including improved attachment targeting and iOS fallback behavior.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12054"&gt;Improved the log viewer&lt;/a&gt; across all three apps with complete history paging, search navigation, session navigation, refresh, and sharing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Web&lt;/strong&gt;: &lt;a href="https://github.com/ente/ente/pull/12041"&gt;Fixed the bad-face clustering check&lt;/a&gt;. Infrastructure also gained nightly Rust CodeQL analysis via &lt;a href="https://github.com/ente/ente/pull/12064"&gt;this update&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12068"&gt;&lt;strong&gt;Photos: batch Smart Memories calculations&lt;/strong&gt;&lt;/a&gt; to reuse input data and compute current and upcoming periods more efficiently.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12066"&gt;&lt;strong&gt;Photos: iOS Backup mode&lt;/strong&gt;&lt;/a&gt;, which keeps the device awake and dims the display during large backups.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12060"&gt;&lt;strong&gt;Ensu Desktop: rename chats&lt;/strong&gt;&lt;/a&gt; through a save/cancel dialog.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12057"&gt;Locker offline item counts&lt;/a&gt; will show the last cached count instead of spinning indefinitely.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 09, 2026 - 6 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
