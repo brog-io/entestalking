@@ -4,7 +4,48 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Wed, 12 Aug 2026 07:26:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 07:35:58 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 13, 2026 - 31 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 07:35:58 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a concentrated set of Photos improvements today, including faster and more responsive mobile galleries, clearer backup progress, and fixes for edited-photo syncing. Web albums and public links also received usability fixes, while several backend and ML reliability changes are in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Ente Photos mobile&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12172"&gt;Backup uploads now show per-file foreground progress&lt;/a&gt;, and multipart uploads retry HTTP 520 failures up to three times.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12169"&gt;New photos from a device appear in the home timeline sooner&lt;/a&gt;, without waiting for a full library reload.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12165"&gt;Large galleries use faster timeline lookups&lt;/a&gt;, improving layout performance as libraries grow.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12157"&gt;Edited iOS photos are now synced correctly after origin fetches&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/12158"&gt;edited photos remain next to their originals&lt;/a&gt; in the detail viewer.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12168"&gt;Unnecessary home-gallery reloads are avoided&lt;/a&gt;, while &lt;a href="https://github.com/ente/ente/pull/12166"&gt;device collection cover updates are made safer&lt;/a&gt; during concurrent database operations.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11969"&gt;Rituals with every day disabled no longer trigger an unnecessary notification permission request&lt;/a&gt;. System trash file tracking is also supported via &lt;a href="https://github.com/ente/ente/pull/11762"&gt;this change&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Web and desktop&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12178"&gt;Single-file album quick links now handle timezone differences&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/12148"&gt;query-token public album links have been restored&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12159"&gt;The Ensu settings modal works correctly on macOS&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Reliability and maintenance&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12135"&gt;Canceled server requests are classified as client-closed&lt;/a&gt; without noisy error-level logging.&lt;/li&gt;
+  &lt;li&gt;Accounts migrations, telemetry/build cleanup, and related maintenance shipped in &lt;a href="https://github.com/ente/ente/pull/12156"&gt;Photos&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12141"&gt;Auth&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/12174"&gt;the web apps&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12176"&gt;&lt;strong&gt;Web Photos:&lt;/strong&gt; album details editing&lt;/a&gt; will let users edit both an album title and description; cover editing is planned for a follow-up.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12162"&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; foreground and background ML runs will be prevented from running concurrently&lt;/a&gt;, avoiding database contention and conflicting index writes.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12163"&gt;The Rust ML runtime and ONNX support are being refactored&lt;/a&gt; to clarify provider handling, model management, and runtime behavior.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12177"&gt;Server collection-trash batches are being made atomic&lt;/a&gt; so interrupted deletions can be retried safely.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12173"&gt;PIN widget keys are being hardened&lt;/a&gt; so obscured PIN digits do not appear in Flutter diagnostics.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12175"&gt;The web accounts package is being renamed from accounts-rs to accounts&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 12, 2026 - 34 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
