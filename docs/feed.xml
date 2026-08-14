@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 13 Aug 2026 07:35:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 07:25:52 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 14, 2026 - 22 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 07:25:52 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a strong set of Photos improvements across album editing, account deletion, backup reliability, and large-gallery performance. The day also brought backend consistency fixes and continued Rust ML infrastructure work, while several mobile and server enhancements are now in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web — album editing:&lt;/strong&gt; Albums can now edit their title and description from a dedicated dialog, with cover-image editing moved into the same flow and descriptions shown where relevant. &lt;a href="https://github.com/ente/ente/pull/12176"&gt;PR #12176&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12181"&gt;PR #12181&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12186"&gt;PR #12186&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12191"&gt;PR #12191&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web — account deletion:&lt;/strong&gt; The deletion flow is more robust, including a visible error state when summary data cannot be loaded, plus translation fixes. &lt;a href="https://github.com/ente/ente/pull/12188"&gt;PR #12188&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12190"&gt;PR #12190&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Backup Status now shows per-file foreground upload progress and retries multipart uploads that receive HTTP 520 errors. Large galleries also use faster lookups, improving timeline layout performance. &lt;a href="https://github.com/ente/ente/pull/12172"&gt;PR #12172&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12165"&gt;PR #12165&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Collection trash operations now keep each batch atomic, preventing partially processed collections from becoming difficult to recover. &lt;a href="https://github.com/ente/ente/pull/12177"&gt;PR #12177&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile security:&lt;/strong&gt; Obscured PIN digits are no longer exposed through Flutter widget keys or diagnostics. &lt;a href="https://github.com/ente/ente/pull/12173"&gt;PR #12173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rust ML:&lt;/strong&gt; ML was moved into its own crate, while the ONNX runtime and provider handling were further modularized. &lt;a href="https://github.com/ente/ente/pull/12196"&gt;PR #12196&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12163"&gt;PR #12163&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Additional shipped maintenance included simpler disabled-album guest joining, timezone handling for single-file links, and removal of Space profile post-date grouping. &lt;a href="https://github.com/ente/ente/pull/12180"&gt;PR #12180&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12178"&gt;PR #12178&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12189"&gt;PR #12189&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Selection actions are being reordered around common usage, and sharing will use platform-specific icons. &lt;a href="https://github.com/ente/ente/pull/12199"&gt;PR #12199&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Shared media is being updated to preserve file extensions, filenames, and MIME types. &lt;a href="https://github.com/ente/ente/pull/12187"&gt;PR #12187&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Collection file upserts are being batched into database statements to reduce transaction round trips for large operations. &lt;a href="https://github.com/ente/ente/pull/12198"&gt;PR #12198&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A storage-card loading spinner alignment fix, Guest view documentation, and an accounts package rename are also in progress. &lt;a href="https://github.com/ente/ente/pull/12197"&gt;PR #12197&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12182"&gt;PR #12182&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12175"&gt;PR #12175&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 13, 2026 - 31 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
