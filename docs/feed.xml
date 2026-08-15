@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 14 Aug 2026 07:25:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 06:39:09 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 15, 2026 - 14 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 06:39:09 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped changes focus on smoother Photos workflows across mobile, web, and desktop, alongside reliability and security improvements under the hood. Several follow-up changes are in progress, including faster ML syncing and safer subscription handling.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Foreground and background ML work can no longer run concurrently, preventing conflicting database writes and inconsistent search indexes in &lt;a href="https://github.com/ente/ente/pull/12162"&gt;PR #12162&lt;/a&gt;. Selection actions were reordered around common tasks, and Share now uses the platform-appropriate icon in &lt;a href="https://github.com/ente/ente/pull/12199"&gt;PR #12199&lt;/a&gt;. The storage-card loading spinner was also centered in &lt;a href="https://github.com/ente/ente/pull/12197"&gt;PR #12197&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos desktop:&lt;/strong&gt; The Add Person dialog now includes search, making it easier to find people in larger libraries (&lt;a href="https://github.com/ente/ente/pull/12202"&gt;PR #12202&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web:&lt;/strong&gt; Fixed a referral double-click issue and removed outdated &lt;code&gt;rs&lt;/code&gt; naming from album details and account references (&lt;a href="https://github.com/ente/ente/pull/12211"&gt;PR #12211&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12209"&gt;PR #12209&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12175"&gt;PR #12175&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintenance:&lt;/strong&gt; ML was moved into its own Rust crate (&lt;a href="https://github.com/ente/ente/pull/12196"&gt;PR #12196&lt;/a&gt;), deprecated crypto dependencies were replaced or aligned with HPKE (&lt;a href="https://github.com/ente/ente/pull/12200"&gt;PR #12200&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12203"&gt;PR #12203&lt;/a&gt;), and the server toolchain received security fixes via Go 1.26.6 (&lt;a href="https://github.com/ente/ente/pull/12201"&gt;PR #12201&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Faster ML sync:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12207"&gt;PR #12207&lt;/a&gt; defers CLIP vector-index saves, reducing repeated full-database writes during device hydration and improving crash resilience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subscription reliability:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12205"&gt;PR #12205&lt;/a&gt; prevents stale purchase replays from rolling an active subscription backward.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos UX:&lt;/strong&gt; Album selection will disable accidental tab swiping (&lt;a href="https://github.com/ente/ente/pull/12204"&gt;PR #12204&lt;/a&gt;), while desktop title bars will follow the app theme (&lt;a href="https://github.com/ente/ente/pull/12208"&gt;PR #12208&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Additional work batches collection-file database upserts for better server efficiency (&lt;a href="https://github.com/ente/ente/pull/12198"&gt;PR #12198&lt;/a&gt;), and adds missing Photos mobile changelog entries (&lt;a href="https://github.com/ente/ente/pull/12212"&gt;PR #12212&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 14, 2026 - 22 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
