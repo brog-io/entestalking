@@ -4,7 +4,26 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 15 Aug 2026 06:39:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 06:40:54 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 16, 2026 - 1 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-16</guid>
+      <pubDate>Sun, 16 Aug 2026 06:40:54 +0000</pubDate>
+      <description>&lt;p&gt;A quiet day in shipped code, with Photos’ recent mobile changes now captured in the developer changelog. In progress, Auth is polishing its icon set, Desktop is adding update controls, and Locker has a document-scanner prototype underway.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Added missing changelog entries covering recent user-facing work around ML sync and reliability, People sync, photo text selection, and Smart Memories performance in &lt;a href="https://github.com/ente/ente/pull/12212"&gt;PR #12212&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Adding and fixing icons and aliases to improve the app’s icon coverage and naming in &lt;a href="https://github.com/ente/ente/pull/12218"&gt;PR #12218&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Desktop:&lt;/strong&gt; Adding an option to disable automatic updates, including skipping update checks when the app is installed through AUR or Nixpkgs, in &lt;a href="https://github.com/ente/ente/pull/12217"&gt;PR #12217&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Locker:&lt;/strong&gt; Prototyping a document scanner, currently disabled behind a feature flag, along with the required Rust bindings in &lt;a href="https://github.com/ente/ente/pull/12215"&gt;PR #12215&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 15, 2026 - 14 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
