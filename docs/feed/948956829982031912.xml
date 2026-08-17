@@ -4,7 +4,7 @@
     <title>#announcements</title>
     <link>https://discord.com/channels/948937918347608085/948956829982031912</link>
     <description>Discord channel #announcements</description>
-    <lastBuildDate>Mon, 17 Aug 2026 21:20:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 21:48:39 +0000</lastBuildDate>
     <generator>discord-rss (github actions)</generator>
     <item>
       <title>Hi @everyone,</title>
@@ -334,7 +334,7 @@ Chapters:
       <pubDate>Mon, 17 Jun 2024 09:39:54 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hey @everyone, here with a banger! 💥&lt;br&gt;&lt;br&gt;# Ente Photos v0.9 &amp;lt;:lilducky:1069841394929238106&amp;gt; &lt;br&gt;One of our final pitstops as we inch closer to **v1.0**.&lt;br&gt;We&amp;#x27;ve packed a bunch of beautiful features into this release, and we hope it&amp;#x27;ll make your day (or week)!&lt;br&gt;&lt;br&gt;## Video editor ⏯️&lt;br&gt;&lt;br&gt;This release introduces a video editor for our mobile app that will help you trim, crop and flip your videos. The editor works completely offline, and will help you accomplish your routine editing tasks.&lt;br&gt;&lt;br&gt;## Passkeys 🔐&lt;br&gt;&lt;br&gt;You can now secure your Ente accounts with passkeys and hardware keys. Head over to `Settings &amp;gt; Security &amp;gt; Passkeys` to get started. Please be mindful that passkeys has not gained widespread adoption, so save your recovery key if you haven&amp;#x27;t already!&lt;br&gt;&lt;br&gt;## Large file explorer 🔍&lt;br&gt;&lt;br&gt;The ability to &amp;quot;sort by size&amp;quot; was a highly requested feature. So we&amp;#x27;ve added an option to view and clear unimportant files that are consuming your space. Check out `Settings &amp;gt; Backup &amp;gt; Free up space`.&lt;br&gt;&lt;br&gt;## Send link ✨&lt;br&gt;&lt;br&gt;This release also adds a bit of magic to link sharing. Select the photos you wish to share and click on `Send link` to make someone&amp;#x27;s day! 🎁&lt;br&gt;&lt;br&gt;## and more 🫶&lt;br&gt;&lt;br&gt;- Translations for Portuguese (Brazil), Russian, and Turkish&lt;br&gt;- Archived section for archived albums&lt;br&gt;- Dedicated section for Free up space&lt;br&gt;- Stability improvements for iOS&lt;br&gt;&lt;br&gt;We will now dedicate time to improve app stability and machine learning across platforms.&lt;br&gt;&lt;br&gt;---&lt;br&gt;&lt;br&gt;# Live AMA 🙋&lt;br&gt;&lt;br&gt;I&amp;#x27;ll be live on Discord this Saturday (22nd June), 4:00pm - 4:30pm GMT. Please [**ask me anything here**](&lt;a href="https://www.live-ask.com/event/01J0DKGQ593GNTAEQDBWYN2T46)!"&gt;https://www.live-ask.com/event/01J0DKGQ593GNTAEQDBWYN2T46)!&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1252196012911624273/photos-v0.9.png?ex=6a84286a&amp;amp;is=6a82d6ea&amp;amp;hm=7570c402f4eb1e0cb1c9e7e04245f3e5e24fe4d6c04f2fb6a0cd4ec9ac1cbca6&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1252196012911624273/photos-v0.9.png?ex=6a84d12a&amp;amp;is=6a837faa&amp;amp;hm=c3b31ed3ec83d033485539fdc85f465975f77e630a640acf6e196f3ad61991ce&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hey @everyone, here to announce a major release for Auth! </title>
