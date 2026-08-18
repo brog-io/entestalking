@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 17 Aug 2026 06:57:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 06:44:33 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 18, 2026 - 28 shipped, 7 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 06:44:33 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of performance improvements for large Photos libraries, alongside Library Sharing and video-streaming rollouts. Locker also gained the foundations of a document scanner, while several mobile usability fixes and platform improvements moved forward.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; Timeline loading is now substantially faster for large galleries, with a reported 6.7× improvement on a 95,000-photo library (&lt;a href="https://github.com/ente/ente/pull/12256"&gt;#12256&lt;/a&gt;). Search and Smart Memories also reuse more computed data and process fewer files, improving responsiveness at scale (&lt;a href="https://github.com/ente/ente/pull/12257"&gt;#12257&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Photo maps now keep more work off the UI thread and use faster Rust-based clustering, making navigation smoother with many geotagged photos (&lt;a href="https://github.com/ente/ente/pull/12224"&gt;#12224&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12246"&gt;#12246&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Library Sharing:&lt;/strong&gt; Sharing text is localized, and its configuration can now sync across devices for supported internal users (&lt;a href="https://github.com/ente/ente/pull/12241"&gt;#12241&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12238"&gt;#12238&lt;/a&gt;). The server now supports the encrypted sharing entities behind the feature (&lt;a href="https://github.com/ente/ente/pull/12233"&gt;#12233&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Video streaming is now enabled for all users (&lt;a href="https://github.com/ente/ente/pull/12235"&gt;#12235&lt;/a&gt;). Photos also gained local-gallery trash controls and trash pages (&lt;a href="https://github.com/ente/ente/pull/12247"&gt;#12247&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11785"&gt;#11785&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11781"&gt;#11781&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Locker:&lt;/strong&gt; Rust/Flutter bridge wiring landed, followed by a document-scanning pipeline with perspective correction and image enhancement. The scanner remains disabled behind a feature flag (&lt;a href="https://github.com/ente/ente/pull/12227"&gt;#12227&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12240"&gt;#12240&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Photos startup is fixed on affected platforms through the completed Rust binding rename; Rust crate names are now standardized (&lt;a href="https://github.com/ente/ente/pull/12259"&gt;#12259&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12248"&gt;#12248&lt;/a&gt;). Cast pairing also adds post-quantum encryption (&lt;a href="https://github.com/ente/ente/pull/12236"&gt;#12236&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Upcoming Photos improvements:&lt;/strong&gt; iOS background ML is being made reliable through background processing tasks (&lt;a href="https://github.com/ente/ente/pull/12242"&gt;#12242&lt;/a&gt;), and the video player is gaining double-tap ±5-second seeking (&lt;a href="https://github.com/ente/ente/pull/12234"&gt;#12234&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Free public links may soon allow up to 10 devices by default (&lt;a href="https://github.com/ente/ente/pull/12249"&gt;#12249&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other open work updates the Photos backup-mode UI (&lt;a href="https://github.com/ente/ente/pull/12251"&gt;#12251&lt;/a&gt;), adds trash-file support to the native video player (&lt;a href="https://github.com/ente/ente/pull/12253"&gt;#12253&lt;/a&gt;), and adds an AirVPN icon (&lt;a href="https://github.com/ente/ente/pull/12255"&gt;#12255&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 17, 2026 - 1 shipped, 4 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
