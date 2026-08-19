@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 18 Aug 2026 06:44:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 06:44:58 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 19, 2026 - 21 shipped, 7 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 06:44:58 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a busy set of Photos improvements today, including album slideshows, better Trash behavior, shared-link descriptions, and broader rollout of faster uploads. The release also includes reliability fixes across mobile, web, Locker, and the server.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; Added &lt;a href="https://github.com/ente/ente/pull/12270"&gt;album slideshows&lt;/a&gt;, included &lt;a href="https://github.com/ente/ente/pull/12262"&gt;album descriptions in shared links&lt;/a&gt;, and added a confirmation toast after &lt;a href="https://github.com/ente/ente/pull/12279"&gt;restoring items from device Trash&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trash improvements:&lt;/strong&gt; The Delete all action now stays fully visible above Android navigation and uses destructive styling via &lt;a href="https://github.com/ente/ente/pull/12281"&gt;the layout fix&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12263"&gt;the shared FAB update&lt;/a&gt;. Emptying Trash and permanent-delete confirmation were also refined in &lt;a href="https://github.com/ente/ente/pull/12278"&gt;this change&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos reliability:&lt;/strong&gt; Fixed a crash when opening Ente Trash in &lt;a href="https://github.com/ente/ente/pull/12271"&gt;#12271&lt;/a&gt;, a custom scrollbar panic on empty galleries in &lt;a href="https://github.com/ente/ente/pull/12266"&gt;#12266&lt;/a&gt;, and playback of trashed videos on Android in &lt;a href="https://github.com/ente/ente/pull/12273"&gt;#12273&lt;/a&gt;. Cloudflare uploads are now rolling out to 50% of mobile users via &lt;a href="https://github.com/ente/ente/pull/12284"&gt;#12284&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Items from the hidden section can now be added to the hidden album in &lt;a href="https://github.com/ente/ente/pull/12275"&gt;#12275&lt;/a&gt;. Paste handling was moved to Rust in &lt;a href="https://github.com/ente/ente/pull/12277"&gt;#12277&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Free public links now default to 10 devices in &lt;a href="https://github.com/ente/ente/pull/12249"&gt;#12249&lt;/a&gt;; subscription handling and Cast request validation were refined in &lt;a href="https://github.com/ente/ente/pull/12268"&gt;#12268&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12260"&gt;#12260&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; Photos startup issues caused by the Rust library rename were fixed in &lt;a href="https://github.com/ente/ente/pull/12259"&gt;#12259&lt;/a&gt;, and Locker Android release sizes were reduced in &lt;a href="https://github.com/ente/ente/pull/12265"&gt;#12265&lt;/a&gt;. Minor dependency, email, icon, and ignore-file maintenance was also merged.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Week grouping is being corrected and optimized with ISO Monday-to-Sunday ranges in &lt;a href="https://github.com/ente/ente/pull/12287"&gt;#12287&lt;/a&gt;. Trash pages are also receiving spacing and empty-state illustration polish in &lt;a href="https://github.com/ente/ente/pull/12288"&gt;#12288&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12286"&gt;#12286&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Scanner follow-ups improve document detection, GPU handling, and cleanup in &lt;a href="https://github.com/ente/ente/pull/12282"&gt;#12282&lt;/a&gt;; the scanner remains disabled behind its feature flag.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web and mobile:&lt;/strong&gt; Account-deletion authentication cancellation is being handled cleanly in &lt;a href="https://github.com/ente/ente/pull/12283"&gt;#12283&lt;/a&gt;, while Photos feature flags are moving into a shared package in &lt;a href="https://github.com/ente/ente/pull/12280"&gt;#12280&lt;/a&gt;. Documentation updates are proposed in &lt;a href="https://github.com/ente/ente/pull/12285"&gt;#12285&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 18, 2026 - 28 shipped, 7 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
