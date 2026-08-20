@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Wed, 19 Aug 2026 06:44:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 06:47:56 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 20, 2026 - 32 shipped, 5 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 06:47:56 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos improvements across mobile and web, including smoother authentication, better gallery behavior, and lower-memory uploads. Library Sharing is now enabled for all users, while video playback controls and other platform work are progressing.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory Lane caches can now represent unnamed people clusters, enabling memory lanes for lone clusters (&lt;a href="https://github.com/ente/ente/pull/12305"&gt;#12305&lt;/a&gt;). Week grouping was also corrected to ISO Monday–Sunday ranges and optimized with cached scans (&lt;a href="https://github.com/ente/ente/pull/12287"&gt;#12287&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Multipart checksums now stream directly from encrypted chunks, reducing peak memory use by about 65% in testing and improving processing time by about 9% (&lt;a href="https://github.com/ente/ente/pull/12306"&gt;#12306&lt;/a&gt;). Cloudflare-backed uploads were expanded from 20% to 50% of users (&lt;a href="https://github.com/ente/ente/pull/12284"&gt;#12284&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Local-gallery diagnostics now log local IDs and support &lt;strong&gt;local_ids:&lt;/strong&gt; searches, making failed ML indexing cases easier to investigate (&lt;a href="https://github.com/ente/ente/pull/12304"&gt;#12304&lt;/a&gt;). The backup mode UI and trash interactions also received usability and layout fixes (&lt;a href="https://github.com/ente/ente/pull/12251"&gt;#12251&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12286"&gt;#12286&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12281"&gt;#12281&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Login, signup, and authentication flows now use the newer component shell, with cancellation handled without showing a misleading error (&lt;a href="https://github.com/ente/ente/pull/12318"&gt;#12318&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12314"&gt;#12314&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12303"&gt;#12303&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12292"&gt;#12292&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12283"&gt;#12283&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accounts and server:&lt;/strong&gt; Library Sharing is enabled for all users, and subscription verification was refined (&lt;a href="https://github.com/ente/ente/pull/12289"&gt;#12289&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12268"&gt;#12268&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Other shipped work included mobile purchase-dependency upgrades, Rust secret-handling improvements, and routine cleanup (&lt;a href="https://github.com/ente/ente/pull/12316"&gt;#12316&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12291"&gt;#12291&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12315"&gt;#12315&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Photos feature:&lt;/strong&gt; Video playback speed controls are being added to the viewer, with speeds from 0.25× to 2× and state preserved across stream/player changes (&lt;a href="https://github.com/ente/ente/pull/12313"&gt;#12313&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Apple Photos save-permission handling is under development (&lt;a href="https://github.com/ente/ente/pull/12302"&gt;#12302&lt;/a&gt;), alongside memory-lane service cleanup (&lt;a href="https://github.com/ente/ente/pull/12319"&gt;#12319&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infrastructure:&lt;/strong&gt; Multipart-upload cleanup is being improved so completed temporary uploads are deleted correctly (&lt;a href="https://github.com/ente/ente/pull/12320"&gt;#12320&lt;/a&gt;), and ONNX sessions are being bound to model identity to avoid stale model state (&lt;a href="https://github.com/ente/ente/pull/12321"&gt;#12321&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 19, 2026 - 21 shipped, 7 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
