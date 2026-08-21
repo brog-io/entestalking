@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 20 Aug 2026 06:47:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 06:49:30 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 21, 2026 - 27 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-21</guid>
+      <pubDate>Fri, 21 Aug 2026 06:49:30 +0000</pubDate>
+      <description>&lt;p&gt;A busy day for Ente Photos, with a broad refresh of web authentication screens, music arriving in Memories behind a feature flag, and several server and upload reliability improvements. Desktop Ensu Packs support and large-file S3 copying are now in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Authentication and recovery flows now use refreshed layouts, including login, password entry and reset, 2FA, recovery, email verification, passkey status, and the 2FA choice screen: &lt;a href="https://github.com/ente/ente/pull/12318"&gt;login&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12326"&gt;password entry&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12333"&gt;password reset&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12329"&gt;2FA authentication&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12332"&gt;2FA and recovery key entry&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12331"&gt;recovery&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12325"&gt;email verification and passkey status&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/12345"&gt;2FA choice&lt;/a&gt;. Additional animations and polish landed in the auth layout via &lt;a href="https://github.com/ente/ente/pull/12340"&gt;#12340&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memories can now include music, currently behind an internal feature flag and tested on Android and iOS (&lt;a href="https://github.com/ente/ente/pull/12334"&gt;#12334&lt;/a&gt;). Memory-lane caching also supports lanes for lone, unnamed people clusters (&lt;a href="https://github.com/ente/ente/pull/12305"&gt;#12305&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Account recovery can specify whether existing sessions stay signed in; if omitted, sessions are signed out by default (&lt;a href="https://github.com/ente/ente/pull/12352"&gt;#12352&lt;/a&gt;). Authentication request handling, TOTP completion and tracking, passkey errors, and sensitive logging were also tightened in &lt;a href="https://github.com/ente/ente/pull/12335"&gt;#12335&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12328"&gt;#12328&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reliability and performance:&lt;/strong&gt; Collection updates are better serialized with Trash operations (&lt;a href="https://github.com/ente/ente/pull/12339"&gt;#12339&lt;/a&gt;), batch file operations use more efficient database upserts (&lt;a href="https://github.com/ente/ente/pull/12198"&gt;#12198&lt;/a&gt;), and mobile multipart checksums now stream encrypted data, reducing benchmarked peak memory by 65% (&lt;a href="https://github.com/ente/ente/pull/12306"&gt;#12306&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Additional maintenance covered multipart-object cleanup and registration races (&lt;a href="https://github.com/ente/ente/pull/12320"&gt;#12320&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12324"&gt;#12324&lt;/a&gt;), model-runtime identity handling (&lt;a href="https://github.com/ente/ente/pull/12321"&gt;#12321&lt;/a&gt;), and the ONNX Runtime upgrade (&lt;a href="https://github.com/ente/ente/pull/12323"&gt;#12323&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Upcoming desktop feature:&lt;/strong&gt; Ensu Packs support is being added to the desktop app (&lt;a href="https://github.com/ente/ente/pull/12343"&gt;#12343&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server uploads:&lt;/strong&gt; Large files are being prepared for multipart S3 copying (&lt;a href="https://github.com/ente/ente/pull/12337"&gt;#12337&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Smaller ongoing work includes using “Ente Auth” as the Linux launcher name (&lt;a href="https://github.com/ente/ente/pull/12342"&gt;#12342&lt;/a&gt;) and cleaning up the Photos memory-lane service (&lt;a href="https://github.com/ente/ente/pull/12319"&gt;#12319&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12346"&gt;#12346&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 20, 2026 - 32 shipped, 5 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
