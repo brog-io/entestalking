@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 21 Aug 2026 07:24:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 07:10:31 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 22, 2026 - 21 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-22</guid>
+      <pubDate>Sat, 22 Aug 2026 07:10:31 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity across six channels, with discussion concentrated in &lt;strong&gt;#photos&lt;/strong&gt;. Topics ranged from photo organization and face detection to Ente Auth availability, tool calling, and casual sharing.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Nine messages covered sorting photos by metadata rather than upload date, exporting data via the &lt;a href="https://ente.com/help/photos/migration/export/"&gt;migration/export guide&lt;/a&gt;, and UI documentation, including the &lt;a href="https://ente.com/blog/ente-design-system/"&gt;Ente design system blog post&lt;/a&gt;. Participants also clarified that video face detection currently uses only the first frame.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Four messages discussed plans for tool calling, with basic actions such as setting reminders expected before more advanced web-app capabilities.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Three messages shared a YouTube Short and joked about waiting for GTA 6, alongside a brief expression of frustration.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Two messages confirmed that Ente Auth is available on Flathub, with a link to its &lt;a href="https://flathub.org/en/apps/io.ente.auth"&gt;app listing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;A brief exchange mentioned trouble uploading a 50 MB ZIP file and shared a related Discord message link.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;One message praised a sharing feature because recipients can view shared content without an account.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 21, 2026 - 36 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
