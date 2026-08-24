@@ -4,7 +4,29 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 23 Aug 2026 06:41:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 07:00:16 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 24, 2026 - 6 shipped, 4 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-24</guid>
+      <pubDate>Mon, 24 Aug 2026 07:00:16 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focused on a smoother Locker document-scanning experience and broader Ente Auth service coverage. In progress, Ente Space is gaining lightweight social interactions, while the scanner rollout is being prepared behind an internal flag.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12371"&gt;Document scanning is more polished&lt;/a&gt;, with auto-capture enabled by default, animated page handling, improved review controls, haptic feedback, and a loupe for precise crop adjustments.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Added support for Accountable and e621 icons, improved UPS visibility in dark mode, cleaned up duplicate icon data, and fixed the support page’s feature-suggestion link in &lt;a href="https://github.com/ente/ente/pull/12377"&gt;this icon update&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12373"&gt;this icon cleanup&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12375"&gt;the e621 addition&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/12376"&gt;the link fix&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Internal ML test fixtures were pinned to the shared immutable fixture set in &lt;a href="https://github.com/ente/ente/pull/12382"&gt;#12382&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12385"&gt;New social interactions&lt;/a&gt; would let users add friends by username and “wave” to nudge them to post, while removing public profile sharing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12384"&gt;The document scanner is being gated behind an internal feature flag&lt;/a&gt;, with its segmentation model served from Ente’s model infrastructure.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rust:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12386"&gt;Legacy extraction and binding-error refinements&lt;/a&gt; are underway.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12383"&gt;Old review comments are being removed&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 23, 2026 - 0 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -709,31 +731,6 @@
   &lt;li&gt;&lt;strong&gt;Ente Auth (desktop):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11683"&gt;Fixing the system-tray tooltip&lt;/a&gt; so hovering the icon shows “ente Auth” instead of an operating-system default label.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Desktop packaging:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11679"&gt;Adding standard icon sizes for Fedora Plasma&lt;/a&gt;, addressing missing icon registration in the RPM package.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11675"&gt;Keeping collection-trash processing scoped to batches&lt;/a&gt; so deletion work remains bounded and retry progress stays aligned.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Jul 25, 2026 - 18 shipped, 7 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 08:08:13 +0000</pubDate>
-      <description>&lt;p&gt;A busy day across Ente’s apps, with improvements to Photos sharing, casting, uploads, and web usability. Ensu also gained a full English Wikipedia knowledge pack, while several mobile UI and backend maintenance changes landed.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11672"&gt;reliable Chromecast sending&lt;/a&gt; adds native receiver discovery, pairing, authentication, and local stop controls on Android and iOS; &lt;a href="https://github.com/ente/ente/pull/11652"&gt;memory link shares now include titles&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11661"&gt;upload progress v2&lt;/a&gt; improves visibility during uploads, while &lt;a href="https://github.com/ente/ente/pull/11650"&gt;person assignment gains a search bar&lt;/a&gt;. Collection and upload flow refinements also shipped in &lt;a href="https://github.com/ente/ente/pull/11651"&gt;CollectionSelector/dialog updates&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/11649"&gt;upload UX fixes&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile UI:&lt;/strong&gt; the &lt;a href="https://github.com/ente/ente/pull/11674"&gt;Verification ID sheet&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/11663"&gt;device cache settings&lt;/a&gt; were refreshed, and &lt;a href="https://github.com/ente/ente/pull/11653"&gt;direct People navigation filters&lt;/a&gt; were fixed.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11673"&gt;Ensu Packs are enabled on Android and iOS&lt;/a&gt;, with the English Wikipedia fullwiki pack, updated relevance thresholds, and a simpler download UI. &lt;a href="https://github.com/ente/ente/pull/11669"&gt;Model, transcription, and knowledge-pack downloads&lt;/a&gt; now share one asset store.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11648"&gt;social and feed improvements&lt;/a&gt; include dark-friendly legal links, post caption editing, friend-request management, messaging or unfriending, smoother loading, and invite prompts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Locker and shared mobile UI:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11665"&gt;account wording and signup&lt;/a&gt; were simplified; &lt;a href="https://github.com/ente/ente/pull/11654"&gt;security hardening&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/11656"&gt;dead contact-picker removal&lt;/a&gt; also landed.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Maintenance:&lt;/strong&gt; Rust authentication was moved into the accounts crate in &lt;a href="https://github.com/ente/ente/pull/11662"&gt;#11662&lt;/a&gt;, imports were cleaned up in &lt;a href="https://github.com/ente/ente/pull/11667"&gt;#11667&lt;/a&gt;, and documentation gained FAQ entries in &lt;a href="https://github.com/ente/ente/pull/11635"&gt;#11635&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11675"&gt;batch-scoped collection-trash processing&lt;/a&gt; aims to keep deletion batches bounded and retry progress aligned; &lt;a href="https://github.com/ente/ente/pull/11657"&gt;request-context propagation through AddFiles&lt;/a&gt; will allow canceled requests to stop database work.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11660"&gt;clear device album caches on logout&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11666"&gt;a CollectionSelector style fix&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/11655"&gt;reading Legacy Kit shares from PDF text&lt;/a&gt; are underway.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11668"&gt;dark mode for ente.space&lt;/a&gt; and migration of the shared lockscreen to &lt;a href="https://github.com/ente/ente/pull/11658"&gt;ente_components&lt;/a&gt; are in progress.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
