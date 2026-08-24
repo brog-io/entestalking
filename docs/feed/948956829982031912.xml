@@ -4,7 +4,7 @@
     <title>#announcements</title>
     <link>https://discord.com/channels/948937918347608085/948956829982031912</link>
     <description>Discord channel #announcements</description>
-    <lastBuildDate>Mon, 24 Aug 2026 12:37:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 13:45:17 +0000</lastBuildDate>
     <generator>discord-rss (github actions)</generator>
     <item>
       <title>Hi @everyone,</title>
@@ -31,7 +31,7 @@
       <pubDate>Fri, 05 Jun 2026 13:34:21 +0000</pubDate>
       <dc:creator>setal</dc:creator>
       <description>&lt;p&gt;Hi @everyone 👋&lt;br&gt;&lt;br&gt;We shipped an update to Ente Photos this week with a fresh coat of paint.&lt;br&gt;&lt;br&gt;We&amp;#x27;ve been meaning to evolve our design system toward something more fun and relaxed for a while now. Over the last two weeks, we finally got it done. Here&amp;#x27;s what changed:&lt;br&gt;&lt;br&gt;* **Refreshed visuals** - buttons, text fields, screen titles, icons, colours, and typography have all been updated to make the app easier on the eye.&lt;br&gt;* **All albums in one place** - your albums (including on-device and shared) now live on a single screen, listed all at once so you don&amp;#x27;t have to tap a chevron every time to see your full collection. Links, Uncategorised, Hidden, and Archived are grouped under **More**.&lt;br&gt;* **A dedicated Feed tab** - replacing the old Shared Albums tab, so it&amp;#x27;s easy to see what your loved ones are sharing, reacting to, and commenting on.&lt;br&gt;* **Updated bottom navigation** - new icons and a less rounded look for a more premium feel.&lt;br&gt;&lt;br&gt;We&amp;#x27;re still rolling this new design out across the rest of the app, so you&amp;#x27;ll see more of it in upcoming updates. Eventually it&amp;#x27;ll come to all our apps on every platform, giving all Ente products a consistent feel while making design and development much faster.&lt;br&gt;&lt;br&gt;We&amp;#x27;d love to hear your thoughts! We&amp;#x27;re still refining things, so your feedback is genuinely valuable. 🙏&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1512449503041425559/End-to-end_encrypted_backups.png?ex=6a8cf11d&amp;amp;is=6a8b9f9d&amp;amp;hm=85ee761d34f4d21b9faafeaf2fe8055501e8d6ab37d22b17ff13c6a71e7f618b&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1512449503041425559/End-to-end_encrypted_backups.png?ex=6a8d99dd&amp;amp;is=6a8c485d&amp;amp;hm=9e041c5b83ccbf8c1faa0a1ae766d6fd506981de254a08aba3bba520b144f9c9&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hi @everyone! 👋</title>
@@ -343,7 +343,7 @@ Chapters:
       <pubDate>Mon, 20 May 2024 13:36:09 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hey @everyone, here to announce a major release for Auth! &lt;br&gt;# Launching Auth v3.0 🚀&lt;br&gt;This is a major release for Auth, where we&amp;#x27;ve shipped some much requested features, and polished some corners.&lt;br&gt;We hope you&amp;#x27;ll enjoy these improvements!&lt;br&gt;&lt;br&gt;## Logo 🎨&lt;br&gt;&lt;br&gt;We&amp;#x27;ve crafted a logo for Auth, one that paints a better picture for what it stands for. It&amp;#x27;s gotten us a while to get here, and we&amp;#x27;ve spent an unreasonable amount of time looking at pixels before picking this one. We hope you like it as much as we do!&lt;br&gt;&lt;br&gt;## Tagging #️⃣&lt;br&gt;&lt;br&gt;You can now organize your codes with tags (&amp;quot;Work&amp;quot; , &amp;quot;Personal&amp;quot;, &amp;quot;Social&amp;quot;, ...), and easily find what you&amp;#x27;re looking for. You can attach multiple tag to the same code, and all of this information will sync across your devices, end-to-end encrypted.&lt;br&gt;&lt;br&gt;## Pinning 📌&lt;br&gt;&lt;br&gt;Starting v3.0, you can pin your favorite / most frequently used codes to the top, to make sure they&amp;#x27;re always a single tap away. Just swipe right on a code to Pin / Unpin it. This information is also preserved, end-to-end encrypted.&lt;br&gt;&lt;br&gt;## Steam codes 🎮&lt;br&gt;&lt;br&gt;Steam comes with a non-standard protocol for it&amp;#x27;s second-factor codes, but starting this release we&amp;#x27;ve added support for their format as well.&lt;br&gt;&lt;br&gt;## Desktop support 🐧&lt;br&gt;&lt;br&gt;Starting this release, Auth should be working flawlesly on all Linux variants. If you run into any issues, please create an issue on [our Github](&lt;a href="https://github.com/ente-io/ente)."&gt;https://github.com/ente-io/ente).&lt;/a&gt;&lt;br&gt;&lt;br&gt;## Website! 🧑‍💻&lt;br&gt;&lt;br&gt;Last, but not the least, we&amp;#x27;ve launched a website for Auth. This is something we have poured a lot of love into, so do check it out and let us know how it looks! Also, we hope this will make it easy to share Auth with your friends!&lt;br&gt;&lt;br&gt;# 👉 [ente.io/auth](&lt;a href="https://ente.io/auth)"&gt;https://ente.io/auth)&lt;/a&gt; 👈&lt;br&gt;  &lt;br&gt;  &lt;br&gt;---&lt;br&gt;  &lt;br&gt;Thanks for all the love so far! If you&amp;#x27;d like to continue supporting us, please spread the word about Ente! &amp;lt;:lilducky:1069841394929238106&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1242108612202070016/image.png?ex=6a8cf18a&amp;amp;is=6a8ba00a&amp;amp;hm=d9eb0131141b8b0dabb7103dce7881342c7e000efdacf8b845001d469a3b0bff&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1242108612202070016/image.png?ex=6a8d9a4a&amp;amp;is=6a8c48ca&amp;amp;hm=1a153d82bd4926865ec23cbe4c4fda698363ecec12decb66172319dc70083a09&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hey @everyone, time for some goodies! 🎁</title>
@@ -391,7 +391,7 @@ Chapters:
       <pubDate>Mon, 19 Feb 2024 12:51:42 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hello @everyone!&lt;br&gt;&lt;br&gt;We&amp;#x27;ve listened to your feedback and have introduced 2 new storage tiers to Ente – **50 GB** and **200 GB**.&lt;br&gt;&lt;br&gt;Our updated plans are as follows:&lt;br&gt;- **50GB @ $2.99 / €2.99**&lt;br&gt;- **200GB @ $6.99 / €6.99**&lt;br&gt;- 500 GB @ $9.99 / €9.99&lt;br&gt;- 2000 GB @ $19.99 / €19.99&lt;br&gt;&lt;br&gt;You will continue to have access to your existing plans and can upgrade (or downgrade) if our newer plans are a better fit.&lt;br&gt;&lt;br&gt;Hope this helps! 🙂&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1209120126075412490/Screenshot_2024-02-16_at_3.43.09_PM.png?ex=6a8ce71e&amp;amp;is=6a8b959e&amp;amp;hm=fc0517566f5d0c226c123c669a4f2b65dfe2b9529f3da2da4ea2ab4a77e1dcf0&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1209120126075412490/Screenshot_2024-02-16_at_3.43.09_PM.png?ex=6a8d8fde&amp;amp;is=6a8c3e5e&amp;amp;hm=58ea91caad10add108681eec529c4b22cdeb914a82d7a47ee76c2c63275c18c8&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hi @everyone, we've shipped 2 widely requested features in our latest release ✨</title>
@@ -400,7 +400,7 @@ Chapters:
       <pubDate>Sat, 10 Feb 2024 13:23:48 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hi @everyone, we&amp;#x27;ve shipped 2 widely requested features in our latest release ✨&lt;br&gt;&lt;br&gt;- You can now view the location where a photo was clicked, within the Info section &lt;br&gt;- You can also search for popular cities (eg. &amp;quot;Zurich&amp;quot;, &amp;quot;New York&amp;quot;) to discover photos&lt;br&gt;&lt;br&gt;There are more improvements on the way (including auto-clustering photos by these locations). Please keep your feedback coming! &amp;lt;:pepeheart:972766549960192070&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1205866715066667038/image.png?ex=6a8ceea4&amp;amp;is=6a8b9d24&amp;amp;hm=876f823a3a31e584e07f36f317004eb2cb9c3790b4509b2952caa4cb81d522b0&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1205866715066667038/image.png?ex=6a8d9764&amp;amp;is=6a8c45e4&amp;amp;hm=9b637b6f76cb77f57b43f81731935863dc3b2aeb406a9cca92e56b4ebaf341bc&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hey @everyone, **Magic Search** is now running **everywhere** 🪄</title>
