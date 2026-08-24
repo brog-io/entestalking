@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 23 Aug 2026 07:11:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 07:38:58 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 24, 2026 - 22 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-24</guid>
+      <pubDate>Mon, 24 Aug 2026 07:38:58 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity over the past 24 hours, led by discussions in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#auth&lt;/strong&gt;. Members focused on subscription options, photo playback and performance, authentication issues, and upcoming Ensu support.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Nine messages from nine participants covered Ente Photos’ free trial and pricing, including the &lt;a href="https://ente.com/#pricing"&gt;pricing page&lt;/a&gt; and the option to increase free storage through the &lt;a href="https://ente.com/help/photos/features/account/referral-program/"&gt;referral program&lt;/a&gt;. Members also discussed thumbnail generation, Live Photos playback on desktop, photo loading quality, and a possible support report via &lt;strong&gt;support@ente.com&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Seven messages from five participants addressed an authentication issue after a password change, app-lock and device authentication behavior, and a suggestion for account switching. The conversation also mentioned potentially releasing code on GitHub and troubleshooting through app reinstallation.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Two participants discussed Ensu coming to smart watches, with a generally positive reaction despite limited personal smartwatch use.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Two brief messages consisted of a mention and an attachment.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member introduced himself as a father of three.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;One question asked whether an element has a size limit.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 23, 2026 - 41 messages in 7 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -654,28 +679,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;Two newcomers introduced themselves: one is exploring privacy-focused AI, while another is getting started with Ente Photos from Southern Europe.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Jul 23, 2026 - 17 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 17:35:27 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light, with 17 messages across five channels. Most discussion centered on RSS discovery and filtering in &lt;strong&gt;#off-topic&lt;/strong&gt;, alongside brief technical chatter about self-hosting, Scaleway, and Ente Auth.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Nine messages from six participants covered Windows VPN privacy, browser preferences, RSS feeds and aggregators, noisy content filtering, and whether Ente accepts UI or feature contributions. One discussion shared a &lt;a href="https://www.windowslatest.com/2026/07/10/you-cant-f"&gt;Windows Latest article&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Three messages from one participant praised self-hosting while reacting to a possible Scaleway outage and “OOMs.”&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;Three participants shared two meme attachments, along with a reminder to keep language appropriate for under-18 members.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;One brief greeting was posted.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;A user asked whether Ente Auth works with the macOS Alfred app.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
