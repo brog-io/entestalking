@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 24 Aug 2026 07:38:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 07:25:59 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 25, 2026 - 60 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 07:25:59 +0000</pubDate>
+      <description>&lt;p&gt;Ente Community saw 59 messages from 20 participants, with most activity focused on Photos troubleshooting and Auth account recovery. Smaller channels had brief questions, nudges, or a shared tech article.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 37 messages from 14 participants, the channel covered a flickering curated-memory editing bug, Android versus desktop usability differences, and a storage display reportedly stuck at 19 GB. Members also shared the &lt;a href="https://ente.com/toys/"&gt;Ente toys directory&lt;/a&gt; and the &lt;a href="https://github.com/ente/ente"&gt;Ente source-code repository&lt;/a&gt;, while discussing missing tools and the location of recent security audits.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;There were 20 messages from three participants about Ente Auth recovery and offline use. The discussion covered recovery codes, local exports via Menu &amp;gt; Data, and whether recovery email should have enough power to replace a password, including concerns about email as part of the account’s root of trust.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;A brief clarification addressed file-size limits, with the message correcting the limit to 10 GB.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;A short tip suggested nudging inactive friends with the wave button to encourage them to share.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;A member shared a &lt;a href="https://www.techspot.com/news/113581-aliexpress-silently-running-audio-browser-fingerprint-track-device.html"&gt;TechSpot article&lt;/a&gt; about AliExpress browser audio and fingerprint tracking.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 24, 2026 - 22 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -663,22 +685,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Jul 26, 2026 - 12 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 08:40:45 +0000</pubDate>
-      <description>&lt;p&gt;Activity was modest, with 12 messages across three channels. Discussion centered on Ente Photos features and workflows, alongside a brief off-topic privacy conversation and two new-user introductions.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Five messages from four participants covered Ente Photos collages, how cloud uploads affect the home gallery, bulk photo rotation, and syncing Ente with locally hosted Immich. One participant also mentioned opening a PR for straightening, horizon leveling, or image rotation.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Five messages from three participants discussed phone privacy, device resets, and access to sensitive data. The conversation included a &lt;a href="https://www.androidauthority.com/grapheneos-duress-pin-us-prosecution-3691271/"&gt;news article about GrapheneOS’s duress PIN&lt;/a&gt; and comments that its media coverage may be sensationalized.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two newcomers introduced themselves: one is exploring privacy-focused AI, while another is getting started with Ente Photos from Southern Europe.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
