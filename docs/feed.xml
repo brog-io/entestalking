@@ -4,7 +4,34 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 24 Aug 2026 07:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 06:50:45 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 25, 2026 - 17 shipped, 11 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 06:50:45 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped several viewing, sharing, and album improvements across mobile, alongside new social features in Ente Space. In progress work continues to refine video playback, gallery performance, album filtering, and memory generation.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Album filters now remain visible while browsing, making filtered views easier to manage (&lt;a href="https://github.com/ente/ente/pull/12387"&gt;#12387&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; The photo viewer now uses an Ente-owned implementation and zooms toward the point users double-tap, while retaining pinch, pan, transitions, and gesture behavior (&lt;a href="https://github.com/ente/ente/pull/12368"&gt;#12368&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Video viewers support playback speeds from 0.25× to 2×, with the selected speed preserved while the viewer remains open (&lt;a href="https://github.com/ente/ente/pull/12313"&gt;#12313&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; iOS cold-start sharing and Apple Photos save-permission handling were fixed; shared media also retains the correct file extension and MIME type (&lt;a href="https://github.com/ente/ente/pull/12365"&gt;#12365&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12302"&gt;#12302&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12187"&gt;#12187&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Background ML processing is disabled to reduce background work, while foreground ML remains available (&lt;a href="https://github.com/ente/ente/pull/12393"&gt;#12393&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Users can add friends by username and send a wave; public profile links were removed (&lt;a href="https://github.com/ente/ente/pull/12385"&gt;#12385&lt;/a&gt;). Message wave animations were also removed (&lt;a href="https://github.com/ente/ente/pull/12391"&gt;#12391&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; The document scanner is now gated behind an internal feature flag (&lt;a href="https://github.com/ente/ente/pull/12384"&gt;#12384&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Web and desktop Live Photo viewing instructions were updated (&lt;a href="https://github.com/ente/ente/pull/12403"&gt;#12403&lt;/a&gt;), and the CLI now prevents unsupported Locker exports (&lt;a href="https://github.com/ente/ente/pull/12396"&gt;#12396&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Upcoming video controls include long-press 2× playback (&lt;a href="https://github.com/ente/ente/pull/12409"&gt;#12409&lt;/a&gt;) and double-tap five-second seeking (&lt;a href="https://github.com/ente/ente/pull/12404"&gt;#12404&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Adjacent viewer thumbnails will be prefetched for smoother swiping (&lt;a href="https://github.com/ente/ente/pull/12408"&gt;#12408&lt;/a&gt;), and album searches will gain a “You” uploader filter (&lt;a href="https://github.com/ente/ente/pull/12407"&gt;#12407&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;A mosaic gallery layout is in progress, currently gated to internal users and debug builds (&lt;a href="https://github.com/ente/ente/pull/12390"&gt;#12390&lt;/a&gt;), alongside scheduled Memory Lane generation for cluster pages (&lt;a href="https://github.com/ente/ente/pull/12399"&gt;#12399&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other cleanup includes a simpler skipped-files screen (&lt;a href="https://github.com/ente/ente/pull/12401"&gt;#12401&lt;/a&gt;), canonical custom-domain ownership handling (&lt;a href="https://github.com/ente/ente/pull/12397"&gt;#12397&lt;/a&gt;), named ML errors in Rust (&lt;a href="https://github.com/ente/ente/pull/12411"&gt;#12411&lt;/a&gt;), and more focused mobile lint output (&lt;a href="https://github.com/ente/ente/pull/12412"&gt;#12412&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 24, 2026 - 6 shipped, 4 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -708,29 +735,6 @@
   &lt;li&gt;Latest-comment taps are being fixed to open the correct album, while preserving draft restoration behavior and adding focused tests (&lt;a href="https://github.com/ente/ente/pull/11706"&gt;#11706&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Mobile Photos and Ensu are being moved to the ONNX Runtime r3 packaging release, with unified iOS and Android packaging and build triggers (&lt;a href="https://github.com/ente/ente/pull/11704"&gt;#11704&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Scheduled workflows are being prevented from running on forks, reducing unwanted failed jobs and notifications (&lt;a href="https://github.com/ente/ente/pull/11697"&gt;#11697&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Jul 26, 2026 - 1 shipped, 7 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 08:28:07 +0000</pubDate>
-      <description>&lt;p&gt;Ente Photos shipped a refreshed verification flow, while upcoming work spans photo editing, Auth account management, Space performance, and desktop polish. Several of these changes are focused on making everyday interactions faster and clearer across platforms.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos (mobile):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11674"&gt;Refreshed the Verification ID sheet&lt;/a&gt; to match Locker’s styling while preserving the existing copy, email, and sharing behavior.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos (web):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11684"&gt;Adding a Straighten control to the photo editor&lt;/a&gt;. Users will be able to level tilted horizons with a -45° to +45° slider, live alignment preview, and automatic cropping to remove empty corners.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth (mobile):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11682"&gt;Adding multi-account support and profile switching&lt;/a&gt;, allowing up to five online or offline vaults to remain signed in and be switched from Settings.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos (mobile):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11676"&gt;Extending the refreshed Verification ID sheet&lt;/a&gt; to album-participant and trusted-contact email verification, replacing the legacy alert dialog.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11678"&gt;Improving feed loading and caching&lt;/a&gt; with cached startup data, concurrent fetching, animated new posts, asset caching, and related cleanup and copy updates.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth (desktop):&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11683"&gt;Fixing the system-tray tooltip&lt;/a&gt; so hovering the icon shows “ente Auth” instead of an operating-system default label.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Desktop packaging:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11679"&gt;Adding standard icon sizes for Fedora Plasma&lt;/a&gt;, addressing missing icon registration in the RPM package.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11675"&gt;Keeping collection-trash processing scoped to batches&lt;/a&gt; so deletion work remains bounded and retry progress stays aligned.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
