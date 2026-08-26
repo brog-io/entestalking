@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 25 Aug 2026 06:50:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 06:51:43 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 26, 2026 - 13 shipped, 11 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-26</guid>
+      <pubDate>Wed, 26 Aug 2026 06:51:43 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped several mobile improvements today, especially smoother viewing, background processing, and gallery filtering. Work in progress focuses on startup reliability, smarter backups, and additional viewer and referral-screen enhancements.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Background ML processing is enabled again in &lt;a href="https://github.com/ente/ente/pull/12425"&gt;#12425&lt;/a&gt;, allowing ML tasks to continue while the app is not in use.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Adjacent photo thumbnails are now prefetched in &lt;a href="https://github.com/ente/ente/pull/12408"&gt;#12408&lt;/a&gt;, making previews appear sooner while swiping. The photo viewer was also rebuilt without the third-party dependency and now zooms toward the double-tapped point in &lt;a href="https://github.com/ente/ente/pull/12368"&gt;#12368&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Galleries now offer a &lt;strong&gt;You&lt;/strong&gt; uploader filter when relevant in &lt;a href="https://github.com/ente/ente/pull/12407"&gt;#12407&lt;/a&gt;, and selected album filters remain visible in &lt;a href="https://github.com/ente/ente/pull/12387"&gt;#12387&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory-lane generation is scheduled for cluster pages, with a new memory-lane option, in &lt;a href="https://github.com/ente/ente/pull/12399"&gt;#12399&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Several stability and memory fixes landed: isolate response ports are closed reliably in &lt;a href="https://github.com/ente/ente/pull/12417"&gt;#12417&lt;/a&gt;, and resolved image handles are disposed after OCR dimension detection in &lt;a href="https://github.com/ente/ente/pull/12416"&gt;#12416&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Web and Rust error handling was standardized in &lt;a href="https://github.com/ente/ente/pull/12420"&gt;#12420&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12411"&gt;#12411&lt;/a&gt;. Other merged work included source-file naming cleanup in &lt;a href="https://github.com/ente/ente/pull/12419"&gt;#12419&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12414"&gt;#12414&lt;/a&gt;, plus updated Live Photo documentation in &lt;a href="https://github.com/ente/ente/pull/12403"&gt;#12403&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Foreground ML will take priority over background ML to prevent startup delays in &lt;a href="https://github.com/ente/ente/pull/12426"&gt;#12426&lt;/a&gt;. A database-recovery fix targets Android blank screens after an engine kill in &lt;a href="https://github.com/ente/ente/pull/12424"&gt;#12424&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Existing uploads can be linked to backup albums without re-uploading them in &lt;a href="https://github.com/ente/ente/pull/12418"&gt;#12418&lt;/a&gt;. Smart albums will also correctly auto-add photos after face recognition in &lt;a href="https://github.com/ente/ente/pull/12413"&gt;#12413&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Upcoming user-facing changes include long-press 2× video playback in &lt;a href="https://github.com/ente/ente/pull/12409"&gt;#12409&lt;/a&gt;, a refreshed referral screen in &lt;a href="https://github.com/ente/ente/pull/12421"&gt;#12421&lt;/a&gt;, improved single-file viewer controls on web in &lt;a href="https://github.com/ente/ente/pull/12422"&gt;#12422&lt;/a&gt;, and a fix for extensionless gallery downloads in &lt;a href="https://github.com/ente/ente/pull/12410"&gt;#12410&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Additional reliability and performance work covers app-specific temporary-file caching in &lt;a href="https://github.com/ente/ente/pull/12415"&gt;#12415&lt;/a&gt;, smoother Ensu chat/search typing in &lt;a href="https://github.com/ente/ente/pull/12423"&gt;#12423&lt;/a&gt;, and less noisy mobile lint output in &lt;a href="https://github.com/ente/ente/pull/12412"&gt;#12412&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 25, 2026 - 17 shipped, 11 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -708,33 +733,6 @@
 &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Encrypted, revocable profile-sharing links—with public previews, rotation, and onboarding polish—are in progress: &lt;a href="https://github.com/ente/ente/pull/11714"&gt;#11714&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Android system-trash entries may soon appear on the Photos Trash page: &lt;a href="https://github.com/ente/ente/pull/11707"&gt;#11707&lt;/a&gt;. Documentation for shared Memory controls is also being added: &lt;a href="https://github.com/ente/ente/pull/11709"&gt;#11709&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Scheduled workflows are being adjusted to avoid running on forks: &lt;a href="https://github.com/ente/ente/pull/11697"&gt;#11697&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Jul 27, 2026 - 17 shipped, 5 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 09:54:53 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work improves everyday Photos and Auth flows, with clearer verification and safer sharing/import handling. The next wave focuses on Android trash recovery, comment navigation, and a mobile ONNX Runtime packaging update.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; The refreshed Verification ID sheet now appears consistently when verifying album participants and trusted-contact email addresses, replacing the older alert dialog (&lt;a href="https://github.com/ente/ente/pull/11676"&gt;#11676&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Album participant changes now refresh Contacts efficiently, including batched refreshes for multi-person shares (&lt;a href="https://github.com/ente/ente/pull/11695"&gt;#11695&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Photos’ “Crafting memories” banner is now available in the mobile app (&lt;a href="https://github.com/ente/ente/pull/11359"&gt;#11359&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Imported OTP entries are validated before saving, and malformed backup items are surfaced so they can be identified (&lt;a href="https://github.com/ente/ente/pull/11705"&gt;#11705&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Feed startup and refreshes are faster through cached identity and feed data, concurrent loading, asset caching, and animated new posts (&lt;a href="https://github.com/ente/ente/pull/11678"&gt;#11678&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Security and reliability:&lt;/strong&gt; Memory-share metadata decompression is capped at 1 MiB, limiting oversized payloads before parsing (&lt;a href="https://github.com/ente/ente/pull/11703"&gt;#11703&lt;/a&gt;). Public-link JWT key errors are also handled correctly on the server (&lt;a href="https://github.com/ente/ente/pull/11698"&gt;#11698&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Mobile support emails now encode subject and body parameters safely, preventing injected email fields (&lt;a href="https://github.com/ente/ente/pull/11531"&gt;#11531&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Other merged changes covered shared lockscreen theming, web Photos UI fixes, dependency updates, workspace maintenance, CI metadata, and contribution documentation.&lt;/p&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos for Android:&lt;/strong&gt; A proposed update would show system-trash entries on the Photos trash page (&lt;a href="https://github.com/ente/ente/pull/11707"&gt;#11707&lt;/a&gt;) and restore remote and local trash files together (&lt;a href="https://github.com/ente/ente/pull/11693"&gt;#11693&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Latest-comment taps are being fixed to open the correct album, while preserving draft restoration behavior and adding focused tests (&lt;a href="https://github.com/ente/ente/pull/11706"&gt;#11706&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Mobile Photos and Ensu are being moved to the ONNX Runtime r3 packaging release, with unified iOS and Android packaging and build triggers (&lt;a href="https://github.com/ente/ente/pull/11704"&gt;#11704&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Scheduled workflows are being prevented from running on forks, reducing unwanted failed jobs and notifications (&lt;a href="https://github.com/ente/ente/pull/11697"&gt;#11697&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
