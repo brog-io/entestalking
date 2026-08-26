@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Tue, 25 Aug 2026 07:25:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 07:27:07 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 26, 2026 - 54 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-26</guid>
+      <pubDate>Wed, 26 Aug 2026 07:27:07 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 54 messages across six active channels, led by product discussions in &lt;strong&gt;#photos&lt;/strong&gt; and privacy and open-source conversations in &lt;strong&gt;#off-topic&lt;/strong&gt;. New members also introduced themselves, while smaller threads covered Ensu, Locker, and a shared meme.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 22 messages from eight participants, discussion covered a minor mobile bug that appeared to resolve, a reported storage-use inconsistency, and offline recovery downloads on an iPhone 15 Plus. Members also discussed hiding private photos and videos on Android, nested folders, and the possibility of offline access to Ente’s tools.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Eighteen messages covered a &lt;a href="https://discuss.privacyguides.net/t/how-private-is-user-personal-non-encrypted-data-with-ente-findings-in-privacy-policy/39956/"&gt;Privacy Guides discussion&lt;/a&gt; about Ente’s privacy policy, including data storage and threat models. Members also exchanged experiences with Organic Maps in remote areas, discussed self-hosting, FOSS communities, and a Brave Browser post about fingerprinting.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Eight messages clarified that Ensu is not currently getting a watch app, with discussion of its desktop and mobile technology choices: Tauri for desktop and native frameworks for mobile.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Four newcomers introduced themselves, including a software developer with a homelab, someone seeking a self-hosted Keepsafe alternative, and a new Ente Photos user.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;A brief exchange clarified that Locker elements have a 10 GB size limit.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One meme link was shared: &lt;a href="https://fixvx.com/devops_prashant/status/2092223755389215228"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 25, 2026 - 60 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -666,25 +691,6 @@
 
 &lt;h3&gt;#auth&lt;/h3&gt;
 &lt;p&gt;One brief food-related comment.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Jul 27, 2026 - 23 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 10:27:21 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light activity across four channels, with discussion focused mainly on border-device privacy, photo metadata/import behavior, and community contributions. Off-topic was the busiest channel, followed by photos.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Twelve messages from six participants discussed border searches, device resets, access requests, and related legal considerations in the US, Canada, and elsewhere. Members also discussed a recent rise in community pull requests, with one participant noting 43 PRs, and shared &lt;a href="https://killthecookiebanner.eu/"&gt;Kill the Cookie Banner&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Eight messages from four participants covered delays in new photos appearing in galleries, Immich’s importer behavior, sidecar files, EXIF date parsing, and compatibility with Google’s formats. The channel also briefly discussed iOS deletion permissions and the use of tags such as &lt;strong&gt;[mobile][photos]&lt;/strong&gt; in pull requests.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two participants discussed improving model selection for systems with under or over 16 GB of RAM and troubleshooting a related setup. A follow-up offered to investigate after receiving more details.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
