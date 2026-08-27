@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Wed, 26 Aug 2026 07:27:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 17:51:30 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 27, 2026 - 28 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 17:51:30 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community server saw light-to-moderate activity over the past day, with 28 messages across four active channels. Conversation centered on server customization, self-hosting, QR tools, and Ente Photos features.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Members exchanged 17 messages about the server’s green theme, feature requests, and whether the new QR tool could be included in self-hosted instances. The discussion clarified that &lt;a href="https://qr.ente.com"&gt;qr.ente.com&lt;/a&gt; has no server-side dependency, and its source is available via &lt;a href="https://github.com/ente"&gt;GitHub&lt;/a&gt;; duck facts and pet ducks also came up.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Nine messages covered fullscreen video sizing, self-hosted storage limits, and privacy when showing photos to friends. Members shared the &lt;a href="https://ente.com/help/self-hosting/administration/cli#step-4-increase-storage-and-account-validity"&gt;CLI storage guide&lt;/a&gt; and the &lt;a href="https://ente.com/help/photos/features/utilities/guest-view"&gt;Guest View feature&lt;/a&gt;, while one member celebrated receiving a 1 TB SSD for an Ente self-hosting setup.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member introduced themselves as a supporter of privacy and open source.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One message offered a brief appreciation of carnations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 26, 2026 - 54 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -660,37 +679,6 @@
 
 &lt;h3&gt;#ensu&lt;/h3&gt;
 &lt;p&gt;One message clarified that a user was exploring a question rather than reporting a problem, mentioning a ThinkPad P50 running Fedora.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Jul 28, 2026 - 43 messages in 8 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-07-28</guid>
-      <pubDate>Tue, 28 Jul 2026 09:18:41 +0000</pubDate>
-      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with discussions spanning app behavior, development, metadata, ML recognition, translations, and backup troubleshooting. Other channels saw lighter introductions, community chatter, and shared media.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 26 messages from 8 participants, the channel covered iOS deletion permissions, pull request labeling, sidecar and Google metadata formats, the web editor, animal and wildlife recognition, and translating ML suggestions into Italian and French. Members also discussed an independent Ubuntu Snap, shared the &lt;a href="https://github.com/0fif/ente-exif-tool"&gt;ente-exif-tool&lt;/a&gt;, and directed an iPhone backup issue to Settings → Help &amp;amp; Support → Report an issue.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two new members introduced themselves, praising Ente’s interface and expressing interest in supporting the project through contributions or translation; one also asked about the relationship between the GitHub repository and ente.com.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;Four messages shared two attachments, a political comment, an emoji, and a &lt;a href="https://www.tnktok.com/@trickyworld08/video/7665597970523507982"&gt;video link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Four enthusiastic reactions from one participant celebrated something described as beautiful.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Three messages included light banter and a discussion about whether to save server boosts for level 3 or use them for a custom server theme.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;Members shared a snowy cat photo from Sarajevo and one attachment.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;A planned feature was confirmed, though no ETA was available.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;One brief food-related comment.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
