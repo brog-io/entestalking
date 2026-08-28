@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 27 Aug 2026 17:24:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 18:18:06 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 28, 2026 - 23 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 18:18:06 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped a batch of performance, location, download, and Memories improvements, alongside several reliability and server-side authentication changes. New work is focused on smoother ML scheduling, broader album filtering, and more inclusive location search.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memories can download and cache hosted music tracks, retry failed downloads, and fall back to another track when needed (&lt;a href="https://github.com/ente/ente/pull/12488"&gt;#12488&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Search and Gallery now load large file databases in pages, reducing memory spikes for big libraries (&lt;a href="https://github.com/ente/ente/pull/12479"&gt;#12479&lt;/a&gt;). Foreground activity also takes priority over background ML processing (&lt;a href="https://github.com/ente/ente/pull/12470"&gt;#12470&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Location search and grouping now use the shared offline Rust index, with localized country search and lower memory use; city suggestions open directly as search results (&lt;a href="https://github.com/ente/ente/pull/12465"&gt;#12465&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12468"&gt;#12468&lt;/a&gt;). The underlying offline city and country lookups also shipped (&lt;a href="https://github.com/ente/ente/pull/12459"&gt;#12459&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12460"&gt;#12460&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Extensionless gallery downloads now receive a usable &lt;code&gt;.jpg&lt;/code&gt; cache suffix, and the internal gates were removed from device trash, EXIF-preserving, and lossless-edit features (&lt;a href="https://github.com/ente/ente/pull/12410"&gt;#12410&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12480"&gt;#12480&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12483"&gt;#12483&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;The referral screen was refreshed, and Memories strip widgets were renamed (&lt;a href="https://github.com/ente/ente/pull/12421"&gt;#12421&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12477"&gt;#12477&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Database transactions now roll back reliably on all exits, SRP updates are atomic, and token-hash compatibility data has been added and backfilled (&lt;a href="https://github.com/ente/ente/pull/12478"&gt;#12478&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12471"&gt;#12471&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12463"&gt;#12463&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12467"&gt;#12467&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other maintenance included migrating remaining databases to &lt;code&gt;sqlite_async&lt;/code&gt;, removing the mobile Log Viewer, improving offline retry behavior, and assorted Rust/Auth updates (&lt;a href="https://github.com/ente/ente/pull/12441"&gt;#12441&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12466"&gt;#12466&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12484"&gt;#12484&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Serialize post-ML Magic Cache and Smart Memories refreshes so expensive background work does not overlap (&lt;a href="https://github.com/ente/ente/pull/12482"&gt;#12482&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Expand the Memories strip to support different card types (&lt;a href="https://github.com/ente/ente/pull/12481"&gt;#12481&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Search countries by native names and include shared or received albums in the Ente filter (&lt;a href="https://github.com/ente/ente/pull/12476"&gt;#12476&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12475"&gt;#12475&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Server work is underway to maintain file counts during creation and finalize the token-hash database migration (&lt;a href="https://github.com/ente/ente/pull/12474"&gt;#12474&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12469"&gt;#12469&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 27, 2026 - 22 shipped, 1 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -707,30 +733,6 @@
 &lt;li&gt;Unconfigured Albums, People, and Memories widgets will deep-link directly to their setup screens on Android and iOS. &lt;a href="https://github.com/ente/ente/pull/11770"&gt;PR #11770&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Space is adding web push notifications for activity and public profiles, plus PWA setup prompts and feed/messaging refinements. &lt;a href="https://github.com/ente/ente/pull/11773"&gt;PR #11773&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Other upcoming improvements include moving developer settings under Accounts, auto-creating contacts for linked people, and preserving own-collect timestamps during sync reconciliation. &lt;a href="https://github.com/ente/ente/pull/11784"&gt;PR #11784&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11775"&gt;PR #11775&lt;/a&gt; &lt;a href="https://github.com/ente/ente/pull/11752"&gt;PR #11752&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Jul 29, 2026 - 25 shipped, 6 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 08:42:50 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a broad set of Photos usability improvements across mobile and web, including quieter sharing notifications, better video playback controls, and smoother sharing and import flows. Auth, Space, desktop ML, and platform reliability also received notable updates, while several Photos improvements are now in progress.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11750"&gt;Shared-album notifications are now grouped&lt;/a&gt; by sender, preventing large shares from flooding recipients. &lt;a href="https://github.com/ente/ente/pull/11427"&gt;Persistent video mute&lt;/a&gt; remembers the preference across restarts and prevents audio briefly playing before muted playback begins.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos sharing:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11583"&gt;Family users can share owned albums&lt;/a&gt;, update sharing roles, and stop sharing. &lt;a href="https://github.com/ente/ente/pull/11745"&gt;Library-sharing UX&lt;/a&gt; was refined, including long-press album selection and clearer roles and defaults.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos reliability:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11739"&gt;Ritual camera startup&lt;/a&gt; now handles permissions cleanly and avoids indefinite loading. &lt;a href="https://github.com/ente/ente/pull/11721"&gt;Invalid asset dates&lt;/a&gt; fall back to other available dates instead of aborting imports, and &lt;a href="https://github.com/ente/ente/pull/11734"&gt;Memory Lane links&lt;/a&gt; filter out stale files.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11747"&gt;Archived albums no longer appear in the gallery’s horizontal bar&lt;/a&gt;, keeping that space focused on active albums. &lt;a href="https://github.com/ente/ente/pull/11735"&gt;Memory links now include branding&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11732"&gt;Desktop settings and dialogs&lt;/a&gt; received a more native layout, with centered dialogs and improved navigation. &lt;a href="https://github.com/ente/ente/pull/11726"&gt;Settings styling and transitions&lt;/a&gt; were also refined, and &lt;a href="https://github.com/ente/ente/pull/11683"&gt;Windows tray tooltips&lt;/a&gt; now display correctly.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space and security:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11714"&gt;Encrypted, revocable profile-sharing links&lt;/a&gt; landed with profile previews and onboarding polish. &lt;a href="https://github.com/ente/ente/pull/11729"&gt;2-of-3 card handling&lt;/a&gt; was hardened against a reported security advisory.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming desktop ML:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11746"&gt;Rust ONNX Runtime integration&lt;/a&gt; would unify desktop ML indexing and CLIP embeddings, with native addons and guarded WebGPU acceleration.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11756"&gt;Unsupported Android media-permission handling&lt;/a&gt; would show a deletion prompt; &lt;a href="https://github.com/ente/ente/pull/11754"&gt;trash database entries&lt;/a&gt; would gain file sizes; and &lt;a href="https://github.com/ente/ente/pull/11748"&gt;the Memories banner&lt;/a&gt; would become fully tappable.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11752"&gt;Own-collect replay reconciliation&lt;/a&gt; would preserve collection identity and added timestamps. &lt;a href="https://github.com/ente/ente/pull/11730"&gt;In-app purchase updates&lt;/a&gt; target Google Play Billing 8 while retaining StoreKit 1 compatibility on iOS.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
