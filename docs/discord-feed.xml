@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 28 Aug 2026 18:56:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 12:47:54 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 29, 2026 - 41 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-29</guid>
+      <pubDate>Sat, 29 Aug 2026 12:47:54 +0000</pubDate>
+      <description>&lt;p&gt;Activity centered on Ente Photos discussions and an Ente Auth account-recovery issue, with 41 messages across four active channels. Members also shared a Photos pull request and a Locker message link.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;29 messages from 7 participants.&lt;/strong&gt; Discussion covered freeing device space while retaining Ente uploads, the risks of deleting unuploaded photos, and suggestions for clearer warnings or a trash system. Members also discussed face-indexing errors involving children, contact naming, a screenshot-processing feature idea, and shared &lt;a href="https://github.com/ente/ente/pull/12390"&gt;a GitHub pull request&lt;/a&gt;. An Auth recovery request was redirected to the appropriate support channel.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;8 messages from 2 participants.&lt;/strong&gt; Damon sought urgent help recovering an Ente Auth account after reinstalling the app and not receiving a support response. Jaime advised using email, noted the typical two-to-three-business-day response time, and cautioned against repeating messages or spamming; the weekend may cause additional delay.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2 messages from 1 participant.&lt;/strong&gt; Damon said hello and repeated a request for Ente Auth account-recovery help.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2 messages from 2 participants.&lt;/strong&gt; A member asked how to view and delete shared file links, followed by a &lt;a href="https://discord.com/channels/948937918347608085/1439920913096380537/1534890587449200701"&gt;Discord message link&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 28, 2026 - 32 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -645,28 +664,6 @@
 
 &lt;h3&gt;#auth&lt;/h3&gt;
 &lt;p&gt;One message noted that Auth is not updated very frequently at present, though that may change.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Jul 30, 2026 - 27 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 09:15:17 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light activity across five channels, with the most discussion focused on Ente Photos OCR and Auth installation options. Members also shared introductions, a video, and a few casual updates.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;There were 10 messages from 6 participants. Discussion covered OCR issues with Polish and other non-English characters, setting Ente Photos as the default gallery app on NothingOS, and whether a liquid glass UI is planned. A member also reported progress on an immich-go adapter and asked about Ente’s exported JSON schema, while another praised the latest update’s smoothness.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;There were 10 messages from 3 participants about installing Ente Auth via &lt;a href="https://flathub.org/en/apps/io.ente.auth"&gt;Flathub&lt;/a&gt; versus RPM packages. Replies compared update timing, sandboxing, permissions, and recommended using whichever package format fits the user’s usual setup.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Three newcomers introduced themselves, including a graphic and UI/UX designer interested in contributing to FOSS, alongside brief greetings and a mention of Ente’s water-themed name.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Three messages included a useful video mention, a question for SDR++ users, and a link to a video about an alleged iPhone 18 Pro Max leak: &lt;a href="https://www.youtube.com/watch?v=d_nGvMvjMBM"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One meme attachment was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
