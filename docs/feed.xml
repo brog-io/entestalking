@@ -4,7 +4,23 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 29 Aug 2026 12:26:37 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 11:27:04 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 30, 2026 - 0 shipped, 2 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-30</guid>
+      <pubDate>Sun, 30 Aug 2026 11:27:04 +0000</pubDate>
+      <description>&lt;p&gt;A quiet day in Ente development, with no changes merged. Two pull requests are in progress: one improves issuer recognition in Ente Auth, while the other makes cloning the repository much faster for readers following the documentation.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;p&gt;No pull requests were merged in the past 24 hours.&lt;/p&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12494"&gt;Add Lightyear icon&lt;/a&gt; adds a custom Lightyear app icon for matching issuer names, including support for keeping the mark visible in dark mode.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Repository documentation:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12493"&gt;Add &lt;code&gt;--depth 1&lt;/code&gt; to git clone command&lt;/a&gt; updates the clone instructions to fetch only the latest history, significantly reducing the amount of data downloaded.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 29, 2026 - 13 shipped, 1 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -706,29 +722,6 @@
   &lt;li&gt;&lt;strong&gt;Upcoming sharing capability:&lt;/strong&gt; The server is adding bounded bulk share and unshare endpoints for a single recipient, including idempotent automatic sharing and viewer-only uncategorized sharing (&lt;a href="https://github.com/ente/ente/pull/11809"&gt;#11809&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Free Up Space is being hardened against Android bulk-deletion failures that could trigger hundreds of individual deletion calls and crash the app (&lt;a href="https://github.com/ente/ente/pull/11802"&gt;#11802&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Shared legacy layout and autofocus components are being migrated into Ente Components, with no intended visual changes (&lt;a href="https://github.com/ente/ente/pull/11812"&gt;#11812&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Jul 31, 2026 - 23 shipped, 7 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 08:51:29 +0000</pubDate>
-      <description>&lt;p&gt;A busy day for Ente Photos and Space: desktop ML infrastructure and panorama handling improved, while Space shipped web push and Firefox Android fixes. Several mobile reliability and account-isolation improvements also landed, with further Photos cleanup work in progress.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ente Photos desktop:&lt;/strong&gt; Desktop ML indexing and CLIP text embedding now use the shared Rust ONNX Runtime implementation, with packaged native components for macOS, Windows, and Linux (&lt;a href="https://github.com/ente/ente/pull/11746"&gt;#11746&lt;/a&gt;). Desktop model storage now also uses &lt;code&gt;AssetStore&lt;/code&gt; (&lt;a href="https://github.com/ente/ente/pull/11798"&gt;#11798&lt;/a&gt;), and missing code-generation dependencies produce clearer recovery instructions (&lt;a href="https://github.com/ente/ente/pull/11799"&gt;#11799&lt;/a&gt;). A loading screen now appears while desktop files are parsed for confirmation (&lt;a href="https://github.com/ente/ente/pull/11797"&gt;#11797&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; Cropped panoramas now open centered and without a blank or blurred initial view (&lt;a href="https://github.com/ente/ente/pull/11790"&gt;#11790&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11553"&gt;#11553&lt;/a&gt;). Uploading one photo to multiple albums now preserves every album upload (&lt;a href="https://github.com/ente/ente/pull/11055"&gt;#11055&lt;/a&gt;), and camera permission failures offer clearer recovery paths, including Settings (&lt;a href="https://github.com/ente/ente/pull/11779"&gt;#11779&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos purchases and media:&lt;/strong&gt; In-app purchases were updated for Google Play Billing 8 while retaining legacy iOS receipt handling (&lt;a href="https://github.com/ente/ente/pull/11730"&gt;#11730&lt;/a&gt;). Media picking now handles SD cards and other uncommon file paths more reliably (&lt;a href="https://github.com/ente/ente/pull/11084"&gt;#11084&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; Web push notifications are now available for Space activity and public profiles, alongside PWA setup prompts (&lt;a href="https://github.com/ente/ente/pull/11773"&gt;#11773&lt;/a&gt;). Firefox Android notification delivery and related web behavior were fixed (&lt;a href="https://github.com/ente/ente/pull/11791"&gt;#11791&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11793"&gt;#11793&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile shared UI:&lt;/strong&gt; Developer settings moved into Accounts and received a refreshed interface (&lt;a href="https://github.com/ente/ente/pull/11784"&gt;#11784&lt;/a&gt;). Linked people can now have missing contacts created automatically when relevant pages open (&lt;a href="https://github.com/ente/ente/pull/11775"&gt;#11775&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Fixes are underway for collection-map re-rendering during remote pulls (&lt;a href="https://github.com/ente/ente/pull/11804"&gt;#11804&lt;/a&gt;) and download progress toasts not appearing (&lt;a href="https://github.com/ente/ente/pull/11803"&gt;#11803&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A bounded recovery flow is being added to prevent Free Up Space crashes on affected Samsung devices (&lt;a href="https://github.com/ente/ente/pull/11802"&gt;#11802&lt;/a&gt;). New Ente and device trash pages, plus native trash integration, are also in progress (&lt;a href="https://github.com/ente/ente/pull/11785"&gt;#11785&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11781"&gt;#11781&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Account cleanup:&lt;/strong&gt; Logout is being updated to clear cached social and favorites data, preventing information from a previous account appearing after switching users (&lt;a href="https://github.com/ente/ente/pull/11787"&gt;#11787&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
