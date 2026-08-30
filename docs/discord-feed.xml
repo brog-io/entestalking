@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sat, 29 Aug 2026 12:47:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 12:09:15 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 30, 2026 - 46 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-30</guid>
+      <pubDate>Sun, 30 Aug 2026 12:09:15 +0000</pubDate>
+      <description>&lt;p&gt;Ente Community saw moderate activity, led by discussions in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#auth&lt;/strong&gt;. Conversations focused on account recovery, Ente Photos downloads and updates, self-hosting, and support options.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 25 messages from 13 participants, the channel covered an Ente Auth recovery follow-up, disabling Ente Photos Desktop auto-updates, missing ZIP downloads on Android, self-hosted rate limiting, and hardware for self-hosting. One user asked about supporting Ente with a one-time contribution; &lt;a href="https://github.com/sponsors/ente"&gt;GitHub Sponsors&lt;/a&gt; was suggested. Members also discussed a large 200 GB photo and video upload running on a Raspberry Pi 3B.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Ten messages from three participants continued a discussion about recovering an Ente Auth account after accidental uninstallation. Members noted that email is the standard support route, typical responses take two to three business days, and repeated messages or individual pings should be avoided; the issue remained unresolved.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Six messages covered other FOSS Discord communities, using Android’s second-space feature to isolate Google services, and alternatives related to Discord Revenge.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Four messages included brief greetings and another request for help with Ente Auth account recovery, with recovery steps shared in response.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 29, 2026 - 41 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -645,25 +667,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One meme link was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Jul 31, 2026 - 13 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 09:25:14 +0000</pubDate>
-      <description>&lt;p&gt;Ente Community saw 13 messages across four active channels, with most discussion focused on recent Photos improvements and product questions. Off-topic conversation also shared a couple of links.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Six messages from five participants praised the latest update, especially smoother photo swiping. Members discussed Samsung gallery edits, uploads larger than 10 GB, and stream generation; Ente clarified that originals are currently preserved and invited feedback on streaming.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Five messages from four participants joked about GitHub’s “pancake” button and hamburger menus, with links to &lt;a href="https://vxtwitter.com/depoll/status/2082871123046478033"&gt;a related post&lt;/a&gt; and an article about a potential &lt;a href="https://mashable.com/tech/us-robot-vacuum-ban-fcc-foreign"&gt;U.S. robot vacuum ban&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;One new member welcomed the Ente team, praised its vision, and said they had questions and suggestions.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;One message noted that Auth is not updated very frequently at present, though that may change.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
