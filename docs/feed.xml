@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 30 Aug 2026 11:27:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 12:57:58 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Aug 31, 2026 - 15 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:57:58 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Ente Photos improvements across mobile and web, including smarter albums, better search and sharing filters, and faster offline processing. Server-side authentication hardening also progressed, while slideshow support and other photo features are now in development.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; File-detail action buttons now match the app’s chip styling in &lt;a href="https://github.com/ente/ente/pull/12504"&gt;#12504&lt;/a&gt;, country searches recognize native names in &lt;a href="https://github.com/ente/ente/pull/12476"&gt;#12476&lt;/a&gt;, and the Ente filter now includes shared and received albums in &lt;a href="https://github.com/ente/ente/pull/12502"&gt;#12502&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Smart albums now reliably auto-add photos after face recognition, avoiding a race that could leave newly recognized photos out in &lt;a href="https://github.com/ente/ente/pull/12413"&gt;#12413&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;The Memories strip was cleaned up to support different card types in &lt;a href="https://github.com/ente/ente/pull/12481"&gt;#12481&lt;/a&gt;, and issue reports now show the support email in &lt;a href="https://github.com/ente/ente/pull/12511"&gt;#12511&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Offline metadata processing is substantially faster through improved EXIF handling and pagination in &lt;a href="https://github.com/ente/ente/pull/12495"&gt;#12495&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web and desktop:&lt;/strong&gt; A map-view update crash was fixed in &lt;a href="https://github.com/ente/ente/pull/12503"&gt;#12503&lt;/a&gt;. Web and mobile now use the server-provided current session status in &lt;a href="https://github.com/ente/ente/pull/12507"&gt;#12507&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server security:&lt;/strong&gt; Sessions now use opaque identifiers and token hashes internally, while retaining compatibility with existing clients, in &lt;a href="https://github.com/ente/ente/pull/12510"&gt;#12510&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12500"&gt;#12500&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Upcoming Photos features:&lt;/strong&gt; Selected albums are getting slideshow support in &lt;a href="https://github.com/ente/ente/pull/12506"&gt;#12506&lt;/a&gt;, and Android widget image orientation is being corrected in &lt;a href="https://github.com/ente/ente/pull/12514"&gt;#12514&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Face clustering will prune orphaned unclustered face embeddings when their files are gone, improving subsequent clustering checks, in &lt;a href="https://github.com/ente/ente/pull/12513"&gt;#12513&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server security:&lt;/strong&gt; New sessions are being stored by token hash rather than raw token in &lt;a href="https://github.com/ente/ente/pull/12515"&gt;#12515&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Ente Auth is adding a custom Lightyear issuer icon in &lt;a href="https://github.com/ente/ente/pull/12494"&gt;#12494&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 30, 2026 - 0 shipped, 2 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -700,29 +725,6 @@
 
 &lt;h3&gt;In progress&lt;/h3&gt;
 &lt;p&gt;No new pull requests were opened in the last 24 hours.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 01, 2026 - 21 shipped, 3 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 08:22:46 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a strong set of Photos improvements across mobile, web, and desktop, including a faster panorama experience, more relevant face suggestions, and better handling of storage-related backup failures. Work in progress includes bulk collection sharing on the server and fixes for a device-space cleanup crash.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A new in-tree panorama viewer improves first-open performance, keeps thumbnails visible while rendering, supports crop-aware zoom and motion viewing, and avoids camera jumps on &lt;a href="https://github.com/ente/ente/pull/11811"&gt;mobile&lt;/a&gt;. Face suggestions now filter out low-quality or repeatedly rejected matches, making recommendations more relevant (&lt;a href="https://github.com/ente/ente/pull/11817"&gt;#11817&lt;/a&gt;), and pinned people are visibly marked in search (&lt;a href="https://github.com/ente/ente/pull/11810"&gt;#11810&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Backups now detect when the device is out of storage, stop pending uploads safely, and show an actionable error instead of repeatedly retrying and consuming more space (&lt;a href="https://github.com/ente/ente/pull/11554"&gt;#11554&lt;/a&gt;). Own-collection timestamps also survive synchronization replay (&lt;a href="https://github.com/ente/ente/pull/11752"&gt;#11752&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web and desktop:&lt;/strong&gt; Legacy recovery-sheet decoding is now bounded according to image orientation (&lt;a href="https://github.com/ente/ente/pull/11820"&gt;#11820&lt;/a&gt;), and the web collection-map dialog no longer unnecessarily re-renders after a remote pull (&lt;a href="https://github.com/ente/ente/pull/11804"&gt;#11804&lt;/a&gt;). Desktop also fixes the initial height of the All People modal (&lt;a href="https://github.com/ente/ente/pull/11815"&gt;#11815&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos desktop:&lt;/strong&gt; Native bindings now target Node-API 10 for Electron 42, improving compatibility with the bundled runtime (&lt;a href="https://github.com/ente/ente/pull/11814"&gt;#11814&lt;/a&gt;). Corrupt ML models no longer trigger futile download retries; indexing is suspended instead (&lt;a href="https://github.com/ente/ente/pull/11806"&gt;#11806&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; Desktop Space users can copy profile links (&lt;a href="https://github.com/ente/ente/pull/11816"&gt;#11816&lt;/a&gt;), and mobile in-app purchases were updated for Google Play Billing 8 while retaining iOS receipt compatibility (&lt;a href="https://github.com/ente/ente/pull/11730"&gt;#11730&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming sharing capability:&lt;/strong&gt; The server is adding bounded bulk share and unshare endpoints for a single recipient, including idempotent automatic sharing and viewer-only uncategorized sharing (&lt;a href="https://github.com/ente/ente/pull/11809"&gt;#11809&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Free Up Space is being hardened against Android bulk-deletion failures that could trigger hundreds of individual deletion calls and crash the app (&lt;a href="https://github.com/ente/ente/pull/11802"&gt;#11802&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Shared legacy layout and autofocus components are being migrated into Ente Components, with no intended visual changes (&lt;a href="https://github.com/ente/ente/pull/11812"&gt;#11812&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
