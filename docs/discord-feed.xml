@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 30 Aug 2026 12:09:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 14:19:28 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Aug 31, 2026 - 34 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 14:19:28 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light to moderate across five channels, led by an off-topic discussion about Android and Discord client alternatives. Other conversations focused on Ente storage limits, hidden-photo management, authentication, and everyday reflections.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 17 messages from four participants, the channel discussed installing Android apps without Google services, switching from Revenge to Kettu, and the risks, features, and customization options of third-party Discord clients such as Vencord and Kettu.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Seven messages from four participants covered what happens when the 10 GB free tier is exceeded, a move to the 200 GB plan, possible shorter paste links, storage usage for hidden photos, and exporting only hidden files.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Six messages from two participants clarified account requirements for PC, desktop, web, and mobile, and confirmed that both &lt;a href="https://ente.com/auth/"&gt;ente.com/auth&lt;/a&gt; and &lt;a href="https://auth.ente.com/login"&gt;auth.ente.com/login&lt;/a&gt; are legitimate pages.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Two participants posted brief greetings.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Two messages reflected on leaving free time unscheduled and the boredom of childhood before social media.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 30, 2026 - 46 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -642,31 +664,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One participant shared a brief reaction to a meme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 01, 2026 - 107 messages in 6 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 08:41:15 +0000</pubDate>
-      <description>&lt;p&gt;Ente Community saw its busiest activity in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#space&lt;/strong&gt;, with discussions spanning product questions, bug reports, browser compatibility, and feature feedback. Smaller channels covered account recovery, app architecture, product suggestions, and casual sharing.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 55 messages from 20 participants, discussion covered the two open security advisories and pending CVEs, AppImage/Flatpak/Snap packaging, caching shared albums, and requests for improved photo-picker search and album access. Members also reported Linux Flatpak drag-and-drop upload failures, a GrapheneOS crash, and asked about encryption; the &lt;a href="https://ente.com/architecture/"&gt;encryption architecture&lt;/a&gt; was shared, and the photo-picker request was added to the roadmap without an ETA.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Thirty-five messages from 12 participants focused on Ente Space browser behavior, including Windows Brave/Chrome sharing issues and a Vanadium login spinner on GrapheneOS. A desktop browser fix to copy the link was reported as working, while several members shared enthusiasm about signing up and discussed account login and aliases.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Twelve messages covered &lt;a href="https://www.featurebase.app/"&gt;Featurebase&lt;/a&gt; as a possible privacy-friendly feedback platform, including its Discord/GitHub integrations and AI help agent. The rest was casual discussion about social-network business models and an Ente plush, including a &lt;a href="https://klipy.com/gifs/cat-please-please-cat"&gt;cat GIF&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;A user raised a question about whether Ente Auth recovery could work with the recovery key alone after simulating the recovery process.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Discussion asked why Ensu mobile apps use native frameworks rather than Flutter with Rust FFI.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One meme link was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
