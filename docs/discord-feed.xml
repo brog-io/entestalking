@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 31 Aug 2026 14:19:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 11:56:27 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 01, 2026 - 20 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 11:56:27 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity, with 20 messages across three channels and most discussion focused on photo management and desktop setup. Members also asked about authentication requirements and shared positive feedback on custom themes.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;The busiest channel had 11 messages from six participants. Discussion covered checking storage used by hidden photos, selectively exporting hidden files, retaining Google Photos favorites in desktop imports, and an album-deletion scenario; the current limitation is that hidden-photo storage cannot be viewed directly or exported selectively. A Fedora black-screen report was marked solved.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Six messages covered whether an account is required for desktop and web use, along with confusion about the two official pages: &lt;a href="https://ente.com/auth/"&gt;ente.com/auth&lt;/a&gt; and &lt;a href="https://auth.ente.com/login"&gt;auth.ente.com/login&lt;/a&gt;. A reply confirmed both links are real and noted that accounts are needed for web and desktop, but not mobile.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Three brief messages celebrated custom themes and asked for plugin recommendations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Aug 31, 2026 - 34 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -639,31 +655,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;A reminder was posted to share appropriate memes.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 02, 2026 - 68 messages in 6 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-02</guid>
-      <pubDate>Sun, 02 Aug 2026 08:56:02 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw moderate activity, led by practical Ente Photos support discussions. Other conversations covered passkeys, Space profile aliases, account recovery, and a few casual greetings.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 48 messages from 14 participants, the channel focused on update checks and troubleshooting, including Windows ARM compatibility, face and pet tagging, merging detected people, missing video thumbnails, and controlling Memories in the main feed. Members also shared troubleshooting guidance, including reporting issues with logs via &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt;, and linked a &lt;a href="https://klipy.com/gifs/its-out-when-its-ready"&gt;GIF&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Eight messages from five participants discussed passkeys and two-factor authentication, comparing implementations across Google, Microsoft, Ente, and different operating systems. The conversation also touched on services advertising themselves as ad-free while potentially introducing ads later.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Six messages from two participants clarified that “login to existing account” refers to an Ente Photos account and explored using multiple aliases and profiles for family, friends, coworkers, and hobbies.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;A reply addressed account recovery, explaining that the recovery key can bypass TOTP but not a forgotten password.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Four participants exchanged greetings, including a new member welcoming Ente.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One participant shared a brief reaction to a meme.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
