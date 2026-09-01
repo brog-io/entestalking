@@ -4,7 +4,34 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 31 Aug 2026 12:57:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 11:15:46 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 01, 2026 - 16 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 11:15:46 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos improvements today, including better location and memory features, more reliable Android media handling, and fixes across search, albums, widgets, and face recognition. Server-side session handling also moved toward safer opaque, hashed identifiers, while several mobile, web, and desktop changes are in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Location results can now be sorted, and country searches recognize native names and multiple official or regional languages (&lt;a href="https://github.com/ente/ente/pull/12525"&gt;#12525&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12476"&gt;#12476&lt;/a&gt;). City matching also uses urban-centre boundaries for more accurate results (&lt;a href="https://github.com/ente/ente/pull/12524"&gt;#12524&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Selected albums can now be played as slideshows, and the Memories strip has been updated to support different card types (&lt;a href="https://github.com/ente/ente/pull/12506"&gt;#12506&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12481"&gt;#12481&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Android now retries media reads while newly captured files are still being finalized, while immediately rejecting known permanent failures (&lt;a href="https://github.com/ente/ente/pull/12518"&gt;#12518&lt;/a&gt;). Widget images also respect their correct orientation (&lt;a href="https://github.com/ente/ente/pull/12514"&gt;#12514&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos intelligence:&lt;/strong&gt; Smart albums now reliably include photos after face recognition, and stale unclustered face data is cleaned up (&lt;a href="https://github.com/ente/ente/pull/12413"&gt;#12413&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12513"&gt;#12513&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Fixed incorrect aperture values showing as “NaN” and repaired search-bar navigation (&lt;a href="https://github.com/ente/ente/pull/12519"&gt;#12519&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12520"&gt;#12520&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; New sessions now use opaque identifiers and store token hashes instead of raw bearer tokens (&lt;a href="https://github.com/ente/ente/pull/12510"&gt;#12510&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12515"&gt;#12515&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Smaller Photos UI and support improvements include chip-style file-detail actions and showing the support email when reporting issues (&lt;a href="https://github.com/ente/ente/pull/12504"&gt;#12504&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12511"&gt;#12511&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Repeated ML decryption failures will be recorded and skipped after retrying, with affected-item counts and a support action in settings (&lt;a href="https://github.com/ente/ente/pull/12527"&gt;#12527&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory Lane schedules are being generated at app startup (&lt;a href="https://github.com/ente/ente/pull/12526"&gt;#12526&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Auth/Locker:&lt;/strong&gt; A shared accounts presentation layer is being introduced (&lt;a href="https://github.com/ente/ente/pull/12530"&gt;#12530&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desktop Photos:&lt;/strong&gt; The app title bar is being fixed (&lt;a href="https://github.com/ente/ente/pull/12529"&gt;#12529&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Documentation is being updated for recent Photos desktop features, and web builds are being tightened around deferred WASM imports (&lt;a href="https://github.com/ente/ente/pull/12528"&gt;#12528&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12512"&gt;#12512&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Aug 31, 2026 - 15 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -709,22 +736,6 @@
 &lt;li&gt;&lt;strong&gt;Memories:&lt;/strong&gt; The crafting-memories banner is receiving a visual redesign and a dismiss button (&lt;a href="https://github.com/ente/ente/pull/11864"&gt;#11864&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11869"&gt;#11869&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Upcoming platform work includes recognizing &lt;code&gt;@ente.com&lt;/code&gt; as an internal account and upgrading custom ONNX Runtime builds to 1.28 across clients (&lt;a href="https://github.com/ente/ente/pull/11881"&gt;#11881&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11874"&gt;#11874&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 02, 2026 - 2 shipped, 0 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-02</guid>
-      <pubDate>Sun, 02 Aug 2026 08:25:49 +0000</pubDate>
-      <description>&lt;p&gt;A quiet day in the Ente monorepo, with two changes shipped and no new work opened. The main user-facing update improves QR handling in the mobile photo viewer; shared icon coverage also expanded.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11824"&gt;QR detection now waits for the full image to render&lt;/a&gt;, reducing premature scans. Detection results are also tied to the source photo so QR regions cannot leak between adjacent images.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Icons:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/11829"&gt;VGen and Palform icons were added&lt;/a&gt; for use wherever these services are represented in the product.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;p&gt;No new pull requests were opened in the last 24 hours.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
