@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 01 Sep 2026 11:15:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 10:49:38 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 02, 2026 - 19 shipped, 9 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 10:49:38 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focused on Photos usability, more resilient machine-learning processing, and stronger server-side session security. Several web and mobile flows also moved further away from legacy implementations, while Android folder management and hidden-album workflows are in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Trash-aware deletion copy is now shown to all eligible Android 11+ users, clarifying that deleted files can be restored from Trash (&lt;a href="https://github.com/ente/ente/pull/12535"&gt;#12535&lt;/a&gt;). Shared albums moved to Archive now follow the same organization as other archived content (&lt;a href="https://github.com/ente/ente/pull/12538"&gt;#12538&lt;/a&gt;), and album slideshows no longer flash during transitions (&lt;a href="https://github.com/ente/ente/pull/12553"&gt;#12553&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Repeated ML download or decryption failures are recorded and skipped instead of retrying indefinitely; the ML settings page now shows affected-item counts and offers a support action (&lt;a href="https://github.com/ente/ente/pull/12527"&gt;#12527&lt;/a&gt;). Memories music is now loaded from a remote track manifest (&lt;a href="https://github.com/ente/ente/pull/12531"&gt;#12531&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web and desktop:&lt;/strong&gt; Signup now presents plan selection within the authentication flow, before the gallery (&lt;a href="https://github.com/ente/ente/pull/12558"&gt;#12558&lt;/a&gt;). The web collection selector shows archived status (&lt;a href="https://github.com/ente/ente/pull/12549"&gt;#12549&lt;/a&gt;), and desktop authentication styling no longer causes an unwanted scrollbar (&lt;a href="https://github.com/ente/ente/pull/12550"&gt;#12550&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server security and integrity:&lt;/strong&gt; Payment, Families, and Accounts scoped JWTs are being bound to their originating sessions and validated on requests (&lt;a href="https://github.com/ente/ente/pull/12536"&gt;#12536&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12544"&gt;#12544&lt;/a&gt;). User creation is atomic and file counts are maintained during file creation (&lt;a href="https://github.com/ente/ente/pull/12533"&gt;#12533&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12474"&gt;#12474&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Link responses in Space now validate the response identity (&lt;a href="https://github.com/ente/ente/pull/12551"&gt;#12551&lt;/a&gt;). Web, Auth, and Locker also completed additional legacy-UI cleanup (&lt;a href="https://github.com/ente/ente/pull/12530"&gt;#12530&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12534"&gt;#12534&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12537"&gt;#12537&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12539"&gt;#12539&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Upcoming Photos mobile feature:&lt;/strong&gt; Android support is being added for copying and moving files between device folders, with progress feedback and safeguards for folders linked to Ente collections (&lt;a href="https://github.com/ente/ente/pull/12543"&gt;#12543&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Web users may soon be able to move files between hidden albums (&lt;a href="https://github.com/ente/ente/pull/12548"&gt;#12548&lt;/a&gt;), while mobile ML caches will be invalidated on logout (&lt;a href="https://github.com/ente/ente/pull/12559"&gt;#12559&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other work includes support guidance for file-viewer decryption failures (&lt;a href="https://github.com/ente/ente/pull/12540"&gt;#12540&lt;/a&gt;), Trash/Restore file-count maintenance (&lt;a href="https://github.com/ente/ente/pull/12545"&gt;#12545&lt;/a&gt;), a desktop titlebar fix (&lt;a href="https://github.com/ente/ente/pull/12529"&gt;#12529&lt;/a&gt;), and documentation updates (&lt;a href="https://github.com/ente/ente/pull/12528"&gt;#12528&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12541"&gt;#12541&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 01, 2026 - 16 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -709,32 +732,6 @@
   &lt;li&gt;&lt;strong&gt;ML indexing:&lt;/strong&gt; An event-driven status service would replace repeated database polling and keep progress indicators and ML settings synchronized (&lt;a href="https://github.com/ente/ente/pull/11918"&gt;#11918&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Edited photos are being updated to preserve supported EXIF metadata and enable lossless JPEG rotate/flip edits for everyone (&lt;a href="https://github.com/ente/ente/pull/11889"&gt;#11889&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Additional mobile work covers dismissing the Memories crafting banner (&lt;a href="https://github.com/ente/ente/pull/11917"&gt;#11917&lt;/a&gt;) and resolving the logged-in user’s avatar correctly (&lt;a href="https://github.com/ente/ente/pull/11914"&gt;#11914&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 03, 2026 - 19 shipped, 8 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 09:48:30 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped several Photos usability improvements across mobile and widgets, alongside server-side sharing and account updates. In progress, the most user-visible work is a new mobile Trash view and broader access to video metadata.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Improved handling of password re-entry errors, making failed unlock or authentication attempts clearer and more reliable (&lt;a href="https://github.com/ente/ente/pull/11879"&gt;#11879&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos widgets:&lt;/strong&gt; Tapping an unconfigured Albums, People, or Memories widget now opens its matching customization screen directly on Android and iOS, instead of sending users to the app’s home screen (&lt;a href="https://github.com/ente/ente/pull/11770"&gt;#11770&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Video editor controls now use appropriately sized icons, improving their visibility in the bottom toolbar (&lt;a href="https://github.com/ente/ente/pull/11848"&gt;#11848&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Contact saves no longer accidentally remove an avatar while an avatar unlink is in progress (&lt;a href="https://github.com/ente/ente/pull/11868"&gt;#11868&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Added bounded bulk share and unshare operations for a collection and one recipient, including idempotent automatic sharing and Viewer-only uncategorized sharing (&lt;a href="https://github.com/ente/ente/pull/11809"&gt;#11809&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Accounts and purchases:&lt;/strong&gt; App Store sandbox purchases now also work for &lt;code&gt;@ente.com&lt;/code&gt; accounts (&lt;a href="https://github.com/ente/ente/pull/11872"&gt;#11872&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Other shipped maintenance included removing the legacy web upload flow, updating upload documentation, and improving Linux desktop publishing (&lt;a href="https://github.com/ente/ente/pull/11858"&gt;#11858&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11860"&gt;#11860&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11870"&gt;#11870&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A new Trash feature would let users manage deleted items and free up storage space (&lt;a href="https://github.com/ente/ente/pull/11878"&gt;#11878&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Video metadata in file details is being opened to all users, rather than only internal accounts (&lt;a href="https://github.com/ente/ente/pull/11873"&gt;#11873&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Memories:&lt;/strong&gt; The crafting-memories banner is receiving a visual redesign and a dismiss button (&lt;a href="https://github.com/ente/ente/pull/11864"&gt;#11864&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11869"&gt;#11869&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Upcoming platform work includes recognizing &lt;code&gt;@ente.com&lt;/code&gt; as an internal account and upgrading custom ONNX Runtime builds to 1.28 across clients (&lt;a href="https://github.com/ente/ente/pull/11881"&gt;#11881&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11874"&gt;#11874&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
