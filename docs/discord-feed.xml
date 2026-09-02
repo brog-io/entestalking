@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Tue, 01 Sep 2026 11:56:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 11:37:35 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 02, 2026 - 23 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 11:37:35 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with users discussing album behavior, hidden photos, and feature parity across platforms. The remaining channels saw only brief chatter, attachments, and one shared link.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 16 messages from six participants, the channel focused on whether deleting or moving photos should affect other albums, including hidden photos and albums. Users discussed filters as a workaround and raised macOS and desktop feature-parity concerns. An update highlighted improved All Albums navigation, album descriptions, faster ML indexing, and new filters; a related support thread was shared on &lt;a href="https://discord.com/channels/948937918347608085/1544059571260104704"&gt;Discord&lt;/a&gt;. Ente acknowledged the missing move functionality and confirmed it had been added.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Six messages covered three attachments and a brief report that ReVanced Instagram had started crashing.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One meme-related link was shared: &lt;a href="https://fixvx.com/9to5mac/status/2094781991677841614"&gt;9to5Mac post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 01, 2026 - 20 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -627,34 +643,6 @@
 
 &lt;h3&gt;#off-topic&lt;/h3&gt;
 &lt;p&gt;Two messages consisted of an attachment and a question about Google prompting the user to open ads.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 03, 2026 - 39 messages in 7 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 10:24:47 +0000</pubDate>
-      <description>&lt;p&gt;Ente Community saw moderate activity, led by discussion in &lt;strong&gt;#photos&lt;/strong&gt; around album sharing, translations, and imports. &lt;strong&gt;#space&lt;/strong&gt; and &lt;strong&gt;#ensu&lt;/strong&gt; also had product questions and troubleshooting, while other channels were quieter.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 15 messages from 9 participants, members discussed hiding Memories from the main feed, blank video thumbnails, and making shared album links more recognizable without compromising encryption. A Crowdin translation-count issue was clarified, with related work tracked in &lt;a href="https://github.com/ente/ente/pull/11861"&gt;GitHub PR #11861&lt;/a&gt;; CLI imports for Photos were also queried.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Nine messages from 4 participants covered claiming the Space role, keeping Space separate from Photos, and its encryption model; Anand confirmed Spaces use a separate key. A browser upload failure was traced to a company proxy, and the team noted that messaging and private replies already exist, with group-context comments under consideration.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Seven messages from 2 participants focused on an iPhone/Safari web download error and differences between mobile and browser models. The app was suggested as a workaround, and the platform-specific model defaults were explained.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Four participants discussed passkey-only login, encryption constraints, and whether passkey PRF could help, including a link to &lt;a href="https://oblique.security/blog/passkey-prf/"&gt;an explanation of passkey PRF&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two newcomers briefly introduced themselves.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;A reminder was posted to share appropriate memes.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
