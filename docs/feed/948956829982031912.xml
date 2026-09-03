@@ -4,7 +4,7 @@
     <title>#announcements</title>
     <link>https://discord.com/channels/948937918347608085/948956829982031912</link>
     <description>Discord channel #announcements</description>
-    <lastBuildDate>Thu, 03 Sep 2026 04:53:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 09:23:25 +0000</lastBuildDate>
     <generator>discord-rss (github actions)</generator>
     <item>
       <title>Hi @everyone,</title>
@@ -149,7 +149,7 @@ Chapters:
       <pubDate>Sat, 13 Dec 2025 18:02:35 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hey @everyone,&lt;br&gt;&lt;br&gt;We held our **first hackathon** at Ente today. Sharing some of the projects that were built.&lt;br&gt;&lt;br&gt;#  &amp;lt;:coolducky:1355149348698198076&amp;gt; [drip.ente.io](&lt;a href="https://drip.ente.io)"&gt;https://drip.ente.io)&lt;/a&gt;&lt;br&gt;Swap fits, shades, and vibes to make one of 18,144 duckies.&lt;br&gt;&lt;br&gt;# 🔥 [roastmy.photo](&lt;a href="https://roastmy.photo/)"&gt;https://roastmy.photo/)&lt;/a&gt;&lt;br&gt;You vs 4 AIs. No mercy, no filters. Vote for the roast that hurt the most. &lt;br&gt;&lt;br&gt;# ⚔️ [versus.space](&lt;a href="https://versus.space/)"&gt;https://versus.space/)&lt;/a&gt;&lt;br&gt;It&amp;#x27;s no longer a poll, it is a WAR.&lt;br&gt;&lt;br&gt;# 💬 [ensu.ente.io](&lt;a href="https://ensu.ente.io)"&gt;https://ensu.ente.io)&lt;/a&gt;&lt;br&gt;Run LLMs locally in your browser. 100% private, on-device AI chat powered by WebGPU.&lt;br&gt;&lt;br&gt;# 🖼️ [ente offline](&lt;a href="https://github.com/neeraj-pilot/ente/releases/latest)"&gt;https://github.com/neeraj-pilot/ente/releases/latest)&lt;/a&gt;&lt;br&gt;Android app that lets you experience all of Ente&amp;#x27;s machine learning goodies, without an account.&lt;br&gt;&lt;br&gt;# 🤳 [befa.ke](&lt;a href="https://befa.ke)"&gt;https://befa.ke)&lt;/a&gt;&lt;br&gt;Post unhinged captions about your most mundane photos. Destroy Instagram.&lt;br&gt;&lt;br&gt;---&lt;br&gt;&lt;br&gt;Happy holidays! &amp;lt;:duckyheart:1317030553555304459&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.discordapp.com/attachments/948956829982031912/1449461520940535990/ente-hackathon-behind-the-scenes.mp4?ex=6a99b63c&amp;amp;is=6a9864bc&amp;amp;hm=0eb321d2fd2bd2f05261569170864bae1612ce496d55635b3f409de73d38bcc0&amp;amp;"&gt;ente-hackathon-behind-the-scenes.mp4&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="https://cdn.discordapp.com/attachments/948956829982031912/1449461520940535990/ente-hackathon-behind-the-scenes.mp4?ex=6a9a5efc&amp;amp;is=6a990d7c&amp;amp;hm=1c9f49555e97ff3edcf3f791337d9da0c6df061c2ca79513a9ba550dcd3a5596&amp;amp;"&gt;ente-hackathon-behind-the-scenes.mp4&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hi @everyone, sending some Holiday cheers your way 🎉 </title>
@@ -352,7 +352,7 @@ Chapters:
       <pubDate>Fri, 10 May 2024 09:15:33 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hey @everyone, time for some goodies! 🎁&lt;br&gt;&lt;br&gt;## Cast albums to TV 📺&lt;br&gt;&lt;br&gt;You can now view a slideshow of your albums on ***any*** big screen. If you have a Chromecast device on the network, Ente will auto-pair. You can also open up `cast.ente.io` on any screen, and enter a 6 digit code to present an album.&lt;br&gt;&lt;br&gt;## Organize shared items ❤️&lt;br&gt;&lt;br&gt;You can favorite them, add them to your own albums, and organize them like yours. When you perform these actions, Ente will copy the shared items into your account, so they turn into hard copies that you own.&lt;br&gt;&lt;br&gt;## Machine Learning ⚡️&lt;br&gt;&lt;br&gt;We&amp;#x27;ve shipped massive performance improvements to **Magic Search**. We&amp;#x27;ve also updated our on-device Machine Learning infrastructure to make sure inference only runs when your device is healthy (in terms of battery and temperature).&lt;br&gt;&lt;br&gt;If you haven&amp;#x27;t already, please enable the feature from `Settings &amp;gt; Advanced &amp;gt; Machine Learning`, and let us know if you face any jank.&lt;br&gt;&lt;br&gt;## and more ✨&lt;br&gt;&lt;br&gt;This release also comes packed with some quality-of-life improvements around Android widgets, background sync, search screen, gallery load-times and downloads; and the adoption of Material You components.&lt;br&gt;&lt;br&gt;## and some more 🫶&lt;br&gt;&lt;br&gt;- We&amp;#x27;ve increased the storage included within Ente&amp;#x27;s free trial from 1 GB to **5 GBs**. We&amp;#x27;ve also reset your trial timer, so you&amp;#x27;ve 365 more days to explore the free space 🙂&lt;br&gt;- **Face Recognition** is almost ready. If you would like early access, please **[sign up here](&lt;a href="https://forms.ente.io/s/clvrwn20u01ad8j6wpcbkvztu)**."&gt;https://forms.ente.io/s/clvrwn20u01ad8j6wpcbkvztu)**.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1238419149991186513/image.png?ex=6a99e376&amp;amp;is=6a9891f6&amp;amp;hm=9cc1cde8b4caa5273ac6d28e983f9839787de3cbce5bebb8078cf196e8c91f89&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src="https://cdn.discordapp.com/attachments/948956829982031912/1238419149991186513/image.png?ex=6a9a8c36&amp;amp;is=6a993ab6&amp;amp;hm=e63a4aa3ea4dfe62c230d73cdc939fcfeeac6821ee1b5c7f0bc58844be7fccf5&amp;amp;" alt=""&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>&lt;@&amp;1099362028147183759&gt;'s desktop app is now live 🚀</title>
@@ -448,7 +448,7 @@ Chapters:
       <pubDate>Wed, 08 Nov 2023 06:48:51 +0000</pubDate>
       <dc:creator>vishnu</dc:creator>
       <description>&lt;p&gt;Hello @everyone!&lt;br&gt;&lt;br&gt;✨ ** We&amp;#x27;ve launched &amp;quot;magical search&amp;quot; on Linux and Mac** 🍾&lt;br&gt;&lt;br&gt;You can grab the latest build from [ente.io/download/desktop](&lt;a href="https://ente.io/download/desktop)."&gt;https://ente.io/download/desktop).&lt;/a&gt;&lt;br&gt;&lt;br&gt;Once indexing is complete (status available @ `Sidebar &amp;gt; Preferences &amp;gt; Advanced`), you will be able to find your photos with natural language queries.&lt;br&gt;&lt;br&gt;Technical documentation on what&amp;#x27;s happening behind the scenes, and support for more platforms coming soon!&lt;br&gt;&lt;br&gt;In the meanwhile, feedback and bug reports would be very helpful! &amp;lt;:pepeheart:972766549960192070&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.discordapp.com/attachments/948956829982031912/1171702861357383690/Semantic_Search.mp4?ex=6a99c113&amp;amp;is=6a986f93&amp;amp;hm=9d04128a151a099febd3ac5c8acfd5eadcefbc2ee4e48c65c8ffe99fed60b05f&amp;amp;"&gt;Semantic_Search.mp4&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="https://cdn.discordapp.com/attachments/948956829982031912/1171702861357383690/Semantic_Search.mp4?ex=6a9a69d3&amp;amp;is=6a991853&amp;amp;hm=ef022c0b9533d4fac4e90dbdee9c20850e1ebb467108c371a9bdfb62fafcd00a&amp;amp;"&gt;Semantic_Search.mp4&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hey @everyone! We're working on a [**new website**](https://next.ente.io) ✨</title>
