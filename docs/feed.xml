@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 03 Sep 2026 10:49:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 10:48:55 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 04, 2026 - 18 shipped, 5 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-04</guid>
+      <pubDate>Fri, 04 Sep 2026 10:48:55 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped several Photos usability improvements across mobile and desktop, including cleaner gallery layouts, XMP sidecar uploads, and earlier Uncategorized album creation. Ensu desktop also gained local Markdown notes, while internal Rust and infrastructure work continued; new work is underway on ML database architecture, video progress, and HLS validation.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ente Photos — mobile:&lt;/strong&gt; Gallery rows are now more balanced and scannable, with fewer awkward tails and better handling of portrait-heavy groups (&lt;a href="https://github.com/ente/ente/pull/12603"&gt;#12603&lt;/a&gt;). The Uncategorized album is also created during sync, so it is available before users open it (&lt;a href="https://github.com/ente/ente/pull/12594"&gt;#12594&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ente Photos — desktop:&lt;/strong&gt; Uploads now support XMP sidecar files, preserving associated metadata alongside photos (&lt;a href="https://github.com/ente/ente/pull/12585"&gt;#12585&lt;/a&gt;). A desktop HLS failure was also fixed so account session tokens are no longer persisted in logs (&lt;a href="https://github.com/ente/ente/pull/12589"&gt;#12589&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ensu desktop:&lt;/strong&gt; “Your Notes” lets users select a local Markdown folder, keeps its index updated, and combines notes with Ensu Pack knowledge while providing citations (&lt;a href="https://github.com/ente/ente/pull/12571"&gt;#12571&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Added custom icons for the self-hosted Securo finance and Jotty note-taking services (&lt;a href="https://github.com/ente/ente/pull/12579"&gt;#12579&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Localization:&lt;/strong&gt; Corrected Vietnamese, Swedish, and Estonian mobile translation issues (&lt;a href="https://github.com/ente/ente/pull/12605"&gt;#12605&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Internal Rust work added a pure-Rust vector database engine for future ML use, without wiring it into apps yet (&lt;a href="https://github.com/ente/ente/pull/12573"&gt;#12573&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Photos ML:&lt;/strong&gt; The first of four PRs begins separating ML database orchestration from SQL behind an interface, preparing a feature-flagged move of the mobile ML database to Rust without changing behavior yet (&lt;a href="https://github.com/ente/ente/pull/12610"&gt;#12610&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desktop Photos:&lt;/strong&gt; Video streaming is set to gain percentage-based progress reporting (&lt;a href="https://github.com/ente/ente/pull/12609"&gt;#12609&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Photos:&lt;/strong&gt; HLS preview playlists are being validated before use (&lt;a href="https://github.com/ente/ente/pull/12591"&gt;#12591&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Mobile projects are being prepared for a Flutter 3.47.2 upgrade, including updated Android tooling and platform requirements (&lt;a href="https://github.com/ente/ente/pull/12592"&gt;#12592&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Documentation is adding an album slideshow FAQ (&lt;a href="https://github.com/ente/ente/pull/12606"&gt;#12606&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 03, 2026 - 14 shipped, 10 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -704,32 +730,6 @@
   &lt;li&gt;&lt;strong&gt;Upcoming Ensu feature:&lt;/strong&gt; Desktop chat rows can now be renamed using an edit icon shown on hover or focus (&lt;a href="https://github.com/ente/ente/pull/11971"&gt;#11971&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Photos rituals:&lt;/strong&gt; The notification permission prompt will be skipped when all ritual days are disabled, avoiding an irrelevant or blocking request (&lt;a href="https://github.com/ente/ente/pull/11969"&gt;#11969&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Photos ML execution-provider retries are being scoped to the affected model instead of replaying unrelated indexing work (&lt;a href="https://github.com/ente/ente/pull/11979"&gt;#11979&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 05, 2026 - 23 shipped, 7 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 08:38:00 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a set of Photos security, sharing, indexing, and download improvements across mobile and web. Work in progress includes album descriptions, shared settings infrastructure, and tighter server-side sharing checks.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Trash now requires local authentication even when opened through Free Up Space in &lt;a href="https://github.com/ente/ente/pull/11940"&gt;PR #11940&lt;/a&gt;. Logout now clears social and favorites caches, preventing data from a previous account from appearing after switching accounts, in &lt;a href="https://github.com/ente/ente/pull/11787"&gt;PR #11787&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Download and thumbnail requests now use signed v3 URLs, with a fallback for older Museum servers, in &lt;a href="https://github.com/ente/ente/pull/11933"&gt;PR #11933&lt;/a&gt;. ML progress now reflects the indexer’s actual eligibility rules in &lt;a href="https://github.com/ente/ente/pull/11926"&gt;PR #11926&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Library sharing interactions are more consistent, including album ordering, selection behavior, and the selection sheet, via &lt;a href="https://github.com/ente/ente/pull/11923"&gt;PR #11923&lt;/a&gt;. Current-user avatars now resolve correctly in &lt;a href="https://github.com/ente/ente/pull/11914"&gt;PR #11914&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; The Memories banner can be dismissed and tapped across its full area in &lt;a href="https://github.com/ente/ente/pull/11917"&gt;PR #11917&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/11748"&gt;PR #11748&lt;/a&gt;. Older Android versions now receive a deletion prompt when media-management permissions are unavailable in &lt;a href="https://github.com/ente/ente/pull/11756"&gt;PR #11756&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Public collection, memory, cast, and file-link downloads now use v3 URL endpoints, retaining fallbacks, in &lt;a href="https://github.com/ente/ente/pull/11916"&gt;PR #11916&lt;/a&gt;. Photos-specific components also began moving out of shared packages in &lt;a href="https://github.com/ente/ente/pull/11922"&gt;PR #11922&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/11927"&gt;PR #11927&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/11935"&gt;PR #11935&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;CLI:&lt;/strong&gt; Both CLIs now use v3 file URL endpoints, with custom-server guidance when an upgrade is needed, in &lt;a href="https://github.com/ente/ente/pull/11936"&gt;PR #11936&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Other shipped work included a Space header update in &lt;a href="https://github.com/ente/ente/pull/11931"&gt;PR #11931&lt;/a&gt; and a refined favorite icon in &lt;a href="https://github.com/ente/ente/pull/11925"&gt;PR #11925&lt;/a&gt;. Web linting and cleanup, desktop build simplification, and dependency maintenance were also merged.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming Photos feature:&lt;/strong&gt; Album descriptions will let users update an album’s name, cover photo, and description in &lt;a href="https://github.com/ente/ente/pull/11920"&gt;PR #11920&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile:&lt;/strong&gt; Shared settings components are being introduced across Auth, Locker, and Photos in &lt;a href="https://github.com/ente/ente/pull/11932"&gt;PR #11932&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Sharing recipient lookups are being hardened by binding recipient email and user ID before writes in &lt;a href="https://github.com/ente/ente/pull/11944"&gt;PR #11944&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A faster crafting-Memories banner animation is proposed in &lt;a href="https://github.com/ente/ente/pull/11929"&gt;PR #11929&lt;/a&gt;; Photos component extraction continues in &lt;a href="https://github.com/ente/ente/pull/11939"&gt;PR #11939&lt;/a&gt;. An iOS deployment-target update for Locker and Auth is proposed in &lt;a href="https://github.com/ente/ente/pull/11943"&gt;PR #11943&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
