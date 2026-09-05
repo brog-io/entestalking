@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 04 Sep 2026 11:37:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 10:51:21 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 05, 2026 - 46 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-05</guid>
+      <pubDate>Sat, 05 Sep 2026 10:51:21 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 46 messages across five active channels, with the most activity focused on privacy tools, de-Googling, and product questions. Conversations also covered Locker uploads, authentication preferences, and possible release-cycle changes.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 25 messages from five participants, discussion ranged from Ente Contacts and Instagram Morphe to Organic Maps, email aliases, and privacy-focused DNS. Members shared and discussed reports about Mullvad’s encrypted DNS changes and concerns that uBlockDNS may be unaffiliated with uBlock Origin, including links to &lt;a href="https://cyberinsider.com/mullvad-to-shut-down-public-encrypted-dns-servers-back-quad9-instead/"&gt;Cyber Insider&lt;/a&gt; and &lt;a href="https://www.reddit.com/r/privacy/comments/1s4epm4/ublockdnscom_is_not_affiliated_with_ublock_origin/"&gt;Reddit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Ten messages from two participants covered difficulty selecting &lt;strong&gt;.asc&lt;/strong&gt; files in Locker’s Windows web interface, with drag-and-drop suggested as a workaround. They also asked whether Ente may offer email addresses in the future.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Six messages from four participants discussed whether hardware acceleration benefits Ente Photos search and why releases have slowed despite increased GitHub activity. One participant suggested the release cycle may have returned to monthly releases.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Four messages from two participants compared offline use with account-based cloud backup and sync. The guidance favored the cloud-backed default, while noting offline use may suit users uncomfortable with tokens being stored on another server.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;One message asked whether the “change link” option had been removed.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 04, 2026 - 13 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -606,31 +628,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;Two messages shared and reacted to an image, with a brief comment about installation priorities.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 06, 2026 - 126 messages in 6 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 09:23:33 +0000</pubDate>
-      <description>&lt;p&gt;Activity was led by &lt;strong&gt;#ensu&lt;/strong&gt;, with discussions around on-device AI, notes, models, and future Ensu Packs. Other active threads covered photo imports and search, VPNs and privacy, and Ente’s legal obligations.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;With 58 messages from 24 participants, the channel focused on AI-assisted development, a possible notes-and-chat experience, on-device assistants, model downloads and performance, and ideas for new Packs including advanced math and Bible resources. The team also discussed evaluating which models work best on different devices and use cases.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Thirty messages from 14 participants covered Google Photos migration issues involving MP4s and motion photos, shared videos and album behavior, stream generation, duplicates, people retagging, and AI search result ordering. There was also a question about replacing Google Lens-style image identification.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Twenty-four messages from seven participants discussed privacy risks around public photos and AI scraping, along with a comparison of Windscribe and Mullvad. Participants highlighted split tunneling, location selection, browser-extension blocking, payment options, and router support.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Eleven messages from six participants debated Proton, Ente, and legal data disclosure, focusing on what encrypted and account information services could provide under legal compulsion. A Firefox desktop issue involving typing “z” and cursor movement was also reported.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two brief greetings were shared.&lt;/p&gt;
-
-&lt;h3&gt;#announcements&lt;/h3&gt;
-&lt;p&gt;An update was announced for Ensu across all platforms, including the introduction of Ensu Packs on mobile.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
