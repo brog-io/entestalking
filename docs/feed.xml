@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 08 Sep 2026 10:47:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 10:54:14 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 09, 2026 - 36 shipped, 13 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 10:54:14 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes focused on improving Ente Photos’ memories, storage reliability, search infrastructure, and cross-platform UI. Several Rust migrations and backend maintenance changes also landed, while background ML processing and new sharing capabilities are in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; Memory Lane cards now appear in the home screen’s memories strip, while cards without available crops are hidden to avoid broken previews (&lt;a href="https://github.com/ente/ente/pull/12679"&gt;#12679&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12725"&gt;#12725&lt;/a&gt;). iOS Live Photo uploads now clean up temporary videos, preventing accumulated files from filling device storage (&lt;a href="https://github.com/ente/ente/pull/12700"&gt;#12700&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos reliability and search:&lt;/strong&gt; Android OCR now uses the CPU path to avoid recognition failures on some devices (&lt;a href="https://github.com/ente/ente/pull/12686"&gt;#12686&lt;/a&gt;). Web sidecar matching and PhotoSwipe updates were improved, helping edits and metadata stay in sync (&lt;a href="https://github.com/ente/ente/pull/12691"&gt;#12691&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12697"&gt;#12697&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Mobile apps can now index local Markdown folders and provide note-grounded chat responses with verified citations and previews (&lt;a href="https://github.com/ente/ente/pull/12706"&gt;#12706&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space and Locker:&lt;/strong&gt; Space received a redesigned home, easier username-based friend invitations, and notifications that link directly to new posts (&lt;a href="https://github.com/ente/ente/pull/12699"&gt;#12699&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12715"&gt;#12715&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12690"&gt;#12690&lt;/a&gt;). Locker’s web create-item UI now matches mobile (&lt;a href="https://github.com/ente/ente/pull/12719"&gt;#12719&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Platform and backend:&lt;/strong&gt; File-count backfills are now incremental and parallelized, with storage usage exposed to admins (&lt;a href="https://github.com/ente/ente/pull/12711"&gt;#12711&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12716"&gt;#12716&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12721"&gt;#12721&lt;/a&gt;). VecDB approximate search is faster at comparable recall (&lt;a href="https://github.com/ente/ente/pull/12684"&gt;#12684&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Rust crypto, session handling, linting, CI, and dependency security work was consolidated across web and mobile (&lt;a href="https://github.com/ente/ente/pull/12696"&gt;#12696&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12688"&gt;#12688&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12704"&gt;#12704&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12730"&gt;#12730&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Android background ML processing is being added for charging and idle periods (&lt;a href="https://github.com/ente/ente/pull/12714"&gt;#12714&lt;/a&gt;), alongside a more efficient, memory-bounded Rust OCR pipeline (&lt;a href="https://github.com/ente/ente/pull/12728"&gt;#12728&lt;/a&gt;). Sharing photos from person pages, including optional automatic sharing of future photos, is also underway (&lt;a href="https://github.com/ente/ente/pull/12685"&gt;#12685&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker and File Viewer:&lt;/strong&gt; A Locker dashboard refresh and clearer download progress are in progress (&lt;a href="https://github.com/ente/ente/pull/12733"&gt;#12733&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12722"&gt;#12722&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; A context-length indicator is being added to the desktop chat composer (&lt;a href="https://github.com/ente/ente/pull/12724"&gt;#12724&lt;/a&gt;), with model downloads moving to commit-pinned mirrors (&lt;a href="https://github.com/ente/ente/pull/12720"&gt;#12720&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;The Rust-backed mobile ML database is wired behind a disabled feature flag for future rollout (&lt;a href="https://github.com/ente/ente/pull/12718"&gt;#12718&lt;/a&gt;), and recovery operations are moving to authenticated sessions (&lt;a href="https://github.com/ente/ente/pull/12731"&gt;#12731&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 08, 2026 - 35 shipped, 11 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -697,40 +722,6 @@
   &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; an app-owned inline OCR selection UI is being integrated (&lt;a href="https://github.com/ente/ente/pull/12105"&gt;#12105&lt;/a&gt;), alongside fixes for the editor’s neutral sharpness slider (&lt;a href="https://github.com/ente/ente/pull/12097"&gt;#12097&lt;/a&gt;) and Memories/search state handling (&lt;a href="https://github.com/ente/ente/pull/12087"&gt;#12087&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Locker is adding safer handling for unsaved edits and collection changes (&lt;a href="https://github.com/ente/ente/pull/12080"&gt;#12080&lt;/a&gt;). Server work is addressing session access after storage-warning grace expiry (&lt;a href="https://github.com/ente/ente/pull/12107"&gt;#12107&lt;/a&gt;) and preventing revoked sessions from returning to cache (&lt;a href="https://github.com/ente/ente/pull/12071"&gt;#12071&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Argon2 key derivation is being moved off the web main thread (&lt;a href="https://github.com/ente/ente/pull/12079"&gt;#12079&lt;/a&gt;), and Photos 1.3.60 feature documentation is being updated (&lt;a href="https://github.com/ente/ente/pull/12082"&gt;#12082&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 10, 2026 - 9 shipped, 4 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 07:43:54 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focuses on reliability and usability across Ente Photos, Locker, and shared mobile infrastructure. Several performance and offline improvements are also in progress, alongside a new backup mode and desktop chat renaming for Ensu.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Ente Photos&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12011"&gt;Fixed cross-year “On This Day” scheduling&lt;/a&gt;, preventing January memories from appearing a day early around midnight and year boundaries.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/11802"&gt;Fixed a “Free Up Space” crash&lt;/a&gt; on some Samsung Android devices by replacing an unsafe per-file deletion fallback with a bounded recovery flow.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12047"&gt;Improved payment error handling&lt;/a&gt;: disconnected payment pages now show the standard network error dialog instead of a broken page or exposed URL.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12059"&gt;Reworked device health checks&lt;/a&gt; behind a Photos-owned platform bridge, with clearer handling for stale, unsupported, or unavailable system signals.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Locker and shared mobile&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12067"&gt;Prevented sharing-menu freezes in Locker&lt;/a&gt; by building menu items lazily for large participant lists.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12061"&gt;Unified email composition across Photos, Auth, and Locker&lt;/a&gt;, including improved attachment targeting and iOS fallback behavior.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12054"&gt;Improved the log viewer&lt;/a&gt; across all three apps with complete history paging, search navigation, session navigation, refresh, and sharing.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Web&lt;/strong&gt;: &lt;a href="https://github.com/ente/ente/pull/12041"&gt;Fixed the bad-face clustering check&lt;/a&gt;. Infrastructure also gained nightly Rust CodeQL analysis via &lt;a href="https://github.com/ente/ente/pull/12064"&gt;this update&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12068"&gt;&lt;strong&gt;Photos: batch Smart Memories calculations&lt;/strong&gt;&lt;/a&gt; to reuse input data and compute current and upcoming periods more efficiently.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12066"&gt;&lt;strong&gt;Photos: iOS Backup mode&lt;/strong&gt;&lt;/a&gt;, which keeps the device awake and dims the display during large backups.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12060"&gt;&lt;strong&gt;Ensu Desktop: rename chats&lt;/strong&gt;&lt;/a&gt; through a save/cancel dialog.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12057"&gt;Locker offline item counts&lt;/a&gt; will show the last cached count instead of spinning indefinitely.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
