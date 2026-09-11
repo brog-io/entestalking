@@ -4,7 +4,38 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 10 Sep 2026 11:42:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 11:43:25 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 11, 2026 - 79 messages in 8 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 11:43:25 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw its most activity in &lt;strong&gt;#ensu&lt;/strong&gt;, with extended discussion about private AI, model training, ethics, and possible use cases. Product questions also drove conversation in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#space&lt;/strong&gt;, while off-topic chat included a referral announcement and shared links.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;With 25 messages from four participants, the channel hosted a detailed discussion about Ensu’s privacy-focused direction, cloud compute, model training, ethical data sources, and whether it should focus on practical uses such as image interpretation, speech, and private conversations. Ente noted that it is currently using publicly available open-weight small models rather than training its own.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Six participants posted 16 messages, including a &lt;a href="https://www.youtube.com/watch?v=thMzlWrY7mY"&gt;YouTube video&lt;/a&gt;, GIFs, and a referral promotion for 20 GB of free Ente Photos storage via &lt;a href="https://ente.com/invite"&gt;ente.com/invite&lt;/a&gt; with code &lt;strong&gt;POSIDAVE&lt;/strong&gt;. A reminder was also given not to ping everyone unnecessarily.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Fourteen messages from eight participants covered self-hosted migration, an Amazon Fire tablet as a live frame, and an Apple TV casting app with custom endpoints. Members also asked about importing large photo collections from Android or hard drives, backup practices, and finding discrepancies between album and device photo counts.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Members exchanged 12 messages about Ente Space’s roadmap and presentation. It is currently a PWA, with mobile apps planned; the service is focused on photo sharing, removes image metadata on upload, and may receive a landing page or other explanatory material while experimentation continues.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Three participants exchanged brief greetings, including a question about what they used before switching to Ente Photos or Authenticator.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Three messages compared Ente Auth with Google and Microsoft Authenticator, particularly around open source and data export capabilities.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Members asked about nested tags and discussed the request internally, alongside broader consideration of a significant pricing-model change.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Three participants shared two image attachments and a brief “threat model” joke.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 10, 2026 - 63 messages in 8 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -609,25 +640,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One meme was posted with the caption “State of the art they say...”&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 12, 2026 - 47 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 08:00:32 +0000</pubDate>
-      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#off-topic&lt;/strong&gt;, with smaller discussions about Ente Photos, Android apps, and potential integrations. The server also saw a new member introduction and a couple of brief project-related exchanges.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;With 39 messages from 9 participants, conversation ranged from Formula E and electric vehicles to Android app bundles, ReVanced Instagram, telemetry removal, and replacing Xiaomi’s gallery with Fossify Gallery. Participants also discussed photo-editing alternatives and shared opinions on streaming and mobile apps.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Five participants discussed choosing between Ente Photos and Immich, with Ente Photos described as the more lightweight option. A support and plan-switching question referenced &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt;, while a web fix was confirmed for the upcoming v1.7.28 release, with a nightly beta available now.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two messages explored connecting Ente with the &lt;a href="https://famstack.dev/why/"&gt;Famstack project&lt;/a&gt;, including possible local-AI integrations; the shared note will be reviewed.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;One new member, Bhaerigon, said hello to the community.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
