@@ -4,7 +4,45 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 10 Sep 2026 10:50:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 10:46:26 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 11, 2026 - 48 shipped, 7 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 10:46:26 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos usability improvements across mobile, desktop, and web, alongside reliability and performance work in the Rust, server, and Cast infrastructure. Several Photos and Cast features are also moving through review, including download progress and improved memory-lane behavior.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Photos mobile&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12786"&gt;Refreshed the person picker&lt;/a&gt;, with the current app bar, a compact sort menu, and improved name handling.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12765"&gt;Updated the person cover-photo picker&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12766"&gt;people menu&lt;/a&gt; to use the newer Photos interface.&lt;/li&gt;
+  &lt;li&gt;Memory Lane now loads entries in chunks, resumes playback correctly after tapping, and has more stable card sizing and navigation (&lt;a href="https://github.com/ente/ente/pull/12816"&gt;loading&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12820"&gt;playback&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12779"&gt;layout&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12773"&gt;navigation&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12803"&gt;Social overlays now refresh after sync&lt;/a&gt;, keeping comment counts, previews, and reaction states current. Viewer overlays also stay in place while swiping (&lt;a href="https://github.com/ente/ente/pull/12796"&gt;details&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Gallery viewers retain previews until content is ready, with improved download progress behavior (&lt;a href="https://github.com/ente/ente/pull/12760"&gt;viewer loading&lt;/a&gt;), and back buttons now have larger touch targets (&lt;a href="https://github.com/ente/ente/pull/12790"&gt;touch targets&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Desktop, web, and platform support&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12818"&gt;Fixed Linux desktop “View logs” hanging&lt;/a&gt; after opening the log directory.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12799"&gt;Locker web now has updated styling and light mode&lt;/a&gt;, alongside ongoing interface and folder-structure updates.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12666"&gt;Android local-photo processing now uses Rust metadata&lt;/a&gt; for dimensions, dates, locations, motion photos, and panoramas.&lt;/li&gt;
+  &lt;li&gt;Cast release infrastructure is ready for version 1.2, including signing, TestFlight, startup promotion, and configurable endpoints (&lt;a href="https://github.com/ente/ente/pull/12830"&gt;release flow&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12829"&gt;signing&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12824"&gt;TestFlight&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12808"&gt;Apple TV&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Reliability and performance&lt;/strong&gt;: VecDB now defaults new indexes to i8 storage and cosine distance while preserving existing indexes (&lt;a href="https://github.com/ente/ente/pull/12811"&gt;storage&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12812"&gt;distance&lt;/a&gt;); writer collisions are prevented (&lt;a href="https://github.com/ente/ente/pull/12772"&gt;locking&lt;/a&gt;). Auth also handles omitted 2FAS defaults (&lt;a href="https://github.com/ente/ente/pull/12819"&gt;PR&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12828"&gt;Web Photos per-file download progress&lt;/a&gt; for images and videos.&lt;/li&gt;
+  &lt;li&gt;Memory Lane cards can be visually marked as seen and moved to the end of the strip (&lt;a href="https://github.com/ente/ente/pull/12826"&gt;desaturated style&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12827"&gt;ordering&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12806"&gt;Cast token revocation now waits for completion&lt;/a&gt; and surfaces failures so users can retry.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12805"&gt;Web Trash navigation is being simplified&lt;/a&gt; with Albums/People hidden and a back button added.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12801"&gt;VecDB graph construction optimization&lt;/a&gt; claims a 41–48% reduction in construction time.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12831"&gt;Desktop video-streaming documentation&lt;/a&gt; is being updated to describe processing progress.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 10, 2026 - 45 shipped, 11 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -697,31 +735,6 @@
   &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12177"&gt;Server collection-trash batches are being made atomic&lt;/a&gt; so interrupted deletions can be retried safely.&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12173"&gt;PIN widget keys are being hardened&lt;/a&gt; so obscured PIN digits do not appear in Flutter diagnostics.&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12175"&gt;The web accounts package is being renamed from accounts-rs to accounts&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 12, 2026 - 34 shipped, 6 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 07:26:07 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a broad set of Photos, Auth, Locker, and platform improvements, with a focus on smoother media handling, better diagnostics, and safer account infrastructure. Several new mobile capabilities are also in progress, including native thumbnail loading and Locker-based 2FA setup.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Shared PIN entry now powers app lock, email verification, and Photos while retaining one-time-code autofill and completion behavior (&lt;a href="https://github.com/ente/ente/pull/12127"&gt;#12127&lt;/a&gt;). Smart Memories calculations are more efficient, and several Memories, search, and image-editor issues were fixed (&lt;a href="https://github.com/ente/ente/pull/12068"&gt;#12068&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12087"&gt;#12087&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12097"&gt;#12097&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos OCR:&lt;/strong&gt; OCR selection controls are now integrated directly into the viewer and remain reachable around letterboxed images (&lt;a href="https://github.com/ente/ente/pull/12105"&gt;#12105&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12089"&gt;#12089&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos web and desktop:&lt;/strong&gt; Thumbnail generation no longer upscales smaller media, reducing unnecessary processing while preserving source dimensions (&lt;a href="https://github.com/ente/ente/pull/12118"&gt;#12118&lt;/a&gt;). Web video timestamps now fall back to UTC creation times when needed (&lt;a href="https://github.com/ente/ente/pull/12128"&gt;#12128&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; macOS Auth can now run as an opt-in menubar app with a compact popover and a fallback full window (&lt;a href="https://github.com/ente/ente/pull/11235"&gt;#11235&lt;/a&gt;). Web Auth migrated to accounts-rs, with Argon2 work moved off the main thread (&lt;a href="https://github.com/ente/ente/pull/12141"&gt;#12141&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12079"&gt;#12079&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Unsaved edits are handled correctly, offline users see cached item counts, and Legacy Kit sharing now cleans up temporary files (&lt;a href="https://github.com/ente/ente/pull/12080"&gt;#12080&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12057"&gt;#12057&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12114"&gt;#12114&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reliability and security:&lt;/strong&gt; Photos Rust ML now reports actionable errors and slow analyses (&lt;a href="https://github.com/ente/ente/pull/12125"&gt;#12125&lt;/a&gt;), while the server prevents revoked sessions from returning to cache and redacts recovery credentials from logs (&lt;a href="https://github.com/ente/ente/pull/12071"&gt;#12071&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12110"&gt;#12110&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Upcoming Locker feature:&lt;/strong&gt; Set up two-factor authentication directly from Locker (&lt;a href="https://github.com/ente/ente/pull/12123"&gt;#12123&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upcoming Photos groundwork:&lt;/strong&gt; A native, cancellable thumbnail API for Android and iOS is being added; app integration will follow separately (&lt;a href="https://github.com/ente/ente/pull/12134"&gt;#12134&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Ente-owned file export is replacing &lt;code&gt;file_saver&lt;/code&gt; across mobile and desktop platforms (&lt;a href="https://github.com/ente/ente/pull/12136"&gt;#12136&lt;/a&gt;), alongside a shared floating action button component (&lt;a href="https://github.com/ente/ente/pull/12117"&gt;#12117&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Mobile billing FAQ presentation and malformed-data handling are being hardened (&lt;a href="https://github.com/ente/ente/pull/12138"&gt;#12138&lt;/a&gt;); canceled server requests are being classified as client-closed responses (&lt;a href="https://github.com/ente/ente/pull/12135"&gt;#12135&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
