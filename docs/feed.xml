@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 13 Sep 2026 11:15:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 12:04:51 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 14, 2026 - 15 shipped, 5 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 12:04:51 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focused on safer account and sharing behavior, smoother Ente Photos experiences, and faster mobile processing. Several infrastructure improvements are also in progress, including batch album sharing and a new cross-platform background task manager.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; The web app now shows per-file download progress for images and videos, laying the groundwork for a more detailed multi-file download dialog (&lt;a href="https://github.com/ente/ente/pull/12828"&gt;#12828&lt;/a&gt;). Mobile Memory Lane playback, captions, completion tracking, and card ordering were improved, including a desaturated style for memories users have already seen (&lt;a href="https://github.com/ente/ente/pull/12868"&gt;#12868&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12867"&gt;#12867&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12826"&gt;#12826&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12827"&gt;#12827&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Mobile Photos now uses optimized shared OCR models for eligible Android and iOS GPU inference, while retaining a CPU fallback (&lt;a href="https://github.com/ente/ente/pull/12780"&gt;#12780&lt;/a&gt;). Upside-down panoramas on OpenGL ES were also fixed (&lt;a href="https://github.com/ente/ente/pull/12866"&gt;#12866&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security and sharing:&lt;/strong&gt; Deleted accounts can no longer log in, and overlapping account-recovery operations now keep recovery state consistent (&lt;a href="https://github.com/ente/ente/pull/12872"&gt;#12872&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12865"&gt;#12865&lt;/a&gt;). Public-link changes and revocations now take effect immediately on the handling server (&lt;a href="https://github.com/ente/ente/pull/12859"&gt;#12859&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web:&lt;/strong&gt; Fixed the embedded viewer’s loader after completion (&lt;a href="https://github.com/ente/ente/pull/12857"&gt;#12857&lt;/a&gt;). Internal Rust and build tooling also received performance and maintainability updates (&lt;a href="https://github.com/ente/ente/pull/12801"&gt;#12801&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12860"&gt;#12860&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Smaller shipped changes added a Dockhand icon to Ente Auth and improved Apple Swift linting (&lt;a href="https://github.com/ente/ente/pull/12843"&gt;#12843&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12870"&gt;#12870&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Upcoming sharing improvement:&lt;/strong&gt; Server endpoints are being added to look up multiple public keys and share a collection with up to 10 recipients in one request (&lt;a href="https://github.com/ente/ente/pull/12869"&gt;#12869&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Legacy upload URLs are being restricted as a server-side security measure (&lt;a href="https://github.com/ente/ente/pull/12874"&gt;#12874&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;A native background-task manager for Android and iOS is in development, with app integration planned separately (&lt;a href="https://github.com/ente/ente/pull/12858"&gt;#12858&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;The Rust vector database is being moved into its own crate without behavior changes, allowing Photos to use it without pulling in the image stack (&lt;a href="https://github.com/ente/ente/pull/12871"&gt;#12871&lt;/a&gt;). Shared Android formatting, correctness checks, and CI linting are also in progress (&lt;a href="https://github.com/ente/ente/pull/12863"&gt;#12863&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 13, 2026 - 2 shipped, 1 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -690,29 +714,6 @@
   &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Adding and fixing icons and aliases to improve the app’s icon coverage and naming in &lt;a href="https://github.com/ente/ente/pull/12218"&gt;PR #12218&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ente Desktop:&lt;/strong&gt; Adding an option to disable automatic updates, including skipping update checks when the app is installed through AUR or Nixpkgs, in &lt;a href="https://github.com/ente/ente/pull/12217"&gt;PR #12217&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ente Locker:&lt;/strong&gt; Prototyping a document scanner, currently disabled behind a feature flag, along with the required Rust bindings in &lt;a href="https://github.com/ente/ente/pull/12215"&gt;PR #12215&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 15, 2026 - 14 shipped, 6 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 06:39:09 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped changes focus on smoother Photos workflows across mobile, web, and desktop, alongside reliability and security improvements under the hood. Several follow-up changes are in progress, including faster ML syncing and safer subscription handling.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Foreground and background ML work can no longer run concurrently, preventing conflicting database writes and inconsistent search indexes in &lt;a href="https://github.com/ente/ente/pull/12162"&gt;PR #12162&lt;/a&gt;. Selection actions were reordered around common tasks, and Share now uses the platform-appropriate icon in &lt;a href="https://github.com/ente/ente/pull/12199"&gt;PR #12199&lt;/a&gt;. The storage-card loading spinner was also centered in &lt;a href="https://github.com/ente/ente/pull/12197"&gt;PR #12197&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos desktop:&lt;/strong&gt; The Add Person dialog now includes search, making it easier to find people in larger libraries (&lt;a href="https://github.com/ente/ente/pull/12202"&gt;PR #12202&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web:&lt;/strong&gt; Fixed a referral double-click issue and removed outdated &lt;code&gt;rs&lt;/code&gt; naming from album details and account references (&lt;a href="https://github.com/ente/ente/pull/12211"&gt;PR #12211&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12209"&gt;PR #12209&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12175"&gt;PR #12175&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Maintenance:&lt;/strong&gt; ML was moved into its own Rust crate (&lt;a href="https://github.com/ente/ente/pull/12196"&gt;PR #12196&lt;/a&gt;), deprecated crypto dependencies were replaced or aligned with HPKE (&lt;a href="https://github.com/ente/ente/pull/12200"&gt;PR #12200&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12203"&gt;PR #12203&lt;/a&gt;), and the server toolchain received security fixes via Go 1.26.6 (&lt;a href="https://github.com/ente/ente/pull/12201"&gt;PR #12201&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Faster ML sync:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12207"&gt;PR #12207&lt;/a&gt; defers CLIP vector-index saves, reducing repeated full-database writes during device hydration and improving crash resilience.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Subscription reliability:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12205"&gt;PR #12205&lt;/a&gt; prevents stale purchase replays from rolling an active subscription backward.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos UX:&lt;/strong&gt; Album selection will disable accidental tab swiping (&lt;a href="https://github.com/ente/ente/pull/12204"&gt;PR #12204&lt;/a&gt;), while desktop title bars will follow the app theme (&lt;a href="https://github.com/ente/ente/pull/12208"&gt;PR #12208&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Additional work batches collection-file database upserts for better server efficiency (&lt;a href="https://github.com/ente/ente/pull/12198"&gt;PR #12198&lt;/a&gt;), and adds missing Photos mobile changelog entries (&lt;a href="https://github.com/ente/ente/pull/12212"&gt;PR #12212&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
