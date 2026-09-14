@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 13 Sep 2026 12:13:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:14:20 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 14, 2026 - 27 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 13:14:20 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 27 messages across four channels, with discussion centered on Ente Auth browser extensions and photo-app improvements. Members also chatted about Ente Space’s privacy-focused social experience and account security.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;The busiest channel had 14 messages from five participants, focused on whether a browser extension for Ente Auth and TOTP is useful, including its limitations, domain mappings, and security trade-offs. Members shared an &lt;a href="https://github.com/aheimowitz/ente-auth-extension/blob/master/src/data/domain-ma"&gt;unofficial extension&lt;/a&gt; and discussed alternatives such as launching Ente Auth from a favorites bar or using Bitwarden.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Eight messages from seven participants covered potential Android search integration in Multimedia cloud settings, hidden-album visibility, and background uploads. Anand said a suggestion had been forwarded to the ML team, while Brogio shared a &lt;a href="https://github.com/ente/ente/pull/12858"&gt;GitHub pull request for better background uploads&lt;/a&gt; and asked whether it is an initial step toward the newer iOS background API.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Four messages explored whether Ente Space is comparable to Instagram, with participants highlighting privacy, close friends, no ads, and avoiding doomscrolling.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;One message discussed preventing an Ente account from getting compromised, clarifying that the suggestion was not specific to a Locker plan.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 13, 2026 - 28 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -636,28 +655,6 @@
 
 &lt;h3&gt;#locker&lt;/h3&gt;
 &lt;p&gt;One member posted a follow-up asking whether an unresolved issue is still being investigated in the latest update.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 15, 2026 - 36 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 07:07:58 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity over the past day, with the most discussion in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#off-topic&lt;/strong&gt;. Conversations covered Ente Photos workflows, product ideas, browser privacy, and community greetings.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 12 messages from 6 participants, members discussed the delayed arrival of pets, moving photos from an iPhone into Ente Photos, and downloading photos for sharing on Instagram or Facebook. Other topics included a suggestion to explore iroh for self-hosted connections and a question about missing referral storage rewards.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Members exchanged 12 messages about Firefox, uBlock Origin, Brave Shields, and the implications of Chromium dropping Manifest V2. The discussion included a &lt;a href="https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html"&gt;PCWorld article&lt;/a&gt;, along with Independence Day greetings and broader concerns about centralization.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Six messages from 4 participants focused on improving the Space desktop layout, including a suggestion to take inspiration from &lt;a href="https://www.vsco.co/"&gt;VSCO&lt;/a&gt; and reduce unused space. Members also discussed starting with simpler contributions to the Photos web or desktop app.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Five participants stopped by with brief greetings and introductions.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
