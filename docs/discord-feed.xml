@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 14 Sep 2026 13:14:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 12:00:19 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 15, 2026 - 24 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:19 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity, led by troubleshooting and development discussion in &lt;strong&gt;#photos&lt;/strong&gt;. Other conversations covered Ente Auth build verification, a new member introduction, and a brief July update.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 16 messages from 5 participants, discussion focused on improved background uploads, including &lt;a href="https://github.com/ente/ente/pull/12858"&gt;PR #12858&lt;/a&gt; and whether newer iOS background APIs would help. Members also discussed a &lt;a href="https://www.reddit.com/r/enteio/s/9Ga1mraVaC"&gt;Reddit post&lt;/a&gt; about photo services and troubleshooting a large Google Takeout upload that appeared to cycle through metadata and upload phases; the team explained that uploads use four concurrent files and proceed in two phases.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Four messages from 2 participants discussed whether the F-Droid Auth build has reproducible builds after a signature-validation warning. The Auth source and release pages were shared via the &lt;a href="https://github.com/ente/ente/tree/main/mobile/apps/auth"&gt;GitHub app directory&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/releases#release"&gt;releases page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member introduced themselves and shared their enthusiasm for Ente products.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;A brief “July update” was posted.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Two participants shared meme attachments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 14, 2026 - 27 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -639,22 +661,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One image was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 16, 2026 - 15 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 07:09:39 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light over the past day, with 15 messages from 9 participants across three channels. Most of the discussion focused on referral rewards and missing extra storage.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 11 messages from 5 participants, this was the busiest channel. Members discussed a missing 10 GB referral bonus, checking the mobile app and referral details, and contacting &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt; for subscription or storage issues.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Three participants exchanged brief greetings.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;One member posted a follow-up asking whether an unresolved issue is still being investigated in the latest update.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
