@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 14 Sep 2026 12:04:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 11:17:44 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 15, 2026 - 35 shipped, 14 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 11:17:44 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes focused on smoother sharing, downloads, gallery presentation, and more reliable synchronization across Photos and Locker. Several Rust and server updates also strengthen storage, recovery, and collection consistency.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; The gallery filmstrip now scales better on tablets and resizable windows, while phone sizing remains unchanged (&lt;a href="https://github.com/ente/ente/pull/12838"&gt;#12838&lt;/a&gt;). Filename timestamp parsing is also more reliable for Signal exports, numbered copies, and timezone-aware names (&lt;a href="https://github.com/ente/ente/pull/12876"&gt;#12876&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Downloads now expose per-file progress for images and videos, improving feedback during transfers (&lt;a href="https://github.com/ente/ente/pull/12828"&gt;#12828&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12875"&gt;#12875&lt;/a&gt;). Public album and PhotoSwipe display issues were fixed (&lt;a href="https://github.com/ente/ente/pull/12888"&gt;#12888&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12887"&gt;#12887&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory Lane playback, captions, and per-schedule completion tracking were improved, and Android Memories, Albums, and People widgets now respect rounded system corners (&lt;a href="https://github.com/ente/ente/pull/12868"&gt;#12868&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12867"&gt;#12867&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12885"&gt;#12885&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sharing and sessions:&lt;/strong&gt; Space friend-limit errors now identify whether the limit belongs to the current user or the other person; the attempted username display was reverted (&lt;a href="https://github.com/ente/ente/pull/12913"&gt;#12913&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12914"&gt;#12914&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12909"&gt;#12909&lt;/a&gt;). Cast pairing codes are now single-use, preventing an existing session from being overwritten (&lt;a href="https://github.com/ente/ente/pull/12899"&gt;#12899&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Locker now parses scrubbed file tombstones consistently with Photos, and delete confirmation explains that items leave all collections but remain recoverable from Trash (&lt;a href="https://github.com/ente/ente/pull/12902"&gt;#12902&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12881"&gt;#12881&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Collection diffs use smaller removal entries, legacy upload URLs are restricted, deleted accounts can no longer log in, and account recovery state stays consistent during overlapping requests (&lt;a href="https://github.com/ente/ente/pull/12915"&gt;#12915&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12874"&gt;#12874&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12872"&gt;#12872&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12865"&gt;#12865&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Photos features:&lt;/strong&gt; Device albums are gaining slideshow support and longer slideshow durations; archived albums will also appear in album search (&lt;a href="https://github.com/ente/ente/pull/12904"&gt;#12904&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12903"&gt;#12903&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12919"&gt;#12919&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Offline link sharing:&lt;/strong&gt; A feature-flagged preview lets users select and preview device files for link sharing in online mode (&lt;a href="https://github.com/ente/ente/pull/12920"&gt;#12920&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iOS reliability:&lt;/strong&gt; A fix is in review for photos appearing as not uploaded after signing back in (&lt;a href="https://github.com/ente/ente/pull/12908"&gt;#12908&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CLI and ML work:&lt;/strong&gt; Tombstone synchronization fixes are underway for the Rust and Go CLIs, alongside faster vecdb compaction and a new Rust ML store (&lt;a href="https://github.com/ente/ente/pull/12917"&gt;#12917&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12910"&gt;#12910&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12911"&gt;#12911&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12896"&gt;#12896&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 14, 2026 - 15 shipped, 5 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -695,25 +720,6 @@
 &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12225"&gt;Stop Memory Lane when ML is disabled&lt;/a&gt; gates Memory Lane startup and its UI on global ML consent, while allowing an already-running person-processing job to finish.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12227"&gt;Wire Rust into Locker with per-app FRB bridges&lt;/a&gt; lays the groundwork for Locker-specific Rust integration through a new bridge and build flow. The description identifies this as the first of two PRs, with a document scanner feature planned in the follow-up.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mobile maintenance:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12229"&gt;Prune comments - Part 4&lt;/a&gt; continues cleanup of comments in the mobile codebase.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 16, 2026 - 1 shipped, 3 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 06:40:54 +0000</pubDate>
-      <description>&lt;p&gt;A quiet day in shipped code, with Photos’ recent mobile changes now captured in the developer changelog. In progress, Auth is polishing its icon set, Desktop is adding update controls, and Locker has a document-scanner prototype underway.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Added missing changelog entries covering recent user-facing work around ML sync and reliability, People sync, photo text selection, and Smart Memories performance in &lt;a href="https://github.com/ente/ente/pull/12212"&gt;PR #12212&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Adding and fixing icons and aliases to improve the app’s icon coverage and naming in &lt;a href="https://github.com/ente/ente/pull/12218"&gt;PR #12218&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Desktop:&lt;/strong&gt; Adding an option to disable automatic updates, including skipping update checks when the app is installed through AUR or Nixpkgs, in &lt;a href="https://github.com/ente/ente/pull/12217"&gt;PR #12217&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Locker:&lt;/strong&gt; Prototyping a document scanner, currently disabled behind a feature flag, along with the required Rust bindings in &lt;a href="https://github.com/ente/ente/pull/12215"&gt;PR #12215&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
