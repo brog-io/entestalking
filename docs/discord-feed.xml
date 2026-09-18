@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 17 Sep 2026 11:59:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 11:40:07 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 18, 2026 - 42 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 11:40:07 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw moderate activity, with most discussion concentrated in &lt;strong&gt;#off-topic&lt;/strong&gt;. Conversations focused on Ente account security, passkeys, 2FA, and broader questions about AI ethics and offline use.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 29 messages from 9 participants, the channel hosted an extended discussion about using one Ente account across products, securing Ente Auth, and avoiding circular 2FA dependencies. Members discussed passkeys, hardware security keys, local backups, and shared the &lt;a href="https://ente.com/help/auth/faq/enteception/"&gt;Enteception FAQ&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Six participants exchanged brief comments about hosting services, the meaning of the heart and star icons, and a family’s long-term Ente Photos usage. One thread also touched on whether self-hosting might be practical.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Four messages from two participants debated AI ethics, open-source models, and the role of capitalism in AI production. Another point highlighted the value of Ensu being offline for use in remote areas.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One new member stopped by to say hello.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;A participant shared a &lt;a href="https://www.reddit.com/r/enteio/comments/1wi1ruu/comment/pa9b3a9/"&gt;Reddit discussion&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One meme or short video link was shared: &lt;a href="https://www.tnktok.com/@abbytagm/video/7677979262305013024"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 17, 2026 - 37 messages in 8 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -654,28 +679,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One meme or short video was shared: &lt;a href="https://www.tnktok.com/@himynameistrish/video/7675428749105564959"&gt;view the link&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 19, 2026 - 18 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 07:21:20 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community recorded 18 messages across five active channels, with most discussion in &lt;strong&gt;#photos&lt;/strong&gt;. Topics included Ente Photos features, authentication, Locker ideas, and an Ensu documentation suggestion.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 12 messages from eight participants, the channel covered a &lt;a href="https://ente.com/blog/first-steps-to-post-quantum"&gt;post-quantum blog post&lt;/a&gt;, adding items from Hidden to a Hidden Album on macOS, possible peer-to-peer connections, and questions about machine-learning photo search. The Hidden Album option was reported as added to tomorrow’s nightly builds.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Three messages covered changing a password through an already logged-in app and a request for an update on custom authentication icons in the mobile app.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Dorian introduced himself as a software developer interested in building something amazing and asked whether anyone else is from the US.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;A member suggested a future Locker feature related to native document and image handling.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Qilua asked whether MDN documentation could be used in an Ensu pack to provide more web-related data for chat.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
