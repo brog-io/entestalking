@@ -4,7 +4,38 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 18 Sep 2026 11:40:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 11:23:00 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 19, 2026 - 58 messages in 8 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 11:23:00 +0000</pubDate>
+      <description>&lt;p&gt;Activity was moderate, led by an extended off-topic discussion about private location-sharing apps and Ente’s photo features. Members also raised product questions and feature requests across Photos, Locker, Auth, Ensu, and Space.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 26 messages from 7 participants, discussion focused on privacy-oriented location-sharing apps including Grid, Paralino, and HeyPolo, with comparisons of pricing, notifications, passkeys, and backend costs. Members also discussed Ente Auth exports, TOTP secrets, encrypted backups, and personal 2FA setups.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Fourteen messages from 9 participants covered storage and VPS self-hosting, Google Takeout imports, and a comparison between Ente and self-hosted Immich. A user asked about moving photos between local folders; the response clarified that this currently requires a phone gallery or file manager, while another member suggested migrating the desktop app to Rust. A scam warning was also shared.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Six messages from 2 participants discussed the inability to rename files during Locker upload. The limitation was confirmed, and a contributor received approval to try submitting a pull request for the feature.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Four messages from 2 participants focused on a request for team functionality in Ente Auth for managed service providers, plus encrypted Bitwarden export options and account restrictions.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Four messages from 2 participants discussed whether Ensu notes are end-to-end encrypted and whether data remains entirely on the device, with a request for further clarification.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Two messages clarified that photos uploaded to Ente Space currently do not count against Ente Photos quotas for the uploader or friends; the long-term storage model is still under consideration.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member posted a brief greeting.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 18, 2026 - 42 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -657,28 +688,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One meme link was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 20, 2026 - 42 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 07:24:22 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw 42 messages across five active channels in the last 24 hours, with discussion concentrated in &lt;strong&gt;#photos&lt;/strong&gt;. Members focused on casting, video playback, security, and photo organization, alongside lighter conversations about maps and memes.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 30 messages from 17 participants, the channel covered Ente Cast testing on Android TV and Chromecast, including questions about device-based playback controls and a roadmap note that remote control is not yet available. Members also suggested playback-speed indicators, press-and-hold 2× playback, frame extraction, authentication options, sorting by recently added photos, and improved access to liked photos. A discussion about post-quantum encryption shared &lt;a href="https://ente.com/blog/first-steps-to-post-quantum/"&gt;Ente’s post-quantum security blog post&lt;/a&gt;, while another message linked to a feature report.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Five messages from two participants discussed making Ente Auth easier to navigate on mobile, including swipe navigation between tags and moving the search bar lower on the screen. The latter was described as potentially requiring a larger UI overhaul.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Five messages from two participants compared the visual detail of Apple Maps and Google Maps, particularly city views, lanes, trees, railway tracks, and landmark models.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;One report raised uncertainty about whether photos shared through Space are public or private, based on the experience of using the feature for the first time.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One meme or short video was shared: &lt;a href="https://www.tnktok.com/@himynameistrish/video/7675428749105564959"&gt;view the link&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
