@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 20 Sep 2026 10:49:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 12:14:31 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 21, 2026 - 10 shipped, 2 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 12:14:31 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a set of user-facing improvements across Space, Photos, and Locker, alongside substantial mobile and ML infrastructure work. Two new changes are in progress, including easier file naming during Locker uploads and stricter server-side validation.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Space / web:&lt;/strong&gt; Feed captions now have corrected spacing, photo position dots, and consistent card corners; profiles can load up to 250 posts. &lt;a href="https://github.com/ente/ente/pull/13061"&gt;PR #13061&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13048"&gt;PR #13048&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker / mobile:&lt;/strong&gt; The document scanner was completely rebuilt for better perspective correction, recovery from difficult page edges, shadow removal, faint-text handling, and document enhancement. &lt;a href="https://github.com/ente/ente/pull/13053"&gt;PR #13053&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos / mobile:&lt;/strong&gt; Internal users now use the native background task manager for uploads, while other users continue using Workmanager. The photo permission prompt also now uses “Continue,” addressing app review feedback. &lt;a href="https://github.com/ente/ente/pull/12882"&gt;PR #12882&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13056"&gt;PR #13056&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile UI:&lt;/strong&gt; Added menu rows and sheet headers for a more consistent interface. &lt;a href="https://github.com/ente/ente/pull/13054"&gt;PR #13054&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ML infrastructure:&lt;/strong&gt; Added the Rust &lt;code&gt;MlStore&lt;/code&gt; library, composing the ML database with vector indexes for clips and cluster centroids; it is foundational work and is not yet consumed by the app. &lt;a href="https://github.com/ente/ente/pull/12896"&gt;PR #12896&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Maintenance:&lt;/strong&gt; Removed unused server triggers and unverified-session alerts, and enabled automated Codex PR reviews. &lt;a href="https://github.com/ente/ente/pull/13060"&gt;PR #13060&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13057"&gt;PR #13057&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13063"&gt;PR #13063&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Files can be renamed directly from the file upload screen instead of only after uploading. &lt;a href="https://github.com/ente/ente/pull/13059"&gt;PR #13059&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Collection file operations will reject missing file IDs and malformed or incorrectly sized encrypted key material. &lt;a href="https://github.com/ente/ente/pull/13062"&gt;PR #13062&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 20, 2026 - 5 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -700,30 +723,6 @@
   &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12377"&gt;Add an Accountable icon&lt;/a&gt;, adding a custom service icon for accounts that are not covered by Simple Icons.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12375"&gt;Add an e621 icon&lt;/a&gt;, extending service icon support for e621, which now supports 2FA.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12376"&gt;Fix the “Suggest features” link&lt;/a&gt; so it opens the intended Auth feature discussions instead of an incorrectly filtered GitHub page.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 22, 2026 - 15 shipped, 5 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-22</guid>
-      <pubDate>Sat, 22 Aug 2026 06:41:02 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focused on a refreshed Auth experience, stronger server-side consistency around Trash and recovery, and Ensu desktop and Android improvements. In progress, Photos and Locker are getting notable interaction upgrades, including a better scanner and a new photo viewer.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; The web Auth and Locker apps now use a new authentication layout: &lt;a href="https://github.com/ente/ente/pull/12364"&gt;Auth&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12361"&gt;Locker&lt;/a&gt;. Linux installations now appear as &lt;strong&gt;Ente Auth&lt;/strong&gt; in the launcher via &lt;a href="https://github.com/ente/ente/pull/12342"&gt;#12342&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Desktop now supports Ensu Packs through &lt;a href="https://github.com/ente/ente/pull/12343"&gt;#12343&lt;/a&gt;. Android backups and device-to-device transfers are disabled to prevent restored data from causing startup failures after reinstall or migration: &lt;a href="https://github.com/ente/ente/pull/12366"&gt;#12366&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory Lane’s service received further cleanup in &lt;a href="https://github.com/ente/ente/pull/12363"&gt;#12363&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12319"&gt;#12319&lt;/a&gt;. Shared feature-flag handling was also moved into a reusable mobile package via &lt;a href="https://github.com/ente/ente/pull/12280"&gt;#12280&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Collection additions, moves, restores, and permanent Trash deletion now serialize more safely, reducing races that could incorrectly reactivate or delete files: &lt;a href="https://github.com/ente/ente/pull/12339"&gt;#12339&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12356"&gt;#12356&lt;/a&gt;. Request validation, transaction cleanup, and Space web-push provider validation also improved in &lt;a href="https://github.com/ente/ente/pull/12360"&gt;#12360&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12353"&gt;#12353&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Account recovery can now specify whether existing sessions stay signed in; they are signed out by default when unspecified: &lt;a href="https://github.com/ente/ente/pull/12352"&gt;#12352&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Minor web localization updates landed in &lt;a href="https://github.com/ente/ente/pull/12358"&gt;#12358&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12357"&gt;#12357&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; A substantially improved document scanner adds auto-capture, animated thumbnails, better review controls, haptics, and a magnified crop-adjustment loupe: &lt;a href="https://github.com/ente/ente/pull/12371"&gt;#12371&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A new Ente-owned photo viewer replaces &lt;code&gt;photo_view&lt;/code&gt; and zooms toward the double-tapped point while retaining existing gestures and transitions: &lt;a href="https://github.com/ente/ente/pull/12368"&gt;#12368&lt;/a&gt;. Memory Lane is also being extended to create timelines from lone clusters in &lt;a href="https://github.com/ente/ente/pull/12367"&gt;#12367&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;iOS cold-start sharing is being fixed in &lt;a href="https://github.com/ente/ente/pull/12365"&gt;#12365&lt;/a&gt;, while icon coverage and dark-mode visibility are being improved in &lt;a href="https://github.com/ente/ente/pull/12373"&gt;#12373&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
