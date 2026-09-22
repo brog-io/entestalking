@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 21 Sep 2026 12:14:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 11:07:33 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 22, 2026 - 16 shipped, 8 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 11:07:33 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes focused on reliability, accessibility, and backend validation across Ente Photos, Ente Space, and shared mobile infrastructure. Several user-facing improvements are also in progress, including video speed controls and file renaming during uploads.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Space web:&lt;/strong&gt; Accessibility improvements add better keyboard navigation, screen-reader descriptions, and page titles; photo replies now accept Enter for newlines. Feed captions and photo-position indicators were also polished, and profiles can load up to 250 posts (&lt;a href="https://github.com/ente/ente/pull/13079"&gt;#13079&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13066"&gt;#13066&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13061"&gt;#13061&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13048"&gt;#13048&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos and mobile reliability:&lt;/strong&gt; Background processing can now wait for an active refresh and resume safely afterward (&lt;a href="https://github.com/ente/ente/pull/13073"&gt;#13073&lt;/a&gt;). An iOS crash caused by late native HTTP callbacks was fixed across Photos, Auth, and shared networking (&lt;a href="https://github.com/ente/ente/pull/13081"&gt;#13081&lt;/a&gt;). Native background scheduling was also enabled for selected internal Photos users (&lt;a href="https://github.com/ente/ente/pull/12882"&gt;#12882&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Collection file validation now rejects malformed IDs and encryption material, including on copy requests, before any data is written or billed (&lt;a href="https://github.com/ente/ente/pull/13062"&gt;#13062&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13069"&gt;#13069&lt;/a&gt;). Repeated referral claims now return a conflict response (&lt;a href="https://github.com/ente/ente/pull/13071"&gt;#13071&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rust media processing:&lt;/strong&gt; Added an opt-in, memory-bounded PNG decoder with downsampling, orientation, and color-profile support for future integrations (&lt;a href="https://github.com/ente/ente/pull/13080"&gt;#13080&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos video editor:&lt;/strong&gt; Upcoming speed controls from 0.25× to 2× will apply to previews and exported videos while preserving audio pitch (&lt;a href="https://github.com/ente/ente/pull/13076"&gt;#13076&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Long conversations are being supported with encrypted summaries and retrieval of earlier context within model token limits (&lt;a href="https://github.com/ente/ente/pull/13085"&gt;#13085&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile usability:&lt;/strong&gt; New album names will use sentence capitalization, and Locker uploads will allow files to be renamed before uploading (&lt;a href="https://github.com/ente/ente/pull/13084"&gt;#13084&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13059"&gt;#13059&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Self-hosting and Auth:&lt;/strong&gt; New quickstarts are moving to a pinned Silo object-store image, while Auth is adding a Floxar service icon (&lt;a href="https://github.com/ente/ente/pull/13074"&gt;#13074&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13067"&gt;#13067&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 21, 2026 - 10 shipped, 2 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -706,23 +729,6 @@
   &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12384"&gt;The document scanner is being gated behind an internal feature flag&lt;/a&gt;, with its segmentation model served from Ente’s model infrastructure.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Rust:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12386"&gt;Legacy extraction and binding-error refinements&lt;/a&gt; are underway.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12383"&gt;Old review comments are being removed&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 23, 2026 - 0 shipped, 3 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-23</guid>
-      <pubDate>Sun, 23 Aug 2026 06:41:48 +0000</pubDate>
-      <description>&lt;p&gt;Today’s activity is focused on Ente Auth, with two new service icons and a small improvement to the in-app feature suggestion link. No pull requests were merged in this period.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;p&gt;No pull requests were merged.&lt;/p&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12377"&gt;Add an Accountable icon&lt;/a&gt;, adding a custom service icon for accounts that are not covered by Simple Icons.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12375"&gt;Add an e621 icon&lt;/a&gt;, extending service icon support for e621, which now supports 2FA.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12376"&gt;Fix the “Suggest features” link&lt;/a&gt; so it opens the intended Auth feature discussions instead of an incorrectly filtered GitHub page.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
