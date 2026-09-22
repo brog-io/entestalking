@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 21 Sep 2026 13:12:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 11:59:05 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 22, 2026 - 11 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 11:59:05 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light across three channels, with discussion focused mainly on feedback for Space and questions about viewing scanned documents in Locker.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Six messages from two participants covered feedback on Space, including making it easier to post via the share menu from other apps and adding 24-hour status videos for sharing moments with friends.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Four messages from three participants clarified that Locker currently has no built-in document viewer, so scanned PDFs open in an external viewer.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;One brief message involved a user realizing they had read the channel list too quickly.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 21, 2026 - 27 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -654,34 +670,6 @@
 
 &lt;h3&gt;#locker&lt;/h3&gt;
 &lt;p&gt;One question asked whether an element has a size limit.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 23, 2026 - 41 messages in 7 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-23</guid>
-      <pubDate>Sun, 23 Aug 2026 07:11:22 +0000</pubDate>
-      <description>&lt;p&gt;Activity was moderate, led by discussions about Ente Auth desktop workflows and photo management. Members also explored Ensu tool calling, shared a Ducky reference, and posted a few community links.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;With 17 messages from five participants, the channel focused on desktop Auth usability. Kela described a custom fork with tray mode, minimized startup, file importing, and keyboard shortcuts, while others compared workflows and discussed an AI-generated Ente Auth extension.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Thirteen messages from five participants covered photo and video recognition, including planned clustering improvements for children and pets. Members also experimented with running Ente Desktop in Docker on a NAS, and confirmed that originals are preserved alongside thumbnails, previews, and streams.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Five messages discussed potential tool calling for Ensu, with basic features such as reminders planned before more advanced web-app assistance. A participant also shared &lt;a href="https://cactuscompute.com/needle"&gt;Needle&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two members introduced themselves, including a 3D art generalist focused on FOSS.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;A question about the artist behind Ente’s Ducky mascot received a link to the &lt;a href="https://ente.com/blog/ducky/"&gt;Ducky blog post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;One member praised a sharing feature that lets recipients view content without an account.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One meme link was shared: &lt;a href="https://www.tnktok.com/@cutieverse.x/video/7675749055389125902"&gt;view post&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
