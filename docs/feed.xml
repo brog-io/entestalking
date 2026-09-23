@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 22 Sep 2026 11:07:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 10:57:48 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 23, 2026 - 26 shipped, 9 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 10:57:48 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes improve everyday photo and Locker workflows, polish Space profiles, and strengthen mobile reliability. Work in progress focuses on safer editing, smarter-album synchronization, and broader iOS packaging support.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos and mobile:&lt;/strong&gt; Magic Search now recovers from failed queries and continues with the latest search, while malformed threshold prefixes are treated as normal text (&lt;a href="https://github.com/ente/ente/pull/13112"&gt;#13112&lt;/a&gt;). Collection moves no longer mutate local file state until the server accepts the request (&lt;a href="https://github.com/ente/ente/pull/13106"&gt;#13106&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Files can be renamed before uploading (&lt;a href="https://github.com/ente/ente/pull/13059"&gt;#13059&lt;/a&gt;), scanned pages can be retaken in place before saving (&lt;a href="https://github.com/ente/ente/pull/13097"&gt;#13097&lt;/a&gt;), and the scanner’s rotate control is clearer and immediately reusable (&lt;a href="https://github.com/ente/ente/pull/13088"&gt;#13088&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; Profile posts now use adaptive, continuous layouts with full-width treatment for small profiles, captions, and timestamps. Sharing and invite wording was refreshed, and likes and replies are clearly identified as private (&lt;a href="https://github.com/ente/ente/pull/13116"&gt;#13116&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13099"&gt;#13099&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13091"&gt;#13091&lt;/a&gt;). Accessibility, page titles, and reply behavior also improved (&lt;a href="https://github.com/ente/ente/pull/13079"&gt;#13079&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Long native conversations now preserve earlier context using encrypted summaries and retrieval, and chat response interruptions from duplicate instances are fixed (&lt;a href="https://github.com/ente/ente/pull/13085"&gt;#13085&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13107"&gt;#13107&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliability and infrastructure:&lt;/strong&gt; An iOS native HTTP callback teardown crash was fixed, with platform-specific networking behavior retained (&lt;a href="https://github.com/ente/ente/pull/13081"&gt;#13081&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13086"&gt;#13086&lt;/a&gt;). Self-hosted Compose setups now use Silo instead of the unavailable MinIO image (&lt;a href="https://github.com/ente/ente/pull/13074"&gt;#13074&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Other shipped work includes a Floxar Auth icon (&lt;a href="https://github.com/ente/ente/pull/13067"&gt;#13067&lt;/a&gt;) and an opt-in bounded PNG decoder for future image-processing use (&lt;a href="https://github.com/ente/ente/pull/13080"&gt;#13080&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Smart-album auto-add now waits for updates to finish before returning, and unsaved photo descriptions will trigger a discard warning (&lt;a href="https://github.com/ente/ente/pull/13114"&gt;#13114&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13113"&gt;#13113&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile:&lt;/strong&gt; Account controls and collapsible pages are being added (&lt;a href="https://github.com/ente/ente/pull/13115"&gt;#13115&lt;/a&gt;). Locker is also being updated to accept multiple files from Android’s share sheet (&lt;a href="https://github.com/ente/ente/pull/13094"&gt;#13094&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance and packaging:&lt;/strong&gt; OCR inference is being optimized to remove an intermediate tensor (&lt;a href="https://github.com/ente/ente/pull/13111"&gt;#13111&lt;/a&gt;), while SwiftPM support is being added for mail, the panorama viewer, and backup exclusion (&lt;a href="https://github.com/ente/ente/pull/13104"&gt;#13104&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13103"&gt;#13103&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13102"&gt;#13102&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;An Auth icon for CSBW-Cybersicherheitsportal is also in progress (&lt;a href="https://github.com/ente/ente/pull/13109"&gt;#13109&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 22, 2026 - 16 shipped, 8 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -707,28 +732,6 @@
   &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Adjacent viewer thumbnails will be prefetched for smoother swiping (&lt;a href="https://github.com/ente/ente/pull/12408"&gt;#12408&lt;/a&gt;), and album searches will gain a “You” uploader filter (&lt;a href="https://github.com/ente/ente/pull/12407"&gt;#12407&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;A mosaic gallery layout is in progress, currently gated to internal users and debug builds (&lt;a href="https://github.com/ente/ente/pull/12390"&gt;#12390&lt;/a&gt;), alongside scheduled Memory Lane generation for cluster pages (&lt;a href="https://github.com/ente/ente/pull/12399"&gt;#12399&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Other cleanup includes a simpler skipped-files screen (&lt;a href="https://github.com/ente/ente/pull/12401"&gt;#12401&lt;/a&gt;), canonical custom-domain ownership handling (&lt;a href="https://github.com/ente/ente/pull/12397"&gt;#12397&lt;/a&gt;), named ML errors in Rust (&lt;a href="https://github.com/ente/ente/pull/12411"&gt;#12411&lt;/a&gt;), and more focused mobile lint output (&lt;a href="https://github.com/ente/ente/pull/12412"&gt;#12412&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 24, 2026 - 6 shipped, 4 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-24</guid>
-      <pubDate>Mon, 24 Aug 2026 07:00:16 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focused on a smoother Locker document-scanning experience and broader Ente Auth service coverage. In progress, Ente Space is gaining lightweight social interactions, while the scanner rollout is being prepared behind an internal flag.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12371"&gt;Document scanning is more polished&lt;/a&gt;, with auto-capture enabled by default, animated page handling, improved review controls, haptic feedback, and a loupe for precise crop adjustments.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Added support for Accountable and e621 icons, improved UPS visibility in dark mode, cleaned up duplicate icon data, and fixed the support page’s feature-suggestion link in &lt;a href="https://github.com/ente/ente/pull/12377"&gt;this icon update&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12373"&gt;this icon cleanup&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12375"&gt;the e621 addition&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/12376"&gt;the link fix&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Internal ML test fixtures were pinned to the shared immutable fixture set in &lt;a href="https://github.com/ente/ente/pull/12382"&gt;#12382&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12385"&gt;New social interactions&lt;/a&gt; would let users add friends by username and “wave” to nudge them to post, while removing public profile sharing.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12384"&gt;The document scanner is being gated behind an internal feature flag&lt;/a&gt;, with its segmentation model served from Ente’s model infrastructure.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Rust:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12386"&gt;Legacy extraction and binding-error refinements&lt;/a&gt; are underway.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12383"&gt;Old review comments are being removed&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
