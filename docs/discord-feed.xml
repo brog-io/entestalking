@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 24 Sep 2026 12:06:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 12:06:11 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 25, 2026 - 27 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 12:06:11 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with discussions about uploads, deduplication, photo-picker behavior, and recent app changes. The server also shared a new Ente Photos release and discussed bot-account practices.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 17 messages from 11 participants, the channel covered onboarding a spouse after migrating to GrapheneOS, the 21-day compliance lock, cross-account deduplication, and upload controls. Members also discussed the updated thumbnail strip and photo-picker experience, importing &lt;strong&gt;.mov&lt;/strong&gt; files, and removing already-synced photos from devices.&lt;/p&gt;
+
+&lt;h3&gt;#mod-log&lt;/h3&gt;
+&lt;p&gt;Six messages from three participants focused on replacing a normal account with a shared bot for monitoring Codex/Claude agents, along with bot permissions and read-only access.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Two messages included a general greeting and a compliment about a photo and its view.&lt;/p&gt;
+
+&lt;h3&gt;#announcements&lt;/h3&gt;
+&lt;p&gt;A new Ente Photos release was announced, featuring a thumbnail strip at the bottom for quickly browsing photos and videos.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;A participant shared a brief reaction to the news.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 24, 2026 - 26 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -636,31 +658,6 @@
 
 &lt;h3&gt;#clicks&lt;/h3&gt;
 &lt;p&gt;One message offered a brief appreciation of carnations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 26, 2026 - 54 messages in 6 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-26</guid>
-      <pubDate>Wed, 26 Aug 2026 07:27:07 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw 54 messages across six active channels, led by product discussions in &lt;strong&gt;#photos&lt;/strong&gt; and privacy and open-source conversations in &lt;strong&gt;#off-topic&lt;/strong&gt;. New members also introduced themselves, while smaller threads covered Ensu, Locker, and a shared meme.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 22 messages from eight participants, discussion covered a minor mobile bug that appeared to resolve, a reported storage-use inconsistency, and offline recovery downloads on an iPhone 15 Plus. Members also discussed hiding private photos and videos on Android, nested folders, and the possibility of offline access to Ente’s tools.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Eighteen messages covered a &lt;a href="https://discuss.privacyguides.net/t/how-private-is-user-personal-non-encrypted-data-with-ente-findings-in-privacy-policy/39956/"&gt;Privacy Guides discussion&lt;/a&gt; about Ente’s privacy policy, including data storage and threat models. Members also exchanged experiences with Organic Maps in remote areas, discussed self-hosting, FOSS communities, and a Brave Browser post about fingerprinting.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Eight messages clarified that Ensu is not currently getting a watch app, with discussion of its desktop and mobile technology choices: Tauri for desktop and native frameworks for mobile.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Four newcomers introduced themselves, including a software developer with a homelab, someone seeking a self-hosted Keepsafe alternative, and a new Ente Photos user.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;A brief exchange clarified that Locker elements have a 10 GB size limit.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One meme link was shared: &lt;a href="https://fixvx.com/devops_prashant/status/2092223755389215228"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
