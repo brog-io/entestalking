@@ -4,7 +4,41 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 25 Sep 2026 12:06:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 11:42:15 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 26, 2026 - 48 messages in 9 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 11:42:15 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community had light-to-moderate activity across nine channels, with most discussion focused on Ente Photos. Members also asked about Ente Space availability, referral storage, and upcoming app features.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 26 messages from 11 participants, discussion covered freeing synced photos from devices, MOV files, the new thumbnail strip, Android interface preferences, referral rules, GPU versus NPU use for machine learning, and exporting selected photos while preserving metadata. Members shared the &lt;a href="https://ente.com/help/photos/faq/storage-and-plans#referral-"&gt;referral FAQ&lt;/a&gt; and &lt;a href="https://ente.com/help/photos/features/backup-and-sync/export"&gt;export documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Seven messages from two participants clarified that Ente Space is not yet listed on Google Play or the App Store; it is currently available as a PWA, with mobile apps planned.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Six messages from four participants discussed whether referral bonuses are permanent, with a link to the &lt;a href="https://ente.com/help/photos/faq/storage-and-plans#referral-"&gt;referral details&lt;/a&gt;. Members also praised the product and asked for a roadmap to visualize scanned items before opening generated PDFs.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Three messages welcomed the addition of Wiki data and suggested a Christian Bible pack, while another member proposed allowing users to create their own packs.&lt;/p&gt;
+
+&lt;h3&gt;#announcements&lt;/h3&gt;
+&lt;p&gt;A new Ente Photos release was announced, featuring a thumbnail strip at the bottom for quickly browsing photos and videos.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Two messages included a poem and a brief question about Ente’s availability in India.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member offered a brief greeting.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One member complimented a tag.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One Bluesky post was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 25, 2026 - 27 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -639,25 +673,6 @@
 
 &lt;h3&gt;#clicks&lt;/h3&gt;
 &lt;p&gt;A member posted photos of a lunar eclipse in Toronto, comparing a camera JPEG with a RAW image edited to address overexposure and reduce noise.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 27, 2026 - 28 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-27</guid>
-      <pubDate>Thu, 27 Aug 2026 17:51:30 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community server saw light-to-moderate activity over the past day, with 28 messages across four active channels. Conversation centered on server customization, self-hosting, QR tools, and Ente Photos features.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Members exchanged 17 messages about the server’s green theme, feature requests, and whether the new QR tool could be included in self-hosted instances. The discussion clarified that &lt;a href="https://qr.ente.com"&gt;qr.ente.com&lt;/a&gt; has no server-side dependency, and its source is available via &lt;a href="https://github.com/ente"&gt;GitHub&lt;/a&gt;; duck facts and pet ducks also came up.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Nine messages covered fullscreen video sizing, self-hosted storage limits, and privacy when showing photos to friends. Members shared the &lt;a href="https://ente.com/help/self-hosting/administration/cli#step-4-increase-storage-and-account-validity"&gt;CLI storage guide&lt;/a&gt; and the &lt;a href="https://ente.com/help/photos/features/utilities/guest-view"&gt;Guest View feature&lt;/a&gt;, while one member celebrated receiving a 1 TB SSD for an Ente self-hosting setup.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;A new member introduced themselves as a supporter of privacy and open source.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One message offered a brief appreciation of carnations.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
