@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 25 Sep 2026 11:22:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 10:57:54 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 26, 2026 - 5 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 10:57:54 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work improves Locker’s document capture pipeline and Photos’ background processing, while Ensu received startup and chat-flow optimizations. In progress, Ente Auth is gaining a newer sorting option, alongside smaller usability and icon updates.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13146"&gt;Detected document crops are now preserved through review and PDF export&lt;/a&gt;, including manual captures, automatic captures, and retakes. This helps ensure the crop users saw is the one carried into the final document.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13161"&gt;Internal iOS background processing can now run while the device is on battery&lt;/a&gt;, expanding the sync and ML trial beyond devices charging overnight. The experiment remains limited to internal users.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13160"&gt;Background album auto-add now refreshes person assignments&lt;/a&gt; before processing eligible albums, reducing the chance of using stale assignments when local indexing or ML computation was skipped.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13144"&gt;The app now warms up its model at launch and optimizes chat-title creation&lt;/a&gt;, targeting a faster first interaction.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server and CLI maintenance:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13164"&gt;Legacy KEK hashes are no longer read, stored, or returned&lt;/a&gt; by the server, and the field has been removed from the Rust and Go CLI models.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13168"&gt;A “Newest first” sort option&lt;/a&gt; would place recently added codes at the top of the list, avoiding manual scrolling or searching.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13167"&gt;An icon for Brazil’s PJe judicial 2FA service&lt;/a&gt; has been proposed and added to the custom icon database.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13162"&gt;A settings entry to reopen the “What’s new” screen&lt;/a&gt; is in progress.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 25, 2026 - 21 shipped, 11 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -708,29 +731,6 @@
   &lt;li&gt;Expand the Memories strip to support different card types (&lt;a href="https://github.com/ente/ente/pull/12481"&gt;#12481&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Search countries by native names and include shared or received albums in the Ente filter (&lt;a href="https://github.com/ente/ente/pull/12476"&gt;#12476&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12475"&gt;#12475&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Server work is underway to maintain file counts during creation and finalize the token-hash database migration (&lt;a href="https://github.com/ente/ente/pull/12474"&gt;#12474&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12469"&gt;#12469&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 27, 2026 - 22 shipped, 1 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-27</guid>
-      <pubDate>Thu, 27 Aug 2026 17:24:49 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focuses on smoother Photos playback and browsing, a faster Locker scanner, and several reliability and security hardening fixes. One substantial database migration is also in progress for mobile.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos —&lt;/strong&gt; The skipped-files screen is simpler, showing fewer controls when they are unnecessary (&lt;a href="https://github.com/ente/ente/pull/12401"&gt;#12401&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos —&lt;/strong&gt; Album slideshows now support saved settings for slide duration, photo order, and background style (&lt;a href="https://github.com/ente/ente/pull/12439"&gt;#12439&lt;/a&gt;). Video viewers also support double-tap seeking five seconds backward or forward, with improved seek feedback and synchronization (&lt;a href="https://github.com/ente/ente/pull/12404"&gt;#12404&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos —&lt;/strong&gt; Uploader filters now use album context to identify collaborators more accurately (&lt;a href="https://github.com/ente/ente/pull/12435"&gt;#12435&lt;/a&gt;). Memory Lane can also create timelines from single-photo clusters (&lt;a href="https://github.com/ente/ente/pull/12367"&gt;#12367&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Locker —&lt;/strong&gt; Document auto-capture is faster, with the stability hold reduced from 2.5 to 1.5 seconds, and a dedicated scanner button is now available on the home screen (&lt;a href="https://github.com/ente/ente/pull/12442"&gt;#12442&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ensu —&lt;/strong&gt; Web attachment uploads now show progress, and chat and search typing are more responsive on web and desktop (&lt;a href="https://github.com/ente/ente/pull/12453"&gt;#12453&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12423"&gt;#12423&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Auth and exports —&lt;/strong&gt; OTP imports without issuer fields now work correctly (&lt;a href="https://github.com/ente/ente/pull/12456"&gt;#12456&lt;/a&gt;), and CLI album exports sanitize folder names (&lt;a href="https://github.com/ente/ente/pull/12446"&gt;#12446&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reliability and security —&lt;/strong&gt; Server validation now prevents invalid recovery-password updates from causing partial account changes (&lt;a href="https://github.com/ente/ente/pull/12458"&gt;#12458&lt;/a&gt;), while file-link KDF parameters and custom-domain ownership handling are hardened (&lt;a href="https://github.com/ente/ente/pull/12445"&gt;#12445&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12397"&gt;#12397&lt;/a&gt;). Android logging is also safer against engine kills that could previously leave the app on a blank screen (&lt;a href="https://github.com/ente/ente/pull/12424"&gt;#12424&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile database migration —&lt;/strong&gt; Remaining Photos, Log Viewer, and Contacts databases are being migrated from sqflite to sqlite_async, while preserving existing on-device compatibility and making failed initialization retryable (&lt;a href="https://github.com/ente/ente/pull/12441"&gt;#12441&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
