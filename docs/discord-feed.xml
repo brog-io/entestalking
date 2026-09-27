@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sat, 26 Sep 2026 11:42:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 12:21:18 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 27, 2026 - 32 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-27</guid>
+      <pubDate>Sun, 27 Sep 2026 12:21:18 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light to moderate, with most discussion in &lt;strong&gt;#photos&lt;/strong&gt;. The main themes were photo export behavior, metadata and app updates, alongside a small troubleshooting thread in &lt;strong&gt;#ensu&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 21 messages from 5 participants, the channel focused on exporting selected images from Ente to a PC, preserving metadata and creation dates, and how Windows may display file dates. The discussion shared the &lt;a href="https://ente.com/help/photos/features/backup-and-sync/export"&gt;export guide&lt;/a&gt; and &lt;a href="https://ente.com/help/photos/faq/metadata-and-editing#file-creation-time"&gt;metadata FAQ&lt;/a&gt;; users also discussed an Obt​anium update not appearing and minor album-view UX feedback.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Six messages from 3 participants covered whether FOSDEM would happen next year and included congratulations, an attachment, and an apology for its camera quality.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Four messages from 2 participants reported an Ens​u launch problem where the app opens as a blank square, including after uninstalling.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One participant posted a brief eyes emoji reaction.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 26, 2026 - 48 messages in 9 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -657,22 +676,6 @@
 
 &lt;h3&gt;#locker&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;2 messages from 2 participants.&lt;/strong&gt; A member asked how to view and delete shared file links, followed by a &lt;a href="https://discord.com/channels/948937918347608085/1439920913096380537/1534890587449200701"&gt;Discord message link&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 28, 2026 - 32 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-28</guid>
-      <pubDate>Fri, 28 Aug 2026 18:56:54 +0000</pubDate>
-      <description>&lt;p&gt;The server saw light activity across three channels, led by a support-focused discussion in &lt;strong&gt;#photos&lt;/strong&gt;. Members discussed shared albums, photo recovery, and a potential safety net for accidental deletions.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 29 messages from 8 participants, the channel focused on Ente Photos usage and troubleshooting. Members explained where to view shared photos under Albums &amp;gt; Shared / Links, while a longer discussion clarified that deleting an unuploaded device copy cannot be undone; the conversation also covered keeping uploaded files while freeing device storage and the risks of manual backups.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Two links were shared: a &lt;a href="https://fixvx.com/dexerto/status/2092684763286946283"&gt;Dexerto post&lt;/a&gt; and an &lt;a href="https://apps.apple.com/app/id6445840140"&gt;app for changing Safari’s default search engine&lt;/a&gt; beyond Apple’s built-in options.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;A member posted photos of a lunar eclipse in Toronto, comparing a camera JPEG with a RAW image edited to address overexposure and reduce noise.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
