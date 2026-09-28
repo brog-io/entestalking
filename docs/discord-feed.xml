@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 27 Sep 2026 12:21:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 14:21:39 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Sep 28, 2026 - 40 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 14:21:39 +0000</pubDate>
+      <description>&lt;p&gt;Ente Community saw moderate activity across four channels, with discussions led by Ente Auth usage and feature comparisons. Members also discussed referral codes, large-file handling, and download issues.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;With 21 messages from six participants, the channel focused on Android autofill for TOTP apps, convenience versus security, and comparisons between Ente Auth and Proton Authenticator. Members also discussed QR-code functionality, password-manager choices, and a request for custom icons.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;There were 18 messages from nine participants. Members shared Ente Auth referral codes and reactions, while others discussed the planned file-size upload increase and download failures for 10–20 GB videos; desktop testing was clarified, and a mobile issue was suggested for GitHub reporting. The conversation also included &lt;a href="https://klipy.com/gifs/wink-eye-wink-2"&gt;a wink GIF&lt;/a&gt; and &lt;a href="https://klipy.com/gifs/were-back-were-so-back"&gt;a celebratory GIF&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One newcomer shared that they use Ente as a phone gallery and find it satisfactory.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Sep 27, 2026 - 32 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -657,25 +673,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Aug 29, 2026 - 41 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-08-29</guid>
-      <pubDate>Sat, 29 Aug 2026 12:47:54 +0000</pubDate>
-      <description>&lt;p&gt;Activity centered on Ente Photos discussions and an Ente Auth account-recovery issue, with 41 messages across four active channels. Members also shared a Photos pull request and a Locker message link.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;29 messages from 7 participants.&lt;/strong&gt; Discussion covered freeing device space while retaining Ente uploads, the risks of deleting unuploaded photos, and suggestions for clearer warnings or a trash system. Members also discussed face-indexing errors involving children, contact naming, a screenshot-processing feature idea, and shared &lt;a href="https://github.com/ente/ente/pull/12390"&gt;a GitHub pull request&lt;/a&gt;. An Auth recovery request was redirected to the appropriate support channel.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;8 messages from 2 participants.&lt;/strong&gt; Damon sought urgent help recovering an Ente Auth account after reinstalling the app and not receiving a support response. Jaime advised using email, noted the typical two-to-three-business-day response time, and cautioned against repeating messages or spamming; the weekend may cause additional delay.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;2 messages from 1 participant.&lt;/strong&gt; Damon said hello and repeated a request for Ente Auth account-recovery help.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;2 messages from 2 participants.&lt;/strong&gt; A member asked how to view and delete shared file links, followed by a &lt;a href="https://discord.com/channels/948937918347608085/1439920913096380537/1534890587449200701"&gt;Discord message link&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
