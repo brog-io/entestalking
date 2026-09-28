@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 27 Sep 2026 11:35:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 13:10:12 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 28, 2026 - 10 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 13:10:12 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focused on mobile account setup and authentication imports, desktop/web image-processing maintenance, and server observability. Several CLI and Photos improvements are also in progress, including a new export flow and upcoming Locker and Favorites controls.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile:&lt;/strong&gt; Ente Auth can now import tokens from Open Authenticator, and self-hosted family setup has been fixed: &lt;a href="https://github.com/ente/ente/pull/13191"&gt;#13191&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13192"&gt;#13192&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web:&lt;/strong&gt; The desktop/web image stack now uses the newer &lt;code&gt;libheif-js&lt;/code&gt; 1.23.2 resolution as an interim security upgrade: &lt;a href="https://github.com/ente/ente/pull/13183"&gt;#13183&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Rate-limit rejections now emit bounded telemetry for monitoring, while existing behavior and alerts remain unchanged. A no-longer-needed storage-block Discord alert was also removed: &lt;a href="https://github.com/ente/ente/pull/13182"&gt;#13182&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13188"&gt;#13188&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CLI and infrastructure:&lt;/strong&gt; Newly created CLI secret files now default to restrictive &lt;code&gt;0600&lt;/code&gt; permissions without overwriting existing files: &lt;a href="https://github.com/ente/ente/pull/13189"&gt;#13189&lt;/a&gt;. Dependency, toolchain, cleanup, and issue-template maintenance also landed: &lt;a href="https://github.com/ente/ente/pull/13193"&gt;#13193&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13181"&gt;#13181&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13185"&gt;#13185&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13175"&gt;#13175&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;New Photos CLI export:&lt;/strong&gt; The new Rust CLI is gaining Photos export support: &lt;a href="https://github.com/ente/ente/pull/13194"&gt;#13194&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Safer, more reusable login flow:&lt;/strong&gt; Rust login state is being separated from interactive prompts, with authentication values removed from HTTP-error and browser-launch logs: &lt;a href="https://github.com/ente/ente/pull/13197"&gt;#13197&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile UX:&lt;/strong&gt; A new Locker link and easier access to “What’s new” are being added, while file info will allow removing items from Quick Links and Favorites: &lt;a href="https://github.com/ente/ente/pull/13190"&gt;#13190&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13184"&gt;#13184&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop image support:&lt;/strong&gt; An upcoming libvips upgrade targets security fixes, RAW thumbnails, and Ultra HDR preservation; related work keeps image extensions in temporary files for RAW conversion: &lt;a href="https://github.com/ente/ente/pull/13187"&gt;#13187&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13186"&gt;#13186&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 27, 2026 - 0 shipped, 1 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -699,27 +722,6 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12494"&gt;Add Lightyear icon&lt;/a&gt; adds a custom Lightyear app icon for matching issuer names, including support for keeping the mark visible in dark mode.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Repository documentation:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12493"&gt;Add &lt;code&gt;--depth 1&lt;/code&gt; to git clone command&lt;/a&gt; updates the clone instructions to fetch only the latest history, significantly reducing the amount of data downloaded.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 29, 2026 - 13 shipped, 1 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-29</guid>
-      <pubDate>Sat, 29 Aug 2026 12:26:37 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focused on making Ente Photos more responsive and reliable, especially around Memories, search, gallery loading, and background ML. The team also expanded access to several photo features and continued internal platform cleanup.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos — Memories:&lt;/strong&gt; Memory music now downloads and caches hosted tracks, retries failed downloads, and falls back to another track when needed in &lt;a href="https://github.com/ente/ente/pull/12488"&gt;#12488&lt;/a&gt;. Memory strip widgets were also renamed in &lt;a href="https://github.com/ente/ente/pull/12477"&gt;#12477&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos — performance:&lt;/strong&gt; Search and Gallery now load file records in 2,000-row batches instead of one unbounded result, reducing memory spikes on large libraries (&lt;a href="https://github.com/ente/ente/pull/12479"&gt;#12479&lt;/a&gt;). Foreground use now takes priority over background ML work, helping keep the app responsive while open (&lt;a href="https://github.com/ente/ente/pull/12470"&gt;#12470&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos — background processing:&lt;/strong&gt; Magic Cache and Smart Memories refreshes now run sequentially after ML indexing and clustering, with stop requests honored between stages (&lt;a href="https://github.com/ente/ente/pull/12482"&gt;#12482&lt;/a&gt;). Location indexing also pauses retries while offline and resumes correctly after connectivity returns (&lt;a href="https://github.com/ente/ente/pull/12484"&gt;#12484&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos — feature availability:&lt;/strong&gt; Device Trash, EXIF-preserving edits, and lossless edits no longer require their internal user gates (&lt;a href="https://github.com/ente/ente/pull/12480"&gt;#12480&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12483"&gt;#12483&lt;/a&gt;). The referral screen was refreshed in &lt;a href="https://github.com/ente/ente/pull/12421"&gt;#12421&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reliability and platform maintenance:&lt;/strong&gt; Duplicate root log listeners are prevented (&lt;a href="https://github.com/ente/ente/pull/12485"&gt;#12485&lt;/a&gt;), Photos platform channels were simplified (&lt;a href="https://github.com/ente/ente/pull/12489"&gt;#12489&lt;/a&gt;), generated Rust legacy types are now used by web and Flutter (&lt;a href="https://github.com/ente/ente/pull/12486"&gt;#12486&lt;/a&gt;), and server transactions roll back on all exits (&lt;a href="https://github.com/ente/ente/pull/12478"&gt;#12478&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos — Memories:&lt;/strong&gt; The Memories strip is being cleaned up to support different card types, an upcoming UI and presentation improvement in &lt;a href="https://github.com/ente/ente/pull/12481"&gt;#12481&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
