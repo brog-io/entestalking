@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 28 Sep 2026 13:10:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 12:19:07 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Sep 29, 2026 - 43 shipped, 10 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-09-29</guid>
+      <pubDate>Tue, 29 Sep 2026 12:19:07 +0000</pubDate>
+      <description>&lt;p&gt;A busy day focused on user-facing improvements across Ente Photos, Ente Space, and Ente Auth, alongside upload reliability and media-processing hardening. Several mobile and desktop enhancements are also in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; Messages now support encrypted emoji reactions with a searchable picker, skin-tone choices, and improved reaction UI via &lt;a href="https://github.com/ente/ente/pull/13223"&gt;server support&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13224"&gt;web support&lt;/a&gt;. Profile photos are now displayed in compact, time-grouped sections such as Today, This week, and This month in &lt;a href="https://github.com/ente/ente/pull/13232"&gt;#13232&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; OCR can now recover still images from uploaded copies when local files are unavailable in &lt;a href="https://github.com/ente/ente/pull/13229"&gt;#13229&lt;/a&gt;. Unsupported formats no longer trigger unnecessary face-crop retries in &lt;a href="https://github.com/ente/ente/pull/13230"&gt;#13230&lt;/a&gt;, and On This Day memories remain correctly grouped across daylight-saving changes in &lt;a href="https://github.com/ente/ente/pull/13207"&gt;#13207&lt;/a&gt;. Smart albums also wait for auto-add updates to finish before returning in &lt;a href="https://github.com/ente/ente/pull/13114"&gt;#13114&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; A new “Newest first” sort option puts recently added codes at the top in &lt;a href="https://github.com/ente/ente/pull/13168"&gt;#13168&lt;/a&gt;. New service icons were added for Magento2, Hueber, and PJe in &lt;a href="https://github.com/ente/ente/pull/13216"&gt;#13216&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13215"&gt;#13215&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13167"&gt;#13167&lt;/a&gt;; Open Authenticator import also shipped in &lt;a href="https://github.com/ente/ente/pull/13191"&gt;#13191&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker and web:&lt;/strong&gt; Locker now confirms before discarding unsaved edits or pending uploads in &lt;a href="https://github.com/ente/ente/pull/13228"&gt;#13228&lt;/a&gt;. “What’s new” can be reopened from Locker settings or About via &lt;a href="https://github.com/ente/ente/pull/13162"&gt;#13162&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13213"&gt;#13213&lt;/a&gt;. Web maps now send the referrer required for OpenStreetMap tiles in &lt;a href="https://github.com/ente/ente/pull/13201"&gt;#13201&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reliability:&lt;/strong&gt; Preview uploads now validate size and MD5 metadata, with mobile support, in &lt;a href="https://github.com/ente/ente/pull/13214"&gt;#13214&lt;/a&gt;; HLS processing is bounded on mobile and web in &lt;a href="https://github.com/ente/ente/pull/13212"&gt;#13212&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13211"&gt;#13211&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; A manual straighten control and upgraded crop editor are proposed in &lt;a href="https://github.com/ente/ente/pull/13204"&gt;#13204&lt;/a&gt;; shared-album uploads could run in the background in &lt;a href="https://github.com/ente/ente/pull/13199"&gt;#13199&lt;/a&gt;; and Memory Lane backgrounds are being precomputed for smoother animations in &lt;a href="https://github.com/ente/ente/pull/13217"&gt;#13217&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; A “Last week” profile grouping and larger quick-reaction controls are in &lt;a href="https://github.com/ente/ente/pull/13239"&gt;#13239&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop and Locker:&lt;/strong&gt; Desktop preview uploads are being migrated to the new metadata flow in &lt;a href="https://github.com/ente/ente/pull/13237"&gt;#13237&lt;/a&gt;, while Android multi-file sharing for Locker is proposed in &lt;a href="https://github.com/ente/ente/pull/13221"&gt;#13221&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Sep 28, 2026 - 10 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -706,22 +729,6 @@
   &lt;li&gt;Face clustering will prune orphaned unclustered face embeddings when their files are gone, improving subsequent clustering checks, in &lt;a href="https://github.com/ente/ente/pull/12513"&gt;#12513&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Server security:&lt;/strong&gt; New sessions are being stored by token hash rather than raw token in &lt;a href="https://github.com/ente/ente/pull/12515"&gt;#12515&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Ente Auth is adding a custom Lightyear issuer icon in &lt;a href="https://github.com/ente/ente/pull/12494"&gt;#12494&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Aug 30, 2026 - 0 shipped, 2 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 11:27:04 +0000</pubDate>
-      <description>&lt;p&gt;A quiet day in Ente development, with no changes merged. Two pull requests are in progress: one improves issuer recognition in Ente Auth, while the other makes cloning the repository much faster for readers following the documentation.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;p&gt;No pull requests were merged in the past 24 hours.&lt;/p&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12494"&gt;Add Lightyear icon&lt;/a&gt; adds a custom Lightyear app icon for matching issuer names, including support for keeping the mark visible in dark mode.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Repository documentation:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12493"&gt;Add &lt;code&gt;--depth 1&lt;/code&gt; to git clone command&lt;/a&gt; updates the clone instructions to fetch only the latest history, significantly reducing the amount of data downloaded.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
