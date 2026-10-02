@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 01 Oct 2026 12:37:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 12:02:18 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 02, 2026 - 22 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:02:18 +0000</pubDate>
+      <description>&lt;p&gt;Today’s merged work focused on Photos usability and performance, safer sharing, and mobile reliability. Several upcoming changes also target easier album organization, smoother video sharing, and richer Memories playback.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13330"&gt;refreshed onboarding and Local Gallery flows&lt;/a&gt;] improve copy and layout while making notification-permission retries less disruptive; [&lt;a href="https://github.com/ente/ente/pull/13274"&gt;map markers&lt;/a&gt;] now use rounded photo pins and count badges; and [&lt;a href="https://github.com/ente/ente/pull/13348"&gt;OCR failures&lt;/a&gt;] appear as dismissible toasts instead of persistent banners.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos across mobile and web:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13332"&gt;OCR now uses Vision on iOS and Rust OCR on Android&lt;/a&gt;] for all users, with model caching and lifecycle improvements. [&lt;a href="https://github.com/ente/ente/pull/13333"&gt;Share downloads&lt;/a&gt;] stream encrypted data in chunks, reducing memory use for large files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliability and privacy:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13281"&gt;iOS startup and simulator initialization fixes&lt;/a&gt;] address newer iOS and Apple Silicon environments. The server now [&lt;a href="https://github.com/ente/ente/pull/13355"&gt;filters private fields from shared collections&lt;/a&gt;] and [&lt;a href="https://github.com/ente/ente/pull/13344"&gt;redacts public-link request bodies&lt;/a&gt;].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auth and sharing:&lt;/strong&gt; Auth QR codes can [&lt;a href="https://github.com/ente/ente/pull/13349"&gt;switch finder squares to black on tap&lt;/a&gt;] for hardware authenticator compatibility. Space web messages now [&lt;a href="https://github.com/ente/ente/pull/13329"&gt;make URLs clickable&lt;/a&gt;].&lt;/li&gt;
+&lt;li&gt;Other merged maintenance includes [&lt;a href="https://github.com/ente/ente/pull/13358"&gt;streamed motion-photo processing&lt;/a&gt;], [&lt;a href="https://github.com/ente/ente/pull/13343"&gt;owner-only Auth export permissions&lt;/a&gt;], and ML/database groundwork in [&lt;a href="https://github.com/ente/ente/pull/13322"&gt;13322&lt;/a&gt;] and [&lt;a href="https://github.com/ente/ente/pull/13325"&gt;13325&lt;/a&gt;].&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Album organization:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13356"&gt;mobile&lt;/a&gt;] and [&lt;a href="https://github.com/ente/ente/pull/13353"&gt;web&lt;/a&gt;] add natural filename sorting within albums.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Video sharing:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13352"&gt;single-video quick links&lt;/a&gt;] will start muted autoplay, with sound available through the existing control.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memories:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13335"&gt;Memory Lane v2&lt;/a&gt;] adds background music support and always-visible navigation dots.&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/ente/ente/pull/13357"&gt;Camera dependency upgrade&lt;/a&gt;] targets iPhone 17 scanner crashes, while [&lt;a href="https://github.com/ente/ente/pull/13360"&gt;Space message hover actions&lt;/a&gt;] makes reactions, replies, copying, and deletion easier to discover.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 01, 2026 - 43 shipped, 7 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -703,29 +727,6 @@
   &lt;li&gt;&lt;strong&gt;Authentication:&lt;/strong&gt; A proposed change makes login completion and credential rotation atomic, invalidates pending logins after credential changes, and makes passkey recovery single-use: &lt;a href="https://github.com/ente/ente/pull/12586"&gt;atomic auth state changes&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ensu desktop:&lt;/strong&gt; “Your Notes” would let users index local Markdown folders and chat with them alongside Ensu packs, with citations: &lt;a href="https://github.com/ente/ente/pull/12571"&gt;Your Notes&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Other work includes a Flutter upgrade, ML cache invalidation on logout, HLS playlist validation, a Rust vector-database engine, YOLO decoding cleanup, and new self-hosted service icons: &lt;a href="https://github.com/ente/ente/pull/12592"&gt;Flutter&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12559"&gt;ML caches&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12591"&gt;HLS validation&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12573"&gt;vecdb&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12578"&gt;YOLO decoding&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12579"&gt;service icons&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 02, 2026 - 19 shipped, 9 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-02</guid>
-      <pubDate>Wed, 02 Sep 2026 10:49:38 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focused on Photos usability, more resilient machine-learning processing, and stronger server-side session security. Several web and mobile flows also moved further away from legacy implementations, while Android folder management and hidden-album workflows are in progress.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Trash-aware deletion copy is now shown to all eligible Android 11+ users, clarifying that deleted files can be restored from Trash (&lt;a href="https://github.com/ente/ente/pull/12535"&gt;#12535&lt;/a&gt;). Shared albums moved to Archive now follow the same organization as other archived content (&lt;a href="https://github.com/ente/ente/pull/12538"&gt;#12538&lt;/a&gt;), and album slideshows no longer flash during transitions (&lt;a href="https://github.com/ente/ente/pull/12553"&gt;#12553&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Repeated ML download or decryption failures are recorded and skipped instead of retrying indefinitely; the ML settings page now shows affected-item counts and offers a support action (&lt;a href="https://github.com/ente/ente/pull/12527"&gt;#12527&lt;/a&gt;). Memories music is now loaded from a remote track manifest (&lt;a href="https://github.com/ente/ente/pull/12531"&gt;#12531&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web and desktop:&lt;/strong&gt; Signup now presents plan selection within the authentication flow, before the gallery (&lt;a href="https://github.com/ente/ente/pull/12558"&gt;#12558&lt;/a&gt;). The web collection selector shows archived status (&lt;a href="https://github.com/ente/ente/pull/12549"&gt;#12549&lt;/a&gt;), and desktop authentication styling no longer causes an unwanted scrollbar (&lt;a href="https://github.com/ente/ente/pull/12550"&gt;#12550&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server security and integrity:&lt;/strong&gt; Payment, Families, and Accounts scoped JWTs are being bound to their originating sessions and validated on requests (&lt;a href="https://github.com/ente/ente/pull/12536"&gt;#12536&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12544"&gt;#12544&lt;/a&gt;). User creation is atomic and file counts are maintained during file creation (&lt;a href="https://github.com/ente/ente/pull/12533"&gt;#12533&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12474"&gt;#12474&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Link responses in Space now validate the response identity (&lt;a href="https://github.com/ente/ente/pull/12551"&gt;#12551&lt;/a&gt;). Web, Auth, and Locker also completed additional legacy-UI cleanup (&lt;a href="https://github.com/ente/ente/pull/12530"&gt;#12530&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12534"&gt;#12534&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12537"&gt;#12537&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12539"&gt;#12539&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming Photos mobile feature:&lt;/strong&gt; Android support is being added for copying and moving files between device folders, with progress feedback and safeguards for folders linked to Ente collections (&lt;a href="https://github.com/ente/ente/pull/12543"&gt;#12543&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Web users may soon be able to move files between hidden albums (&lt;a href="https://github.com/ente/ente/pull/12548"&gt;#12548&lt;/a&gt;), while mobile ML caches will be invalidated on logout (&lt;a href="https://github.com/ente/ente/pull/12559"&gt;#12559&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Other work includes support guidance for file-viewer decryption failures (&lt;a href="https://github.com/ente/ente/pull/12540"&gt;#12540&lt;/a&gt;), Trash/Restore file-count maintenance (&lt;a href="https://github.com/ente/ente/pull/12545"&gt;#12545&lt;/a&gt;), a desktop titlebar fix (&lt;a href="https://github.com/ente/ente/pull/12529"&gt;#12529&lt;/a&gt;), and documentation updates (&lt;a href="https://github.com/ente/ente/pull/12528"&gt;#12528&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12541"&gt;#12541&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
