@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 02 Oct 2026 13:03:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 11:56:17 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 03, 2026 - 66 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 11:56:17 +0000</pubDate>
+      <description>&lt;p&gt;The server saw moderate activity, led by an off-topic discussion about password-manager privacy and data exposure. Product conversations also covered Ente Photos, Auth, Locker, and the emerging Space service.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 29 messages from five participants, the channel focused on password-manager privacy, the US CLOUD Act, Bitwarden’s administrative data, passkeys, and threat models. Members also shared &lt;a href="https://ente.com/toys/"&gt;Ente’s toys page&lt;/a&gt; and linked to &lt;a href="https://bitwarden.com/privacy/"&gt;Bitwarden’s privacy policy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Fourteen messages from eight participants covered feedback on the music icon in Memories, including making it more subtle or optionally disabled. Other discussions included desktop Trash storage, possible video compression such as H.265, streamable-video storage, and using Ente Photos with GrapheneOS.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Nine messages from four participants clarified the difference between TOTP secrets and generated passwords. Members confirmed that Ente does not currently offer a password manager and discussed alternative privacy-focused options; one message linked to a Discord thread.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Nine messages from four participants reported laggy document scanning and an occasionally unresponsive interface. The discussion also confirmed that Locker items can be marked “Keep offline,” with members asking about privacy and encryption.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Four messages discussed where to find Ente Space and whether it is publicly available. The team noted that &lt;a href="https://ente.com/space"&gt;ente.com/space&lt;/a&gt; currently redirects to the app, with a public information page planned for later.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member posted a brief greeting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 02, 2026 - 27 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -666,19 +691,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;One new member introduced themselves after researching Ente Photos and expressed a positive first impression.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 03, 2026 - 19 messages in 2 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 11:35:54 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light activity over the past day, with most discussion in &lt;strong&gt;#off-topic&lt;/strong&gt;. Members discussed app crashes, Ente merchandise, and sticker designs, while &lt;strong&gt;#photos&lt;/strong&gt; had a question about generating streamable video versions.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;18 messages from six participants covered crashes in Revanced Instagram and alternatives such as YouTube Music, along with discussion of Ente merchandise, including mugs, sticker packs, and requests for individual stickers or a Ducky plushie. Members shared a &lt;a href="https://youtu.be/3WEmp58KgdQ"&gt;YouTube video&lt;/a&gt; and the &lt;a href="https://shop.ente.com/products/ente-fam-sticker-sheet-pack-2"&gt;Ente sticker sheet pack&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;A member asked whether Ente must be open on a desktop to generate streamable versions of videos from the last three weeks, some several gigabytes in size.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
