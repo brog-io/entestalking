@@ -4,7 +4,25 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 02 Oct 2026 12:02:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 11:14:46 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 03, 2026 - 1 shipped, 2 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 11:14:46 +0000</pubDate>
+      <description>&lt;p&gt;A mobile camera dependency upgrade has shipped to address scanner crashes on iPhone 17. Two improvements are in progress: clearer message actions in Space web and a new Boxcar Trading icon for Ente Auth.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile / Photos and Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13357"&gt;Upgrade the camera package to fix iPhone 17 scanner crashes&lt;/a&gt;. The update includes the upstream iOS camera fix while retaining the existing maximum-resolution camera setting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13362"&gt;Add the Boxcar Trading icon&lt;/a&gt;. If merged, accounts from &lt;strong&gt;boxcartrading.com&lt;/strong&gt; will be matched with the company’s original amber-on-navy branding.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13360"&gt;Add a hover trigger for message actions&lt;/a&gt;. A visible chevron on hovered messages will make reactions, replies, copying, and deletion easier to discover, while opening the existing actions menu beside the message.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 02, 2026 - 22 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -704,29 +722,6 @@
 &lt;li&gt;&lt;strong&gt;Web Photos:&lt;/strong&gt; HLS preview playlists are being validated before use (&lt;a href="https://github.com/ente/ente/pull/12591"&gt;#12591&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Mobile projects are being prepared for a Flutter 3.47.2 upgrade, including updated Android tooling and platform requirements (&lt;a href="https://github.com/ente/ente/pull/12592"&gt;#12592&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Documentation is adding an album slideshow FAQ (&lt;a href="https://github.com/ente/ente/pull/12606"&gt;#12606&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 03, 2026 - 14 shipped, 10 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 10:49:43 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a set of Photos web and desktop usability improvements alongside server integrity and security hardening. Work in progress points to upcoming XMP upload support, stronger authentication safeguards, and new desktop knowledge features.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos web:&lt;/strong&gt; Signup now shows the plan selector before the gallery, archived collections are visibly marked, redundant trash actions were removed, and files can be moved between hidden albums: &lt;a href="https://github.com/ente/ente/pull/12558"&gt;signup flow&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12549"&gt;archived icon&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12566"&gt;trash UX&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12548"&gt;hidden albums&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos desktop:&lt;/strong&gt; Fixed the app title bar and an authentication-shell layout issue that could cause an unwanted scrollbar: &lt;a href="https://github.com/ente/ente/pull/12529"&gt;title bar&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12550"&gt;AuthShell styles&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Usage-row handling now preserves data integrity by backfilling missing rows safely, requiring existing rows for updates, and moving same-collection validation into the controller. Legacy plaintext tokens are also cleared in batches: &lt;a href="https://github.com/ente/ente/pull/12582"&gt;backfill usage rows&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12590"&gt;require usage rows&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12584"&gt;collection validation&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12561"&gt;clear tokens&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Web and Rust security:&lt;/strong&gt; Generated WASM is kept out of initial web chunks, Locker crypto is packaged with its WASM artifact, and asset download sizes are verified: &lt;a href="https://github.com/ente/ente/pull/12583"&gt;web chunks&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12587"&gt;Locker crypto&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12581"&gt;asset sizes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos desktop:&lt;/strong&gt; Upcoming support for XMP sidecar files during uploads, plus a fix for HLS failures that could expose account session tokens in logs: &lt;a href="https://github.com/ente/ente/pull/12585"&gt;XMP uploads&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12589"&gt;HLS logging fix&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Authentication:&lt;/strong&gt; A proposed change makes login completion and credential rotation atomic, invalidates pending logins after credential changes, and makes passkey recovery single-use: &lt;a href="https://github.com/ente/ente/pull/12586"&gt;atomic auth state changes&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ensu desktop:&lt;/strong&gt; “Your Notes” would let users index local Markdown folders and chat with them alongside Ensu packs, with citations: &lt;a href="https://github.com/ente/ente/pull/12571"&gt;Your Notes&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Other work includes a Flutter upgrade, ML cache invalidation on logout, HLS playlist validation, a Rust vector-database engine, YOLO decoding cleanup, and new self-hosted service icons: &lt;a href="https://github.com/ente/ente/pull/12592"&gt;Flutter&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12559"&gt;ML caches&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12591"&gt;HLS validation&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12573"&gt;vecdb&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12578"&gt;YOLO decoding&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12579"&gt;service icons&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
