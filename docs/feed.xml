@@ -4,7 +4,22 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 03 Oct 2026 11:14:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 11:54:29 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 04, 2026 - 1 shipped, 0 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 11:54:29 +0000</pubDate>
+      <description>&lt;p&gt;Today’s activity delivered a small usability improvement to Ente Auth on mobile. No new pull requests were opened.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13367"&gt;Remember Auth's selected tag&lt;/a&gt; so the app can preserve the tag a user was browsing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;p&gt;No newly opened pull requests.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 03, 2026 - 1 shipped, 2 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -696,32 +711,6 @@
   &lt;li&gt;&lt;strong&gt;Upcoming ML work:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/12616"&gt;Rust OCR pipeline&lt;/a&gt;] adds an internal-flagged Rust OCR path, while [&lt;a href="https://github.com/ente/ente/pull/12610"&gt;ML database orchestration split&lt;/a&gt;] prepares a feature-flagged move of mobile ML database work to Rust.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Gallery and desktop:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/12615"&gt;Wider-screen justified layouts&lt;/a&gt;] tunes galleries for larger displays, and [&lt;a href="https://github.com/ente/ente/pull/12609"&gt;video-streaming percentage progress&lt;/a&gt;] adds desktop progress feedback.&lt;/li&gt;
   &lt;li&gt;Documentation updates cover [&lt;a href="https://github.com/ente/ente/pull/12613"&gt;iOS Backup mode and upload-cache cleanup&lt;/a&gt;] and an [&lt;a href="https://github.com/ente/ente/pull/12606"&gt;album slideshow FAQ&lt;/a&gt;].&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 04, 2026 - 18 shipped, 5 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-04</guid>
-      <pubDate>Fri, 04 Sep 2026 10:48:55 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped several Photos usability improvements across mobile and desktop, including cleaner gallery layouts, XMP sidecar uploads, and earlier Uncategorized album creation. Ensu desktop also gained local Markdown notes, while internal Rust and infrastructure work continued; new work is underway on ML database architecture, video progress, and HLS validation.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ente Photos — mobile:&lt;/strong&gt; Gallery rows are now more balanced and scannable, with fewer awkward tails and better handling of portrait-heavy groups (&lt;a href="https://github.com/ente/ente/pull/12603"&gt;#12603&lt;/a&gt;). The Uncategorized album is also created during sync, so it is available before users open it (&lt;a href="https://github.com/ente/ente/pull/12594"&gt;#12594&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ente Photos — desktop:&lt;/strong&gt; Uploads now support XMP sidecar files, preserving associated metadata alongside photos (&lt;a href="https://github.com/ente/ente/pull/12585"&gt;#12585&lt;/a&gt;). A desktop HLS failure was also fixed so account session tokens are no longer persisted in logs (&lt;a href="https://github.com/ente/ente/pull/12589"&gt;#12589&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ensu desktop:&lt;/strong&gt; “Your Notes” lets users select a local Markdown folder, keeps its index updated, and combines notes with Ensu Pack knowledge while providing citations (&lt;a href="https://github.com/ente/ente/pull/12571"&gt;#12571&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Added custom icons for the self-hosted Securo finance and Jotty note-taking services (&lt;a href="https://github.com/ente/ente/pull/12579"&gt;#12579&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Localization:&lt;/strong&gt; Corrected Vietnamese, Swedish, and Estonian mobile translation issues (&lt;a href="https://github.com/ente/ente/pull/12605"&gt;#12605&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Internal Rust work added a pure-Rust vector database engine for future ML use, without wiring it into apps yet (&lt;a href="https://github.com/ente/ente/pull/12573"&gt;#12573&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Photos ML:&lt;/strong&gt; The first of four PRs begins separating ML database orchestration from SQL behind an interface, preparing a feature-flagged move of the mobile ML database to Rust without changing behavior yet (&lt;a href="https://github.com/ente/ente/pull/12610"&gt;#12610&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Desktop Photos:&lt;/strong&gt; Video streaming is set to gain percentage-based progress reporting (&lt;a href="https://github.com/ente/ente/pull/12609"&gt;#12609&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web Photos:&lt;/strong&gt; HLS preview playlists are being validated before use (&lt;a href="https://github.com/ente/ente/pull/12591"&gt;#12591&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Mobile projects are being prepared for a Flutter 3.47.2 upgrade, including updated Android tooling and platform requirements (&lt;a href="https://github.com/ente/ente/pull/12592"&gt;#12592&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Documentation is adding an album slideshow FAQ (&lt;a href="https://github.com/ente/ente/pull/12606"&gt;#12606&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
