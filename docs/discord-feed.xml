@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sat, 03 Oct 2026 11:56:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 12:46:25 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 04, 2026 - 20 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 12:46:25 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community recorded 20 messages across six active channels. Discussion centered on Ente Photos storage and video compression, with additional questions about Auth, Locker, and upcoming apps.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 10 messages from seven participants, the channel covered a large Trash folder appearing on an exported drive, requests for video compression including H.265, and where streamable videos are stored. Members also discussed using Ente with GrapheneOS, exchanged support follow-up about logs and email, and briefly asked about an Ente Mail app.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Five messages from three participants covered reordering authentication accounts; a custom sort option allows drag-and-drop ordering. Members also shared positive feedback about Ente’s apps, while one participant mentioned choosing Bitwarden.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Two newcomers introduced themselves, including one who migrated more than 10,000 photos from Google to Ente.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;A user asked whether the Locker web app is available on self-hosted instances, then noted that using the correct port resolved the issue.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;A video about aircraft specifications was shared, with a reference to &lt;a href="https://x.com/karpathy/status/2"&gt;Karpathy’s post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;A single meme-related link was shared: &lt;a href="https://fixvx.com/PastGambles/status/2106191205155352880"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 03, 2026 - 66 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -672,25 +697,6 @@
 
 &lt;h3&gt;#space&lt;/h3&gt;
 &lt;p&gt;One message asked whether the “change link” option had been removed.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 04, 2026 - 13 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-04</guid>
-      <pubDate>Fri, 04 Sep 2026 11:37:27 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light over the past day, with 13 messages across four channels. Discussion focused on app experiences, desktop builds, and how Ente Spaces differs from shared albums.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Six messages from three participants covered app switching and issues with video loading, along with a brief clarification about Ente Contacts and whether it represents people found in an album.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Four messages from three participants discussed desktop point releases, nightly builds, device requirements, and streaming-related settings. The exchange ended with thanks for the support.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Two participants discussed whether Spaces are intended as a more permanent alternative to link-shared albums; the answer emphasized staying connected with close friends and family through everyday photos.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;One new member introduced themselves after researching Ente Photos and expressed a positive first impression.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
