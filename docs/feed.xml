@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 05 Oct 2026 13:52:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 12:55:51 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 06, 2026 - 27 shipped, 9 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 12:55:51 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos playback, sharing, upload, and offline-mode improvements, alongside substantial Space web media work. Several reliability and performance fixes are also in progress, including Android push enrollment and safer logout handling.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; External and shared videos now use the native player with seeking, mute, fullscreen, autoplay, and improved background behavior in &lt;a href="https://github.com/ente/ente/pull/13406"&gt;#13406&lt;/a&gt;. Viewer sharing actions were consolidated into a more accessible dock in &lt;a href="https://github.com/ente/ente/pull/13400"&gt;#13400&lt;/a&gt;, and the Feed tab is now hidden in offline mode in &lt;a href="https://github.com/ente/ente/pull/13395"&gt;#13395&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; iOS processing can now continue beyond the previous four-minute deadline while the system permits it in &lt;a href="https://github.com/ente/ente/pull/13414"&gt;#13414&lt;/a&gt;. Document scanning also uses less temporary memory in &lt;a href="https://github.com/ente/ente/pull/13411"&gt;#13411&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Albums, public albums, and embeds now support filename sorting in &lt;a href="https://github.com/ente/ente/pull/13353"&gt;#13353&lt;/a&gt;. Account settings gained live explanatory subtext in &lt;a href="https://github.com/ente/ente/pull/13421"&gt;#13421&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; Video posting is faster through earlier exports and cached bytes in &lt;a href="https://github.com/ente/ente/pull/13420"&gt;#13420&lt;/a&gt;. Feed videos now preload earlier and autoplay more smoothly in &lt;a href="https://github.com/ente/ente/pull/13407"&gt;#13407&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13403"&gt;#13403&lt;/a&gt;. Safari uploads, Firefox Android covers, aspect ratios, and error reporting were also improved in &lt;a href="https://github.com/ente/ente/pull/13415"&gt;#13415&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13398"&gt;#13398&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13409"&gt;#13409&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13418"&gt;#13418&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Android users can now share multiple files at once in &lt;a href="https://github.com/ente/ente/pull/13221"&gt;#13221&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Photos web will explain download blob failures as “Not enough disk space” where appropriate in &lt;a href="https://github.com/ente/ente/pull/13434"&gt;#13434&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Auth and Locker are being hardened so old app locks cannot survive logout in &lt;a href="https://github.com/ente/ente/pull/13427"&gt;#13427&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Android push-notification device registration is in progress, with Firebase and server-routing rollout requirements noted in &lt;a href="https://github.com/ente/ente/pull/13397"&gt;#13397&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Korean-language support for Photos and Locker is proposed in &lt;a href="https://github.com/ente/ente/pull/13422"&gt;#13422&lt;/a&gt;; a desktop slideshow documentation update is in &lt;a href="https://github.com/ente/ente/pull/13423"&gt;#13423&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 05, 2026 - 28 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -700,21 +724,6 @@
 &lt;li&gt;&lt;strong&gt;Security:&lt;/strong&gt; Locker is removing sensitive information from browser local storage in &lt;a href="https://github.com/ente/ente/pull/12644"&gt;#12644&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upcoming ML migration:&lt;/strong&gt; A Rust SQLite wrapper and ML database foundation for Photos are being added in &lt;a href="https://github.com/ente/ente/pull/12642"&gt;#12642&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 06, 2026 - 1 shipped, 0 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-06</guid>
-      <pubDate>Sun, 06 Sep 2026 10:28:39 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped change strengthens authentication reliability on the server. No new pull requests were opened.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12586"&gt;Authentication state changes are now atomic&lt;/a&gt;. Login completion, credential rotation, and passkey recovery are handled more safely, preventing partially applied changes. Users may need to restart an in-progress login after changing credentials, and completed passkey recovery requests can no longer be reused.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;p&gt;No new pull requests were opened.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
