@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 05 Oct 2026 15:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 13:32:01 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 06, 2026 - 37 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 13:32:01 +0000</pubDate>
+      <description>&lt;p&gt;Activity was highest in &lt;strong&gt;#photos&lt;/strong&gt;, with product updates, feature discussions, and bug reports. &lt;strong&gt;#off-topic&lt;/strong&gt; had lighter conversation around Ente Auth, while &lt;strong&gt;#ensu&lt;/strong&gt; focused on an Android model-download issue.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 21 messages from 10 participants, the channel covered a new feature expected on web tomorrow and in the next app release, plus work on a shareable ente.com landing page. Members discussed duplicate-photo detection, hidden media and delete behavior, and a desktop update; a Mac keyboard/Spotify issue was also reported. A celebratory &lt;a href="https://klipy.com/gifs/celebrate-minions"&gt;GIF&lt;/a&gt; was shared.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Fourteen messages from four participants centered on a teacher enthusiastically recommending Ente Auth to a class, prompting jokes about an Ente plan and whether the teacher might be in the Discord. A &lt;a href="https://www.youtube.com/watch?v=V57vDVgyhuQ"&gt;YouTube video&lt;/a&gt; was also posted.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Two participants discussed an Android update prompting a Gemma model download that was not completing, including a brief “Model Not Downloading” report.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 05, 2026 - 30 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -669,28 +685,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One TikTok video was shared: &lt;a href="https://www.tiktokfix.com/@ahmeed.karim/video/7681221899350854919"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 06, 2026 - 97 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-06</guid>
-      <pubDate>Sun, 06 Sep 2026 11:16:02 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community recorded 97 messages across five active channels, with most discussion taking place in &lt;strong&gt;#off-topic&lt;/strong&gt;. Conversations ranged from privacy and open-source tools to Ente Photos feature requests and product updates.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;83 messages from 9 participants.&lt;/strong&gt; Members discussed Proton, GPG/OpenPGP email-sharing improvements, and FOSS note-taking apps including &lt;a href="https://logseq.com/"&gt;Logseq&lt;/a&gt;, Notesnook, Standard Notes, and &lt;a href="https://joplinapp.org/"&gt;Joplin&lt;/a&gt;. Links included the &lt;a href="https://github.com/tehtbl/awesome-note-taking"&gt;awesome note-taking list&lt;/a&gt; and articles about FUTO.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;9 messages from 7 participants.&lt;/strong&gt; Discussion covered a feature request for persistent automobile recognition and tagging, the new search for photos without location information in desktop 1.7.28, and possible inconsistencies with AI features. Members also shared a &lt;a href="https://klipy.com/gifs/marmota-cooking"&gt;GIF&lt;/a&gt; and linked to feature requests on GitHub.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;2 messages from 2 participants.&lt;/strong&gt; Members clarified that there are no current plans for an email service and agreed that focusing on a smaller number of best-in-class products is preferable.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;2 messages from 2 participants.&lt;/strong&gt; Anand announced that public profile links have been removed in favor of private invite links; a member explained they wanted to revoke an existing public link.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Batman introduced himself and shared a current Ducky Dash high score of 1,775.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
