@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Tue, 06 Oct 2026 13:32:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 13:45:53 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 07, 2026 - 37 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 13:45:53 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity across three channels, with discussions ranging from Ente product feedback to general community topics. Off-topic was busiest, followed closely by photos.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;18 messages from 6 participants covered shared links, including &lt;a href="https://www.youtube.com/watch?v=V57vDVgyhuQ"&gt;a YouTube video&lt;/a&gt; and &lt;a href="https://spotifast.rocks/"&gt;Spotifast&lt;/a&gt;, along with a lengthy, nuanced discussion about public figures, controversy, and the meaning and symbolism associated with “Ente.”&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;16 messages from 12 participants focused on product feedback and feature questions. Topics included black transparent PNGs in dark mode, a larger CLIP search model, pinning messages, organizing photos and videos within albums, filtering people by birthdays, and comparisons with Google Photos, Apple Photos, and Immich. The Apple and Google comparison pages were updated, with Immich still to be updated; members also suggested highlighting Ente Web as a platform.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Three messages from two participants discussed Space as an alternative to public albums. Ente plans to integrate the Photos and Space apps, potentially enabling photo and video posting from Photos, while photo blogs and email subscriptions were noted as interesting use cases.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 06, 2026 - 37 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -666,25 +682,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;One member introduced themselves as a retired software engineer who day trades for a living.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 07, 2026 - 24 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-07</guid>
-      <pubDate>Mon, 07 Sep 2026 12:56:44 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw 24 messages across four active channels, with most activity focused on Ente Photos features and migration issues. Members also shared introductions, self-hosting tips, and a few off-topic updates.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 14 messages from 7 participants, discussion centered on metadata loss when downloading videos from SmugMug, including possible recovery approaches. Members also requested automatic photo stacking, centralized sharing-link management, and RAW image support; the team shared roadmap and release updates, including sharing-link improvements in version 1.7.28 and an ongoing desktop redesign. &lt;a href="https://github.com/ente/ente/discussions/625"&gt;A discussion about RAW support&lt;/a&gt; was also shared.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Six messages covered self-hosted syncing options such as Syncthing, along with a brief clarification about which note-taking app is owned by Proton and news that Joplin added native Obsidian vault importing.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Three new members introduced themselves, including users migrating from SmugMug and others who recently began using Ente Photos or have long used Ente Auth.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One TikTok video was shared: &lt;a href="https://www.tiktokfix.com/@ahmeed.karim/video/7681221899350854919"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
