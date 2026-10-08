@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Wed, 07 Oct 2026 12:49:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 12:58:29 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 08, 2026 - 33 shipped, 18 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 12:58:29 +0000</pubDate>
+      <description>&lt;p&gt;A busy day for Ente Photos, with broad settings and playback improvements shipping across mobile and web. Several upcoming efforts also target richer notifications, smarter uploads, stronger session security, and new Locker viewing capabilities.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory lanes are now enabled for users, captions are simplified, and the Memories viewer pauses progress, music, zoom, and video when another screen covers it (&lt;a href="https://github.com/ente/ente/pull/13504"&gt;#13504&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13484"&gt;#13484&lt;/a&gt;). External videos now use the gallery’s playback controls, including seek, fullscreen, speed, and double-tap interactions (&lt;a href="https://github.com/ente/ente/pull/13483"&gt;#13483&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Upload verification is more efficient, completing upload preparation faster after the related sodium improvements (&lt;a href="https://github.com/ente/ente/pull/13404"&gt;#13404&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13506"&gt;#13506&lt;/a&gt;). Re-editing rotated text no longer leaves a ghost layer behind (&lt;a href="https://github.com/ente/ente/pull/13492"&gt;#13492&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Settings now use a two-panel sidebar shell with refreshed styling, inline subscription plans, improved referral and storage cards, and more consistent dialogs (&lt;a href="https://github.com/ente/ente/pull/13476"&gt;#13476&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13485"&gt;#13485&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13493"&gt;#13493&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13494"&gt;#13494&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13488"&gt;#13488&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Link creation now explains when an active subscription is required, rather than showing a generic error (&lt;a href="https://github.com/ente/ente/pull/13499"&gt;#13499&lt;/a&gt;). Export handling also moved into the sidebar and settings retain their panel after export authentication (&lt;a href="https://github.com/ente/ente/pull/13481"&gt;#13481&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13496"&gt;#13496&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server and ML:&lt;/strong&gt; Public links are excluded from Cast collection information, while Rust ML indexes recover more reliably after cold starts or corruption (&lt;a href="https://github.com/ente/ente/pull/13532"&gt;#13532&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13530"&gt;#13530&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other shipped maintenance includes Android build updates, improved Auth logout confirmation, and larger-text accessibility fixes (&lt;a href="https://github.com/ente/ente/pull/13534"&gt;#13534&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13435"&gt;#13435&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13498"&gt;#13498&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Space notifications:&lt;/strong&gt; A dedicated feed for likes, friend requests, acceptances, and pokes, plus persistent app navigation, is under development (&lt;a href="https://github.com/ente/ente/pull/13533"&gt;#13533&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Uploads may soon show an estimated time remaining, and search is being redesigned as a centered dialog with keyboard access (&lt;a href="https://github.com/ente/ente/pull/13528"&gt;#13528&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13511"&gt;#13511&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; A built-in PDF and image viewer is proposed, with zoom, scrolling, sharing, downloading, and external-open actions (&lt;a href="https://github.com/ente/ente/pull/13507"&gt;#13507&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other notable work includes refreshed ML consent screens, free-account storage warnings, session-bound push registrations, and FFmpeg 9.0.2 upgrades for web and desktop (&lt;a href="https://github.com/ente/ente/pull/13520"&gt;#13520&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13522"&gt;#13522&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13519"&gt;#13519&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13514"&gt;#13514&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13536"&gt;#13536&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 07, 2026 - 45 shipped, 8 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -692,32 +717,6 @@
   &lt;li&gt;&lt;strong&gt;Locker and File Viewer:&lt;/strong&gt; A Locker dashboard refresh and clearer download progress are in progress (&lt;a href="https://github.com/ente/ente/pull/12733"&gt;#12733&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12722"&gt;#12722&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; A context-length indicator is being added to the desktop chat composer (&lt;a href="https://github.com/ente/ente/pull/12724"&gt;#12724&lt;/a&gt;), with model downloads moving to commit-pinned mirrors (&lt;a href="https://github.com/ente/ente/pull/12720"&gt;#12720&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;The Rust-backed mobile ML database is wired behind a disabled feature flag for future rollout (&lt;a href="https://github.com/ente/ente/pull/12718"&gt;#12718&lt;/a&gt;), and recovery operations are moving to authenticated sessions (&lt;a href="https://github.com/ente/ente/pull/12731"&gt;#12731&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 08, 2026 - 35 shipped, 11 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-08</guid>
-      <pubDate>Tue, 08 Sep 2026 10:47:18 +0000</pubDate>
-      <description>&lt;p&gt;Today’s merged work improves Ente Photos’ on-device processing, gallery experience, and background intelligence, while Space and server-side account tooling also moved forward. Several upcoming Photos features are now in progress, including person-page sharing and a gallery filmstrip.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; OCR on Android now uses the CPU provider for more reliable text recognition after failures with accelerated inference in &lt;a href="https://github.com/ente/ente/pull/12686"&gt;#12686&lt;/a&gt;. iOS background ML is also enabled through longer-running processing tasks in &lt;a href="https://github.com/ente/ente/pull/12242"&gt;#12242&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos gallery:&lt;/strong&gt; An experimental Flex justified-layout option gives internal users another way to balance row heights and tile widths, while Comfort remains the default (&lt;a href="https://github.com/ente/ente/pull/12677"&gt;#12677&lt;/a&gt;). Desktop users now see percentage progress while streaming videos (&lt;a href="https://github.com/ente/ente/pull/12609"&gt;#12609&lt;/a&gt;), and an arm64 executable extraction issue was fixed (&lt;a href="https://github.com/ente/ente/pull/12681"&gt;#12681&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; The scanner button is now more prominent and easier to discover on mobile (&lt;a href="https://github.com/ente/ente/pull/12663"&gt;#12663&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; The new home layout adds friend-post tiles, unread indicators, and pending requests; waves are replaced with pokes and the friend limit is set to 12 (&lt;a href="https://github.com/ente/ente/pull/12639"&gt;#12639&lt;/a&gt;). Avatar actions and further home-layout polish followed in &lt;a href="https://github.com/ente/ente/pull/12662"&gt;#12662&lt;/a&gt;, with the limit later reduced to nine in &lt;a href="https://github.com/ente/ente/pull/12675"&gt;#12675&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; File-count initialization and verification now cover new and existing accounts, with stale-cleanup safeguards (&lt;a href="https://github.com/ente/ente/pull/12661"&gt;#12661&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12680"&gt;#12680&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12651"&gt;#12651&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Notes and web:&lt;/strong&gt; Notes indexing is more reliable across cancellation and model lifecycle changes (&lt;a href="https://github.com/ente/ente/pull/12652"&gt;#12652&lt;/a&gt;), while Locker sharing and family-invite handling received fixes (&lt;a href="https://github.com/ente/ente/pull/12658"&gt;#12658&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12674"&gt;#12674&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Photos is adding sharing directly from named person pages, including optional automatic inclusion of future photos (&lt;a href="https://github.com/ente/ente/pull/12685"&gt;#12685&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;A gallery viewer filmstrip is under controlled internal-user evaluation, with live drag previews and faster navigation (&lt;a href="https://github.com/ente/ente/pull/12676"&gt;#12676&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Other upcoming Photos work includes a Memory Lane home card (&lt;a href="https://github.com/ente/ente/pull/12679"&gt;#12679&lt;/a&gt;) and Rust-based metadata processing for local photos (&lt;a href="https://github.com/ente/ente/pull/12666"&gt;#12666&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Infrastructure work is improving approximate vector search performance (&lt;a href="https://github.com/ente/ente/pull/12684"&gt;#12684&lt;/a&gt;), moving Locker link cryptography to Rust (&lt;a href="https://github.com/ente/ente/pull/12688"&gt;#12688&lt;/a&gt;), and exposing file counts in the staff dashboard (&lt;a href="https://github.com/ente/ente/pull/12687"&gt;#12687&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Space notifications will link directly to their new posts (&lt;a href="https://github.com/ente/ente/pull/12690"&gt;#12690&lt;/a&gt;), while structured Museum errors are being added across clients (&lt;a href="https://github.com/ente/ente/pull/12689"&gt;#12689&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
