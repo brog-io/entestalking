@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Wed, 07 Oct 2026 13:45:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 13:53:52 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 08, 2026 - 34 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 13:53:52 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity across four channels, with discussions focused mainly on Ente Photos features, sharing issues, and Auth branding and privacy comparisons. Members also shared a playlist and handled a brief bot-permissions discussion.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 18 messages from 10 participants, members discussed birthday-based people filters, manual album organization, web support, and dark mode. The updated &lt;a href="https://ente.com/compare/ente-vs-immich/"&gt;Immich&lt;/a&gt;, &lt;a href="https://ente.com/compare/ente-vs-google-photos/"&gt;Google Photos&lt;/a&gt;, and Apple comparison pages were mentioned, along with a video-sharing error that was later resolved; one member also shared a &lt;a href="https://klipy.com/gifs/boop-beak"&gt;GIF&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Eight messages from two participants covered possible logo options for the Auth app, including a lock or shield design, and a suggestion to add Telegram to the privacy pack. The channel also compared Ente Auth with Proton Authenticator, with Ente praised for its UI and both described as offering similar privacy and security.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Five messages from four participants included a shared YouTube Short, reactions to Mother Mother, and the community’s &lt;a href="https://ente.com/blog/r/playlist-2026/"&gt;2026 playlist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#admin-discussion&lt;/h3&gt;
+&lt;p&gt;Three messages from two participants clarified bot permission requirements and suggested changing Ducky’s permissions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 07, 2026 - 37 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -666,22 +685,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 08, 2026 - 104 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-08</guid>
-      <pubDate>Tue, 08 Sep 2026 11:38:46 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw 103 messages from 17 participants across three active channels. Discussion centered on photo performance and organization, with off-topic conversation covering domains, self-hosting, and backup power.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 78 messages from 12 participants, the channel focused heavily on large-image performance: Flutter decoding limits, memory usage, faster initial viewing, swipe smoothness, and future tiled or region-based deep zoom. Members also discussed album searching and cleanup, large-library support, and post-quantum encryption, including the &lt;a href="https://ente.com/blog/first-steps-to-post-quantum/"&gt;post-quantum encryption article&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Twenty-five messages from four participants covered moving a domain from Namecheap to Cloudflare, self-hosted software such as Actual Budget, Obsidian LiveSync, FreshRSS, and Karakeep, and affordable UPS options for a home server. Shared resources included &lt;a href="https://github.com/vrtmrz/obsidian-livesync"&gt;Obsidian LiveSync&lt;/a&gt;, &lt;a href="https://github.com/chrisvel/tududi"&gt;Tududi&lt;/a&gt;, and &lt;a href="https://github.com/securo-finance/securo"&gt;Securo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;One member introduced themselves as a retired software engineer who day trades for a living.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
