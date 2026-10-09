@@ -4,7 +4,35 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 08 Oct 2026 13:53:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 13:38:19 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 09, 2026 - 53 messages in 7 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 13:38:19 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 53 messages across seven active channels, with most discussion focused on Ensu, Locker, and Ente Photos. Members exchanged product questions, bug reports, feature feedback, and one release announcement.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;With 20 messages from eight participants, discussion covered Ensu support for older Macs, Markdown notebook integration, backup and sync plans, and current limitations such as reverse image search. Members also reported a possible bug, outdated answers, and notes that did not refresh; support logs were requested for one issue.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Fifteen messages from four participants clarified that Locker supports all file types but is intended for sensitive or important items rather than everyday cloud-drive use. A member also reported being unable to upload folders; the web app at &lt;a href="https://locker.ente.com"&gt;locker.ente.com&lt;/a&gt; and &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt; were suggested as next steps.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Ten messages from seven participants covered casting individual photos to a TV, possible embedding-model plans, alternative payment methods, watched-folder sync behavior, comment likes, and photo search. Desktop slideshow and RAW improvements were also praised.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Four messages shared and reacted positively to a 2026 playlist posted at &lt;a href="https://ente.com/blog/r/playlist-2026/"&gt;ente.com/blog/r/playlist-2026&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Two messages directed feedback to the appropriate suggestions channel or GitHub Discussions, while another shared a comparison of Ente Auth and Proton Authenticator.&lt;/p&gt;
+
+&lt;h3&gt;#announcements&lt;/h3&gt;
+&lt;p&gt;A release announcement said Ensu Packs for Wikipedia and Wikibooks are now available on the desktop app.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One member offered a brief welcome greeting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 08, 2026 - 34 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -657,34 +685,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One image was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 09, 2026 - 60 messages in 7 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-09</guid>
-      <pubDate>Wed, 09 Sep 2026 11:45:19 +0000</pubDate>
-      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with users troubleshooting large-library uploads and Live Photos. Smaller discussions covered Fossify apps, Ente Auth support, Ensu’s privacy-focused workflow, and a new Ente Photos announcement.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 41 messages from 9 participants, the channel focused on mismatched library counts, duplicate album items, and 21 files skipped because of the &lt;strong&gt;livePhotoVideoMissing&lt;/strong&gt; error. Users also discussed desktop indexing progress, matching Ente and Immich libraries before leaving iCloud, and a request to support sharing from faceprints.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Eleven messages covered opinions on Fossify apps, a nostalgic image from an early self-hosting attempt, and a question about the account-age requirement for a Kagi trial through Ente’s friend page.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;A user reported a critical Ente Auth bug on iOS 26 and asked where to send support logs; they were advised to use support email and confirmed that they had done so.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two messages discussed using Ensu to redact personally identifiable information before sending text to larger models. The workflow was added to Ensu’s roadmap, with a follow-up question about how the user currently supplies files.&lt;/p&gt;
-
-&lt;h3&gt;#announcements&lt;/h3&gt;
-&lt;p&gt;A new Ente Photos release was announced, including library sharing.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
