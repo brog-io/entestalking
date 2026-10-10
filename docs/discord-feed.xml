@@ -4,7 +4,38 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 09 Oct 2026 13:38:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 12:56:47 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 10, 2026 - 64 messages in 8 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-10</guid>
+      <pubDate>Sat, 10 Oct 2026 12:56:47 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw moderate activity, led by discussions in &lt;strong&gt;#photos&lt;/strong&gt;, with additional conversations about Ente Space, Ensu, authentication, and Locker design. Several threads focused on product feedback, troubleshooting, and upcoming app plans.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 26 messages from 11 participants, the channel covered storage warnings, EXIF display and timestamp handling, birthday notifications, and whether live photos should autoplay. Members also discussed spam possibly related to Stripe’s OneLink billing service, including a &lt;a href="https://onelink.com/gb"&gt;OneLink link&lt;/a&gt;, and compared Ente’s autoplay behavior with alternatives.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Thirteen messages from five participants introduced Ente Space as a private, ad-free social app for sharing photos with friends and family. The discussion confirmed that mobile apps are planned “soon,” that Space will remain a separate app rather than being integrated into Photos, and included requests for an AMOLED-black theme.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Ten messages from four participants covered Ensu’s knowledge cutoff issues, macOS note-linking not updating, and a blank window when launching the AppImage on Manjaro. Members also discussed Obsidian indexing, notes search, and whether Ensu could qualify for &lt;a href="https://www.fairlytrained.org/certified-models"&gt;Fairly Trained certification&lt;/a&gt;; the response was that Ensu is a model-switcher frontend rather than a model itself.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Seven messages from three participants resolved a channel visibility issue: users may need to enable channels through Channels &amp;amp; Roles or browse channels, since new channels cannot always be enabled automatically for long-standing members.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Five messages discussed alternative Locker logos, with members preferring a simpler lock icon over the current “e” design and hoping for more visual customization similar to Photos.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member, Kavish Jain, introduced himself.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;A brief prompt asked whether anyone had a feature request.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One image was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 09, 2026 - 53 messages in 7 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -654,37 +685,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;Three participants shared two image attachments and a brief “threat model” joke.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 10, 2026 - 63 messages in 8 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 11:42:35 +0000</pubDate>
-      <description>&lt;p&gt;Ente Community saw its strongest activity in &lt;strong&gt;#photos&lt;/strong&gt;, with discussions about new sharing features, privacy-focused search, imports, file support, and device compatibility. &lt;strong&gt;#off-topic&lt;/strong&gt; also stayed lively around Ente’s music site, Kagi, and a Rust rewrite.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;33 messages from 16 participants covered Ente Photos’ new library sharing support, with the latest Museum version available by updating the Docker image. Members also discussed locally processed location and face search, Google Photos imports and duplicate handling, RAW files, file uploads, self-hosting migration, and an older Fire tablet. More details on local machine learning were shared at &lt;a href="https://ente.com/ml"&gt;ente.com/ml&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;18 messages from seven participants included questions about the account-age restriction on the Kagi trial offered through Ente, praise for the music at &lt;a href="https://music.ente.com"&gt;music.ente.com&lt;/a&gt;, and discussion of its nostalgic Winamp-style presentation and non-AI music. Vishnu also shared a Rust rewrite update and the first community contribution at &lt;a href="https://music.ente.com/#get-better"&gt;music.ente.com/#get-better&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Five messages discussed improving copy-paste extraction, privacy concerns with cloud models, possible NPU support, and making local ML tools easier to configure. A possible collaboration with Kagi around data sovereignty was also suggested.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Three messages focused on feedback about one-way family sharing and the new homepage, alongside questions about a dedicated Ente Space app and whether text-based posts may be supported.&lt;/p&gt;
-
-&lt;h3&gt;#announcements&lt;/h3&gt;
-&lt;p&gt;A major Ente Photos release was announced, including library sharing.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Pascal introduced himself as someone who does various things on the internet.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;A member asked whether Ente Locker will offer a one-time lifetime purchase and when it might be available.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One image was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
