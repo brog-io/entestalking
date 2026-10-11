@@ -4,7 +4,22 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 10 Oct 2026 12:03:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 12:16:39 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 11, 2026 - 1 shipped, 0 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-11</guid>
+      <pubDate>Sun, 11 Oct 2026 12:16:39 +0000</pubDate>
+      <description>&lt;p&gt;A quiet day in the Ente monorepo, with one Auth improvement shipped. No new pull requests were opened.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Added a dedicated Koti icon and identifies Koti as the issuer in &lt;code&gt;otpauth&lt;/code&gt; links, making Koti accounts easier to recognize. &lt;a href="https://github.com/ente/ente/pull/13588"&gt;PR #13588&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;p&gt;No new pull requests opened.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 10, 2026 - 13 shipped, 5 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -675,44 +690,6 @@
   &lt;li&gt;&lt;strong&gt;Downloads:&lt;/strong&gt; The web Photos viewer is gaining per-file image and video download progress in &lt;a href="https://github.com/ente/ente/pull/12828"&gt;download tracking&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Desktop and platform work:&lt;/strong&gt; A macOS fullscreen fix will prevent videos from appearing pillarboxed in &lt;a href="https://github.com/ente/ente/pull/12842"&gt;the fullscreen update&lt;/a&gt;. Android shared native-module preparation is underway in &lt;a href="https://github.com/ente/ente/pull/12833"&gt;the build restructuring&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Additional work includes Apple formatting checks in &lt;a href="https://github.com/ente/ente/pull/12845"&gt;the mobile lint update&lt;/a&gt; and a Dockhand icon for Auth in &lt;a href="https://github.com/ente/ente/pull/12843"&gt;the new icon contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 11, 2026 - 48 shipped, 7 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 10:46:26 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a broad set of Photos usability improvements across mobile, desktop, and web, alongside reliability and performance work in the Rust, server, and Cast infrastructure. Several Photos and Cast features are also moving through review, including download progress and improved memory-lane behavior.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Photos mobile&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12786"&gt;Refreshed the person picker&lt;/a&gt;, with the current app bar, a compact sort menu, and improved name handling.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12765"&gt;Updated the person cover-photo picker&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12766"&gt;people menu&lt;/a&gt; to use the newer Photos interface.&lt;/li&gt;
-  &lt;li&gt;Memory Lane now loads entries in chunks, resumes playback correctly after tapping, and has more stable card sizing and navigation (&lt;a href="https://github.com/ente/ente/pull/12816"&gt;loading&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12820"&gt;playback&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12779"&gt;layout&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12773"&gt;navigation&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12803"&gt;Social overlays now refresh after sync&lt;/a&gt;, keeping comment counts, previews, and reaction states current. Viewer overlays also stay in place while swiping (&lt;a href="https://github.com/ente/ente/pull/12796"&gt;details&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Gallery viewers retain previews until content is ready, with improved download progress behavior (&lt;a href="https://github.com/ente/ente/pull/12760"&gt;viewer loading&lt;/a&gt;), and back buttons now have larger touch targets (&lt;a href="https://github.com/ente/ente/pull/12790"&gt;touch targets&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Desktop, web, and platform support&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12818"&gt;Fixed Linux desktop “View logs” hanging&lt;/a&gt; after opening the log directory.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12799"&gt;Locker web now has updated styling and light mode&lt;/a&gt;, alongside ongoing interface and folder-structure updates.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12666"&gt;Android local-photo processing now uses Rust metadata&lt;/a&gt; for dimensions, dates, locations, motion photos, and panoramas.&lt;/li&gt;
-  &lt;li&gt;Cast release infrastructure is ready for version 1.2, including signing, TestFlight, startup promotion, and configurable endpoints (&lt;a href="https://github.com/ente/ente/pull/12830"&gt;release flow&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12829"&gt;signing&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12824"&gt;TestFlight&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12808"&gt;Apple TV&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Reliability and performance&lt;/strong&gt;: VecDB now defaults new indexes to i8 storage and cosine distance while preserving existing indexes (&lt;a href="https://github.com/ente/ente/pull/12811"&gt;storage&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12812"&gt;distance&lt;/a&gt;); writer collisions are prevented (&lt;a href="https://github.com/ente/ente/pull/12772"&gt;locking&lt;/a&gt;). Auth also handles omitted 2FAS defaults (&lt;a href="https://github.com/ente/ente/pull/12819"&gt;PR&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12828"&gt;Web Photos per-file download progress&lt;/a&gt; for images and videos.&lt;/li&gt;
-  &lt;li&gt;Memory Lane cards can be visually marked as seen and moved to the end of the strip (&lt;a href="https://github.com/ente/ente/pull/12826"&gt;desaturated style&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12827"&gt;ordering&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12806"&gt;Cast token revocation now waits for completion&lt;/a&gt; and surfaces failures so users can retry.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12805"&gt;Web Trash navigation is being simplified&lt;/a&gt; with Albums/People hidden and a back button added.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12801"&gt;VecDB graph construction optimization&lt;/a&gt; claims a 41–48% reduction in construction time.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/12831"&gt;Desktop video-streaming documentation&lt;/a&gt; is being updated to describe processing progress.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
