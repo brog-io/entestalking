@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 11 Oct 2026 13:20:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:56:38 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 12, 2026 - 26 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 15:56:38 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light overall, with most discussion concentrated in &lt;strong&gt;#photos&lt;/strong&gt;. Members focused on slow loading and zooming for high-resolution images, while other channels saw only brief exchanges.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;22 messages from 7 participants covered the roughly 300 MB Photos machine-learning model and significant delays loading or zooming high-resolution images on Pixel devices, including 50 MP photos. Members discussed using Fossify Gallery as a workaround, and an Ente representative said the issue would be investigated with higher priority.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Two messages discussed showing text created with an apparently interesting tool, alongside one attachment.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Karthik introduced himself in one message.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;One message supported using a locker as a UI metaphor for organizing files.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 11, 2026 - 34 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -648,34 +667,6 @@
 
 &lt;h3&gt;#clicks&lt;/h3&gt;
 &lt;p&gt;One post shared a DJI Mini 2SE shot from Asuni, Sardegna.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 12, 2026 - 53 messages in 7 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 11:09:47 +0000</pubDate>
-      <description>&lt;p&gt;Activity spanned seven channels, with 53 messages overall. The busiest discussions focused on privacy and AI, followed by Ente Photos troubleshooting and Locker’s pricing and account policies.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;With 22 messages from six participants, the channel hosted an extended discussion about privacy-preserving AI, acceptable training data, Ensu’s potential scope, and the trade-offs between local and cloud models. Participants also mentioned Apertus and rising cloud-model costs.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Twelve messages covered reconciling differing Ente and device photo counts, with no current filtering option identified. Other topics included recurring desktop crashes possibly related to GPU software rather than Ente, and using the CLI to maintain a deduplicated NAS copy.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Eleven messages explored whether Locker may become paid, including a possible standalone lifetime option. The discussion also considered exempting important items from free-account deletion after a year of inactivity, particularly for long-term or next-of-kin storage.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Three messages briefly discussed music being created for Ente’s new music app; the software identified was Logic Pro.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Two messages discussed whether deleting photos from Ente Desktop would affect an external backup, including the use of continuous export and reconnecting the drive.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One participant shared a &lt;a href="https://fixvx.com/ShishirShelke1/status/2013201907431440757"&gt;link&lt;/a&gt; and an attachment.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;A single post shared a Sardegna, Asuni photo taken with a DJI Mini 2SE.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
