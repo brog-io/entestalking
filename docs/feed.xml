@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 11 Oct 2026 12:16:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 14:41:13 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 12, 2026 - 35 shipped, 7 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 14:41:13 +0000</pubDate>
+      <description>&lt;p&gt;Photos received a broad round of usability and navigation improvements across mobile and web, while Locker polished uploads, sharing, and field handling. In progress, a redesigned desktop Photos shell and mobile onboarding experience point to the next major UI updates.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos — mobile:&lt;/strong&gt; Refreshed the machine-learning consent page and added an in-flow consent sheet, improved photo-opening transitions and thumbnail stability, truncated long album names in file details, and prevented crashes from invalid EXIF exposure times: &lt;a href="https://github.com/ente/ente/pull/13520"&gt;#13520&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13607"&gt;#13607&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13637"&gt;#13637&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13617"&gt;#13617&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos — web:&lt;/strong&gt; Search now has a centered dialog, category tabs, grouped results, improved People rows, illustrated empty states, and clearer download-space errors. Duplicates and Large files now open as gallery views, with refreshed deletion confirmation: &lt;a href="https://github.com/ente/ente/pull/13511"&gt;#13511&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13609"&gt;#13609&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13619"&gt;#13619&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13633"&gt;#13633&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13631"&gt;#13631&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13627"&gt;#13627&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13434"&gt;#13434&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13598"&gt;#13598&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space — web:&lt;/strong&gt; Restored continuous home and profile feeds, improved photo-viewer and zoom animations, and highlighted new notification rows: &lt;a href="https://github.com/ente/ente/pull/13622"&gt;#13622&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13605"&gt;#13605&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13628"&gt;#13628&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13603"&gt;#13603&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Updated collection-link settings, introduced a redesigned internal-user upload screen, fixed list overscroll and icon sizing, preserved whitespace in fields and Secret passwords across mobile and web, and improved record edit buttons: &lt;a href="https://github.com/ente/ente/pull/13608"&gt;#13608&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13620"&gt;#13620&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13635"&gt;#13635&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13618"&gt;#13618&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13584"&gt;#13584&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13586"&gt;#13586&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13624"&gt;#13624&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Added a smaller LFM2.5 model for devices with 4 GB or less RAM and adjusted the model choice for 8 GB devices: &lt;a href="https://github.com/ente/ente/pull/13632"&gt;#13632&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Documentation also covered translation availability and Locker 1.0.10 updates; other merged work was maintenance and cleanup: &lt;a href="https://github.com/ente/ente/pull/13575"&gt;#13575&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13615"&gt;#13615&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13613"&gt;#13613&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; A new desktop L-shaped header and navigation rail is under review, with Home, Search, Settings, centered branding, and Upload: &lt;a href="https://github.com/ente/ente/pull/13636"&gt;#13636&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; An illustrated onboarding redesign brings the new duck-header layout to login and sign-up screens without changing the flows: &lt;a href="https://github.com/ente/ente/pull/13606"&gt;#13606&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Upcoming technical changes include hard-link support for Photos exports and cleaner notification grouping that excludes already-read pokes: &lt;a href="https://github.com/ente/ente/pull/13630"&gt;#13630&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13616"&gt;#13616&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Other open work adds an OpenSRS icon and a checkerboard background so transparent images remain visible in the web viewer: &lt;a href="https://github.com/ente/ente/pull/13595"&gt;#13595&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13593"&gt;#13593&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Documentation clarifies bulk restore and Locker folder uploads: &lt;a href="https://github.com/ente/ente/pull/13638"&gt;#13638&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 11, 2026 - 1 shipped, 0 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -663,33 +689,6 @@
 &lt;h3&gt;In progress&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/12851"&gt;Text-rendering improvements&lt;/a&gt; aim to make chat spacing and bullet alignment more consistent across platforms, with additional fixes for web code blocks, tables, and external links.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 12, 2026 - 15 shipped, 9 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 10:15:33 +0000</pubDate>
-      <description>&lt;p&gt;Today’s merged work improves Cast reliability and usability, refreshes the Space experience, and fixes a Linux desktop issue. In progress, the team is refining Photos galleries and downloads while laying groundwork for shared native modules and upcoming platform improvements.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos Cast:&lt;/strong&gt; Pairing-code fields now default to uppercase, while person-name fields use the standard capitalization behavior in iOS keyboards via &lt;a href="https://github.com/ente/ente/pull/12841"&gt;improved input capitalization&lt;/a&gt;. Cast stopping and re-pairing now wait for token revocation, surface failures, and let users retry through &lt;a href="https://github.com/ente/ente/pull/12806"&gt;safer Cast session cleanup&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; The home screen has been redesigned, and the Add friend action is now less visually prominent in &lt;a href="https://github.com/ente/ente/pull/12835"&gt;the home redesign&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12837"&gt;the button styling update&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Desktop Photos:&lt;/strong&gt; Linux users can now open the logs directory without the View logs dialog hanging, thanks to &lt;a href="https://github.com/ente/ente/pull/12818"&gt;the Linux logs fix&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Cast tokens are validated synchronously and file creation requests are checked before storage probing in &lt;a href="https://github.com/ente/ente/pull/12846"&gt;token validation&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12844"&gt;file-create validation&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cast delivery:&lt;/strong&gt; Cast 1.2 is now included in release automation, with TestFlight workflows, App Store signing fixes, and Discord notifications covered by &lt;a href="https://github.com/ente/ente/pull/12830"&gt;release support&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12824"&gt;TestFlight builds&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12829"&gt;signing&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/12832"&gt;release alignment&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; Work has begun on a replacement Rust CLI in &lt;a href="https://github.com/ente/ente/pull/12834"&gt;the new CLI branch&lt;/a&gt;, and desktop video-streaming documentation now explains processing progress in &lt;a href="https://github.com/ente/ente/pull/12831"&gt;the updated guide&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos galleries:&lt;/strong&gt; Upcoming mobile changes simplify justified layouts in &lt;a href="https://github.com/ente/ente/pull/12839"&gt;the Flex gallery update&lt;/a&gt;, scale the filmstrip for tablets and large screens in &lt;a href="https://github.com/ente/ente/pull/12838"&gt;the responsive filmstrip work&lt;/a&gt;, and adjust how seen Memory Lane cards are ordered and styled through &lt;a href="https://github.com/ente/ente/pull/12827"&gt;placement&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/12826"&gt;desaturation&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Downloads:&lt;/strong&gt; The web Photos viewer is gaining per-file image and video download progress in &lt;a href="https://github.com/ente/ente/pull/12828"&gt;download tracking&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Desktop and platform work:&lt;/strong&gt; A macOS fullscreen fix will prevent videos from appearing pillarboxed in &lt;a href="https://github.com/ente/ente/pull/12842"&gt;the fullscreen update&lt;/a&gt;. Android shared native-module preparation is underway in &lt;a href="https://github.com/ente/ente/pull/12833"&gt;the build restructuring&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Additional work includes Apple formatting checks in &lt;a href="https://github.com/ente/ente/pull/12845"&gt;the mobile lint update&lt;/a&gt; and a Dockhand icon for Auth in &lt;a href="https://github.com/ente/ente/pull/12843"&gt;the new icon contribution&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
