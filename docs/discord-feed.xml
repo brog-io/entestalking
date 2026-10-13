@@ -4,7 +4,20 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 12 Oct 2026 15:56:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 14:30:01 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 13, 2026 - 40 messages in 2 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 14:30:01 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 40 messages from 14 participants across two active channels. Discussion centered on photo/video performance and feature feedback, alongside questions about Space’s future direction and sharing limits.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 33 messages from 12 participants, members discussed slow photo and video loading, desktop &lt;strong&gt;ffmpeg&lt;/strong&gt; CPU usage, and video playback issues. Ente staff acknowledged the performance issue and said it would receive higher priority; members were also directed to share affected videos with &lt;strong&gt;support@ente.com&lt;/strong&gt;. Other feedback covered pet recognition, Recycle Bin’s Select All option, and whether hiding a folder affects backups.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Seven messages from two participants explored potential paths for Space, including how it might integrate with Ente storage plans. Members also discussed the current 10-second video limit and the desire for more capable cross-platform family media sharing; no longer-video plans are currently in place.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 12, 2026 - 26 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -645,28 +658,6 @@
 
 &lt;h3&gt;#locker&lt;/h3&gt;
 &lt;p&gt;One message discussed preventing an Ente account from getting compromised, clarifying that the suggestion was not specific to a Locker plan.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 13, 2026 - 28 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-13</guid>
-      <pubDate>Sun, 13 Sep 2026 12:13:34 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light to moderate, with the most discussion focused on &lt;strong&gt;#space&lt;/strong&gt; and &lt;strong&gt;#photos&lt;/strong&gt;. Members discussed Ente.space privacy and usernames, photo exports, self-hosting, and more specific photo categorization.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;12 messages from 4 participants covered how Ente spaces work, including reserved usernames, ente.space URLs, invite-only visibility, friend-request approval, and allowed username characters.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;11 messages from 6 participants discussed maintaining NAS copies without duplicates, desktop exports, and self-hosting via &lt;a href="https://ente.com/help/self-hosting/"&gt;Ente’s self-hosting guide&lt;/a&gt;. Members also requested more specific categorization for memes, social-media screenshots, anime, and other saved images; the request was forwarded to the ML team.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Three messages included a petition link at &lt;a href="https://c.org/pymsqdkd9V"&gt;c.org&lt;/a&gt; and brief greetings.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;One message clarified the meaning of the one-time lifetime purchase.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One post shared a DJI Mini 2SE shot from Asuni, Sardegna.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
