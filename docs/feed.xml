@@ -4,7 +4,34 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 13 Oct 2026 13:44:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 11:22:56 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 14, 2026 - 33 shipped, 4 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 11:22:56 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped a broad set of navigation, gallery, sharing, and layout improvements across web and mobile. Ente Space also received smoother navigation and conversation interactions, while iOS PWA and build reliability fixes landed.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; The new Albums/People sidebar now includes grouped filters, collection shortcuts, sidebar search, collapsible panels, and improved gallery spacing and highlighting. See &lt;a href="https://github.com/ente/ente/pull/13669"&gt;#13669&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13671"&gt;#13671&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13680"&gt;#13680&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13683"&gt;#13683&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13684"&gt;#13684&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13678"&gt;#13678&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Gallery layout controls are more compact, sorting moved into album options, selection sheets respond faster, and sharing actions use a denser layout. &lt;a href="https://github.com/ente/ente/pull/13675"&gt;#13675&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13677"&gt;#13677&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13699"&gt;#13699&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13673"&gt;#13673&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Album participants now see roles and a visible actions menu, while the Ready to backup flow has clearer choices and updated wording. &lt;a href="https://github.com/ente/ente/pull/13692"&gt;#13692&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13661"&gt;#13661&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ente Space:&lt;/strong&gt; Feed batches no longer rearrange existing tiles while loading, and post transitions, photo reopening, profiles, conversations, and navigation received polish. &lt;a href="https://github.com/ente/ente/pull/13691"&gt;#13691&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13679"&gt;#13679&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13674"&gt;#13674&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker and platform reliability:&lt;/strong&gt; Upload V2 restores multi-selectable collection chips, and Photos/Locker iOS builds were fixed by reverting a broken libc update. &lt;a href="https://github.com/ente/ente/pull/13672"&gt;#13672&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13688"&gt;#13688&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;iOS PWA routing and layout fixes landed, including safer-area handling, conversation fixes, onboarding polish, and settings spacing. &lt;a href="https://github.com/ente/ente/pull/13701"&gt;#13701&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13696"&gt;#13696&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Search no longer treats ordinary letters as word separators, preventing overly broad matches. &lt;a href="https://github.com/ente/ente/pull/13513"&gt;#13513&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;FAQs across Auth, Photos, Ensu, and Locker were expanded and clarified. &lt;a href="https://github.com/ente/ente/pull/13694"&gt;#13694&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13693"&gt;#13693&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A continuous pinch gesture will let mobile Photos users move between justified and three-to-six-column grid layouts. &lt;a href="https://github.com/ente/ente/pull/13702"&gt;#13702&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Album cover transitions, header handoffs, and face-loading retries are being refined. &lt;a href="https://github.com/ente/ente/pull/13703"&gt;#13703&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shell completion is coming to the new CLI. &lt;a href="https://github.com/ente/ente/pull/13698"&gt;#13698&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Locker is cleaning up unused code, dependencies, and fonts. &lt;a href="https://github.com/ente/ente/pull/13690"&gt;#13690&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 13, 2026 - 42 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -669,30 +696,6 @@
 &lt;li&gt;&lt;strong&gt;Offline link sharing:&lt;/strong&gt; A feature-flagged preview lets users select and preview device files for link sharing in online mode (&lt;a href="https://github.com/ente/ente/pull/12920"&gt;#12920&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;iOS reliability:&lt;/strong&gt; A fix is in review for photos appearing as not uploaded after signing back in (&lt;a href="https://github.com/ente/ente/pull/12908"&gt;#12908&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CLI and ML work:&lt;/strong&gt; Tombstone synchronization fixes are underway for the Rust and Go CLIs, alongside faster vecdb compaction and a new Rust ML store (&lt;a href="https://github.com/ente/ente/pull/12917"&gt;#12917&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12910"&gt;#12910&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12911"&gt;#12911&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12896"&gt;#12896&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 14, 2026 - 15 shipped, 5 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-14</guid>
-      <pubDate>Mon, 14 Sep 2026 12:04:51 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focused on safer account and sharing behavior, smoother Ente Photos experiences, and faster mobile processing. Several infrastructure improvements are also in progress, including batch album sharing and a new cross-platform background task manager.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; The web app now shows per-file download progress for images and videos, laying the groundwork for a more detailed multi-file download dialog (&lt;a href="https://github.com/ente/ente/pull/12828"&gt;#12828&lt;/a&gt;). Mobile Memory Lane playback, captions, completion tracking, and card ordering were improved, including a desaturated style for memories users have already seen (&lt;a href="https://github.com/ente/ente/pull/12868"&gt;#12868&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12867"&gt;#12867&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12826"&gt;#12826&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12827"&gt;#12827&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Mobile Photos now uses optimized shared OCR models for eligible Android and iOS GPU inference, while retaining a CPU fallback (&lt;a href="https://github.com/ente/ente/pull/12780"&gt;#12780&lt;/a&gt;). Upside-down panoramas on OpenGL ES were also fixed (&lt;a href="https://github.com/ente/ente/pull/12866"&gt;#12866&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Security and sharing:&lt;/strong&gt; Deleted accounts can no longer log in, and overlapping account-recovery operations now keep recovery state consistent (&lt;a href="https://github.com/ente/ente/pull/12872"&gt;#12872&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12865"&gt;#12865&lt;/a&gt;). Public-link changes and revocations now take effect immediately on the handling server (&lt;a href="https://github.com/ente/ente/pull/12859"&gt;#12859&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Web:&lt;/strong&gt; Fixed the embedded viewer’s loader after completion (&lt;a href="https://github.com/ente/ente/pull/12857"&gt;#12857&lt;/a&gt;). Internal Rust and build tooling also received performance and maintainability updates (&lt;a href="https://github.com/ente/ente/pull/12801"&gt;#12801&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12860"&gt;#12860&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Smaller shipped changes added a Dockhand icon to Ente Auth and improved Apple Swift linting (&lt;a href="https://github.com/ente/ente/pull/12843"&gt;#12843&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12870"&gt;#12870&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming sharing improvement:&lt;/strong&gt; Server endpoints are being added to look up multiple public keys and share a collection with up to 10 recipients in one request (&lt;a href="https://github.com/ente/ente/pull/12869"&gt;#12869&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Legacy upload URLs are being restricted as a server-side security measure (&lt;a href="https://github.com/ente/ente/pull/12874"&gt;#12874&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;A native background-task manager for Android and iOS is in development, with app integration planned separately (&lt;a href="https://github.com/ente/ente/pull/12858"&gt;#12858&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;The Rust vector database is being moved into its own crate without behavior changes, allowing Photos to use it without pulling in the image stack (&lt;a href="https://github.com/ente/ente/pull/12871"&gt;#12871&lt;/a&gt;). Shared Android formatting, correctness checks, and CI linting are also in progress (&lt;a href="https://github.com/ente/ente/pull/12863"&gt;#12863&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
