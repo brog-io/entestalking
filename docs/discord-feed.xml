@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Wed, 14 Oct 2026 12:16:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 11:57:22 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 15, 2026 - 16 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 11:57:22 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with community discussion around backup controls, album organization, upcoming tags, Linux installation, and the Android release candidate. The other channels were quiet, with only a brief version note in &lt;strong&gt;#ensu&lt;/strong&gt; and a shared video in &lt;strong&gt;#memes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;13 messages from 8 participants&lt;/strong&gt; covered disabling backup for Rituals photos, Samsung Gallery’s full-screen scrolling, JPEG XL compression, and plans for nested albums and tags. Tags are planned before nested albums and will work alongside albums; the Android release candidate was described as safe, though the stable release was recommended for Monday. A user also reported an Arch Linux installation issue involving the missing &lt;code&gt;http-parser&lt;/code&gt; dependency.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Two messages included a brief reaction and a shared &lt;a href="https://www.tnktok.com/@thetacofiend/video/7696286266228215053"&gt;video link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;One message shared an app version: 17.6 (17618.3.11.11.7, 17618).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 14, 2026 - 48 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -639,28 +655,6 @@
 
 &lt;h3&gt;#locker&lt;/h3&gt;
 &lt;p&gt;A member asked why Locker cannot open files without a separate app.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 15, 2026 - 24 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 12:00:19 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity, led by troubleshooting and development discussion in &lt;strong&gt;#photos&lt;/strong&gt;. Other conversations covered Ente Auth build verification, a new member introduction, and a brief July update.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 16 messages from 5 participants, discussion focused on improved background uploads, including &lt;a href="https://github.com/ente/ente/pull/12858"&gt;PR #12858&lt;/a&gt; and whether newer iOS background APIs would help. Members also discussed a &lt;a href="https://www.reddit.com/r/enteio/s/9Ga1mraVaC"&gt;Reddit post&lt;/a&gt; about photo services and troubleshooting a large Google Takeout upload that appeared to cycle through metadata and upload phases; the team explained that uploads use four concurrent files and proceed in two phases.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Four messages from 2 participants discussed whether the F-Droid Auth build has reproducible builds after a signature-validation warning. The Auth source and release pages were shared via the &lt;a href="https://github.com/ente/ente/tree/main/mobile/apps/auth"&gt;GitHub app directory&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/releases#release"&gt;releases page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;A new member introduced themselves and shared their enthusiasm for Ente products.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;A brief “July update” was posted.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;Two participants shared meme attachments.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
