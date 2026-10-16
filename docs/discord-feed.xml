@@ -4,7 +4,20 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 15 Oct 2026 11:57:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 11:47:52 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 16, 2026 - 139 messages in 2 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 11:47:52 +0000</pubDate>
+      <description>&lt;p&gt;The server saw concentrated activity across two channels, with most of the discussion in &lt;strong&gt;#off-topic&lt;/strong&gt;. Conversations covered messaging apps, stickers, privacy, and Ente photo organization and navigation.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 126 messages from 7 participants, the channel focused on Signal versus Telegram, including sticker quality, animated emojis, group features, live location, file-size limits, and privacy trade-offs. Participants shared &lt;a href="https://signalstickers.org/"&gt;Signal Stickers&lt;/a&gt; and a &lt;a href="https://klipy.com/gifs/tony-soprano-the-sopranos-10"&gt;Klipy GIF link&lt;/a&gt;, while others noted Signal’s role as a privacy-friendly SMS and WhatsApp alternative.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Thirteen messages from 7 participants discussed Ente Photos. The archive was clarified as a status flag rather than a separate album, alongside a caution about using export before leaving the platform. Users also requested a less cluttered Android sidebar with faster access to recent albums; the feedback was offered to the team, and folder-structure preservation was anticipated.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 15, 2026 - 16 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -627,34 +640,6 @@
 
 &lt;h3&gt;#space&lt;/h3&gt;
 &lt;p&gt;One participant praised the application.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 16, 2026 - 44 messages in 7 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 11:56:59 +0000</pubDate>
-      <description>&lt;p&gt;Activity was moderate, led by discussions in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#auth&lt;/strong&gt;. Members focused on privacy, encryption, product feedback, and occasional service updates.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 14 messages from 7 participants, the channel centered on IP and metadata retention, the distinction between privacy and anonymity, and whether upload-time metadata stripping should be optional. Members also discussed multiple sharing links for albums and shared a &lt;a href="https://github.com/strelov1/freehire/issues/2764"&gt;Docker Compose troubleshooting link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Thirteen messages from 2 participants covered a possible Ente password manager, how end-to-end encryption still exposes file counts, and recommendations including Bitwarden and KeePassXC. The conversation also included some light, playful chatter.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Seven messages from 3 participants discussed using Space as a digital diary, long-term support, and desired quality-of-life features. A Firefox for Android issue affecting the “Continue” button was reported, with a response that it would be addressed.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Seven messages from 4 participants covered possible Discord slowness and bot outages; members shared the &lt;a href="https://discordstatus.com/"&gt;Discord status page&lt;/a&gt;. There was also a brief discussion of messaging apps.&lt;/p&gt;
-
-&lt;h3&gt;#announcements&lt;/h3&gt;
-&lt;p&gt;One announcement shared that Locker can now scan physical documents on Android and iOS.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;A new member introduced themselves, highlighting a move from iCloud Photos to Ente Photos and a switch to Ente Authenticator.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;A member asked why Locker cannot open files without a separate app.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
