@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 16 Oct 2026 11:47:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 11:04:36 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 17, 2026 - 52 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-17</guid>
+      <pubDate>Sat, 17 Oct 2026 11:04:36 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw its most activity in &lt;strong&gt;#photos&lt;/strong&gt;, with 42 messages from 8 participants, centered on Google Photos imports, storage, and referrals. Smaller discussions covered privacy-focused messaging and ideas for replacing Polarsteps.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Members discussed Google Takeout exports, 5 GB ZIP chunks, duplicate detection during Ente imports, and storage limitations. A referral-code request and the storage referral policy were shared, along with a link to the &lt;a href="https://ente.com/help/photos/faq/storage-a"&gt;storage FAQ&lt;/a&gt;. Participants also suggested contacting support with logs for an app issue and reminded others to avoid sharing email addresses publicly.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Eight messages from 5 participants compared Signal’s privacy focus with feature breadth, including stickers and group subtopics, with mentions of GrapheneOS and Molly Client. Another discussion explored replacing Polarsteps with Ente, including using a photo description for daily travel entries.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;A brief exchange asked whether storage is measured in gigabytes or item counts.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 16, 2026 - 139 messages in 2 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -609,37 +625,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One meme or short video link was shared: &lt;a href="https://www.tnktok.com/@abbytagm/video/7677979262305013024"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 17, 2026 - 37 messages in 8 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 11:59:13 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light to moderate, led by an extended discussion in &lt;strong&gt;#photos&lt;/strong&gt; about privacy, pricing, and alternatives to Google Photos. Smaller conversations covered password-manager backups, Locker usability, offline AI, and a Locker feature announcement.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 18 messages from 8 participants, the channel discussed safely sharing photos, hidden or sensitive content, and whether Ente can compete with Google Photos on price. Members also compared self-hosting with Backblaze B2 and VPS storage, and asked about using the Ente CLI to sync photos into a single local folder.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Five messages from 2 participants focused on password-manager limitations, offline backups, encrypted KDBX storage in Locker, and how Ente can bridge gaps between hosted and self-hosted solutions.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Five messages from 2 participants clarified Bitwarden export options, including organization or family-account limitations and support for password-protected CLI exports. An attachment was also shared.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Four messages covered opening files without a separate app, possible escrow or local-backup options for less technical users, and appreciation for Locker’s legacy kits, with a link to &lt;a href="https://github.com/cyphar/paperback"&gt;Paperback&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two messages discussed the ethics and economics of AI training and the usefulness of an offline Ensu experience for remote or emergency situations.&lt;/p&gt;
-
-&lt;h3&gt;#announcements&lt;/h3&gt;
-&lt;p&gt;A Locker announcement said requested features are now available, including the ability to scan physical documents on Android and iOS.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;One brief greeting was posted.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;One participant praised the application.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
