@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 16 Oct 2026 10:54:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 10:17:09 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 17, 2026 - 13 shipped, 2 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-17</guid>
+      <pubDate>Sat, 17 Oct 2026 10:17:09 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes span Ente Photos, Ente Auth, Locker, the Rust CLI, and Ensu. Highlights include richer album navigation on the web, improved Auth tooling, and an internal Locker image viewer, alongside fixes for iOS builds and export metadata.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13760"&gt;Album group overviews&lt;/a&gt; add sidebar access, shared search and sorting, responsive album cards, and album creation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; An internal-flagged &lt;a href="https://github.com/ente/ente/pull/13769"&gt;in-app image viewer&lt;/a&gt; now supports JPEG, PNG, WebP, and HEIC, with zoom, sharing, downloading, and opening files in another app.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth and CLI:&lt;/strong&gt; Auth gained an &lt;a href="https://github.com/ente/ente/pull/13768"&gt;authentication-code list and view with enrollment verification&lt;/a&gt;, while the CLI can now &lt;a href="https://github.com/ente/ente/pull/13759"&gt;create accounts and enroll authenticators&lt;/a&gt;. Additional Auth fixes improve &lt;a href="https://github.com/ente/ente/pull/13772"&gt;metadata parsing and clock guidance&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos exports:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13762"&gt;Native metadata is preserved&lt;/a&gt; during export.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile reliability:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13773"&gt;Photos and Locker iOS builds&lt;/a&gt; were fixed after a libc regression.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Version 0.1.22 highlights &lt;a href="https://github.com/ente/ente/pull/13763"&gt;faster Android responses&lt;/a&gt;, and onboarding now sets up &lt;a href="https://github.com/ente/ente/pull/13743"&gt;Ensu Packs and Your Notes&lt;/a&gt; after model download.&lt;/li&gt;
+  &lt;li&gt;Other merged work includes &lt;a href="https://github.com/ente/ente/pull/13766"&gt;interactive password retries&lt;/a&gt; and maintenance to the Rust core and test/dependency tooling.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13777"&gt;Aria service icon support&lt;/a&gt; would let Auth recognize Aria and its aliases during issuer matching. The PR is currently pending CLA.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13767"&gt;A fix for the app getting stuck after hiding an album&lt;/a&gt; keeps the album usable until navigating back and adds regression coverage.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 16, 2026 - 33 shipped, 4 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -686,29 +710,6 @@
   &lt;li&gt;&lt;strong&gt;Photos CLI:&lt;/strong&gt; A new Rust-based set of Photos file commands and an encrypted CLI replica is under development (&lt;a href="https://github.com/ente/ente/pull/13037"&gt;#13037&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Photos is addressing duplicate shared map photos appearing after they are favorited (&lt;a href="https://github.com/ente/ente/pull/13036"&gt;#13036&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;A notification for when Memories are ready is in progress (&lt;a href="https://github.com/ente/ente/pull/12995"&gt;#12995&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 17, 2026 - 33 shipped, 10 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 11:10:35 +0000</pubDate>
-      <description>&lt;p&gt;Photos saw a busy round of usability and performance improvements, while Space’s feed and sharing foundations were restored across the stack. Ensu also received platform maintenance, and several upcoming Photos features are now in progress.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory Lane v2 received refined controls, captions, title alignment, and improved card placement (&lt;a href="https://github.com/ente/ente/pull/12956"&gt;#12956&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12986"&gt;#12986&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12987"&gt;#12987&lt;/a&gt;). Gallery spacing was tightened to 1px, and inactive pointer tracking is skipped to reduce scrolling work (&lt;a href="https://github.com/ente/ente/pull/12988"&gt;#12988&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12952"&gt;#12952&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos usability:&lt;/strong&gt; Album search now keeps results visible above the keyboard, offers a prefilled Create album action when there are no matches, and provides clearer failure feedback for Referrals and Cast Sessions (&lt;a href="https://github.com/ente/ente/pull/12967"&gt;#12967&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12946"&gt;#12946&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12938"&gt;#12938&lt;/a&gt;). Web video playback now fits the full frame on screen (&lt;a href="https://github.com/ente/ente/pull/12947"&gt;#12947&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; The feed and its posting/caching UI were restored across server, Rust, and web clients. The nine-friend limit was removed, with pending requests instead capped at 100 per sender and recipient (&lt;a href="https://github.com/ente/ente/pull/12948"&gt;#12948&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12950"&gt;#12950&lt;/a&gt;). Feed design refinements also landed (&lt;a href="https://github.com/ente/ente/pull/12964"&gt;#12964&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12971"&gt;#12971&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12976"&gt;#12976&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ensu and platform foundations:&lt;/strong&gt; Duplicate desktop instances now activate the existing window instead of failing during Notes initialization (&lt;a href="https://github.com/ente/ente/pull/12953"&gt;#12953&lt;/a&gt;). Ensu iOS moved to Swift 6 and Android to Kotlin 2, both with shared linting (&lt;a href="https://github.com/ente/ente/pull/12984"&gt;#12984&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12957"&gt;#12957&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Authentication pages were consolidated across Photos, Auth, and Locker, removing the legacy-UI fallback (&lt;a href="https://github.com/ente/ente/pull/12944"&gt;#12944&lt;/a&gt;). Server uploads now retain more pending-upload metadata, including checksums and client information (&lt;a href="https://github.com/ente/ente/pull/12974"&gt;#12974&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming Photos features:&lt;/strong&gt; A “memories ready” notification is being added (&lt;a href="https://github.com/ente/ente/pull/12995"&gt;#12995&lt;/a&gt;), alongside an album-sharing redesign (&lt;a href="https://github.com/ente/ente/pull/12994"&gt;#12994&lt;/a&gt;) and batch-sharing client support (&lt;a href="https://github.com/ente/ente/pull/12990"&gt;#12990&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Photos is also working on clearer uncategorized-cleanup progress (&lt;a href="https://github.com/ente/ente/pull/12989"&gt;#12989&lt;/a&gt;), removing photos from albums directly in the Info sheet (&lt;a href="https://github.com/ente/ente/pull/12969"&gt;#12969&lt;/a&gt;), and sharing duplicate face-crop requests between thumbnails (&lt;a href="https://github.com/ente/ente/pull/12955"&gt;#12955&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Server work would allow standard or URL-safe, padded or unpadded base64 boot secrets (&lt;a href="https://github.com/ente/ente/pull/12977"&gt;#12977&lt;/a&gt;); Ensu feature documentation is also being updated for v0.1.20 (&lt;a href="https://github.com/ente/ente/pull/12993"&gt;#12993&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
