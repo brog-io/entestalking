@@ -4,7 +4,24 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 17 Oct 2026 10:17:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 10:32:46 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 18, 2026 - 0 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 10:32:46 +0000</pubDate>
+      <description>&lt;p&gt;No changes were merged in the past day. Three fixes are in progress across server, desktop Photos, and mobile Photos.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;p&gt;No PRs were merged.&lt;/p&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13783"&gt;Correct the Legacy path in email instructions&lt;/a&gt; updates legacy emails to refer to the Ente mobile app and points users to the correct Settings path.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13782"&gt;Keep the Settings dialog below the desktop title bar&lt;/a&gt; prevents the Settings window from extending underneath the custom title bar on shorter desktop windows.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13780"&gt;Fix album pin ordering in Archive and Shared&lt;/a&gt; refreshes affected album lists so pinning or unpinning immediately moves albums to their correct positions.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 17, 2026 - 13 shipped, 2 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -686,30 +703,6 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Photos on mobile:&lt;/strong&gt; A fix is underway to prevent duplicate shared photos from appearing on the map after being favorited: &lt;a href="https://github.com/ente/ente/pull/13036"&gt;#13036&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 18, 2026 - 45 shipped, 3 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-18</guid>
-      <pubDate>Fri, 18 Sep 2026 10:43:55 +0000</pubDate>
-      <description>&lt;p&gt;A busy day for user-facing improvements across Photos and Auth, with smoother sharing, importing, and album workflows. The team also shipped multi-photo posts for Space and several reliability and performance fixes.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Refreshed the add-person picker and updated link settings in the mobile app (&lt;a href="https://github.com/ente/ente/pull/13034"&gt;#13034&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13007"&gt;#13007&lt;/a&gt;). Album sharing was also redesigned, and photos can now be removed directly from album chips in the info sheet (&lt;a href="https://github.com/ente/ente/pull/12994"&gt;#12994&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/12969"&gt;#12969&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Public-link viewers no longer show the Favorite action, while unloaded raw thumbnails no longer display misleading overlays (&lt;a href="https://github.com/ente/ente/pull/13023"&gt;#13023&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13030"&gt;#13030&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Cleanup now shows progress, item counts, and clearer feedback when there is nothing to remove (&lt;a href="https://github.com/ente/ente/pull/12989"&gt;#12989&lt;/a&gt;). Video backup also avoids unnecessary FFmpeg log traffic for smoother performance (&lt;a href="https://github.com/ente/ente/pull/13003"&gt;#13003&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; Google Authenticator multi-QR imports now support complete camera and image-based batches with validation and progress feedback (&lt;a href="https://github.com/ente/ente/pull/13017"&gt;#13017&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13005"&gt;#13005&lt;/a&gt;). Imports from 2FAS, Aegis, and Bitwarden also gain better compatibility and note preservation (&lt;a href="https://github.com/ente/ente/pull/13000"&gt;#13000&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13002"&gt;#13002&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker and Auth:&lt;/strong&gt; Cancelled files are no longer uploaded from Locker’s pre-upload screen, and restored offline-only Auth installations now provide recovery guidance when their encryption key is unavailable (&lt;a href="https://github.com/ente/ente/pull/13011"&gt;#13011&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13031"&gt;#13031&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Multi-photo posts are now supported by both the web client and server (&lt;a href="https://github.com/ente/ente/pull/13021"&gt;#13021&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13022"&gt;#13022&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos CLI:&lt;/strong&gt; A new Rust-based set of Photos file commands and an encrypted CLI replica is under development (&lt;a href="https://github.com/ente/ente/pull/13037"&gt;#13037&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Photos is addressing duplicate shared map photos appearing after they are favorited (&lt;a href="https://github.com/ente/ente/pull/13036"&gt;#13036&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;A notification for when Memories are ready is in progress (&lt;a href="https://github.com/ente/ente/pull/12995"&gt;#12995&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
