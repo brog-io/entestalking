@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 19 Oct 2026 13:49:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 11:58:32 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 20, 2026 - 12 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 11:58:32 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity over the past day, with most discussion focused on a small, difficult-to-select button in the photos experience. Other messages included positive feedback on Google-to-Ente authentication and brief album-related discussion.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Eight messages from three participants discussed a button that is too small, disappears after scrolling, and can be difficult to select. Ashil confirmed that the issue is being fixed.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Two messages touched on album-level descriptions, noting their 200-character limit, alongside an attachment.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Pixel praised the Google-to-Ente authentication transfer and the ability to view it on a Mac.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 19, 2026 - 21 messages in 2 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -585,25 +604,6 @@
 
 &lt;h3&gt;#space&lt;/h3&gt;
 &lt;p&gt;An announcement highlighted Space updates including adding multiple photos to a post, basic cropping and rotating, and a “What’s Ente Space?” button in invite links.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 20, 2026 - 28 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 11:44:24 +0000</pubDate>
-      <description>&lt;p&gt;Activity was moderate, led by a busy discussion in &lt;strong&gt;#photos&lt;/strong&gt; around app behavior, metadata, troubleshooting, and future features. Smaller conversations covered Ente’s trust model, introductions, and one attachment shared in &lt;strong&gt;#clicks&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 20 messages from 11 participants, members discussed a possible Rust migration for the desktop app, location tags and metadata handling, language-setting issues, date formats, RAW photo support, and syncing photos across devices. A Reddit post about improving account security was shared, along with a warning that one item was a scam.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Five messages from three participants focused on whether Ente is trustworthy and its emphasis on longevity; a member also shared Ente’s public business metrics at &lt;a href="https://ente.com/open/"&gt;ente.com/open&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two brief introductions were posted: “Hi guys” and “Nick.”&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
