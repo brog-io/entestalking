@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 20 Oct 2026 11:03:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 11:20:03 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 21, 2026 - 23 shipped, 7 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 11:20:03 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos usability and layout improvements across web and mobile, alongside fixes for sharing, logout security, video processing, and CLI downloads. Several access-control and account-security improvements are also in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Refreshed family invitations with a clearer dialog and duplicate-submit protection in &lt;a href="https://github.com/ente/ente/pull/13879"&gt;#13879&lt;/a&gt;, and standardized album, sorting, and family-member menus in &lt;a href="https://github.com/ente/ente/pull/13880"&gt;#13880&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13877"&gt;#13877&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Continued separating gallery navigation, headers, album creation, sidebar selection, sorting, and download state, preserving existing behavior while simplifying the interface code (&lt;a href="https://github.com/ente/ente/pull/13876"&gt;#13876&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13869"&gt;#13869&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13868"&gt;#13868&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13865"&gt;#13865&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13864"&gt;#13864&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13858"&gt;#13858&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13857"&gt;#13857&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos and Space:&lt;/strong&gt; Web video processing now avoids heavy FFmpeg on iPhones where possible, reducing memory-related crashes (&lt;a href="https://github.com/ente/ente/pull/13785"&gt;#13785&lt;/a&gt;). Space posts now show like counts and a list of likers (&lt;a href="https://github.com/ente/ente/pull/13706"&gt;#13706&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile:&lt;/strong&gt; Auth and Locker now reliably clear app locks after logout (&lt;a href="https://github.com/ente/ente/pull/13427"&gt;#13427&lt;/a&gt;), and the FFmpeg upgrade improves export and preview handling (&lt;a href="https://github.com/ente/ente/pull/13559"&gt;#13559&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sharing and CLI:&lt;/strong&gt; Shared albums retain a sharee’s archived, hidden, and pinned state (&lt;a href="https://github.com/ente/ente/pull/13848"&gt;#13848&lt;/a&gt;), while failed downloads can recover stale deleted entries (&lt;a href="https://github.com/ente/ente/pull/13852"&gt;#13852&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security:&lt;/strong&gt; Recovery keys and admin login codes are no longer logged (&lt;a href="https://github.com/ente/ente/pull/13874"&gt;#13874&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; A refreshed family storage-limit dialog adds member usage, explicit limit choices, and a compact input (&lt;a href="https://github.com/ente/ente/pull/13882"&gt;#13882&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; Album-style covers and transitions are coming to locations across discovery and search (&lt;a href="https://github.com/ente/ente/pull/13881"&gt;#13881&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security and account handling:&lt;/strong&gt; Fresh admin tokens will be required for MFA changes (&lt;a href="https://github.com/ente/ente/pull/13873"&gt;#13873&lt;/a&gt;), access resets will revoke sessions created during the reset (&lt;a href="https://github.com/ente/ente/pull/13867"&gt;#13867&lt;/a&gt;), and shared albums will refresh participant emails after email changes (&lt;a href="https://github.com/ente/ente/pull/13854"&gt;#13854&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; Verification codes will remain fully visible at large text sizes instead of wrapping and hiding digits (&lt;a href="https://github.com/ente/ente/pull/13851"&gt;#13851&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Updated Photos and Locker help guidance is also in review (&lt;a href="https://github.com/ente/ente/pull/13872"&gt;#13872&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 20, 2026 - 26 shipped, 7 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -678,29 +704,6 @@
   &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Long conversations are being supported with encrypted summaries and retrieval of earlier context within model token limits (&lt;a href="https://github.com/ente/ente/pull/13085"&gt;#13085&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Mobile usability:&lt;/strong&gt; New album names will use sentence capitalization, and Locker uploads will allow files to be renamed before uploading (&lt;a href="https://github.com/ente/ente/pull/13084"&gt;#13084&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13059"&gt;#13059&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Self-hosting and Auth:&lt;/strong&gt; New quickstarts are moving to a pinned Silo object-store image, while Auth is adding a Floxar service icon (&lt;a href="https://github.com/ente/ente/pull/13074"&gt;#13074&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13067"&gt;#13067&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 21, 2026 - 10 shipped, 2 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-21</guid>
-      <pubDate>Mon, 21 Sep 2026 12:14:31 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a set of user-facing improvements across Space, Photos, and Locker, alongside substantial mobile and ML infrastructure work. Two new changes are in progress, including easier file naming during Locker uploads and stricter server-side validation.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Space / web:&lt;/strong&gt; Feed captions now have corrected spacing, photo position dots, and consistent card corners; profiles can load up to 250 posts. &lt;a href="https://github.com/ente/ente/pull/13061"&gt;PR #13061&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13048"&gt;PR #13048&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker / mobile:&lt;/strong&gt; The document scanner was completely rebuilt for better perspective correction, recovery from difficult page edges, shadow removal, faint-text handling, and document enhancement. &lt;a href="https://github.com/ente/ente/pull/13053"&gt;PR #13053&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos / mobile:&lt;/strong&gt; Internal users now use the native background task manager for uploads, while other users continue using Workmanager. The photo permission prompt also now uses “Continue,” addressing app review feedback. &lt;a href="https://github.com/ente/ente/pull/12882"&gt;PR #12882&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13056"&gt;PR #13056&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile UI:&lt;/strong&gt; Added menu rows and sheet headers for a more consistent interface. &lt;a href="https://github.com/ente/ente/pull/13054"&gt;PR #13054&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ML infrastructure:&lt;/strong&gt; Added the Rust &lt;code&gt;MlStore&lt;/code&gt; library, composing the ML database with vector indexes for clips and cluster centroids; it is foundational work and is not yet consumed by the app. &lt;a href="https://github.com/ente/ente/pull/12896"&gt;PR #12896&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Maintenance:&lt;/strong&gt; Removed unused server triggers and unverified-session alerts, and enabled automated Codex PR reviews. &lt;a href="https://github.com/ente/ente/pull/13060"&gt;PR #13060&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13057"&gt;PR #13057&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13063"&gt;PR #13063&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Files can be renamed directly from the file upload screen instead of only after uploading. &lt;a href="https://github.com/ente/ente/pull/13059"&gt;PR #13059&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Collection file operations will reject missing file IDs and malformed or incorrectly sized encrypted key material. &lt;a href="https://github.com/ente/ente/pull/13062"&gt;PR #13062&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
