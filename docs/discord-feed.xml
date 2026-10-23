@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 22 Oct 2026 12:16:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:57:41 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 23, 2026 - 21 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 11:57:41 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light across four channels, with most discussion focused on Ente Photos support questions and product updates. The Space channel also shared a new commenting feature, while memes and introductions saw brief activity.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 13 messages from 9 participants, discussion covered Gujarati translation progress, moving from Google Photos, duplicate detection, offline browsing, and changing display names. The team said display-name support is on the roadmap, and a member reported 404 errors on the &lt;a href="https://ente.com/help/cli/"&gt;CLI help&lt;/a&gt; and &lt;a href="https://ente.com/help/cli/migration"&gt;migration&lt;/a&gt; pages.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Four messages announced that users can now comment on friends’ posts or reply privately, followed by discussion of using Space with family members.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Three participants shared a &lt;a href="https://fxtwitter.com/lucaisdesigning/status/2112956215999467809"&gt;link&lt;/a&gt;, an attachment, and a reaction to potentially breaking a phone.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One member posted a brief “Hey y’all” introduction.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 22, 2026 - 17 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -588,22 +607,6 @@
 
 &lt;h3&gt;#space&lt;/h3&gt;
 &lt;p&gt;Two messages discussed Space’s focus on everyday moments rather than curated posts, and the resulting decision not to add statuses or stories. The exchange ended with appreciation for Ente.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 23, 2026 - 11 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 12:00:09 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light, with 11 messages across three channels and discussion centered on Space product feedback, paragliding photography, and Ensu’s device-only design.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Six messages from two participants focused on improving Space: adding sharing from a gallery or other app, and introducing 24-hour status videos for sharing moments with friends.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Four messages from two participants featured paragliding photography from Mieussy, France, along with encouragement for the photographer.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;One message clarified that Ensu currently works on-device only and that no data leaves the device.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
