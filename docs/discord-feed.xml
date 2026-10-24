@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 23 Oct 2026 11:57:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 11:27:39 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 24, 2026 - 23 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 11:27:39 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 23 messages across four active channels, with discussion centered on the ongoing web gallery redesign, app issues, and storage questions. Activity was highest in &lt;strong&gt;#photos&lt;/strong&gt;, while the remaining channels had lighter conversation and sharing.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 13 messages from seven participants, members discussed the web redesign, including the absence of person search on the web app and plans for continued improvements, including a matching desktop UI. The channel also surfaced broken &lt;a href="https://ente.com/help/cli/"&gt;CLI documentation links&lt;/a&gt;, a possible photo-display issue being handled through support, and positive feedback on the refreshed interface.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Five messages from four participants shared a meme about the updated web gallery and praised its polished appearance. A further social-media link was posted, while staff teased upcoming animations and interactions.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Four messages from three participants clarified that Space storage is separate from Ente Photos storage, addressing a question about whether Space data counts toward Photos limits.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;One participant reported being unable to open Ensu on an iPhone Duo.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 23, 2026 - 21 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -585,28 +604,6 @@
 
 &lt;h3&gt;#space&lt;/h3&gt;
 &lt;p&gt;A participant shared a brief reaction to the news.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 24, 2026 - 26 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:06:03 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light across the server, with the most discussion focused on moderation tooling and subscription support. Contributors also advanced an Ente Auth importer proposal and raised a phone-heating issue.&lt;/p&gt;
-
-&lt;h3&gt;#mod-log&lt;/h3&gt;
-&lt;p&gt;Ten messages from two participants covered an attempt to provide an agent with read-only access. The discussion concluded that a shared bot would be preferable to using a normal account, while noting that a read-only role may still be needed.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Eight messages from three participants discussed a lost debit card, subscription renewal, and the 30-day grace period after expiry, with guidance drawn from the FAQ. Support was also suggested as an option if payment issues continued.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Four messages from two participants covered a proposed Open Authenticator importer for Ente Auth. The contributor opened PR #13128, and the team invited them to submit it for review.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two messages raised a phone-heating issue, with one participant noting that the device was becoming too hot.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Two messages discussed Space’s focus on everyday moments rather than curated posts, and the resulting decision not to add statuses or stories. The exchange ended with appreciation for Ente.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
