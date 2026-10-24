@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 23 Oct 2026 11:10:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 10:27:38 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 24, 2026 - 42 shipped, 10 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 10:27:38 +0000</pubDate>
+      <description>&lt;p&gt;Photos received a broad set of usability and visual refinements across web and mobile, while Space video playback and Locker handling also improved. Several security, stability, and release-tooling updates landed alongside these user-facing changes.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Album creation is now more prominent, with a new tile before Favorites and consistent rounded album covers in &lt;a href="https://github.com/ente/ente/pull/14039"&gt;#14039&lt;/a&gt;. On small screens, album download and sharing actions move into a three-dot menu (&lt;a href="https://github.com/ente/ente/pull/14038"&gt;#14038&lt;/a&gt;), while navigation icons and viewer menus now use the updated Hugeicons design (&lt;a href="https://github.com/ente/ente/pull/14037"&gt;#14037&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13992"&gt;#13992&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Album and People headers, search behavior, forms, unlock dialogs, notifications, and gallery feedback were standardized or refined across the web app (&lt;a href="https://github.com/ente/ente/pull/14017"&gt;#14017&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14031"&gt;#14031&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14006"&gt;#14006&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13975"&gt;#13975&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13999"&gt;#13999&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Importing from the device now uses Ente’s gallery picker, retaining zoom, selection, Live Photos, and the 50-item limit (&lt;a href="https://github.com/ente/ente/pull/13960"&gt;#13960&lt;/a&gt;). Add-more selection, album editing above the keyboard, album pin ordering, location covers, video durations, and backup alerts also received fixes and improvements (&lt;a href="https://github.com/ente/ente/pull/13974"&gt;#13974&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14001"&gt;#14001&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13780"&gt;#13780&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13881"&gt;#13881&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14026"&gt;#14026&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14005"&gt;#14005&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Video opening, closing, and carousel playback are smoother, with more efficient preloading (&lt;a href="https://github.com/ente/ente/pull/14009"&gt;#14009&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14000"&gt;#14000&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14019"&gt;#14019&lt;/a&gt;). Reaction long presses no longer accidentally open profiles (&lt;a href="https://github.com/ente/ente/pull/14023"&gt;#14023&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker and platform safety:&lt;/strong&gt; PDFs over 500 pages now fail fast instead of potentially stalling the viewer, and duplicate search results are removed (&lt;a href="https://github.com/ente/ente/pull/13997"&gt;#13997&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13989"&gt;#13989&lt;/a&gt;). Guest view navigation is more tightly contained (&lt;a href="https://github.com/ente/ente/pull/13968"&gt;#13968&lt;/a&gt;), while video preview IDs are validated server-side and legacy recovery tokens expire after 24 hours (&lt;a href="https://github.com/ente/ente/pull/13980"&gt;#13980&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14002"&gt;#14002&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Desktop Electron was updated for stability and certificate mitigations (&lt;a href="https://github.com/ente/ente/pull/14035"&gt;#14035&lt;/a&gt;). CLI documentation, packaging, KeePassXC storage, and release workflows also received maintenance updates.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Photos web:&lt;/strong&gt; Album and People headers will gain covers or face thumbnails, descriptions, and responsive spacing (&lt;a href="https://github.com/ente/ente/pull/14040"&gt;#14040&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Feed scrolling is being tuned to preserve video frames and playback positions while making deliberate carousel changes immediate (&lt;a href="https://github.com/ente/ente/pull/14041"&gt;#14041&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Hidden galleries will defer expensive grid rebuilds until visible (&lt;a href="https://github.com/ente/ente/pull/14027"&gt;#14027&lt;/a&gt;), and iOS push registration is being updated for current Firebase/APNs fixes (&lt;a href="https://github.com/ente/ente/pull/13988"&gt;#13988&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Other open work covers archived-album navigation, upload validation, bounded Space notifications, desktop packaging, and additional Auth icons (&lt;a href="https://github.com/ente/ente/pull/14025"&gt;#14025&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14004"&gt;#14004&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13995"&gt;#13995&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14036"&gt;#14036&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14030"&gt;#14030&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 23, 2026 - 50 shipped, 21 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -676,33 +701,6 @@
 &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Detected document crops will be preserved through review and PDF export (&lt;a href="https://github.com/ente/ente/pull/13146"&gt;#13146&lt;/a&gt;), and the What's New screen will be reopenable from settings (&lt;a href="https://github.com/ente/ente/pull/13162"&gt;#13162&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CLI:&lt;/strong&gt; Open fixes improve exports when changing directories, return a non-zero status on sync failure, and clean up temporary files after failed downloads or decryption (&lt;a href="https://github.com/ente/ente/pull/13142"&gt;#13142&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13141"&gt;#13141&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13140"&gt;#13140&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Server and client models are being cleaned up to remove the legacy KEK hash field (&lt;a href="https://github.com/ente/ente/pull/13164"&gt;#13164&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 24, 2026 - 15 shipped, 9 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 11:16:53 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a set of usability improvements across Space, Photos, and mobile, including smoother messaging, feed browsing, profile management, and more resilient search. Several upcoming Photos and Auth features are also in review, notably image-editor text overlays and Open Authenticator imports.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; Swipe right to reply in message threads, with a subtle visual indicator (&lt;a href="https://github.com/ente/ente/pull/13134"&gt;#13134&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; Photo feed cards now keep a fixed height while swiping, and profile posts show full-width photos with captions and timestamps (&lt;a href="https://github.com/ente/ente/pull/13133"&gt;#13133&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13116"&gt;#13116&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Users can remove their profile picture and cover image, returning to the default artwork (&lt;a href="https://github.com/ente/ente/pull/13123"&gt;#13123&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; Magic Search now recovers from failed queries and handles malformed threshold prefixes as normal search text (&lt;a href="https://github.com/ente/ente/pull/13112"&gt;#13112&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile:&lt;/strong&gt; Added account controls and collapsible settings pages (&lt;a href="https://github.com/ente/ente/pull/13115"&gt;#13115&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web Locker:&lt;/strong&gt; Partial Locker entries are now supported (&lt;a href="https://github.com/ente/ente/pull/13120"&gt;#13120&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Infrastructure and maintenance updates included shared native HTTP handling, web dead-code cleanup, and Space code organization (&lt;a href="https://github.com/ente/ente/pull/13129"&gt;#13129&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13131"&gt;#13131&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13118"&gt;#13118&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; Preserve Display P3 color in image edits and allow larger, clearer post images (&lt;a href="https://github.com/ente/ente/pull/13136"&gt;#13136&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Add a text tool with fonts, color and background controls, alignment, and larger accessible editor controls (&lt;a href="https://github.com/ente/ente/pull/13121"&gt;#13121&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Pause videos while file information is open, wait for smart-album people updates to finish, and warn before discarding unsaved descriptions (&lt;a href="https://github.com/ente/ente/pull/13130"&gt;#13130&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13114"&gt;#13114&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13113"&gt;#13113&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Import TOTP codes from password-protected Open Authenticator &lt;code&gt;.bak&lt;/code&gt; backups on mobile (&lt;a href="https://github.com/ente/ente/pull/13128"&gt;#13128&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Documentation, Locker partial entries, and an updated AJ Bell icon are also in review (&lt;a href="https://github.com/ente/ente/pull/13135"&gt;#13135&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13119"&gt;#13119&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13124"&gt;#13124&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
