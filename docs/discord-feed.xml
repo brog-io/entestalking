@@ -4,7 +4,27 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sat, 24 Oct 2026 11:27:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 11:55:20 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 25, 2026 - 45 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 11:55:20 +0000</pubDate>
+      <description>&lt;h3&gt;Server activity&lt;/h3&gt;
+&lt;p&gt;The server saw 45 messages from 18 participants across four active channels. Most discussion focused on Ente Photos features, pricing, roadmap questions, and authentication usability.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 30 messages from 9 participants, this was the busiest channel. Members discussed why passkeys are currently available only as 2FA, possible plan discounts, whether Ente’s roadmap is public, an upcoming video, and a meetup announcement. They also raised questions about Memories including shared-album photos and plans for person search on the web; the latter was described as dependent on locally run desktop ML models.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Thirteen messages from 7 participants covered Android biometric unlock, including facial recognition and Pixel device behavior, as well as requests for automatic TOTP code suggestions and browser-extension support. The discussion also weighed privacy and security concerns around detecting websites and storing TOTP codes; one participant shared a &lt;a href="https://discord.com/channels/948937918347608085/1051153671985045514/1553910015067295782"&gt;link to a related answer&lt;/a&gt;. One user also reported trouble logging in.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;A single message shared a &lt;a href="https://www.tnktok.com/@kentlights/video/7698198043589381407"&gt;video link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One participant posted a smiling emoji.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 24, 2026 - 23 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -582,28 +602,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One Bluesky post was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 25, 2026 - 27 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 12:06:11 +0000</pubDate>
-      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with discussions about uploads, deduplication, photo-picker behavior, and recent app changes. The server also shared a new Ente Photos release and discussed bot-account practices.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 17 messages from 11 participants, the channel covered onboarding a spouse after migrating to GrapheneOS, the 21-day compliance lock, cross-account deduplication, and upload controls. Members also discussed the updated thumbnail strip and photo-picker experience, importing &lt;strong&gt;.mov&lt;/strong&gt; files, and removing already-synced photos from devices.&lt;/p&gt;
-
-&lt;h3&gt;#mod-log&lt;/h3&gt;
-&lt;p&gt;Six messages from three participants focused on replacing a normal account with a shared bot for monitoring Codex/Claude agents, along with bot permissions and read-only access.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Two messages included a general greeting and a compliment about a photo and its view.&lt;/p&gt;
-
-&lt;h3&gt;#announcements&lt;/h3&gt;
-&lt;p&gt;A new Ente Photos release was announced, featuring a thumbnail strip at the bottom for quickly browsing photos and videos.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;A participant shared a brief reaction to the news.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
