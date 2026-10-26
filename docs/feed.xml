@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 25 Oct 2026 10:54:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 12:25:49 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 26, 2026 - 30 shipped, 5 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 12:25:49 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Photos interface improvements across mobile, web, and desktop, alongside reliability, performance, and security updates. Work in progress points to smoother people browsing and a new map-based Places experience.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Album covers now transition correctly in list views and Discover galleries, including search results, with smoother navigation and sorting. &lt;a href="https://github.com/ente/ente/pull/14054"&gt;Album transitions&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13961"&gt;Discover covers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Covered galleries defer expensive grid rebuilds until visible, reducing unnecessary thumbnail work, while large face-feedback updates avoid repeated data copying. &lt;a href="https://github.com/ente/ente/pull/14027"&gt;Deferred rebuilds&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14097"&gt;Face feedback performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; The album picker, Hidden and Archive views, Maps navigation, map photo panel, People dialogs, and person-page navigation received a substantial visual and navigation refresh. &lt;a href="https://github.com/ente/ente/pull/14070"&gt;Album picker&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14069"&gt;Hidden&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14071"&gt;Archive&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14072"&gt;Maps navigation&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14074"&gt;Map panel&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14076"&gt;Add name&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14073"&gt;Person navigation&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14083"&gt;Review suggestions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Web uploads no longer crash the viewer when the file list changes, and sync decryption errors now identify the affected collection. &lt;a href="https://github.com/ente/ente/pull/14085"&gt;Upload viewer fix&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14095"&gt;Decryption diagnostics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker and desktop:&lt;/strong&gt; Locker now explains its 30-day Trash retention and clears deleted collections from selections; desktop has a redesigned Watch folders empty state. &lt;a href="https://github.com/ente/ente/pull/14059"&gt;Trash notice&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14086"&gt;Selection cleanup&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14087"&gt;Watch folders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mobile upgraded to Flutter 3.47.8, including an eMudhra TLS fix, and iOS push registration was updated for Firebase/APNs fixes. &lt;a href="https://github.com/ente/ente/pull/14084"&gt;Flutter upgrade&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/13988"&gt;iOS push registration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Other maintenance included bounded notification retention, updated upload validation, and a constant-time crypto-bigint security update. &lt;a href="https://github.com/ente/ente/pull/13995"&gt;Notifications&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14004"&gt;Upload validation&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14093"&gt;Crypto dependency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Photos mobile:&lt;/strong&gt; Album-cover layouts and Hero transitions are being extended to people and face groups across Discover, search, and person clusters. &lt;a href="https://github.com/ente/ente/pull/14078"&gt;People transitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Photos web:&lt;/strong&gt; A Places sidebar will list matched cities with photo covers, powered by the shared Rust location matcher. &lt;a href="https://github.com/ente/ente/pull/14077"&gt;Places sidebar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Server work would increase primary database pool limits. &lt;a href="https://github.com/ente/ente/pull/14101"&gt;Database pool limits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Documentation updates clarify iOS backup selection, Auth manual-entry errors, macOS menu-bar mode, and shared-album permissions. &lt;a href="https://github.com/ente/ente/pull/14092"&gt;Help updates&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14088"&gt;Sharing FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 25, 2026 - 13 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -680,29 +706,6 @@
 &lt;h3&gt;In progress&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;GitHub issue templates:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13175"&gt;Update bug_report.yml&lt;/a&gt; adds Ente Locker and Ensu to the product dropdown in the bug-report form, helping users select the relevant product when filing an issue.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 26, 2026 - 5 shipped, 3 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-26</guid>
-      <pubDate>Sat, 26 Sep 2026 10:57:54 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work improves Locker’s document capture pipeline and Photos’ background processing, while Ensu received startup and chat-flow optimizations. In progress, Ente Auth is gaining a newer sorting option, alongside smaller usability and icon updates.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13146"&gt;Detected document crops are now preserved through review and PDF export&lt;/a&gt;, including manual captures, automatic captures, and retakes. This helps ensure the crop users saw is the one carried into the final document.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13161"&gt;Internal iOS background processing can now run while the device is on battery&lt;/a&gt;, expanding the sync and ML trial beyond devices charging overnight. The experiment remains limited to internal users.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13160"&gt;Background album auto-add now refreshes person assignments&lt;/a&gt; before processing eligible albums, reducing the chance of using stale assignments when local indexing or ML computation was skipped.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13144"&gt;The app now warms up its model at launch and optimizes chat-title creation&lt;/a&gt;, targeting a faster first interaction.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server and CLI maintenance:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13164"&gt;Legacy KEK hashes are no longer read, stored, or returned&lt;/a&gt; by the server, and the field has been removed from the Rust and Go CLI models.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13168"&gt;A “Newest first” sort option&lt;/a&gt; would place recently added codes at the top of the list, avoiding manual scrolling or searching.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13167"&gt;An icon for Brazil’s PJe judicial 2FA service&lt;/a&gt; has been proposed and added to the custom icon database.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13162"&gt;A settings entry to reopen the “What’s new” screen&lt;/a&gt; is in progress.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
