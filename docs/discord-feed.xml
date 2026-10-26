@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 25 Oct 2026 11:55:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 13:27:33 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 26, 2026 - 67 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 13:27:33 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with members discussing photo metadata, exports, migration, and self-hosting. Smaller conversations covered AI and open-source projects, Ente Locker’s intended use, authentication tooling, and community introductions.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 49 messages from 7 participants, the channel focused on exporting photos and associated metadata, including sidecar files, embedded data, and migration from Google Photos. Members also discussed Ente self-hosting, Jellyfin, Immich, and how to contact the developers about exports.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Ten messages from 4 participants debated AI-assisted development, moderation, and the open-source community’s response to low-effort AI projects, including whether projects such as Ente and Linux might be excluded. Members also shared links, including &lt;a href="https://fxtwitter.com/LundukeJournal/status/2114146664554631217"&gt;a post from Lunduke Journal&lt;/a&gt; and a Tom’s Hardware article about Linux kernel development.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Four messages from 3 participants clarified why Locker is limited to sensitive or important documents rather than serving as a general-purpose cloud drive like Mega. The discussion also touched on migration limits and supported file types.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Two messages discussed an authentication-related issue and a GitHub repository containing issuer-to-URL mappings, with concerns that the mapping approach is fragile and incomplete.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One new member introduced themselves, praised Ente Auth, and said they were considering trying Locker.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 25, 2026 - 45 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -568,40 +593,6 @@
 
 &lt;h3&gt;#clicks&lt;/h3&gt;
 &lt;p&gt;One participant posted a brief eyes emoji reaction.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 26, 2026 - 48 messages in 9 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-26</guid>
-      <pubDate>Sat, 26 Sep 2026 11:42:15 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community had light-to-moderate activity across nine channels, with most discussion focused on Ente Photos. Members also asked about Ente Space availability, referral storage, and upcoming app features.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 26 messages from 11 participants, discussion covered freeing synced photos from devices, MOV files, the new thumbnail strip, Android interface preferences, referral rules, GPU versus NPU use for machine learning, and exporting selected photos while preserving metadata. Members shared the &lt;a href="https://ente.com/help/photos/faq/storage-and-plans#referral-"&gt;referral FAQ&lt;/a&gt; and &lt;a href="https://ente.com/help/photos/features/backup-and-sync/export"&gt;export documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Seven messages from two participants clarified that Ente Space is not yet listed on Google Play or the App Store; it is currently available as a PWA, with mobile apps planned.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Six messages from four participants discussed whether referral bonuses are permanent, with a link to the &lt;a href="https://ente.com/help/photos/faq/storage-and-plans#referral-"&gt;referral details&lt;/a&gt;. Members also praised the product and asked for a roadmap to visualize scanned items before opening generated PDFs.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Three messages welcomed the addition of Wiki data and suggested a Christian Bible pack, while another member proposed allowing users to create their own packs.&lt;/p&gt;
-
-&lt;h3&gt;#announcements&lt;/h3&gt;
-&lt;p&gt;A new Ente Photos release was announced, featuring a thumbnail strip at the bottom for quickly browsing photos and videos.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Two messages included a poem and a brief question about Ente’s availability in India.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;A new member offered a brief greeting.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One member complimented a tag.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One Bluesky post was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
