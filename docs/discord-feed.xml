@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 26 Oct 2026 13:27:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:35:17 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 27, 2026 - 65 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 12:35:17 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with discussions spanning the latest Ente Photos release, web feedback, self-hosting, device support, translations, and feature requests. Other channels saw lighter conversation about Locker’s scope, AI and Microsoft layoffs, memes, and a minor app troubleshooting update.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 46 messages from 17 participants, this was the busiest channel. Members praised the new web design and gallery look, shared feedback, and discussed iPhone Duo support, Korean translations, image-picker improvements, face blurring, and screenshot protection for Locked Folders. Self-hosting questions covered Docker, macOS, and moving data from self-hosted Ente to the SaaS service, including a &lt;a href="https://github.com/ente/ente/discussions/855"&gt;GitHub discussion&lt;/a&gt; and the &lt;a href="https://ente.com/help/self-hosting/installation/requirements"&gt;self-hosting requirements&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Eight messages from three participants covered AI in the Linux kernel and reactions to a community’s anti-AI and solo-developer stance. The conversation also touched on Microsoft’s voluntary exit packages, with a &lt;a href="https://www.thehindu.com/sci-tech/technology/microsoft-offers-voluntary-exit-packages-to-60000-staff/article71629641.ece"&gt;news link&lt;/a&gt; shared.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Six messages from five participants discussed whether Locker should serve as a general cloud drive, its 1,000-item cap, and bulk export. The responses emphasized that Locker is intended for sensitive or important documents rather than everyday files; bulk export is not currently available but is believed to be on the roadmap.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Three messages shared two TikTok links and one attachment.&lt;/p&gt;
+
+&lt;h3&gt;#announcements&lt;/h3&gt;
+&lt;p&gt;A new Ente Photos release was announced, highlighting a refreshed gallery look and viewing photos in their original proportions.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;A user reported that deleting and reinstalling the app resolved an issue.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 26, 2026 - 67 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -574,25 +599,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;One newcomer shared that they use Ente as a phone gallery and find it satisfactory.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 27, 2026 - 32 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-27</guid>
-      <pubDate>Sun, 27 Sep 2026 12:21:18 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light to moderate, with most discussion in &lt;strong&gt;#photos&lt;/strong&gt;. The main themes were photo export behavior, metadata and app updates, alongside a small troubleshooting thread in &lt;strong&gt;#ensu&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 21 messages from 5 participants, the channel focused on exporting selected images from Ente to a PC, preserving metadata and creation dates, and how Windows may display file dates. The discussion shared the &lt;a href="https://ente.com/help/photos/features/backup-and-sync/export"&gt;export guide&lt;/a&gt; and &lt;a href="https://ente.com/help/photos/faq/metadata-and-editing#file-creation-time"&gt;metadata FAQ&lt;/a&gt;; users also discussed an Obt​anium update not appearing and minor album-view UX feedback.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Six messages from 3 participants covered whether FOSDEM would happen next year and included congratulations, an attachment, and an apology for its camera quality.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Four messages from 2 participants reported an Ens​u launch problem where the app opens as a blank square, including after uninstalling.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One participant posted a brief eyes emoji reaction.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
