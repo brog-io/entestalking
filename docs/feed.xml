@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 26 Oct 2026 12:25:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 11:44:28 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 27, 2026 - 33 shipped, 5 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 11:44:28 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes focused on smoother Photos experiences across mobile and web, stronger account and sharing safeguards, and performance improvements in memories and people data. Several usability and security fixes are also in progress, including offline album actions on iOS and print-ready photobook exports.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memories now recompute less often, avoiding unnecessary reshuffling, while Memory Lanes opened from the home screen can be shared even when they contain unnamed faces (&lt;a href="https://github.com/ente/ente/pull/14125"&gt;#14125&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14120"&gt;#14120&lt;/a&gt;). Gallery date headers also recover correctly after background startup, and album-cover transitions and Discover galleries received smoother navigation and layout behavior (&lt;a href="https://github.com/ente/ente/pull/14103"&gt;#14103&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14054"&gt;#14054&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13961"&gt;#13961&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;People and face-related operations perform less redundant database and memory work, improving efficiency for large libraries and cluster browsing (&lt;a href="https://github.com/ente/ente/pull/14128"&gt;#14128&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14116"&gt;#14116&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14097"&gt;#14097&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos web and Space:&lt;/strong&gt; Video posts show persistent trimmed-duration badges and preserve playback position when opened. Album-sharing dialogs were refreshed, public links are easier to copy, and the loading indicator now appears along the bottom edge (&lt;a href="https://github.com/ente/ente/pull/14130"&gt;#14130&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14115"&gt;#14115&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14117"&gt;#14117&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security and reliability:&lt;/strong&gt; Deleted accounts’ memory links are now disabled, TOTP recovery data uses consistent encoding and rejects incompatible clients, and retried Space pokes no longer create duplicate notifications (&lt;a href="https://github.com/ente/ente/pull/14057"&gt;#14057&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14105"&gt;#14105&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14118"&gt;#14118&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14127"&gt;#14127&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;iOS Photos received a launch-crash fix, and mobile builds moved to Flutter 3.47.8; the updated apps still need to be rebuilt and released (&lt;a href="https://github.com/ente/ente/pull/14104"&gt;#14104&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14084"&gt;#14084&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;CLI builds are now signed with weekly releases scheduled, while desktop Photos started version 1.7.32-beta (&lt;a href="https://github.com/ente/ente/pull/14126"&gt;#14126&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14100"&gt;#14100&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Other maintenance included Locker upload behavior, Photos and Locker documentation, improved decryption diagnostics, and bounded Space notifications (&lt;a href="https://github.com/ente/ente/pull/14114"&gt;#14114&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14112"&gt;#14112&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14095"&gt;#14095&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13995"&gt;#13995&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming photobook export:&lt;/strong&gt; A Rust PDF/X-4 writer would produce print-ready files with FOGRA39 CMYK color handling, moving this work out of ImageMagick WASM (&lt;a href="https://github.com/ente/ente/pull/14131"&gt;#14131&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;iOS local gallery mode is gaining &lt;strong&gt;Add to album&lt;/strong&gt; and &lt;strong&gt;Move to album&lt;/strong&gt; actions (&lt;a href="https://github.com/ente/ente/pull/14107"&gt;#14107&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Additional fixes target a crop editor that can become stuck while an image loads, earlier iOS masking of locked content, and incorrect family Locker usage totals (&lt;a href="https://github.com/ente/ente/pull/14129"&gt;#14129&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14121"&gt;#14121&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14108"&gt;#14108&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 26, 2026 - 30 shipped, 5 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -691,21 +716,6 @@
   &lt;li&gt;&lt;strong&gt;Safer, more reusable login flow:&lt;/strong&gt; Rust login state is being separated from interactive prompts, with authentication values removed from HTTP-error and browser-launch logs: &lt;a href="https://github.com/ente/ente/pull/13197"&gt;#13197&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Photos mobile UX:&lt;/strong&gt; A new Locker link and easier access to “What’s new” are being added, while file info will allow removing items from Quick Links and Favorites: &lt;a href="https://github.com/ente/ente/pull/13190"&gt;#13190&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13184"&gt;#13184&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Desktop image support:&lt;/strong&gt; An upcoming libvips upgrade targets security fixes, RAW thumbnails, and Ultra HDR preservation; related work keeps image extensions in temporary files for RAW conversion: &lt;a href="https://github.com/ente/ente/pull/13187"&gt;#13187&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13186"&gt;#13186&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 27, 2026 - 0 shipped, 1 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-27</guid>
-      <pubDate>Sun, 27 Sep 2026 11:35:29 +0000</pubDate>
-      <description>&lt;p&gt;A quiet day in the Ente monorepo, with no changes shipped. One documentation and issue-triage update is in progress.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;p&gt;No pull requests were merged in the last 24 hours.&lt;/p&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;GitHub issue templates:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13175"&gt;Update bug_report.yml&lt;/a&gt; adds Ente Locker and Ensu to the product dropdown in the bug-report form, helping users select the relevant product when filing an issue.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
