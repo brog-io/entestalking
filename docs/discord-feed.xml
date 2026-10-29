@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Wed, 28 Oct 2026 13:25:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 13:33:22 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 29, 2026 - 19 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 13:33:22 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light overall, with 19 messages across five active channels. Discussion centered on Ente Photos performance and feature requests, alongside a few brief updates and shared links.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 14 messages from five participants, the channel focused on slow gallery rendering—particularly for 50MP photos—and possible tile-based decoding improvements, including discussion of &lt;a href="https://github.com/ente/ente/pull/12617"&gt;PR #12617&lt;/a&gt;. Members also praised the latest update and requested map tile options, a heatmap, and easier EXIF and face-recognition review; photo straightening was celebrated as a newly available feature.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Two participants shared an attachment and a &lt;a href="https://www.tnktok.com/@cosminacreates/video/7693987503476362528"&gt;video link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;A member asked about integrating Ente Auth sync while forking &lt;a href="https://github.com/Yubico/yubioath-ios"&gt;Yubico Authenticator for iOS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;A user thanked the team for enabling secret creation in Locker without requiring a username.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;A single message shared a &lt;a href="https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates"&gt;Guardian link&lt;/a&gt; in a brief comment about a TGV.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 28, 2026 - 150 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -586,28 +608,6 @@
 
 &lt;h3&gt;#space&lt;/h3&gt;
 &lt;p&gt;An announcement shared that users can now react to replies and messages with emojis.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 29, 2026 - 9 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 13:14:10 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community server was quiet over the past day, with 9 messages across five active channels. Discussion centered on casual conversation, new-member introductions, and a question about photo deletion behavior.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Three messages from two participants shared friendly check-ins and a note about returning to school.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two new-member messages included an introduction from a Photo user exploring more Ente products and a brief greeting.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Two participants discussed whether deleting photos from a watched desktop folder can avoid moving them to “Uncategorized”; the response explained how linked albums and local deletion currently behave.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;One participant thanked the team for addressing an issue.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;One message noted plans to add basic viewing support, without comments on the timeline.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
