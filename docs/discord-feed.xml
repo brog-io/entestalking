@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 29 Oct 2026 13:33:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 13:23:33 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Oct 30, 2026 - 52 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 13:23:33 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 52 messages across five active channels, with conversation concentrated in &lt;strong&gt;#photos&lt;/strong&gt;. Discussions focused mainly on iOS photo organization and interface design, alongside a small Auth support thread.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 42 messages from 12 participants, this was the busiest channel. Members discussed force-uploading, finding and removing “uncategorized” photos, possible duplicates, moving photos into albums on iOS, and image zoom behavior. There was also extended debate over Apple’s “Liquid Glass” design and whether Ente should use it for navigation.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Five messages from three participants covered Ente Auth installation on an HP Chromebook, including a sideloaded F-Droid build. The device’s webcam compatibility was discussed, and a fix was said to be expected in the next build.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;Two participants discussed whether Locker is intentionally opinionated and whether its purpose is clearer as a dead man’s switch or a drive-like service.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Two links were shared for discussion: &lt;a href="https://github.com/yjid/kensaku"&gt;a GitHub project called Kensaku&lt;/a&gt; and &lt;a href="https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"&gt;a Guardian article about a Binance hack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One participant posted an attachment.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 29, 2026 - 19 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -592,22 +614,6 @@
 
 &lt;h3&gt;#off-topic&lt;/h3&gt;
 &lt;p&gt;JD shared a site about his hometown: &lt;a href="https://diamond.jaydip.me"&gt;diamond.jaydip.me&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Sep 30, 2026 - 9 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 12:55:14 +0000</pubDate>
-      <description>&lt;p&gt;Ente Community saw light activity across three channels, with 9 messages from 8 participants. Discussion centered on photo-app workflows and feature requests, alongside a small community update and casual chatter.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Six messages from five participants covered folder-watching and local photo deletion workflows, a proposed Picture-in-Picture feature for the iOS Photos app related to GitHub discussion #834, and family account-sharing considerations. Members also shared positive feedback about Ente Photos.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Two messages touched on identifying a phone and celebrated the server reaching 7,000 Discord members.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;An announcement shared that users can now react to replies and messages with emojis.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
