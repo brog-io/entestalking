@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Thu, 29 Oct 2026 12:27:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 12:18:38 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Oct 30, 2026 - 25 shipped, 5 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 12:18:38 +0000</pubDate>
+      <description>&lt;p&gt;A busy day focused on moving shared logic into Rust, strengthening Photos reliability and security, and expanding CLI capabilities. Several internal ML and memory-processing paths also moved closer to consistent cross-platform behavior.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Added explicit 210 MP and 512 MiB image-decode limits, turning potentially crash-inducing files into clean errors in &lt;a href="https://github.com/ente/ente/pull/14244"&gt;PR #14244&lt;/a&gt;. Calendar and trip memories are now computed in shared Rust, preserving existing selection and cooldown rules (&lt;a href="https://github.com/ente/ente/pull/14223"&gt;#14223&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14235"&gt;#14235&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos ML:&lt;/strong&gt; More face clustering, reclustering, cluster-average refresh, and ML database cleanup now run in Rust, reducing data movement between Dart and native code and making failed database clears recoverable (&lt;a href="https://github.com/ente/ente/pull/14214"&gt;#14214&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14224"&gt;#14224&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14239"&gt;#14239&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14245"&gt;#14245&lt;/a&gt;). The Rust ML backend is enabled for internal users after device smoke testing (&lt;a href="https://github.com/ente/ente/pull/14217"&gt;#14217&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CLI:&lt;/strong&gt; Added &lt;code&gt;ente photos usage&lt;/code&gt; for storage, file counts, plans, and family details, plus filtering and sorting options for &lt;code&gt;ente photos file list&lt;/code&gt; (&lt;a href="https://github.com/ente/ente/pull/14226"&gt;#14226&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14212"&gt;#14212&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authentication and shared code:&lt;/strong&gt; Login, signup, password and two-factor flows now use shared Rust APIs on web and mobile (&lt;a href="https://github.com/ente/ente/pull/14238"&gt;#14238&lt;/a&gt;), while recovery-key mnemonic conversion is unified across clients (&lt;a href="https://github.com/ente/ente/pull/14225"&gt;#14225&lt;/a&gt;). Auth also improved Chromebook Play Store availability (&lt;a href="https://github.com/ente/ente/pull/14233"&gt;#14233&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security and reliability:&lt;/strong&gt; Web now rejects unsafe passkey and billing URL schemes (&lt;a href="https://github.com/ente/ente/pull/14216"&gt;#14216&lt;/a&gt;), detects truncated Photos downloads (&lt;a href="https://github.com/ente/ente/pull/14220"&gt;#14220&lt;/a&gt;), and hardens Locker shared-file and item validation (&lt;a href="https://github.com/ente/ente/pull/14219"&gt;#14219&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14222"&gt;#14222&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Locker outreach:&lt;/strong&gt; A server change would send eligible new Photos users a one-time Locker introduction email (&lt;a href="https://github.com/ente/ente/pull/14248"&gt;PR #14248&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duplicate cleanup:&lt;/strong&gt; Duplicate removal is being wired through shared Rust for web and future mobile use, including planning, key handling, album preservation, and progress updates (&lt;a href="https://github.com/ente/ente/pull/14241"&gt;#14241&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14240"&gt;#14240&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Password updates are being separated from SRP refreshes so a confirmed password change can succeed even if the refresh fails (&lt;a href="https://github.com/ente/ente/pull/14242"&gt;#14242&lt;/a&gt;). A Watch Folders FAQ is also in progress to clarify safe local deletion after upload (&lt;a href="https://github.com/ente/ente/pull/14221"&gt;#14221&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 29, 2026 - 39 shipped, 15 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -696,30 +719,6 @@
   &lt;li&gt;Memories Export scaffolding adds progress and cancellation APIs for Android and iOS; media processing will follow later (&lt;a href="https://github.com/ente/ente/pull/13328"&gt;#13328&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Internal iOS users are slated to receive push notifications when Photos albums are newly shared or access is restored (&lt;a href="https://github.com/ente/ente/pull/13320"&gt;#13320&lt;/a&gt;), and Auth is getting settings search (&lt;a href="https://github.com/ente/ente/pull/13300"&gt;#13300&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Additional in-progress work reorganizes the Photos sidebar and updates Rust/Ensu desktop dependencies (&lt;a href="https://github.com/ente/ente/pull/13338"&gt;#13338&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13337"&gt;#13337&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Sep 30, 2026 - 57 shipped, 11 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 12:04:48 +0000</pubDate>
-      <description>&lt;p&gt;Photos shipped a broad set of playback, sharing, background-processing, and reliability improvements across mobile, web, and desktop. Space also gained encrypted reactions and video-post groundwork, while server and CLI changes tightened upload and export handling.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos — slideshows:&lt;/strong&gt; Album slideshows are now available on the web, with navigation, blurred backgrounds, configurable timing and ordering, auto-hidden controls, and nearby-photo prefetching in &lt;a href="https://github.com/ente/ente/pull/13243"&gt;#13243&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13252"&gt;#13252&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13254"&gt;#13254&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos — video and desktop viewing:&lt;/strong&gt; Mobile video editing and playback now support 0.25x–2x speed controls in &lt;a href="https://github.com/ente/ente/pull/13076"&gt;#13076&lt;/a&gt;. Desktop adds previews for RAF, ORF, PEF, NRW, and SRW files via &lt;a href="https://github.com/ente/ente/pull/13241"&gt;#13241&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos — mobile reliability:&lt;/strong&gt; Uploads retain their locks through native background timeouts, OCR can recover stills from uploaded copies, unsupported face crops stop retrying sooner, and birthday memories use local calendar dates in &lt;a href="https://github.com/ente/ente/pull/13290"&gt;#13290&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13229"&gt;#13229&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13230"&gt;#13230&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13266"&gt;#13266&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Encrypted emoji reactions—including search, skin tones, and optimistic updates—landed in &lt;a href="https://github.com/ente/ente/pull/13223"&gt;#13223&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13224"&gt;#13224&lt;/a&gt;. The server now supports encrypted posts containing up to ten mixed photos and videos in &lt;a href="https://github.com/ente/ente/pull/13279"&gt;#13279&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Web and security:&lt;/strong&gt; Photos now confirms before discarding unsaved descriptions, and Locker does the same for unsaved changes in &lt;a href="https://github.com/ente/ente/pull/13260"&gt;#13260&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13228"&gt;#13228&lt;/a&gt;. Server request bodies are capped at 4 MiB and file-link password attempts are rate-limited via &lt;a href="https://github.com/ente/ente/pull/13270"&gt;#13270&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13265"&gt;#13265&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Other fixes:&lt;/strong&gt; Mobile microphone and log-write crashes were addressed in &lt;a href="https://github.com/ente/ente/pull/13283"&gt;#13283&lt;/a&gt;, and invalid CLI export-deletion filenames are now rejected in &lt;a href="https://github.com/ente/ente/pull/13293"&gt;#13293&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Short video posts:&lt;/strong&gt; Space is preparing mixed photo/video posts with locally trimmed clips up to 10 seconds, cover selection, reordering, inline playback, and encrypted uploads in &lt;a href="https://github.com/ente/ente/pull/13291"&gt;#13291&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; iOS startup and simulator compatibility fixes are underway in &lt;a href="https://github.com/ente/ente/pull/13281"&gt;#13281&lt;/a&gt;, alongside redesigned map markers in &lt;a href="https://github.com/ente/ente/pull/13274"&gt;#13274&lt;/a&gt; and initial-memory notifications in &lt;a href="https://github.com/ente/ente/pull/13242"&gt;#13242&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Auth import hardening is proposed in &lt;a href="https://github.com/ente/ente/pull/13289"&gt;#13289&lt;/a&gt;, and desktop libvips downloads will gain checksum and size verification in &lt;a href="https://github.com/ente/ente/pull/13285"&gt;#13285&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
