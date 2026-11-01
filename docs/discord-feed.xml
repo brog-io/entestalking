@@ -4,7 +4,35 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sat, 31 Oct 2026 12:57:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 13:42:18 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 01, 2026 - 41 messages in 7 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 13:42:18 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with users discussing upcoming design changes, tagging, sharing links, and feature requests. Smaller conversations covered Ensu note search, Formula 1 news, and general product feedback.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 25 messages from 11 participants, the busiest channel covered photo straightening and possible grid guides, tag archiving, person-tagging workflows, and usability issues in the People section. Users also discussed shared-album device limits, with a &lt;a href="https://ente.com/help/photos/features/sharing-and-c"&gt;help link&lt;/a&gt; shared, and design contributions via &lt;a href="https://www.figma.com/design/BuBNPPytxlVnqfmCUW0mgz/ENTE-VISUAL-DESIGN?node-id=57-6281&amp;amp;p=f"&gt;Ente’s Figma assets&lt;/a&gt;; a preview of the upcoming People tab was also shown.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Seven messages from five participants focused on Formula 1 news and speculation surrounding Esteban Ocon and Haas, including links to &lt;a href="https://apnews.com/article/haas-f1-ryo-hirakawa-esteban-ocon-74ce0f5835de9052cdd58fbf4e65f235"&gt;AP News&lt;/a&gt; and a related social-media post.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Five messages from three participants discussed indexing Obsidian notes and difficulty retrieving personal information. The exchange identified likely retrieval-context issues and two separate problems with searches such as “my notes.”&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member introduced themselves and welcomed the recent Ente app-library design changes.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;A member migrating from Proton raised a question about importing data into Ente Auth.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;A brief comment praised Locker as an opinionated, dedicated digital safe for sensitive information.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One YouTube Short was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Oct 31, 2026 - 23 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -589,28 +617,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;A new member posted a brief greeting.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 02, 2026 - 27 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 13:03:30 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light to moderate across five channels, led by photo-management questions and Ente Auth support. Members discussed album sorting, local file cleanup, TOTP setup, and possible product features, with several GitHub discussions shared.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 13 messages from 8 participants, discussion focused on sorting photos by filename in albums and whether the feature may be added soon. Members shared &lt;a href="https://github.com/ente/ente/discussions/638"&gt;GitHub discussion #638&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/discussions/834"&gt;discussion #834&lt;/a&gt;; another thread covered freeing local copies while retaining backups.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Nine messages from 3 participants covered a possible Apple Watch version of Ente Auth and beginner questions about TOTP secrets versus generated passwords. A GitHub discussion was recommended, and members clarified that Ente does not currently offer a password manager.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two new members introduced themselves: Dave, an event videographer and photography enthusiast, and an auto glass technician who values privacy.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two messages asked about other Ente apps for saving files and pointed toward another server channel.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One image was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
