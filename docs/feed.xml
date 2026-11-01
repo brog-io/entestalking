@@ -4,7 +4,28 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 31 Oct 2026 11:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 12:49:11 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 01, 2026 - 3 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 12:49:11 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped several web improvements focused on gallery structure and clearer upload progress. In progress, Photos is exploring shared-link expiry reminders, while Ente Auth is adding iOS AutoFill and the CLI is improving export recovery.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos web:&lt;/strong&gt; Links content is now organized in a dedicated view, laying groundwork for more maintainable link browsing while preserving the existing behavior (&lt;a href="https://github.com/ente/ente/pull/14270"&gt;PR #14270&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos web:&lt;/strong&gt; Upload progress now floors percentages, so an upload at 99.82% is shown as 99% rather than prematurely appearing complete (&lt;a href="https://github.com/ente/ente/pull/14271"&gt;PR #14271&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos web:&lt;/strong&gt; Gallery navigation now uses a dedicated actions context, an internal restructuring that preserves current navigation behavior and supports future maintenance (&lt;a href="https://github.com/ente/ente/pull/14269"&gt;PR #14269&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; Local reminders are planned for owned shared links expiring within 24 hours. The opt-in feature would check once per day, respect notification settings and permissions, omit hidden albums, and open Link settings when tapped (&lt;a href="https://github.com/ente/ente/pull/14275"&gt;PR #14275&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; An opt-in iOS 18+ AutoFill extension would let users search and fill TOTP codes with device authentication. It includes encrypted synchronization with vault changes and revocation on disablement or logout (&lt;a href="https://github.com/ente/ente/pull/14273"&gt;PR #14273&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CLI:&lt;/strong&gt; &lt;code&gt;ente export&lt;/code&gt; is being updated to retry HTTP/2 GOAWAY failures and exit with status 1 when an export ultimately fails, instead of stopping early and reporting success (&lt;a href="https://github.com/ente/ente/pull/14272"&gt;PR #14272&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Oct 31, 2026 - 20 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -696,30 +717,6 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13362"&gt;Add the Boxcar Trading icon&lt;/a&gt;. If merged, accounts from &lt;strong&gt;boxcartrading.com&lt;/strong&gt; will be matched with the company’s original amber-on-navy branding.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13360"&gt;Add a hover trigger for message actions&lt;/a&gt;. A visible chevron on hovered messages will make reactions, replies, copying, and deletion easier to discover, while opening the existing actions menu beside the message.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 02, 2026 - 22 shipped, 6 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 12:02:18 +0000</pubDate>
-      <description>&lt;p&gt;Today’s merged work focused on Photos usability and performance, safer sharing, and mobile reliability. Several upcoming changes also target easier album organization, smoother video sharing, and richer Memories playback.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13330"&gt;refreshed onboarding and Local Gallery flows&lt;/a&gt;] improve copy and layout while making notification-permission retries less disruptive; [&lt;a href="https://github.com/ente/ente/pull/13274"&gt;map markers&lt;/a&gt;] now use rounded photo pins and count badges; and [&lt;a href="https://github.com/ente/ente/pull/13348"&gt;OCR failures&lt;/a&gt;] appear as dismissible toasts instead of persistent banners.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos across mobile and web:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13332"&gt;OCR now uses Vision on iOS and Rust OCR on Android&lt;/a&gt;] for all users, with model caching and lifecycle improvements. [&lt;a href="https://github.com/ente/ente/pull/13333"&gt;Share downloads&lt;/a&gt;] stream encrypted data in chunks, reducing memory use for large files.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reliability and privacy:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13281"&gt;iOS startup and simulator initialization fixes&lt;/a&gt;] address newer iOS and Apple Silicon environments. The server now [&lt;a href="https://github.com/ente/ente/pull/13355"&gt;filters private fields from shared collections&lt;/a&gt;] and [&lt;a href="https://github.com/ente/ente/pull/13344"&gt;redacts public-link request bodies&lt;/a&gt;].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Auth and sharing:&lt;/strong&gt; Auth QR codes can [&lt;a href="https://github.com/ente/ente/pull/13349"&gt;switch finder squares to black on tap&lt;/a&gt;] for hardware authenticator compatibility. Space web messages now [&lt;a href="https://github.com/ente/ente/pull/13329"&gt;make URLs clickable&lt;/a&gt;].&lt;/li&gt;
-&lt;li&gt;Other merged maintenance includes [&lt;a href="https://github.com/ente/ente/pull/13358"&gt;streamed motion-photo processing&lt;/a&gt;], [&lt;a href="https://github.com/ente/ente/pull/13343"&gt;owner-only Auth export permissions&lt;/a&gt;], and ML/database groundwork in [&lt;a href="https://github.com/ente/ente/pull/13322"&gt;13322&lt;/a&gt;] and [&lt;a href="https://github.com/ente/ente/pull/13325"&gt;13325&lt;/a&gt;].&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Album organization:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13356"&gt;mobile&lt;/a&gt;] and [&lt;a href="https://github.com/ente/ente/pull/13353"&gt;web&lt;/a&gt;] add natural filename sorting within albums.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Video sharing:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13352"&gt;single-video quick links&lt;/a&gt;] will start muted autoplay, with sound available through the existing control.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Memories:&lt;/strong&gt; [&lt;a href="https://github.com/ente/ente/pull/13335"&gt;Memory Lane v2&lt;/a&gt;] adds background music support and always-visible navigation dots.&lt;/li&gt;
-&lt;li&gt;[&lt;a href="https://github.com/ente/ente/pull/13357"&gt;Camera dependency upgrade&lt;/a&gt;] targets iPhone 17 scanner crashes, while [&lt;a href="https://github.com/ente/ente/pull/13360"&gt;Space message hover actions&lt;/a&gt;] makes reactions, replies, copying, and deletion easier to discover.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
