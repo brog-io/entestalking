@@ -4,7 +4,32 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 01 Nov 2026 12:49:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 14:58:50 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 02, 2026 - 38 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 14:58:50 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes focus on safer, smoother photo management: secure session handling, faster gallery and ML operations, and more control over duplicates and shared content. Several upcoming Photos features also move toward richer activity and shared-album workflows.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Empty states for album search, Trash, Archive, and Links now use animated illustrations in &lt;a href="https://github.com/ente/ente/pull/14315"&gt;#14315&lt;/a&gt;. Users can also hide shared items from the home gallery via a new layout-sheet toggle in &lt;a href="https://github.com/ente/ente/pull/14305"&gt;#14305&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security across mobile apps:&lt;/strong&gt; Photos, Auth, and Locker now store session tokens in Keychain or Keystore rather than plaintext preferences, with existing sessions migrated automatically in &lt;a href="https://github.com/ente/ente/pull/14262"&gt;#14262&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos cleanup:&lt;/strong&gt; The CLI gains interactive and JSON-capable duplicate listing and removal commands in &lt;a href="https://github.com/ente/ente/pull/14299"&gt;#14299&lt;/a&gt;. Web duplicate removal now runs through shared Rust logic while preserving album memberships in &lt;a href="https://github.com/ente/ente/pull/14241"&gt;#14241&lt;/a&gt;. Internal mobile users also get a month-by-month “Review old photos” cleanup flow in &lt;a href="https://github.com/ente/ente/pull/14176"&gt;#14176&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos performance:&lt;/strong&gt; Overlapping album refreshes are coalesced during backup in &lt;a href="https://github.com/ente/ente/pull/14308"&gt;#14308&lt;/a&gt;, while People suggestions use substantially less memory in &lt;a href="https://github.com/ente/ente/pull/14307"&gt;#14307&lt;/a&gt;. Semantic-search fallback work is also kept in Rust instead of loading all vectors into Dart in &lt;a href="https://github.com/ente/ente/pull/14298"&gt;#14298&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web and platform safety:&lt;/strong&gt; Shared album pages now provide lightweight video previews and Open Graph video metadata in &lt;a href="https://github.com/ente/ente/pull/14294"&gt;#14294&lt;/a&gt;. HEIC and JPEG XL decoding received updated pins and additional bounds checks in &lt;a href="https://github.com/ente/ente/pull/14316"&gt;#14316&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14282"&gt;#14282&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/14285"&gt;#14285&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Empty home states now consistently show save options and search in &lt;a href="https://github.com/ente/ente/pull/14319"&gt;#14319&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos activity:&lt;/strong&gt; A web navigation-rail Feed is being added, using encrypted social activity APIs and fresh in-memory loading in &lt;a href="https://github.com/ente/ente/pull/14300"&gt;#14300&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shared albums:&lt;/strong&gt; Mobile users will be able to review, accept, or reject album invitations before content syncs in &lt;a href="https://github.com/ente/ente/pull/14297"&gt;#14297&lt;/a&gt;. Encrypted album-share push notifications for internal iOS users are being enabled in &lt;a href="https://github.com/ente/ente/pull/14295"&gt;#14295&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Duplicate cleanup is being hardened so files in hidden albums cannot be selected for removal in &lt;a href="https://github.com/ente/ente/pull/14320"&gt;#14320&lt;/a&gt;; oversized video previews are also being rejected server-side in &lt;a href="https://github.com/ente/ente/pull/14311"&gt;#14311&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Test reliability improvements will retry Museum and Postgres when ports collide in &lt;a href="https://github.com/ente/ente/pull/14318"&gt;#14318&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 01, 2026 - 3 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -700,24 +725,6 @@
 
 &lt;h3&gt;In progress&lt;/h3&gt;
 &lt;p&gt;No newly opened pull requests.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 03, 2026 - 1 shipped, 2 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 11:14:46 +0000</pubDate>
-      <description>&lt;p&gt;A mobile camera dependency upgrade has shipped to address scanner crashes on iPhone 17. Two improvements are in progress: clearer message actions in Space web and a new Boxcar Trading icon for Ente Auth.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile / Photos and Locker:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13357"&gt;Upgrade the camera package to fix iPhone 17 scanner crashes&lt;/a&gt;. The update includes the upstream iOS camera fix while retaining the existing maximum-resolution camera setting.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13362"&gt;Add the Boxcar Trading icon&lt;/a&gt;. If merged, accounts from &lt;strong&gt;boxcartrading.com&lt;/strong&gt; will be matched with the company’s original amber-on-navy branding.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13360"&gt;Add a hover trigger for message actions&lt;/a&gt;. A visible chevron on hovered messages will make reactions, replies, copying, and deletion easier to discover, while opening the existing actions menu beside the message.&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
