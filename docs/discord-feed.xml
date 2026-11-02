@@ -4,7 +4,35 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 01 Nov 2026 13:42:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:28:07 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 02, 2026 - 64 messages in 7 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 16:28:07 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw moderate activity, with 64 messages across seven channels. Most discussion centered on Ente Photos performance and migration questions for Ente Auth, alongside smaller product suggestions and off-topic conversation.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 41 messages from 13 participants, the busiest channel focused on photo-gallery performance, including stuttering, frame drops, and low-resolution loading on a Pixel 9 Pro XL. Members also discussed duplicate-photo cleanup, backing up contacts in Ente, CLI support for ARMv7, and gallery interface improvements. Shared links included an &lt;a href="https://albums.ente.com/?t=FY7AAFBAI9#GmfNn79zZ1d6wXv3Jh3aqbtLP77nhWkfTavvt3eDqYJD"&gt;Ente album video&lt;/a&gt; and a &lt;a href="https://www.reddit.com/r/enteio/comments/1xkmol6/i_love_ente_but_the_performance_issues_are/"&gt;Reddit performance thread&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Thirteen messages from four participants covered moving from Google Authenticator to Ente Auth, especially the difficulty of transferring QR codes on a single phone. Advice included manually adding tokens, using screenshots, or using a laptop and phone; members also clarified that Ente Auth is for 2FA codes, not password management.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Five messages touched on stock-market conditions, privacy-testing site &lt;a href="https://theyseeyourphotos.com"&gt;theyseeyourphotos.com&lt;/a&gt;, a request to avoid graphic content, and a digital-garden project at &lt;a href="https://jaydip.me/notes"&gt;jaydip.me/notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Two messages discussed Ente Notes synchronization: one member requested manual resync and configurable frequency, while another said syncing occurs automatically after roughly 10–15 minutes of edits when memory is available.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;A member suggested adding custom-domain support so shared access could use a personal domain.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One new member introduced themselves as the Echostar.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One meme-related video was shared: &lt;a href="https://www.tnktok.com/@patrickwcutler/video/7702100526690766093"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 01, 2026 - 41 messages in 7 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -592,31 +620,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;A single meme-related link was shared: &lt;a href="https://fixvx.com/PastGambles/status/2106191205155352880"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 03, 2026 - 66 messages in 6 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 11:56:17 +0000</pubDate>
-      <description>&lt;p&gt;The server saw moderate activity, led by an off-topic discussion about password-manager privacy and data exposure. Product conversations also covered Ente Photos, Auth, Locker, and the emerging Space service.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;With 29 messages from five participants, the channel focused on password-manager privacy, the US CLOUD Act, Bitwarden’s administrative data, passkeys, and threat models. Members also shared &lt;a href="https://ente.com/toys/"&gt;Ente’s toys page&lt;/a&gt; and linked to &lt;a href="https://bitwarden.com/privacy/"&gt;Bitwarden’s privacy policy&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Fourteen messages from eight participants covered feedback on the music icon in Memories, including making it more subtle or optionally disabled. Other discussions included desktop Trash storage, possible video compression such as H.265, streamable-video storage, and using Ente Photos with GrapheneOS.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Nine messages from four participants clarified the difference between TOTP secrets and generated passwords. Members confirmed that Ente does not currently offer a password manager and discussed alternative privacy-focused options; one message linked to a Discord thread.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Nine messages from four participants reported laggy document scanning and an occasionally unresponsive interface. The discussion also confirmed that Locker items can be marked “Keep offline,” with members asking about privacy and encryption.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Four messages discussed where to find Ente Space and whether it is publicly available. The team noted that &lt;a href="https://ente.com/space"&gt;ente.com/space&lt;/a&gt; currently redirects to the app, with a public information page planned for later.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;A new member posted a brief greeting.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
