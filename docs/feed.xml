@@ -4,7 +4,33 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 02 Nov 2026 14:58:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 13:46:24 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 03, 2026 - 35 shipped, 8 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 13:46:24 +0000</pubDate>
+      <description>&lt;p&gt;A busy day for Ente, with several Photos web usability improvements, stronger mobile security, and performance work across Rust and the server. New work also targets easier album uploads, faster photobooks, and broader QA build coverage.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14345"&gt;newly created albums now open automatically&lt;/a&gt;, while &lt;a href="https://github.com/ente/ente/pull/14351"&gt;sharing and file-info panels receive a consistent floating design&lt;/a&gt;. The web video player also gains a &lt;a href="https://github.com/ente/ente/pull/13825"&gt;volume slider&lt;/a&gt;, and a new &lt;a href="https://github.com/ente/ente/pull/14300"&gt;activity Feed&lt;/a&gt; brings social activity into the navigation rail.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos cleanup:&lt;/strong&gt; The CLI now supports &lt;a href="https://github.com/ente/ente/pull/14299"&gt;listing and removing duplicates&lt;/a&gt;. Duplicate cleanup also &lt;a href="https://github.com/ente/ente/pull/14320"&gt;protects files in hidden albums&lt;/a&gt;, and mobile can use the shared Rust implementation through &lt;a href="https://github.com/ente/ente/pull/14328"&gt;Flutter Rust Bridge integration&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile security and reliability:&lt;/strong&gt; Photos, Auth, and Locker now &lt;a href="https://github.com/ente/ente/pull/14262"&gt;store session tokens in Keychain or Keystore&lt;/a&gt; and migrate existing sessions without signing users out. Auth codes remain usable with &lt;a href="https://github.com/ente/ente/pull/14337"&gt;large text sizes&lt;/a&gt;, and the Auth app is correctly named on &lt;a href="https://github.com/ente/ente/pull/14333"&gt;macOS Apple-silicon installs&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos processing:&lt;/strong&gt; HEIC grid images now use &lt;a href="https://github.com/ente/ente/pull/14343"&gt;bounded, tile-by-tile decoding&lt;/a&gt; to reduce memory use. Mobile memories can also be computed through a new &lt;a href="https://github.com/ente/ente/pull/14339"&gt;Rust-backed path&lt;/a&gt; for internal users.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photobooks and desktop:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14341"&gt;Failed restore attempts no longer overwrite saved books&lt;/a&gt;, while desktop dialogs and drawers stay below the title bar via &lt;a href="https://github.com/ente/ente/pull/13782"&gt;improved window positioning&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space and server:&lt;/strong&gt; Unfriending now &lt;a href="https://github.com/ente/ente/pull/14181"&gt;blocks access to direct-message history&lt;/a&gt;. Other shipped work included decoder and ML performance improvements and routine infrastructure maintenance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos QA:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14352"&gt;Publish matching iOS IPAs alongside nightly and RC APKs&lt;/a&gt; for BrowserStack testing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14349"&gt;Add photos directly from empty albums&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photobooks:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14348"&gt;Improve large-book performance and page layouts&lt;/a&gt; with nearby-page rendering and bounded image caches.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rust and server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14342"&gt;Bound Live Photo archive extraction memory&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14347"&gt;expire SRP sessions after 30 minutes&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/14323"&gt;reduce public-memory database queries&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/14350"&gt;Mobile onboarding spacing&lt;/a&gt; and a new &lt;a href="https://github.com/ente/ente/pull/14322"&gt;Polymarket icon for Ente Auth&lt;/a&gt; are also in review.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 02, 2026 - 38 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -710,21 +736,6 @@
   &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; A new friend-related change is under development, though no further details are included yet (&lt;a href="https://github.com/ente/ente/pull/13405"&gt;#13405&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;Additional work improves upload-verification efficiency (&lt;a href="https://github.com/ente/ente/pull/13404"&gt;#13404&lt;/a&gt;), refreshes compatible web dependencies (&lt;a href="https://github.com/ente/ente/pull/13394"&gt;#13394&lt;/a&gt;), and softens mobile viewer gradients (&lt;a href="https://github.com/ente/ente/pull/13392"&gt;#13392&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 04, 2026 - 1 shipped, 0 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-04</guid>
-      <pubDate>Sun, 04 Oct 2026 11:54:29 +0000</pubDate>
-      <description>&lt;p&gt;Today’s activity delivered a small usability improvement to Ente Auth on mobile. No new pull requests were opened.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13367"&gt;Remember Auth's selected tag&lt;/a&gt; so the app can preserve the tag a user was browsing.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;p&gt;No newly opened pull requests.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
