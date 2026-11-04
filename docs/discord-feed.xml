@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Tue, 03 Nov 2026 14:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 14:47:36 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 04, 2026 - 18 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 14:47:36 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity across four channels, with 18 messages from 12 participants. Discussion centered on Ente Photos workflows and hidden albums, alongside side conversations about Brave, gaming, and memes.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 10 messages from 8 participants, members discussed search-by-date and location filters, including limitations when locations were not set beforehand. Several users discussed backing up directly to hidden albums, sharing workarounds involving hidden albums and post-upload hiding; another member recommended Czkawka/Krokiet for photo cleanup. The channel also touched on using AI to review AMAs, blog posts, and changelogs.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Four messages covered an &lt;a href="https://store.steampowered.com/app/3339970/WendyQuest_Legend_of_the_Four_Corner_Stones/"&gt;official Wendy’s game&lt;/a&gt; and a discussion of Brave’s privacy reputation, controversies, and moral-character concerns.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Two messages asked about Brave’s Linux origin and versions configured with policies.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;A member shared a &lt;a href="https://www.youtube.com/watch?v=l76SDpyhbVY"&gt;YouTube video&lt;/a&gt; and identified it as an F1 meme, adding a comment about Piastri’s repeated use of “not ideal.”&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 03, 2026 - 45 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -601,22 +620,6 @@
 
 &lt;h3&gt;#ensu&lt;/h3&gt;
 &lt;p&gt;Two participants discussed an Android update prompting a Gemma model download that was not completing, including a brief “Model Not Downloading” report.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 05, 2026 - 30 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 15:10:34 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity across three channels, led by discussions about password managers, privacy, and on-device machine learning. Members also shared Ente support questions, product feedback, and introductions.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;With 17 messages from 8 participants, discussion centered on moving away from 1Password, comparing Vaultwarden, Bitwarden, and Proton, and concerns about subscriptions and feature tiers. Members also discussed Ente’s on-device ML challenges and why ML currently performs better on mobile and desktop than on the web.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;There were 11 messages from 9 participants, covering photo import from Samsung Gallery, an empty desktop trash, duplicate-photo detection, and where to find release announcements besides GitHub. A community member also shared that hackathon winnings were donated to Ente, while another teased a feature coming to the web and a future app release.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Two members introduced themselves, including Faran from the Netherlands and a new self-hosting Ente user who praised its E2EE and S3 compatibility.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
