@@ -4,7 +4,20 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Wed, 04 Nov 2026 14:47:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 14:53:05 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 05, 2026 - 113 messages in 2 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 14:53:05 +0000</pubDate>
+      <description>&lt;p&gt;The server saw activity across two channels, led by a lively off-topic discussion and several Ente Photos support threads. Topics ranged from moderation and privacy to Android bugs, uploads, and a storage-provider incident.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;85 messages&lt;/strong&gt; from 8 participants focused on content filters and the server’s positive moderation approach, privacy and separating public figures from their professional roles, and opinions on AI. Members also discussed a Mullvad CEO donation controversy, with links to &lt;a href="https://mullvad.net/en/blog/donation-controversy"&gt;Mullvad’s blog post&lt;/a&gt; and the related &lt;a href="https://en.wikipedia.org/wiki/%C3%96rebro_Party#Policies"&gt;Örebro Party background&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;28 messages&lt;/strong&gt; from 12 participants covered Ente hosting on Synology NAS, hidden photos, EXIF metadata, and support for a new account upload. Users also reported Android crashes and freezes; a v1.3.69 hotfix was announced via &lt;a href="https://github.com/ente/ente/releases/tag/photos-v1.3.69"&gt;GitHub&lt;/a&gt;. Upload failures tied to ongoing Backblaze issues in the EU region were later reported as improved after uploads were moved to another provider.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 04, 2026 - 18 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -604,22 +617,6 @@
 
 &lt;h3&gt;#space&lt;/h3&gt;
 &lt;p&gt;Three messages from two participants discussed Space as an alternative to public albums. Ente plans to integrate the Photos and Space apps, potentially enabling photo and video posting from Photos, while photo blogs and email subscriptions were noted as interesting use cases.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 06, 2026 - 37 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-06</guid>
-      <pubDate>Tue, 06 Oct 2026 13:32:01 +0000</pubDate>
-      <description>&lt;p&gt;Activity was highest in &lt;strong&gt;#photos&lt;/strong&gt;, with product updates, feature discussions, and bug reports. &lt;strong&gt;#off-topic&lt;/strong&gt; had lighter conversation around Ente Auth, while &lt;strong&gt;#ensu&lt;/strong&gt; focused on an Android model-download issue.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 21 messages from 10 participants, the channel covered a new feature expected on web tomorrow and in the next app release, plus work on a shareable ente.com landing page. Members discussed duplicate-photo detection, hidden media and delete behavior, and a desktop update; a Mac keyboard/Spotify issue was also reported. A celebratory &lt;a href="https://klipy.com/gifs/celebrate-minions"&gt;GIF&lt;/a&gt; was shared.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Fourteen messages from four participants centered on a teacher enthusiastically recommending Ente Auth to a class, prompting jokes about an Ente plan and whether the teacher might be in the Discord. A &lt;a href="https://www.youtube.com/watch?v=V57vDVgyhuQ"&gt;YouTube video&lt;/a&gt; was also posted.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two participants discussed an Android update prompting a Gemma model download that was not completing, including a brief “Model Not Downloading” report.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
