@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 05 Nov 2026 14:53:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 14:30:37 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 06, 2026 - 56 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 14:30:37 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 56 messages across five active channels, with discussion concentrated in &lt;strong&gt;#photos&lt;/strong&gt; and &lt;strong&gt;#ensu&lt;/strong&gt;. Members focused on storage reliability, support routes, and Ensu’s local-model behavior.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 22 messages from 11 participants, the channel covered uploads switching to another hot-storage provider while Backblaze issues continue, video streaming stuck at 14%, and whether liked photos have their own filter or album. The discussion also pointed users to &lt;a href="https://ente.com/help/photos/features/utilities/home-widgets#add-favorite-photos"&gt;Ente’s photo documentation&lt;/a&gt; and &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt; for official help.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Twenty-two messages from four participants debated whether Ensu is fully local, its internet access and “escape” concerns, variable CPU and RAM usage, and which public model it uses. A response clarified that Ensu runs locally and is open source, with further details in the &lt;a href="https://ente.com/help/ensu/how-it-works#the-model-file"&gt;model documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Eight messages discussed Veeam and Discord’s reported move away from Electron, including speculation about Tauri and Rust. Links were shared to &lt;a href="https://www.theverge.com/news/1027379/discord-ditching-electron-web-app"&gt;The Verge&lt;/a&gt; and a related post on FixupX.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Three messages covered moving from Google Authenticator to Ente Auth. Members noted that a recent update can import Google Authenticator screenshots directly without using the camera.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One minimal message was posted by one participant.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 05, 2026 - 113 messages in 2 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -601,22 +623,6 @@
 
 &lt;h3&gt;#admin-discussion&lt;/h3&gt;
 &lt;p&gt;Three messages from two participants clarified bot permission requirements and suggested changing Ducky’s permissions.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 07, 2026 - 37 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-07</guid>
-      <pubDate>Wed, 07 Oct 2026 13:45:53 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity across three channels, with discussions ranging from Ente product feedback to general community topics. Off-topic was busiest, followed closely by photos.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;18 messages from 6 participants covered shared links, including &lt;a href="https://www.youtube.com/watch?v=V57vDVgyhuQ"&gt;a YouTube video&lt;/a&gt; and &lt;a href="https://spotifast.rocks/"&gt;Spotifast&lt;/a&gt;, along with a lengthy, nuanced discussion about public figures, controversy, and the meaning and symbolism associated with “Ente.”&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;16 messages from 12 participants focused on product feedback and feature questions. Topics included black transparent PNGs in dark mode, a larger CLIP search model, pinning messages, organizing photos and videos within albums, filtering people by birthdays, and comparisons with Google Photos, Apple Photos, and Immich. The Apple and Google comparison pages were updated, with Immich still to be updated; members also suggested highlighting Ente Web as a platform.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Three messages from two participants discussed Space as an alternative to public albums. Ente plans to integrate the Photos and Space apps, potentially enabling photo and video posting from Photos, while photo blogs and email subscriptions were noted as interesting use cases.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
