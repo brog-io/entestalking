@@ -4,7 +4,32 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 06 Nov 2026 14:30:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 13:26:54 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 07, 2026 - 89 messages in 6 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 13:26:54 +0000</pubDate>
+      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#ensu&lt;/strong&gt; and &lt;strong&gt;#photos&lt;/strong&gt;, with lively discussions about Ensu’s local AI models, system usage, privacy, and AI-assisted development. Smaller conversations covered Discord performance, Ente Auth, introductions, and shared attachments.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;With 37 messages from 7 participants, the channel focused on Ensu’s model selection, CPU and RAM usage, offline behavior, and whether the app can access the internet. Participants discussed its open-source code, supported models, and an advanced setting for choosing models; the model documentation was shared at &lt;a href="https://ente.com/help/ensu/how-it-works#the-model-file"&gt;ente.com/help/ensu/how-it-works&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Thirty messages from 12 participants covered Proton and Tuta’s use of AI-generated code, the role of open-source auditing, Ente’s client-side encryption, and support guidance. A related article was shared at &lt;a href="https://pivot-to-ai.com/2026/10/30/proton-mail-goes-full-ai-slop-tuta-starts-going-slop/"&gt;pivot-to-ai.com&lt;/a&gt;; another discussion concerned a reported 10 GB storage decrease and export behavior.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Sixteen messages from 8 participants discussed Discord’s desktop and web-app performance, possible replacement technologies including GPUI and WebAssembly, and the future of modded clients. A question about an API for &lt;a href="https://qr.ente.com/"&gt;qr.ente.com&lt;/a&gt; received a suggestion to generate QR codes offline with an open-source library.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Three messages covered moving from Google Authenticator to Ente Auth and a recent update that can import Google Authenticator screenshots directly without using the camera.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;Two messages included a new introduction from a high school student interested in design and systems development.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One participant shared three attachments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 06, 2026 - 56 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -604,25 +629,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;One member offered a brief welcome greeting.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 08, 2026 - 34 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-08</guid>
-      <pubDate>Thu, 08 Oct 2026 13:53:52 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light activity across four channels, with discussions focused mainly on Ente Photos features, sharing issues, and Auth branding and privacy comparisons. Members also shared a playlist and handled a brief bot-permissions discussion.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 18 messages from 10 participants, members discussed birthday-based people filters, manual album organization, web support, and dark mode. The updated &lt;a href="https://ente.com/compare/ente-vs-immich/"&gt;Immich&lt;/a&gt;, &lt;a href="https://ente.com/compare/ente-vs-google-photos/"&gt;Google Photos&lt;/a&gt;, and Apple comparison pages were mentioned, along with a video-sharing error that was later resolved; one member also shared a &lt;a href="https://klipy.com/gifs/boop-beak"&gt;GIF&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Eight messages from two participants covered possible logo options for the Auth app, including a lock or shield design, and a suggestion to add Telegram to the privacy pack. The channel also compared Ente Auth with Proton Authenticator, with Ente praised for its UI and both described as offering similar privacy and security.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Five messages from four participants included a shared YouTube Short, reactions to Mother Mother, and the community’s &lt;a href="https://ente.com/blog/r/playlist-2026/"&gt;2026 playlist&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#admin-discussion&lt;/h3&gt;
-&lt;p&gt;Three messages from two participants clarified bot permission requirements and suggested changing Ducky’s permissions.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
