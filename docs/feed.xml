@@ -4,7 +4,27 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 06 Nov 2026 13:52:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 12:36:50 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 07, 2026 - 1 shipped, 4 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 12:36:50 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focused on improving server-side replication reliability and efficiency. In progress, the team is refining database failure handling and advancing several Ente Photos features, including video sharing, faster ML indexing, and Rewind.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14459"&gt;Replication now selects work through destination-specific indexes&lt;/a&gt;, helping workers find files needing B2, Wasabi, or Scaleway replication more efficiently while preserving safe locking and retry behavior.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14469"&gt;Share memories as video&lt;/a&gt; adds an internal-user sharing option that exports selected photos and videos as a portrait MP4 with motion, transitions, and optional music.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14467"&gt;Build vector-search graphs after ML runs instead of on every write&lt;/a&gt; aims to speed up embedding imports by deferring HNSW graph construction until it is needed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14465"&gt;Rewind follow-ups&lt;/a&gt; improve the upcoming Rewind experience with accurate top-percent bands, better photo selection that prioritizes users’ own photos, and additional presentation polish.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14471"&gt;Handle database failures and incomplete reads&lt;/a&gt; adds checks so interrupted database scans cannot silently skip authorization, revocation, deletion, or cleanup work, while tightening related resource and subscription error handling.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 06, 2026 - 26 shipped, 5 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -708,31 +728,6 @@
 &lt;li&gt;&lt;strong&gt;Upcoming mobile Photos improvements:&lt;/strong&gt; Permission-denial recovery in &lt;a href="https://github.com/ente/ente/pull/13540"&gt;PR #13540&lt;/a&gt;, redesigned onboarding empty states in &lt;a href="https://github.com/ente/ente/pull/13539"&gt;PR #13539&lt;/a&gt;, and encrypted iOS notification handling in &lt;a href="https://github.com/ente/ente/pull/13538"&gt;PR #13538&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Video and uploads:&lt;/strong&gt; Mobile FFmpeg 9.0.2 support is proposed in &lt;a href="https://github.com/ente/ente/pull/13559"&gt;PR #13559&lt;/a&gt;, while web Photos may gain upload time estimates in &lt;a href="https://github.com/ente/ente/pull/13528"&gt;PR #13528&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Ensu is testing a newer llama-cpp version and inference updates in &lt;a href="https://github.com/ente/ente/pull/13574"&gt;PR #13574&lt;/a&gt;. Other open work covers Auth-only server routes in &lt;a href="https://github.com/ente/ente/pull/13568"&gt;PR #13568&lt;/a&gt;, larger-text app labels in &lt;a href="https://github.com/ente/ente/pull/13526"&gt;PR #13526&lt;/a&gt;, a Photos translation FAQ in &lt;a href="https://github.com/ente/ente/pull/13575"&gt;PR #13575&lt;/a&gt;, and a new Auth service icon in &lt;a href="https://github.com/ente/ente/pull/13541"&gt;PR #13541&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 08, 2026 - 33 shipped, 18 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-08</guid>
-      <pubDate>Thu, 08 Oct 2026 12:58:29 +0000</pubDate>
-      <description>&lt;p&gt;A busy day for Ente Photos, with broad settings and playback improvements shipping across mobile and web. Several upcoming efforts also target richer notifications, smarter uploads, stronger session security, and new Locker viewing capabilities.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Memory lanes are now enabled for users, captions are simplified, and the Memories viewer pauses progress, music, zoom, and video when another screen covers it (&lt;a href="https://github.com/ente/ente/pull/13504"&gt;#13504&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13484"&gt;#13484&lt;/a&gt;). External videos now use the gallery’s playback controls, including seek, fullscreen, speed, and double-tap interactions (&lt;a href="https://github.com/ente/ente/pull/13483"&gt;#13483&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Upload verification is more efficient, completing upload preparation faster after the related sodium improvements (&lt;a href="https://github.com/ente/ente/pull/13404"&gt;#13404&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13506"&gt;#13506&lt;/a&gt;). Re-editing rotated text no longer leaves a ghost layer behind (&lt;a href="https://github.com/ente/ente/pull/13492"&gt;#13492&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Settings now use a two-panel sidebar shell with refreshed styling, inline subscription plans, improved referral and storage cards, and more consistent dialogs (&lt;a href="https://github.com/ente/ente/pull/13476"&gt;#13476&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13485"&gt;#13485&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13493"&gt;#13493&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13494"&gt;#13494&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13488"&gt;#13488&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Link creation now explains when an active subscription is required, rather than showing a generic error (&lt;a href="https://github.com/ente/ente/pull/13499"&gt;#13499&lt;/a&gt;). Export handling also moved into the sidebar and settings retain their panel after export authentication (&lt;a href="https://github.com/ente/ente/pull/13481"&gt;#13481&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13496"&gt;#13496&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server and ML:&lt;/strong&gt; Public links are excluded from Cast collection information, while Rust ML indexes recover more reliably after cold starts or corruption (&lt;a href="https://github.com/ente/ente/pull/13532"&gt;#13532&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13530"&gt;#13530&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Other shipped maintenance includes Android build updates, improved Auth logout confirmation, and larger-text accessibility fixes (&lt;a href="https://github.com/ente/ente/pull/13534"&gt;#13534&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13435"&gt;#13435&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13498"&gt;#13498&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Space notifications:&lt;/strong&gt; A dedicated feed for likes, friend requests, acceptances, and pokes, plus persistent app navigation, is under development (&lt;a href="https://github.com/ente/ente/pull/13533"&gt;#13533&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Uploads may soon show an estimated time remaining, and search is being redesigned as a centered dialog with keyboard access (&lt;a href="https://github.com/ente/ente/pull/13528"&gt;#13528&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13511"&gt;#13511&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; A built-in PDF and image viewer is proposed, with zoom, scrolling, sharing, downloading, and external-open actions (&lt;a href="https://github.com/ente/ente/pull/13507"&gt;#13507&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Other notable work includes refreshed ML consent screens, free-account storage warnings, session-bound push registrations, and FFmpeg 9.0.2 upgrades for web and desktop (&lt;a href="https://github.com/ente/ente/pull/13520"&gt;#13520&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13522"&gt;#13522&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13519"&gt;#13519&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13514"&gt;#13514&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13536"&gt;#13536&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
