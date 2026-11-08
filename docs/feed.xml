@@ -4,7 +4,27 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 07 Nov 2026 12:36:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 12:54:12 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 08, 2026 - 3 shipped, 2 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 12:54:12 +0000</pubDate>
+      <description>&lt;p&gt;Today’s shipped work focuses on reliability and consistency: the web app now shares collection-sort logic safely, while the server better handles interrupted database reads. In progress, web dependency updates and an Android Auth visual fix are being prepared.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14478"&gt;Collection sorting hooks consolidated&lt;/a&gt;. Gallery and album selection now share sort-preference logic while retaining their separate settings, defaults, and validation. Expanded end-to-end coverage also protects all six sort orders.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14471"&gt;Database failures and incomplete reads are handled safely&lt;/a&gt;. Interrupted reads can no longer be silently treated as complete during authorization, passkey lookup, access resets, deletion, session, or file-data workflows, reducing the risk of skipped security and cleanup operations.&lt;/li&gt;
+  &lt;li&gt;Web maintenance also removed an unused direct dependency in &lt;a href="https://github.com/ente/ente/pull/14477"&gt;PR #14477&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14480"&gt;Selected patch dependencies are being updated&lt;/a&gt; across web workspaces, along with the npm lockfile. Most application tests pass; some failures are currently blocked by missing generated Photos/Space WASM and a timed-out wasm-pack download.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Auth for Android:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14475"&gt;Secure recent-app thumbnails are being visually corrected&lt;/a&gt;. On Android 13 and newer, the task background and status bar will match the white app background, while existing screenshot protection remains unchanged.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 07, 2026 - 1 shipped, 4 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -704,30 +724,6 @@
   &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Mobile and web now have proposed fixes to preserve leading, trailing, and whitespace-only Secret passwords when saving or editing: &lt;a href="https://github.com/ente/ente/pull/13584"&gt;mobile PR #13584&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13586"&gt;web PR #13586&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;A proposed &lt;strong&gt;llama-cpp update&lt;/strong&gt; brings a newer inference engine, chat-template bridging, and architecture-specific CPU optimizations in &lt;a href="https://github.com/ente/ente/pull/13574"&gt;PR #13574&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Documentation explaining why a Photos language may not appear is proposed in &lt;a href="https://github.com/ente/ente/pull/13575"&gt;PR #13575&lt;/a&gt;; web unused-export checking is being updated in &lt;a href="https://github.com/ente/ente/pull/13578"&gt;PR #13578&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 09, 2026 - 37 shipped, 10 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 12:44:52 +0000</pubDate>
-      <description>&lt;p&gt;Today’s shipped work focused on a refreshed Photos experience, stronger media and ML foundations, and expanded Ente Space social features. Several security, notification, and account-data improvements also landed, while new work targets mobile video, onboarding, uploads, and encrypted notifications.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; The album page and action sheets received a substantial redesign, including animated covers, clearer metadata, slideshow/map shortcuts, and improved sorting access in &lt;a href="https://github.com/ente/ente/pull/13445"&gt;PR #13445&lt;/a&gt;. Memories-ready notifications are now available to all eligible users rather than only internal users in &lt;a href="https://github.com/ente/ente/pull/13524"&gt;PR #13524&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos media and ML:&lt;/strong&gt; Mobile ML models now use Rust’s asset store, improving reuse and coordination of downloads in &lt;a href="https://github.com/ente/ente/pull/13567"&gt;PR #13567&lt;/a&gt;. Browser and desktop FFmpeg moved to Ente’s 9.0.2 builds, adding AV1 thumbnail support, codec fixes, Windows ARM64 support, and better handling of paths with spaces in &lt;a href="https://github.com/ente/ente/pull/13514"&gt;PR #13514&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13536"&gt;PR #13536&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Friends requests now appear directly in the orbit with clearer accept feedback, and a dedicated Notifications feed covers likes, friend requests, acceptances, and pokes in &lt;a href="https://github.com/ente/ente/pull/13570"&gt;PR #13570&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13533"&gt;PR #13533&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Auth and Locker:&lt;/strong&gt; Auth gained export/decryption support in &lt;a href="https://github.com/ente/ente/pull/13561"&gt;PR #13561&lt;/a&gt;, while mobile Auth can import empty plaintext and encrypted backups in &lt;a href="https://github.com/ente/ente/pull/13546"&gt;PR #13546&lt;/a&gt;. Locker note titles now preserve emoji correctly and avoid an iPhone editing crash in &lt;a href="https://github.com/ente/ente/pull/13564"&gt;PR #13564&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Server reliability and security:&lt;/strong&gt; Album-share sync pushes now reach internal Android users, and push registrations are tied to login sessions in &lt;a href="https://github.com/ente/ente/pull/13565"&gt;PR #13565&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13519"&gt;PR #13519&lt;/a&gt;. Access through pending-removal memberships is blocked in &lt;a href="https://github.com/ente/ente/pull/13535"&gt;PR #13535&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CLI and documentation:&lt;/strong&gt; CLI help and noninteractive input improved in &lt;a href="https://github.com/ente/ente/pull/13571"&gt;PR #13571&lt;/a&gt;. Several Photos, Auth, and sharing FAQs were clarified in &lt;a href="https://github.com/ente/ente/pull/13562"&gt;PR #13562&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13560"&gt;PR #13560&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13516"&gt;PR #13516&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Upcoming mobile Photos improvements:&lt;/strong&gt; Permission-denial recovery in &lt;a href="https://github.com/ente/ente/pull/13540"&gt;PR #13540&lt;/a&gt;, redesigned onboarding empty states in &lt;a href="https://github.com/ente/ente/pull/13539"&gt;PR #13539&lt;/a&gt;, and encrypted iOS notification handling in &lt;a href="https://github.com/ente/ente/pull/13538"&gt;PR #13538&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Video and uploads:&lt;/strong&gt; Mobile FFmpeg 9.0.2 support is proposed in &lt;a href="https://github.com/ente/ente/pull/13559"&gt;PR #13559&lt;/a&gt;, while web Photos may gain upload time estimates in &lt;a href="https://github.com/ente/ente/pull/13528"&gt;PR #13528&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Ensu is testing a newer llama-cpp version and inference updates in &lt;a href="https://github.com/ente/ente/pull/13574"&gt;PR #13574&lt;/a&gt;. Other open work covers Auth-only server routes in &lt;a href="https://github.com/ente/ente/pull/13568"&gt;PR #13568&lt;/a&gt;, larger-text app labels in &lt;a href="https://github.com/ente/ente/pull/13526"&gt;PR #13526&lt;/a&gt;, a Photos translation FAQ in &lt;a href="https://github.com/ente/ente/pull/13575"&gt;PR #13575&lt;/a&gt;, and a new Auth service icon in &lt;a href="https://github.com/ente/ente/pull/13541"&gt;PR #13541&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
