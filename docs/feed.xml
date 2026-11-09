@@ -4,7 +4,24 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 08 Nov 2026 12:54:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 15:28:21 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 09, 2026 - 1 shipped, 1 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 15:28:21 +0000</pubDate>
+      <description>&lt;p&gt;Today’s activity included a usability fix for Photos on the web and an upcoming mobile video feature for iOS. The shipped change makes browser history behave correctly when moving between albums, while Picture-in-Picture is being prepared for Photos videos.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14483"&gt;Album navigation now works correctly with browser Back and Forward&lt;/a&gt;. Returning to a previous album updates both the URL and the selected album without disrupting browser history.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile for iOS:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14488"&gt;Picture-in-Picture support for videos&lt;/a&gt; adds a new video-player option to continue playback while viewing other apps or after closing the viewer. Playback preserves the current position, mute state, speed, and loop setting, and stops when the user logs out.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 08, 2026 - 3 shipped, 2 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -702,29 +719,6 @@
 
 &lt;h3&gt;In progress&lt;/h3&gt;
 &lt;p&gt;No new pull requests opened.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 10, 2026 - 13 shipped, 5 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 12:03:24 +0000</pubDate>
-      <description>&lt;p&gt;Today’s changes focus on a refreshed Ente Photos mobile experience, faster and more reliable background syncing on Android, and smoother social interactions in Space. Locker also received fixes for exact password handling and more efficient collection counts, with related improvements in progress.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A redesigned album view now offers animated covers, clearer metadata, slideshow and map shortcuts, and more compact action sheets in &lt;a href="https://github.com/ente/ente/pull/13445"&gt;PR #13445&lt;/a&gt;. New accounts also get redesigned Feed, Albums, and Received empty states with clearer actions and better large-text support in &lt;a href="https://github.com/ente/ente/pull/13539"&gt;PR #13539&lt;/a&gt;. App labels in the “More from Ente” footer now wrap correctly at larger text sizes via &lt;a href="https://github.com/ente/ente/pull/13526"&gt;PR #13526&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos syncing:&lt;/strong&gt; Android can now register for Firebase push notifications and use album-triggered background sync in &lt;a href="https://github.com/ente/ente/pull/13397"&gt;PR #13397&lt;/a&gt;. The server sends those sync pushes after eligible manual album shares in &lt;a href="https://github.com/ente/ente/pull/13565"&gt;PR #13565&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space:&lt;/strong&gt; Friend profiles now host friend actions, requests use a sheet, and mobile navigation has improved spacing in &lt;a href="https://github.com/ente/ente/pull/13580"&gt;PR #13580&lt;/a&gt;. Friend requests also appear directly in the Friends orbit with clearer accept feedback in &lt;a href="https://github.com/ente/ente/pull/13570"&gt;PR #13570&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker and ML:&lt;/strong&gt; Collection file counts now use a single database count query instead of loading every file in &lt;a href="https://github.com/ente/ente/pull/13579"&gt;PR #13579&lt;/a&gt;. Photos mobile ML models now reuse Rust’s asset store for shared, more efficient downloads in &lt;a href="https://github.com/ente/ente/pull/13567"&gt;PR #13567&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;CLI help and noninteractive input improved in &lt;a href="https://github.com/ente/ente/pull/13571"&gt;PR #13571&lt;/a&gt;. Routine web tooling, icon, formatting, and dependency cleanup shipped in &lt;a href="https://github.com/ente/ente/pull/13576"&gt;PR #13576&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13572"&gt;PR #13572&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13569"&gt;PR #13569&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Mobile and web now have proposed fixes to preserve leading, trailing, and whitespace-only Secret passwords when saving or editing: &lt;a href="https://github.com/ente/ente/pull/13584"&gt;mobile PR #13584&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13586"&gt;web PR #13586&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A proposed &lt;strong&gt;llama-cpp update&lt;/strong&gt; brings a newer inference engine, chat-template bridging, and architecture-specific CPU optimizations in &lt;a href="https://github.com/ente/ente/pull/13574"&gt;PR #13574&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Documentation explaining why a Photos language may not appear is proposed in &lt;a href="https://github.com/ente/ente/pull/13575"&gt;PR #13575&lt;/a&gt;; web unused-export checking is being updated in &lt;a href="https://github.com/ente/ente/pull/13578"&gt;PR #13578&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
