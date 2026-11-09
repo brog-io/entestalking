@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 08 Nov 2026 13:46:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 16:46:04 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 09, 2026 - 24 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 16:46:04 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light activity across five channels, with the most discussion focused on app behavior, contributions, and an off-topic news article. There were also a few support questions and shared links.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Eight messages from six participants covered incomplete processing percentages, the relationship between Ente and blober.io, and muting music in Memories by default. Patiph4t also shared a &lt;a href="https://github.com/ente/ente/pull/14488"&gt;pull request&lt;/a&gt; for review.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Eight messages from three participants discussed an article about an independent investigation involving Nvidia CEO Jensen Huang, with requests for shorter summaries.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Six messages from two participants explored Ensu’s support for voice conversation and system-wide dictation, along with local AI inference and possible AI-assisted Tauri contributions. Contributors were invited to discuss ideas by DM before starting work.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One participant posted a brief hello.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One meme video was shared: &lt;a href="https://www.tnktok.com/@evaneatscake/video/7705815061536886047"&gt;view the link&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 08, 2026 - 195 messages in 6 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -595,37 +617,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One meme link was shared: &lt;a href="https://fixvx.com/heyitskamil_/status/2108532246227615921"&gt;view post&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 10, 2026 - 64 messages in 8 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 12:56:47 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw moderate activity, led by discussions in &lt;strong&gt;#photos&lt;/strong&gt;, with additional conversations about Ente Space, Ensu, authentication, and Locker design. Several threads focused on product feedback, troubleshooting, and upcoming app plans.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 26 messages from 11 participants, the channel covered storage warnings, EXIF display and timestamp handling, birthday notifications, and whether live photos should autoplay. Members also discussed spam possibly related to Stripe’s OneLink billing service, including a &lt;a href="https://onelink.com/gb"&gt;OneLink link&lt;/a&gt;, and compared Ente’s autoplay behavior with alternatives.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Thirteen messages from five participants introduced Ente Space as a private, ad-free social app for sharing photos with friends and family. The discussion confirmed that mobile apps are planned “soon,” that Space will remain a separate app rather than being integrated into Photos, and included requests for an AMOLED-black theme.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Ten messages from four participants covered Ensu’s knowledge cutoff issues, macOS note-linking not updating, and a blank window when launching the AppImage on Manjaro. Members also discussed Obsidian indexing, notes search, and whether Ensu could qualify for &lt;a href="https://www.fairlytrained.org/certified-models"&gt;Fairly Trained certification&lt;/a&gt;; the response was that Ensu is a model-switcher frontend rather than a model itself.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Seven messages from three participants resolved a channel visibility issue: users may need to enable channels through Channels &amp;amp; Roles or browse channels, since new channels cannot always be enabled automatically for long-standing members.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Five messages discussed alternative Locker logos, with members preferring a simpler lock icon over the current “e” design and hoping for more visual customization similar to Photos.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;A new member, Kavish Jain, introduced himself.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;A brief prompt asked whether anyone had a feature request.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One image was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
