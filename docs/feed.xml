@@ -4,7 +4,26 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 09 Nov 2026 15:28:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 14:28:46 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 10, 2026 - 1 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 14:28:46 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped refinements to the Rewind experience, making its rankings and photo selections more representative. New work is also addressing selection edge cases on mobile and web, along with more accurate location clustering.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos / mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14465"&gt;Rewind follow-ups: real top-percent bands, better photo picks and polish&lt;/a&gt; replaces placeholder ranking thresholds with bands based on actual library sizes, including support for the top 0.1%. The Rewind page and scrapbook seal now show every band, and screenshots or WhatsApp/Downloads photos are only used after the user’s own photos have filled available slots.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos / mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14495"&gt;Fix deselecting photos in device Trash&lt;/a&gt; fixes selection handling for locally identified files, so photos in the Device tab of Trash can be selected and deselected normally.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos / web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14494"&gt;Fix reset shift key selection state on window blur&lt;/a&gt; prevents range selection from getting stuck after switching tabs or windows while holding Shift.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos / Rewind:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14493"&gt;Keep Rewind spots together at the date line&lt;/a&gt; improves clustering for photos near the International Date Line, keeping locations on either side of the longitude boundary together.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 09, 2026 - 1 shipped, 1 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -704,21 +723,6 @@
 &lt;li&gt;Other open work adds an OpenSRS icon and a checkerboard background so transparent images remain visible in the web viewer: &lt;a href="https://github.com/ente/ente/pull/13595"&gt;#13595&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13593"&gt;#13593&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Documentation clarifies bulk restore and Locker folder uploads: &lt;a href="https://github.com/ente/ente/pull/13638"&gt;#13638&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 11, 2026 - 1 shipped, 0 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 12:16:39 +0000</pubDate>
-      <description>&lt;p&gt;A quiet day in the Ente monorepo, with one Auth improvement shipped. No new pull requests were opened.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; Added a dedicated Koti icon and identifies Koti as the issuer in &lt;code&gt;otpauth&lt;/code&gt; links, making Koti accounts easier to recognize. &lt;a href="https://github.com/ente/ente/pull/13588"&gt;PR #13588&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;p&gt;No new pull requests opened.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
