@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 10 Nov 2026 14:28:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 13:43:07 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 11, 2026 - 16 shipped, 9 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 13:43:07 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes focused on polishing Ente Photos, especially Rewind, gallery selection, and Android interaction reliability. Server-side indexing and restore improvements also make large operations faster and more resilient.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos and Rewind:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14518"&gt;Rewind is now prepared before opening&lt;/a&gt;, removing its loading screen and improving face crops by using original files. Cached Rewind also respects hidden-person exclusions (&lt;a href="https://github.com/ente/ente/pull/14503"&gt;#14503&lt;/a&gt;) and correctly groups locations around the International Date Line (&lt;a href="https://github.com/ente/ente/pull/14493"&gt;#14493&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Safer gallery actions:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14516"&gt;Selecting more than 100 photos now requires confirmation&lt;/a&gt;, helping prevent accidental bulk selections.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile fixes:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14515"&gt;Pending uploads no longer appear twice&lt;/a&gt; in deduplicated views, person-name suggestions open merge confirmation correctly (&lt;a href="https://github.com/ente/ente/pull/14502"&gt;#14502&lt;/a&gt;), and photos in Device Trash can be deselected (&lt;a href="https://github.com/ente/ente/pull/14495"&gt;#14495&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14521"&gt;The Space tab is now Home&lt;/a&gt;, with a longer visible confirmation after private replies. Upload, download, and other notifications now share a bottom-right stack instead of obscuring controls (&lt;a href="https://github.com/ente/ente/pull/14500"&gt;#14500&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliability and performance:&lt;/strong&gt; Android Mali devices now skip unstable WebGPU indexing in favor of XNNPACK (&lt;a href="https://github.com/ente/ente/pull/14517"&gt;#14517&lt;/a&gt;), while WebGPU quarantine is now device-wide (&lt;a href="https://github.com/ente/ente/pull/14512"&gt;#14512&lt;/a&gt;). Server restore ownership checks now use one batch query, substantially reducing database work for large restores (&lt;a href="https://github.com/ente/ente/pull/14408"&gt;#14408&lt;/a&gt;), with additional lookup indexes added in &lt;a href="https://github.com/ente/ente/pull/14513"&gt;#14513&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Rewind polish:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14522"&gt;Stricter ranking cards, improved place rules, photo zoom, and interactive photo strips&lt;/a&gt; are under review.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos usability:&lt;/strong&gt; A responsive selection toolbar (&lt;a href="https://github.com/ente/ente/pull/14505"&gt;#14505&lt;/a&gt;), smoother left-menu opening (&lt;a href="https://github.com/ente/ente/pull/14499"&gt;#14499&lt;/a&gt;), gesture-navigation fixes (&lt;a href="https://github.com/ente/ente/pull/14498"&gt;#14498&lt;/a&gt;), and faster local-photo viewer loading (&lt;a href="https://github.com/ente/ente/pull/14497"&gt;#14497&lt;/a&gt;) are in progress.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Other work:&lt;/strong&gt; Server replication recovery is being hardened (&lt;a href="https://github.com/ente/ente/pull/14520"&gt;#14520&lt;/a&gt;), stale local ML records can be cleared safely (&lt;a href="https://github.com/ente/ente/pull/14519"&gt;#14519&lt;/a&gt;), Play Store subscription replacements are being corrected (&lt;a href="https://github.com/ente/ente/pull/14507"&gt;#14507&lt;/a&gt;), and Ente Auth is adding a Hustix Macro icon (&lt;a href="https://github.com/ente/ente/pull/14501"&gt;#14501&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 10, 2026 - 1 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -696,32 +719,6 @@
   &lt;li&gt;&lt;strong&gt;Grouped album filters:&lt;/strong&gt; The Photos sidebar and album picker are being organized into Ente, Shared, Received, Links, and Empty categories (&lt;a href="https://github.com/ente/ente/pull/13671"&gt;#13671&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Apple Watch support for Ente Auth:&lt;/strong&gt; A native watchOS companion is being added to sync pinned codes and selected &lt;code&gt;#watch&lt;/code&gt;-tagged accounts, with codes computed on the watch (&lt;a href="https://github.com/ente/ente/pull/13652"&gt;#13652&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Shared-photo backup warning:&lt;/strong&gt; Photos is gaining an optional reminder when shared images may not contain location data (&lt;a href="https://github.com/ente/ente/pull/13646"&gt;#13646&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 12, 2026 - 35 shipped, 7 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 14:41:13 +0000</pubDate>
-      <description>&lt;p&gt;Photos received a broad round of usability and navigation improvements across mobile and web, while Locker polished uploads, sharing, and field handling. In progress, a redesigned desktop Photos shell and mobile onboarding experience point to the next major UI updates.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos — mobile:&lt;/strong&gt; Refreshed the machine-learning consent page and added an in-flow consent sheet, improved photo-opening transitions and thumbnail stability, truncated long album names in file details, and prevented crashes from invalid EXIF exposure times: &lt;a href="https://github.com/ente/ente/pull/13520"&gt;#13520&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13607"&gt;#13607&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13637"&gt;#13637&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13617"&gt;#13617&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos — web:&lt;/strong&gt; Search now has a centered dialog, category tabs, grouped results, improved People rows, illustrated empty states, and clearer download-space errors. Duplicates and Large files now open as gallery views, with refreshed deletion confirmation: &lt;a href="https://github.com/ente/ente/pull/13511"&gt;#13511&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13609"&gt;#13609&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13619"&gt;#13619&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13633"&gt;#13633&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13631"&gt;#13631&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13627"&gt;#13627&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13434"&gt;#13434&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13598"&gt;#13598&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Space — web:&lt;/strong&gt; Restored continuous home and profile feeds, improved photo-viewer and zoom animations, and highlighted new notification rows: &lt;a href="https://github.com/ente/ente/pull/13622"&gt;#13622&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13605"&gt;#13605&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13628"&gt;#13628&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13603"&gt;#13603&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; Updated collection-link settings, introduced a redesigned internal-user upload screen, fixed list overscroll and icon sizing, preserved whitespace in fields and Secret passwords across mobile and web, and improved record edit buttons: &lt;a href="https://github.com/ente/ente/pull/13608"&gt;#13608&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13620"&gt;#13620&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13635"&gt;#13635&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13618"&gt;#13618&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13584"&gt;#13584&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13586"&gt;#13586&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13624"&gt;#13624&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Added a smaller LFM2.5 model for devices with 4 GB or less RAM and adjusted the model choice for 8 GB devices: &lt;a href="https://github.com/ente/ente/pull/13632"&gt;#13632&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Documentation also covered translation availability and Locker 1.0.10 updates; other merged work was maintenance and cleanup: &lt;a href="https://github.com/ente/ente/pull/13575"&gt;#13575&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13615"&gt;#13615&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13613"&gt;#13613&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; A new desktop L-shaped header and navigation rail is under review, with Home, Search, Settings, centered branding, and Upload: &lt;a href="https://github.com/ente/ente/pull/13636"&gt;#13636&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; An illustrated onboarding redesign brings the new duck-header layout to login and sign-up screens without changing the flows: &lt;a href="https://github.com/ente/ente/pull/13606"&gt;#13606&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Upcoming technical changes include hard-link support for Photos exports and cleaner notification grouping that excludes already-read pokes: &lt;a href="https://github.com/ente/ente/pull/13630"&gt;#13630&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13616"&gt;#13616&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Other open work adds an OpenSRS icon and a checkerboard background so transparent images remain visible in the web viewer: &lt;a href="https://github.com/ente/ente/pull/13595"&gt;#13595&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13593"&gt;#13593&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Documentation clarifies bulk restore and Locker folder uploads: &lt;a href="https://github.com/ente/ente/pull/13638"&gt;#13638&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
