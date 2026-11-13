@@ -4,7 +4,26 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 12 Nov 2026 15:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:49:34 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 13, 2026 - 63 messages in 4 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 14:49:34 +0000</pubDate>
+      <description>&lt;p&gt;Activity was moderate, led by troubleshooting and feature discussions in &lt;strong&gt;#photos&lt;/strong&gt;. Members also discussed authentication options, alternative social platforms, and Ente’s future upload milestones.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 35 messages from 10 participants, discussion focused on photo dates, metadata, ordering, duplicate detection, and search performance. Members suggested checking EXIF metadata, using the app’s date-editing and “Free up space” tools, and contacting &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt; for unresolved duplicate issues. There was also feedback about multilingual machine-learning models.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;18 messages from 6 participants covered a server message-count clarification, a &lt;a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"&gt;NVIDIA CEO transition announcement&lt;/a&gt;, and discussion of Fluxxer, Tox, and a private Discord alternative. Members also joked about reaching one billion uploads before 2027.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Participants exchanged 9 messages about hardware security keys, passkeys with PRF, and self-hosting Ente Auth with YubiKey OTP. The discussion clarified Ente’s password-based local key decryption, login combinations involving email OTP, TOTP, and passkeys, and the shared Ente account across products.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One member posted a brief “Hello!”&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 12, 2026 - 57 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -607,19 +626,6 @@
 
 &lt;h3&gt;#ensu&lt;/h3&gt;
 &lt;p&gt;Two messages exchanged a Safari version: 17.6, including its detailed build number.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 13, 2026 - 40 messages in 2 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 14:30:01 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw 40 messages from 14 participants across two active channels. Discussion centered on photo/video performance and feature feedback, alongside questions about Space’s future direction and sharing limits.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 33 messages from 12 participants, members discussed slow photo and video loading, desktop &lt;strong&gt;ffmpeg&lt;/strong&gt; CPU usage, and video playback issues. Ente staff acknowledged the performance issue and said it would receive higher priority; members were also directed to share affected videos with &lt;strong&gt;support@ente.com&lt;/strong&gt;. Other feedback covered pet recognition, Recycle Bin’s Select All option, and whether hiding a folder affects backups.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Seven messages from two participants explored potential paths for Space, including how it might integrate with Ente storage plans. Members also discussed the current 10-second video limit and the desire for more capable cross-platform family media sharing; no longer-video plans are currently in place.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
