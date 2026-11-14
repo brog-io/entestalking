@@ -4,7 +4,35 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Fri, 13 Nov 2026 14:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 13:44:35 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 14, 2026 - 51 messages in 7 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 13:44:35 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity across seven channels, led by off-topic discussions and photo-related support. Topics ranged from privacy tools and browser choices to app behavior, storage referrals, and Ensu context length.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Busy with 21 messages from six participants, including discussion of Nvidia leadership and related reporting shared via &lt;a href="https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"&gt;Wired&lt;/a&gt; and &lt;a href="https://www.reuters.com/world/china/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says-2026-11-12/"&gt;Reuters&lt;/a&gt;. Members also compared Brave and Firefox for privacy, while mas introduced the open-source Fudge keyboard launcher for Linux and macOS.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Seventeen messages from eight participants covered bulk editing and unarchiving photos, including individually archived photos within albums. Members also discussed referral storage-plan benefits, multilingual model support, and a self-hosted app appearing to process duplicate photos.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Four messages shared two linked posts, an Nvidia-related joke, and an attachment.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Three messages from two participants discussed why Ente Auth and Ente Photos share a technical relationship.&lt;/p&gt;
+
+&lt;h3&gt;#space&lt;/h3&gt;
+&lt;p&gt;Three messages clarified that Space is intended for intimate image sharing with comments rather than serving as a full social or day-to-day messaging app.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Two messages reported that context has become too short after version 1.22+146.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One participant briefly said hello.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 13, 2026 - 63 messages in 4 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -604,28 +632,6 @@
 
 &lt;h3&gt;#ensu&lt;/h3&gt;
 &lt;p&gt;One message shared an app version: 17.6 (17618.3.11.11.7, 17618).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 14, 2026 - 48 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:16:04 +0000</pubDate>
-      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with users discussing backup controls, shared-album notifications, and media playback. Smaller conversations covered an Ente Locker code-attribution discussion, authentication, and Safari compatibility.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 27 messages from 9 participants, the channel focused on disabling backup for specific folders and Rituals media, choppy Live Photos and videos, and missing shared-album email notifications. The sharing discussion referenced the &lt;a href="https://ente.com/help/photos/faq/sharing-and-collaboration"&gt;sharing and collaboration FAQ&lt;/a&gt;; users also asked about photo compression before upload and Samsung Gallery-style viewing.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Nine messages from 4 participants discussed a &lt;a href="https://lobste.rs/s/uiulqe/did_ente_locker_copy_my_code_without"&gt;Lobsters post&lt;/a&gt; alleging code copying by Ente Locker. Participants debated attribution, GPL derivatives, communication, and the nature of niche online communities.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Eight messages from 4 participants continued the Ente Locker code-attribution discussion. Ente pointed to its &lt;a href="https://ente.com/blog/locker-document-scanner/#credits-to-fairscan"&gt;announcement post crediting FairScan&lt;/a&gt; and described outreach to the original developer; another user asked about larger storage plans.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Two messages noted a school switching to Microsoft Authenticator, with Duo mentioned as common at North American schools.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;Two messages exchanged a Safari version: 17.6, including its detailed build number.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
