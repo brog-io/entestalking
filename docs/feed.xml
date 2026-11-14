@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Fri, 13 Nov 2026 14:05:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 13:06:59 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 14, 2026 - 11 shipped, 6 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 13:06:59 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes focus on smoother Ente Photos interactions, more reliable iOS downloads and editing, and improved Auth icon coverage. The staff portal and server also gained stronger account and upload controls, while several Photos performance fixes are now in progress.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; The selection sheet now keeps its controls visible as it expands, avoiding clipped or duplicated actions (&lt;a href="https://github.com/ente/ente/pull/14580"&gt;#14580&lt;/a&gt;). iOS video downloads preserve the Ente capture date and avoid saving duplicates when a download is tapped again (&lt;a href="https://github.com/ente/ente/pull/14583"&gt;#14583&lt;/a&gt;). Original crop mode now preserves aspect ratios and better restores editing state, including undo and redo history (&lt;a href="https://github.com/ente/ente/pull/14581"&gt;#14581&lt;/a&gt;). Old photo review reopens faster, adds a completion animation, and improves scrolling for large libraries (&lt;a href="https://github.com/ente/ente/pull/14558"&gt;#14558&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locker mobile:&lt;/strong&gt; Search now filters by items or collections and supports selecting multiple results for existing actions (&lt;a href="https://github.com/ente/ente/pull/14592"&gt;#14592&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accessibility:&lt;/strong&gt; Decorative HugeIcon elements no longer create empty image stops for screen readers (&lt;a href="https://github.com/ente/ente/pull/14582"&gt;#14582&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; Added recognizable icons for AIDA, TDSB, and UFile, plus a correction for the Nexo icon (&lt;a href="https://github.com/ente/ente/pull/14587"&gt;#14587&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14568"&gt;#14568&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14584"&gt;#14584&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Administration and server:&lt;/strong&gt; Staff can now suspend accounts and revoke their active sessions and device access (&lt;a href="https://github.com/ente/ente/pull/14576"&gt;#14576&lt;/a&gt;). Upload URL issuance is rate-limited and expired multipart uploads can recover (&lt;a href="https://github.com/ente/ente/pull/14579"&gt;#14579&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos performance:&lt;/strong&gt; A proposed viewer change would show a sharper screen-sized preview sooner while large local photos decode (&lt;a href="https://github.com/ente/ente/pull/14595"&gt;#14595&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android navigation:&lt;/strong&gt; Work is underway to prevent system back, home, and app-switch gestures from also triggering Photos swipes (&lt;a href="https://github.com/ente/ente/pull/14594"&gt;#14594&lt;/a&gt;), and to open the left menu without bouncing the home grid (&lt;a href="https://github.com/ente/ente/pull/14593"&gt;#14593&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;People cover photos would be restored more reliably after sign-in, with retryable errors for failed updates (&lt;a href="https://github.com/ente/ente/pull/14591"&gt;#14591&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Auth may add a PetriScan icon, while the server proposes tighter rate limits for small upload URLs used by free accounts (&lt;a href="https://github.com/ente/ente/pull/14588"&gt;#14588&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14585"&gt;#14585&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 13, 2026 - 25 shipped, 7 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -701,27 +725,6 @@
 &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13766"&gt;CLI password retries and test cleanup&lt;/a&gt; are underway.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13745"&gt;Family nudge emails&lt;/a&gt; will skip users already in a family, while &lt;a href="https://github.com/ente/ente/pull/13744"&gt;coupon storage&lt;/a&gt; will trim whitespace and discard blank codes.&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 15, 2026 - 33 shipped, 6 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 10:59:30 +0000</pubDate>
-      <description>&lt;p&gt;Ente shipped a broad set of Photos usability improvements across web and mobile, including a redesigned People entry point, smoother gallery navigation, richer sharing, and pinch-based layout changes. Space received several navigation and messaging refinements, while Locker, Auth, CLI, localization, and platform support also advanced.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; The People navigation item now opens an overview with portraits, names, photo counts, and a responsive grid; opening People also prompts users to enable machine learning when needed (&lt;a href="https://github.com/ente/ente/pull/13733"&gt;#13733&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13727"&gt;#13727&lt;/a&gt;). Gallery headings now use consistent typography and spacing across collections, search, People, and albums (&lt;a href="https://github.com/ente/ente/pull/13730"&gt;#13730&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Closing the viewer returns to the last viewed photo, the gallery supports continuous pinch gestures to change column layouts, and the file viewer now offers a clearer Share sheet for sending copies or links (&lt;a href="https://github.com/ente/ente/pull/13726"&gt;#13726&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13702"&gt;#13702&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13710"&gt;#13710&lt;/a&gt;). Album transitions, editor layer duplication and pinching, selection sheets, date-header rendering, memory captions, and the ML consent sheet also received fixes and polish (&lt;a href="https://github.com/ente/ente/pull/13703"&gt;#13703&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13712"&gt;#13712&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13707"&gt;#13707&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13699"&gt;#13699&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13705"&gt;#13705&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13715"&gt;#13715&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13718"&gt;#13718&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker and localization:&lt;/strong&gt; Internal users can now upload files over 20 MiB using multipart uploads with retries (&lt;a href="https://github.com/ente/ente/pull/13729"&gt;#13729&lt;/a&gt;). Korean is enabled in Photos and Locker, and Tatar is available on the web (&lt;a href="https://github.com/ente/ente/pull/13713"&gt;#13713&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13724"&gt;#13724&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space and platform support:&lt;/strong&gt; iOS PWA routing, safe-area layout, profile navigation, message previews, and touch behavior were refined (&lt;a href="https://github.com/ente/ente/pull/13701"&gt;#13701&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13696"&gt;#13696&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13711"&gt;#13711&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13722"&gt;#13722&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13732"&gt;#13732&lt;/a&gt;). Long-message input is now better behaved across platforms (&lt;a href="https://github.com/ente/ente/pull/13714"&gt;#13714&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; Auth added an Enable Banking icon, and the new Rust CLI gained server administration commands and shell completion (&lt;a href="https://github.com/ente/ente/pull/13728"&gt;#13728&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13734"&gt;#13734&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13698"&gt;#13698&lt;/a&gt;). Changelog, documentation, dependency, packaging, and cleanup updates were also merged (&lt;a href="https://github.com/ente/ente/pull/13717"&gt;#13717&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13719"&gt;#13719&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13694"&gt;#13694&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13578"&gt;#13578&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13723"&gt;#13723&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13690"&gt;#13690&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13725"&gt;#13725&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13708"&gt;#13708&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming Photos features:&lt;/strong&gt; People sidebar search is in progress, as are grouped thumbnail indicators for captions, favorites, backup status, and Live Photos, and a unified album/People selection sheet (&lt;a href="https://github.com/ente/ente/pull/13736"&gt;#13736&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13731"&gt;#13731&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13721"&gt;#13721&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Other open work fixes export-folder renaming for sanitized album names, adds post-like counts and liker details to Space, and improves Ensu compatibility with older Safari WebKit (&lt;a href="https://github.com</description>
     </item>
   </channel>
 </rss>
