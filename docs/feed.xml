@@ -4,7 +4,26 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sat, 14 Nov 2026 13:06:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 13:36:36 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 15, 2026 - 2 shipped, 2 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 13:36:36 +0000</pubDate>
+      <description>&lt;p&gt;Ente Photos shipped a substantial set of Rewind 2026 improvements, adding new shareable story cards and polishing key interactions. Two smaller updates are in progress: more reliable date detection for imported photos and clearer Ensu toggle styling.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos — Rewind:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14601"&gt;Six new Rewind cards&lt;/a&gt; add a tour tee plus tunnel, tower, tour tee, globe, timelapse, and mosaic experiences built around users’ own photos. The new cards offer interactive browsing and more shareable visual moments.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos — Rewind:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14599"&gt;Internal-testing improvements&lt;/a&gt; make “Top %” rankings display as clearer whole numbers, improve the reliability of photo-booth pulls, add more people cards, and make the Favourites experience livelier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos — imports:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14600"&gt;Parse dates after filename sequence numbers&lt;/a&gt; would recognize filenames such as &lt;strong&gt;IMG - 3613 2024-06-29.heic&lt;/strong&gt; across desktop, web, and mobile, while preserving existing date validation and source priorities.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensu — desktop:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14596"&gt;Distinct styling for enabled Notes and Packs toggles&lt;/a&gt; would use Ensu’s yellow accent and improve contrast in light mode without changing toggle behavior.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 14, 2026 - 11 shipped, 6 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -685,45 +704,6 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13777"&gt;Aria service icon support&lt;/a&gt; would let Auth recognize Aria and its aliases during issuer matching. The PR is currently pending CLA.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13767"&gt;A fix for the app getting stuck after hiding an album&lt;/a&gt; keeps the album usable until navigating back and adds regression coverage.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 16, 2026 - 33 shipped, 4 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-16</guid>
-      <pubDate>Fri, 16 Oct 2026 10:54:39 +0000</pubDate>
-      <description>&lt;p&gt;A busy day for Ente Photos, with major navigation and discovery improvements across web and mobile, plus smoother onboarding and gallery behavior. Locker, Ensu, the CLI, and export tooling also received notable updates.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Ente Photos — web&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13760"&gt;Album group overviews&lt;/a&gt; add sidebar entry points, shared search and sorting, responsive album cards, and album creation.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13733"&gt;People overviews&lt;/a&gt; now show portraits, names, and photo counts in a responsive grid, while &lt;a href="https://github.com/ente/ente/pull/13736"&gt;People search&lt;/a&gt; makes larger lists easier to navigate.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13727"&gt;People now prompts for machine-learning consent&lt;/a&gt; when needed, without losing the user’s current view if they cancel.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13756"&gt;Album-related shortcuts&lt;/a&gt; are now correctly grouped under Albums in search, and &lt;a href="https://github.com/ente/ente/pull/13716"&gt;exports&lt;/a&gt; no longer rename folders repeatedly when album names contain characters sanitized for filenames.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Ente Photos — mobile&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13606"&gt;Onboarding authentication screens&lt;/a&gt; now use the illustrated design, while &lt;a href="https://github.com/ente/ente/pull/13540"&gt;local-gallery setup&lt;/a&gt; can recover after photo permission denial through retry or system settings.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13726"&gt;Closing the viewer&lt;/a&gt; returns users to the last viewed photo in the gallery, with a matching transition. Album and People selection also share a unified sheet via &lt;a href="https://github.com/ente/ente/pull/13721"&gt;this update&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13747"&gt;Removed public links&lt;/a&gt; now disappear immediately from the Links list.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Locker, Ensu, and tooling&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13755"&gt;Locker&lt;/a&gt; gained an internal PDF viewer, and its new loading dialogs are now enabled for everyone via &lt;a href="https://github.com/ente/ente/pull/13738"&gt;this change&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13729"&gt;Multipart Locker uploads&lt;/a&gt; are available to internal users for files over 20 MiB.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13763"&gt;Ensu 0.1.22&lt;/a&gt; highlights faster Android responses, and &lt;a href="https://github.com/ente/ente/pull/13743"&gt;Packs and Notes onboarding&lt;/a&gt; is set up after model downloads.&lt;/li&gt;
-&lt;li&gt;The Rust CLI gained &lt;a href="https://github.com/ente/ente/pull/13759"&gt;account creation and authenticator enrollment&lt;/a&gt; plus &lt;a href="https://github.com/ente/ente/pull/13734"&gt;server administration commands&lt;/a&gt;. Photos exports now preserve native metadata and support shared/hidden album filters through &lt;a href="https://github.com/ente/ente/pull/13762"&gt;this export update&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/13752"&gt;this filter update&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13758"&gt;&lt;strong&gt;Mobile public album redesign:&lt;/strong&gt;&lt;/a&gt; the web experience is being aligned with the native cover design, including full-width covers, date-range pills, edge-to-edge thumbnails, and grouped four-column grids.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13766"&gt;CLI password retries and test cleanup&lt;/a&gt; are underway.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ente/ente/pull/13745"&gt;Family nudge emails&lt;/a&gt; will skip users already in a family, while &lt;a href="https://github.com/ente/ente/pull/13744"&gt;coupon storage&lt;/a&gt; will trim whitespace and discard blank codes.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
