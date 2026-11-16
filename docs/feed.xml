@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Sun, 15 Nov 2026 13:36:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 15:05:20 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 16, 2026 - 32 shipped, 3 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 15:05:20 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a substantial set of Photos improvements, led by a major Rewind expansion and better sharing, search, and upload reliability. Work also continued on upload safeguards and documentation across Photos and Auth.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos — Rewind:&lt;/strong&gt; Rewind now includes six new story cards—Tunnel, Tower, Tour Tee, Globe, Timelapse, and Mosaic—plus Art Twin and Ritual Streak designs via &lt;a href="https://github.com/ente/ente/pull/14601"&gt;#14601&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/14628"&gt;#14628&lt;/a&gt;. Users can also share the complete story as a narrated video from the app through &lt;a href="https://github.com/ente/ente/pull/14604"&gt;#14604&lt;/a&gt;. Video thumbnails, cancellation, and cards with missing photos were improved in &lt;a href="https://github.com/ente/ente/pull/14621"&gt;#14621&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/14607"&gt;#14607&lt;/a&gt;, while Tunnel now supports vertical spinning and pause gestures in &lt;a href="https://github.com/ente/ente/pull/14622"&gt;#14622&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos — memories and discovery:&lt;/strong&gt; Three experimental memories—Then and now, A year in a flash, and One day—were added for internal users in &lt;a href="https://github.com/ente/ente/pull/14616"&gt;#14616&lt;/a&gt;. Similar Images can recover matches missed during incremental processing via &lt;a href="https://github.com/ente/ente/pull/14612"&gt;#14612&lt;/a&gt;, and People cover photos now recover more reliably after sign-in in &lt;a href="https://github.com/ente/ente/pull/14591"&gt;#14591&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos and Locker:&lt;/strong&gt; Filename dates after sequence numbers are now recognized across platforms in &lt;a href="https://github.com/ente/ente/pull/14626"&gt;#14626&lt;/a&gt;. Locker preserves the selected collection through upload and retries, avoiding redirects caused by duplicate names or renames, in &lt;a href="https://github.com/ente/ente/pull/14608"&gt;#14608&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cross-platform and web:&lt;/strong&gt; Location-radius checks now share one Rust implementation across mobile, web, CLI, and Memories, keeping results consistent; the CLI also supports nearby-file filtering, via &lt;a href="https://github.com/ente/ente/pull/14540"&gt;#14540&lt;/a&gt;. Recovery-key downloads wait until the key is ready in &lt;a href="https://github.com/ente/ente/pull/14624"&gt;#14624&lt;/a&gt;, and streamed shared downloads verify their final encrypted chunk in &lt;a href="https://github.com/ente/ente/pull/14614"&gt;#14614&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Auth and server:&lt;/strong&gt; Linux Auth packages now declare required Ayatana and curl dependencies in &lt;a href="https://github.com/ente/ente/pull/14634"&gt;#14634&lt;/a&gt;. Preview uploads began rolling out to 10% of users in &lt;a href="https://github.com/ente/ente/pull/14630"&gt;#14630&lt;/a&gt;. Help docs also clarify what Ente records when albums are shared in &lt;a href="https://github.com/ente/ente/pull/14627"&gt;#14627&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Upload reliability:&lt;/strong&gt; Mobile is preparing to reuse upload URLs and pause retries in &lt;a href="https://github.com/ente/ente/pull/14633"&gt;#14633&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Upload protection:&lt;/strong&gt; The server is adding pending-upload caps and throttling for small upload grants, with exemptions for paid users, in &lt;a href="https://github.com/ente/ente/pull/14629"&gt;#14629&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation:&lt;/strong&gt; New FAQs covering Auth import errors, paused ML indexing, unarchiving, and thumbnail storage are underway in &lt;a href="https://github.com/ente/ente/pull/14618"&gt;#14618&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 15, 2026 - 2 shipped, 2 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -680,30 +703,6 @@
   &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13783"&gt;Correct the Legacy path in email instructions&lt;/a&gt; updates legacy emails to refer to the Ente mobile app and points users to the correct Settings path.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Desktop Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13782"&gt;Keep the Settings dialog below the desktop title bar&lt;/a&gt; prevents the Settings window from extending underneath the custom title bar on shorter desktop windows.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13780"&gt;Fix album pin ordering in Archive and Shared&lt;/a&gt; refreshes affected album lists so pinning or unpinning immediately moves albums to their correct positions.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 17, 2026 - 13 shipped, 2 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 10:17:09 +0000</pubDate>
-      <description>&lt;p&gt;Today’s changes span Ente Photos, Ente Auth, Locker, the Rust CLI, and Ensu. Highlights include richer album navigation on the web, improved Auth tooling, and an internal Locker image viewer, alongside fixes for iOS builds and export metadata.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos web:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13760"&gt;Album group overviews&lt;/a&gt; add sidebar access, shared search and sorting, responsive album cards, and album creation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; An internal-flagged &lt;a href="https://github.com/ente/ente/pull/13769"&gt;in-app image viewer&lt;/a&gt; now supports JPEG, PNG, WebP, and HEIC, with zoom, sharing, downloading, and opening files in another app.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth and CLI:&lt;/strong&gt; Auth gained an &lt;a href="https://github.com/ente/ente/pull/13768"&gt;authentication-code list and view with enrollment verification&lt;/a&gt;, while the CLI can now &lt;a href="https://github.com/ente/ente/pull/13759"&gt;create accounts and enroll authenticators&lt;/a&gt;. Additional Auth fixes improve &lt;a href="https://github.com/ente/ente/pull/13772"&gt;metadata parsing and clock guidance&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos exports:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13762"&gt;Native metadata is preserved&lt;/a&gt; during export.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile reliability:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13773"&gt;Photos and Locker iOS builds&lt;/a&gt; were fixed after a libc regression.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ensu:&lt;/strong&gt; Version 0.1.22 highlights &lt;a href="https://github.com/ente/ente/pull/13763"&gt;faster Android responses&lt;/a&gt;, and onboarding now sets up &lt;a href="https://github.com/ente/ente/pull/13743"&gt;Ensu Packs and Your Notes&lt;/a&gt; after model download.&lt;/li&gt;
-  &lt;li&gt;Other merged work includes &lt;a href="https://github.com/ente/ente/pull/13766"&gt;interactive password retries&lt;/a&gt; and maintenance to the Rust core and test/dependency tooling.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Auth:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13777"&gt;Aria service icon support&lt;/a&gt; would let Auth recognize Aria and its aliases during issuer matching. The PR is currently pending CLA.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13767"&gt;A fix for the app getting stuck after hiding an album&lt;/a&gt; keeps the album usable until navigating back and adds regression coverage.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
