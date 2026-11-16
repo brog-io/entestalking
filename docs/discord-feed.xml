@@ -4,7 +4,35 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sun, 15 Nov 2026 14:14:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 16:18:15 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 16, 2026 - 30 messages in 7 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 16:18:15 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light overall, with the most conversation in &lt;strong&gt;#off-topic&lt;/strong&gt; and &lt;strong&gt;#photos&lt;/strong&gt;. Highlights included a 30,000-star milestone for Ente, product questions, and casual community hangouts.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 14 messages from 9 participants, members discussed fame and a group hangout in the Ente world, shared photos and reactions, and mentioned the new Club Ente release. Links included a &lt;a href="https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/"&gt;Reuters article&lt;/a&gt; and a &lt;a href="https://discord.com/channels/948937918347608085/948956829982031912/1571883265416233152"&gt;Discord lounge invite&lt;/a&gt;; one member also noted that the Stargazer role is available through linked roles.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Seven messages from 5 participants focused on pixelated previews in Memory Lane, including previews pulled from avatars in Slack screenshots. Members also raised questions about video streams stuttering or loading indefinitely and an iOS library upload or backup issue.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Four messages from 3 participants covered Ente Auth’s convenience and clean interface, alongside a report that importing a raw TXT file from a self-hosted instance to ente.io fails.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Two participants exchanged brief remarks about an unexpected response after running Ensu on macOS for the first time.&lt;/p&gt;
+
+&lt;h3&gt;#announcements&lt;/h3&gt;
+&lt;p&gt;Ente marked crossing 30,000 GitHub stars with a thank-you announcement.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;A new member posted a brief greeting.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;One meme attachment was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 15, 2026 - 15 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -625,19 +653,6 @@
 
 &lt;h3&gt;#locker&lt;/h3&gt;
 &lt;p&gt;A brief exchange asked whether storage is measured in gigabytes or item counts.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 16, 2026 - 139 messages in 2 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-16</guid>
-      <pubDate>Fri, 16 Oct 2026 11:47:52 +0000</pubDate>
-      <description>&lt;p&gt;The server saw concentrated activity across two channels, with most of the discussion in &lt;strong&gt;#off-topic&lt;/strong&gt;. Conversations covered messaging apps, stickers, privacy, and Ente photo organization and navigation.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;With 126 messages from 7 participants, the channel focused on Signal versus Telegram, including sticker quality, animated emojis, group features, live location, file-size limits, and privacy trade-offs. Participants shared &lt;a href="https://signalstickers.org/"&gt;Signal Stickers&lt;/a&gt; and a &lt;a href="https://klipy.com/gifs/tony-soprano-the-sopranos-10"&gt;Klipy GIF link&lt;/a&gt;, while others noted Signal’s role as a privacy-friendly SMS and WhatsApp alternative.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Thirteen messages from 7 participants discussed Ente Photos. The archive was clarified as a status flag rather than a separate album, alongside a caution about using export before leaving the platform. Users also requested a less cluttered Android sidebar with faster access to recent albums; the feedback was offered to the team, and folder-structure preservation was anticipated.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
