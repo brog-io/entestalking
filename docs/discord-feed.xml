@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 16 Nov 2026 16:18:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 16:23:06 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 17, 2026 - 47 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 16:23:06 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 47 messages across five active channels, with the most activity centered on off-topic socializing and Club Ente. Product support discussions covered Photos, authentication exports, and Ensu note indexing.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 23 messages from seven participants, the channel focused on Club Ente, shared reactions, and a live community session featuring fixes and new things to explore. Members also shared &lt;a href="https://klipy.com/gifs/pepe-drive-1"&gt;a GIF&lt;/a&gt; and &lt;a href="https://klipy.com/gifs/bee-honey-bee-2"&gt;another GIF&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Nine messages from six participants discussed the “move to folder” interaction, with a plan to retain the original workflow alongside the new one. Members also reported successful photo uploads after a Google Photos export, duplicate and lookalike cleanup options, and glitches on the web app; logs were requested for troubleshooting.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Eight messages from four participants covered an “Error while exporting codes” issue. The Ente authentication app worked on Android, while the Linux desktop problem was suspected to involve Flatpak; support recommended contacting &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Six messages from four participants explored how Ensu uses indexed Obsidian notes, whether indexing updates automatically, and the possibility of scheduled reindexing. Another user reported an error after processing, alongside general positive feedback about Ensu.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One participant briefly introduced themselves with a “hi here.”&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 16, 2026 - 30 messages in 7 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -637,22 +659,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;Pixel posted a brief greeting.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 17, 2026 - 52 messages in 3 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 11:04:36 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw its most activity in &lt;strong&gt;#photos&lt;/strong&gt;, with 42 messages from 8 participants, centered on Google Photos imports, storage, and referrals. Smaller discussions covered privacy-focused messaging and ideas for replacing Polarsteps.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Members discussed Google Takeout exports, 5 GB ZIP chunks, duplicate detection during Ente imports, and storage limitations. A referral-code request and the storage referral policy were shared, along with a link to the &lt;a href="https://ente.com/help/photos/faq/storage-a"&gt;storage FAQ&lt;/a&gt;. Participants also suggested contacting support with logs for an app issue and reminded others to avoid sharing email addresses publicly.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Eight messages from 5 participants compared Signal’s privacy focus with feature breadth, including stickers and group subtopics, with mentions of GrapheneOS and Molly Client. Another discussion explored replacing Polarsteps with Ente, including using a photo description for daily travel entries.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;A brief exchange asked whether storage is measured in gigabytes or item counts.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
