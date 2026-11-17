@@ -4,7 +4,31 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 16 Nov 2026 15:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:38:14 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 17, 2026 - 22 shipped, 11 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 15:38:14 +0000</pubDate>
+      <description>&lt;p&gt;A busy day for Ente Photos, with several Rewind and memories improvements shipped alongside reliability, upload, and image-decoding fixes. New work also expands sharing, localization, photo review, and posts management.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile:&lt;/strong&gt; Rewind is easier to find and dismiss: its entry points remain visible until dismissed, and the close button is available before watching (&lt;a href="https://github.com/ente/ente/pull/14659"&gt;#14659&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14661"&gt;#14661&lt;/a&gt;). Rewind now ends with a whole-Rewind share card and preview, has more balanced badges, and reveals exported badges consistently at every export speed (&lt;a href="https://github.com/ente/ente/pull/14656"&gt;#14656&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14651"&gt;#14651&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14647"&gt;#14647&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Memories:&lt;/strong&gt; memory-lane cards avoid tiny or video face crops that could look pixelated; sharing now selects and scrolls items more helpfully, with a redesigned video-export sheet and cancellation support (&lt;a href="https://github.com/ente/ente/pull/14652"&gt;#14652&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14658"&gt;#14658&lt;/a&gt;). Rewind mosaics also fall back to a prominent unnamed face when no people are named (&lt;a href="https://github.com/ente/ente/pull/14648"&gt;#14648&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop and image handling:&lt;/strong&gt; new imports use an earlier valid filesystem creation date when it better represents the original capture time (&lt;a href="https://github.com/ente/ente/pull/14643"&gt;#14643&lt;/a&gt;). The HEIC decoder now accepts more non-grid images and supports larger bounded images (&lt;a href="https://github.com/ente/ente/pull/14650"&gt;#14650&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Server and mobile reliability:&lt;/strong&gt; uploads now reuse URLs and pause retries, while the server guards pending uploads and throttles small upload grants (&lt;a href="https://github.com/ente/ente/pull/14633"&gt;#14633&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14629"&gt;#14629&lt;/a&gt;). Passkey enrollment is atomic, and paid family membership survives login-grace expiry (&lt;a href="https://github.com/ente/ente/pull/14642"&gt;#14642&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14654"&gt;#14654&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Additional maintenance includes an iOS widget crash fix and shared location-distance logic across Photos, Memories, CLI, and web (&lt;a href="https://github.com/ente/ente/pull/14657"&gt;#14657&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14540"&gt;#14540&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos sharing:&lt;/strong&gt; shared memory videos will be capped at eight seconds and encoded smaller, making them easier to send (&lt;a href="https://github.com/ente/ente/pull/14671"&gt;#14671&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; bounded HEIC decoding is coming to full-screen viewing, and selection actions will remain reachable in collapsed sheets (&lt;a href="https://github.com/ente/ente/pull/14670"&gt;#14670&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14653"&gt;#14653&lt;/a&gt;). Old-photo review is also being redesigned around a selectable grid (&lt;a href="https://github.com/ente/ente/pull/14635"&gt;#14635&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Localization:&lt;/strong&gt; Indonesian and Swedish for Photos, three additional languages for Auth, and Indonesian, Swedish, and Simplified Chinese for Locker are proposed (&lt;a href="https://github.com/ente/ente/pull/14666"&gt;#14666&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14667"&gt;#14667&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14668"&gt;#14668&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Other upcoming work covers removing individual media from posts, a collection-diff index, clearer permissions documentation, and a HARDRADA Auth icon (&lt;a href="https://github.com/ente/ente/pull/14646"&gt;#14646&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14655"&gt;#14655&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14641"&gt;#14641&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14645"&gt;#14645&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 16, 2026 - 32 shipped, 3 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -686,23 +710,6 @@
   &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; A dedicated, searchable Links rail and listing is in progress in &lt;a href="https://github.com/ente/ente/pull/13820"&gt;PR #13820&lt;/a&gt;, while &lt;a href="https://github.com/ente/ente/pull/13825"&gt;PR #13825&lt;/a&gt; adds a desktop video volume slider.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Push notifications:&lt;/strong&gt; Android-side HPKE key storage and encrypted notification decryption are being prepared in &lt;a href="https://github.com/ente/ente/pull/13805"&gt;PR #13805&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Other active work includes safer macOS media-key handling in &lt;a href="https://github.com/ente/ente/pull/13795"&gt;PR #13795&lt;/a&gt;, lower-memory iOS video processing in &lt;a href="https://github.com/ente/ente/pull/13785"&gt;PR #13785&lt;/a&gt;, and CLI audit fixes in &lt;a href="https://github.com/ente/ente/pull/13826"&gt;PR #13826&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 18, 2026 - 0 shipped, 3 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-18</guid>
-      <pubDate>Sun, 18 Oct 2026 10:32:46 +0000</pubDate>
-      <description>&lt;p&gt;No changes were merged in the past day. Three fixes are in progress across server, desktop Photos, and mobile Photos.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;p&gt;No PRs were merged.&lt;/p&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13783"&gt;Correct the Legacy path in email instructions&lt;/a&gt; updates legacy emails to refer to the Ente mobile app and points users to the correct Settings path.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Desktop Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13782"&gt;Keep the Settings dialog below the desktop title bar&lt;/a&gt; prevents the Settings window from extending underneath the custom title bar on shorter desktop windows.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile Photos:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/13780"&gt;Fix album pin ordering in Archive and Shared&lt;/a&gt; refreshes affected album lists so pinning or unpinning immediately moves albums to their correct positions.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
