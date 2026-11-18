@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Tue, 17 Nov 2026 16:23:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 15:54:58 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 18, 2026 - 58 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 15:54:58 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw 58 messages from 21 participants over the past day, led by active discussion in &lt;strong&gt;#photos&lt;/strong&gt;. Conversations focused on photo management, album workflows, and compatibility across Ente products.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;With 45 messages from 10 participants, members discussed account setup and cloud backups, video loading, tagging people across multiple photos, and moving photos between albums. Laurens clarified that multi-selected photos can be added to a person and that “move to album” is available through the bottom sheet, while noting that some interface elements are being improved. The channel also shared a &lt;a href="https://www.tastesoflizzyt.com/homemade-cinnamon-rolls/"&gt;cinnamon-roll recipe&lt;/a&gt; and raised a question about regular audits.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Six messages from three participants covered support routing and Ente Auth compatibility with the Steam Frame. The discussion noted that support may require Arch Linux support on its ARM architecture, while Photos is currently supported but other Ente products are not.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;Three messages included a suggestion for privacy-preserving vector search using fully homomorphic encryption, along with appreciation for the Ente Authenticator app and an easy migration from Google Authenticator.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;Three messages shared a meme image and brief reactions.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;AlexL introduced themselves as a new Ente Photos user testing features through an account on ente.com.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 17, 2026 - 47 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -637,28 +659,6 @@
 
 &lt;h3&gt;#locker&lt;/h3&gt;
 &lt;p&gt;Seven messages from two participants covered a request for an in-app gallery or built-in PDF viewer in Locker. The feature is reportedly on the roadmap, although no other related Locker plans were noted.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 18, 2026 - 18 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-18</guid>
-      <pubDate>Sun, 18 Oct 2026 11:35:38 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light, with 18 messages across five channels. Most of the discussion focused on Ente Photos’ face-recognition processing, while the remaining conversations covered Locker plans, motorsport, memes, and a greeting.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Seven messages from three participants discussed photo tags and when face recognition analysis occurs. The guidance was to enable local processing or open the desktop app with machine learning enabled so new photos can be analyzed and results synced to the iPhone.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;Four messages from two participants joked about British food and someone leaving London to find it. A video link was shared: &lt;a href="https://www.tnktok.com/@roman.chef1/video/7697623096798350622"&gt;TikTok video&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Three messages covered requests for an in-app gallery view and questions about Locker’s item-based limits versus GB/TB storage. The explanation noted that Locker is intended for items such as IDs, insurance papers, and recovery codes.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Three messages from two participants discussed the choreography and engineering of Formula 1 and Formula E pit stops.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;Pixel posted a brief greeting.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
