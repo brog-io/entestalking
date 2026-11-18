@@ -4,7 +4,29 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Tue, 17 Nov 2026 15:38:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 15:15:59 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 18, 2026 - 41 shipped, 12 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 15:15:59 +0000</pubDate>
+      <description>&lt;p&gt;Ente shipped a broad set of Ente Photos improvements today, especially around Rewind, media decoding, albums, and sharing. Several upcoming changes are also in review, including a richer Android picker, improved location clustering, and a redesigned web subscription selector.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos uploads and albums:&lt;/strong&gt; “Faster uploads” is now &lt;a href="https://github.com/ente/ente/pull/14718"&gt;“Smart routing” on mobile&lt;/a&gt; and &lt;a href="https://github.com/ente/ente/pull/14717"&gt;web&lt;/a&gt;. Mobile albums now support saved A–Z and Z–A filename sorting, including in selection slideshows (&lt;a href="https://github.com/ente/ente/pull/14681"&gt;sorting&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14687"&gt;slideshows&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos media handling:&lt;/strong&gt; bounded decoding makes large images safer to process for ML and face thumbnails (&lt;a href="https://github.com/ente/ente/pull/14689"&gt;ML indexing&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14708"&gt;face thumbnails&lt;/a&gt;), while Android HEIC viewing now has improved decoder fallbacks (&lt;a href="https://github.com/ente/ente/pull/14670"&gt;bounded full-view decoding&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14698"&gt;fallback decoding&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rewind:&lt;/strong&gt; the experience received a substantial design and interaction refresh: redesigned cards and ordering (&lt;a href="https://github.com/ente/ente/pull/14705"&gt;card updates&lt;/a&gt;), swipe navigation through the tunnel (&lt;a href="https://github.com/ente/ente/pull/14685"&gt;tunnel controls&lt;/a&gt;), longer readable cards (&lt;a href="https://github.com/ente/ente/pull/14692"&gt;timing&lt;/a&gt;), an updated final share card (&lt;a href="https://github.com/ente/ente/pull/14673"&gt;envelope ending&lt;/a&gt;), and hardware-accelerated video export (&lt;a href="https://github.com/ente/ente/pull/14680"&gt;encoding&lt;/a&gt;). Favourites and memory-video exports also received presentation and duration improvements (&lt;a href="https://github.com/ente/ente/pull/14679"&gt;favourites&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14671"&gt;shared memories&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Other user-facing fixes:&lt;/strong&gt; Photos mobile’s drawer no longer bounces the grid (&lt;a href="https://github.com/ente/ente/pull/14593"&gt;navigation&lt;/a&gt;), shared-post owners can remove individual media (&lt;a href="https://github.com/ente/ente/pull/14646"&gt;post editing&lt;/a&gt;), and CLI exports correctly re-download files after changing directories (&lt;a href="https://github.com/ente/ente/pull/13843"&gt;CLI export&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Indonesian and Swedish arrived in Photos, Swedish in Auth, and Indonesian, Swedish, and Simplified Chinese in Locker (&lt;a href="https://github.com/ente/ente/pull/14666"&gt;Photos&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14667"&gt;Auth&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14668"&gt;Locker&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Photos features:&lt;/strong&gt; an improved Android attachment picker with Ente album browsing and search (&lt;a href="https://github.com/ente/ente/pull/14683"&gt;picker&lt;/a&gt;), app links for opening Photos URLs directly in mobile apps (&lt;a href="https://github.com/ente/ente/pull/14684"&gt;app links&lt;/a&gt;), more accurate location-radius checks and Memories clustering (&lt;a href="https://github.com/ente/ente/pull/14714"&gt;location fixes&lt;/a&gt;), and continuous music under shared memory videos (&lt;a href="https://github.com/ente/ente/pull/14707"&gt;audio mixing&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web and Auth:&lt;/strong&gt; a mobile-inspired Photos plan selector is proposed for signup and Settings (&lt;a href="https://github.com/ente/ente/pull/14694"&gt;plan redesign&lt;/a&gt;), while Auth is fixing LastPass imports containing special characters (&lt;a href="https://github.com/ente/ente/pull/14710"&gt;LastPass import&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Maintenance work covers safer export adoption (&lt;a href="https://github.com/ente/ente/pull/14716"&gt;legacy sidecars&lt;/a&gt;), desktop pipe handling (&lt;a href="https://github.com/</description>
+    </item>
     <item>
       <title>Ente digest Nov 17, 2026 - 22 shipped, 11 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -686,30 +708,6 @@
 &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Device albums are getting the newer album-cover design, Hero transitions, backup status, Slideshow, and Map actions (&lt;a href="https://github.com/ente/ente/pull/13847"&gt;#13847&lt;/a&gt;). The gallery scrollbar is also being made easier to see and grab (&lt;a href="https://github.com/ente/ente/pull/13836"&gt;#13836&lt;/a&gt;), and caption indicators are planned for gallery thumbnails (&lt;a href="https://github.com/ente/ente/pull/13828"&gt;#13828&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Photos desktop and web:&lt;/strong&gt; Desktop windows will recover onto a connected display instead of reopening off-screen, and web video playback is gaining a volume slider alongside mute controls (&lt;a href="https://github.com/ente/ente/pull/13831"&gt;#13831&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13825"&gt;#13825&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CLI:&lt;/strong&gt; Changing the export directory will correctly cause media files to be exported there (&lt;a href="https://github.com/ente/ente/pull/13843"&gt;#13843&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 19, 2026 - 28 shipped, 7 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 12:25:40 +0000</pubDate>
-      <description>&lt;p&gt;Ente Photos saw a broad web navigation and usability refresh, alongside fixes to mobile browsing and sharing flows. Infrastructure work also advanced encrypted push notifications, while several upcoming media and Spaces features entered development.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Sidebar navigation is easier to use: users can search Hidden and Archive albums, create albums directly from the sidebar, and access quick links more consistently. See &lt;a href="https://github.com/ente/ente/pull/13808"&gt;PR #13808&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13790"&gt;PR #13790&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13818"&gt;PR #13818&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; People browsing now includes a “Show more faces” section, simpler navigation back to the overview, improved mobile drawer behavior, and clearer empty states for searches and albums. See &lt;a href="https://github.com/ente/ente/pull/13821"&gt;PR #13821&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13823"&gt;PR #13823&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13817"&gt;PR #13817&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13815"&gt;PR #13815&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13810"&gt;PR #13810&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Empty albums can now be bulk-deleted from their overview, with the action protected by the shared confirmation dialog. Dialogs across Photos also now have a consistent design and behavior. See &lt;a href="https://github.com/ente/ente/pull/13797"&gt;PR #13797&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13798"&gt;PR #13798&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13801"&gt;PR #13801&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Search text is now localizable, Similar Images no longer crashes when file-size metadata is missing, hiding an album no longer leaves the app stuck, and shared-photo backups warn when locations may be unavailable. See &lt;a href="https://github.com/ente/ente/pull/13822"&gt;PR #13822&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13813"&gt;PR #13813&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13767"&gt;PR #13767&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13646"&gt;PR #13646&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Notifications and Auth:&lt;/strong&gt; The server can now register HPKE notification keys, Authenticator routes are restricted to Auth sessions, and Posteo accounts have a dedicated icon. See &lt;a href="https://github.com/ente/ente/pull/13804"&gt;PR #13804&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/13568"&gt;PR #13568&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/13791"&gt;PR #13791&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Upcoming Spaces feature:&lt;/strong&gt; Encrypted post comments, threaded replies, reactions, comment notifications, and synchronized counts are proposed in &lt;a href="https://github.com/ente/ente/pull/13824"&gt;PR #13824&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; A dedicated, searchable Links rail and listing is in progress in &lt;a href="https://github.com/ente/ente/pull/13820"&gt;PR #13820&lt;/a&gt;, while &lt;a href="https://github.com/ente/ente/pull/13825"&gt;PR #13825&lt;/a&gt; adds a desktop video volume slider.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Push notifications:&lt;/strong&gt; Android-side HPKE key storage and encrypted notification decryption are being prepared in &lt;a href="https://github.com/ente/ente/pull/13805"&gt;PR #13805&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Other active work includes safer macOS media-key handling in &lt;a href="https://github.com/ente/ente/pull/13795"&gt;PR #13795&lt;/a&gt;, lower-memory iOS video processing in &lt;a href="https://github.com/ente/ente/pull/13785"&gt;PR #13785&lt;/a&gt;, and CLI audit fixes in &lt;a href="https://github.com/ente/ente/pull/13826"&gt;PR #13826&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
