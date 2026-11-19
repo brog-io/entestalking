@@ -4,7 +4,16 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Wed, 18 Nov 2026 15:54:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:58:48 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 19, 2026 - 4 messages in 1 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 15:58:48 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light, with four messages from four participants in the &lt;strong&gt;#photos&lt;/strong&gt; channel. Discussion covered ritual improvements and questions about video streaming, alongside a brief exchange about human and LLM-assisted work.&lt;/p&gt;
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Four messages discussed potential ritual upgrades, including achievement rewards and improved streak management, as well as questions about the current HLS video-streaming approach and its storage requirements.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 18, 2026 - 58 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -646,19 +655,6 @@
 
 &lt;h3&gt;#clicks&lt;/h3&gt;
 &lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 19, 2026 - 21 messages in 2 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 13:49:27 +0000</pubDate>
-      <description>&lt;p&gt;Activity was light, with 21 messages from 9 participants across two channels. Discussions focused on Ente Photos search and interface usability, plus a Locker feature request and roadmap clarification.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 14 messages from 7 participants, the channel discussed the small or difficult-to-use interface controls and whether Ente Photos can search text detected through OCR. The discussion clarified that OCR text is not currently indexed reliably; the &lt;a href="https://ente.com/help/photos/features/utilities/detect-text#limitations"&gt;documentation&lt;/a&gt; notes that occasional text results may come from Magic Search, while dedicated OCR search is planned. A referral code, “QUACK,” was also shared.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Seven messages from two participants covered a request for an in-app gallery or built-in PDF viewer in Locker. The feature is reportedly on the roadmap, although no other related Locker plans were noted.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
