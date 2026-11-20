@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Thu, 19 Nov 2026 15:58:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 15:41:45 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 20, 2026 - 116 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 15:41:45 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw its heaviest activity in &lt;strong&gt;#off-topic&lt;/strong&gt; and &lt;strong&gt;#memes&lt;/strong&gt;, with broader discussions ranging from workplace issues and economic hardship to moderation filters and current events. Product-focused conversations also covered video streaming, backup visibility, and privacy-oriented features.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;59 messages&lt;/strong&gt; from 7 participants focused on poverty, employee protections, workplace relationships, and the cost of legal support, alongside a privacy-focused discussion about expense-tracking apps and alternatives such as Tuta. A GIF was also shared: &lt;a href="https://cdn.discordapp.com/attachments/1303752746360377425/1559392265166790736/1791382411926341_1756331116285726.gif"&gt;view attachment&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#memes&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;45 messages&lt;/strong&gt; from 4 participants discussed frustrating word filters and the inability to edit and resend blocked messages. Other threads debated a reported executive relationship and workplace boundaries, with an image and a &lt;a href="https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says"&gt;US News article&lt;/a&gt; shared.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;10 messages&lt;/strong&gt; from 7 participants discussed video streaming and whether an HLS-based approach or separate app could avoid extra storage and app bloat. Other feature questions covered continuous-sync export logs, “ritual” or achievement features, and a possible URL shortener for qr.ente.&lt;/p&gt;
+
+&lt;h3&gt;#locker&lt;/h3&gt;
+&lt;p&gt;One participant asked whether Ente Locker data can be accessed through WebDAV.&lt;/p&gt;
+
+&lt;h3&gt;#clicks&lt;/h3&gt;
+&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 19, 2026 - 4 messages in 1 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -636,25 +658,6 @@
 
 &lt;h3&gt;#memes&lt;/h3&gt;
 &lt;p&gt;One meme link was shared: &lt;a href="https://fixvx.com/linuxuser1996/status/2111510314332119227"&gt;view the post&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 20, 2026 - 12 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 11:58:32 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw light activity over the past day, with most discussion focused on a small, difficult-to-select button in the photos experience. Other messages included positive feedback on Google-to-Ente authentication and brief album-related discussion.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Eight messages from three participants discussed a button that is too small, disappears after scrolling, and can be difficult to select. Ashil confirmed that the issue is being fixed.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Two messages touched on album-level descriptions, noting their 200-character limit, alongside an attachment.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Pixel praised the Google-to-Ente authentication transfer and the ability to view it on a Mac.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
