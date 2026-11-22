@@ -4,7 +4,29 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Sat, 21 Nov 2026 14:53:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 14:48:39 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 22, 2026 - 26 messages in 5 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 14:48:39 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light to moderate, led by discussion in &lt;strong&gt;#off-topic&lt;/strong&gt;. Members talked about Studio Ghibli films, shared personal notes, and raised an Ente app sign-in issue, while smaller conversations covered Auth troubleshooting, video streaming, and Ensu.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;With 16 messages from five participants, the channel was the busiest. Conversation centered on Studio Ghibli films including &lt;em&gt;Howl’s Moving Castle&lt;/em&gt;, &lt;em&gt;Princess Mononoke&lt;/em&gt;, and &lt;em&gt;Nausicaä of the Valley of the Wind&lt;/em&gt;, alongside shared notes such as &lt;a href="https://jaydip.me/notes#20/11/2026"&gt;one daily note&lt;/a&gt; and &lt;a href="https://jaydip.me/notes#21/11/2026"&gt;another note&lt;/a&gt;. One member reported that an app became stuck on “Please Wait” after sign-in; they were directed to contact &lt;a href="mailto:support@ente.com"&gt;support@ente.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;Four messages from two participants discussed possible streak rewards such as hearts or ducks, plus questions about Ente’s video streaming: activation for videos longer than 60 seconds, using a movie frame as a thumbnail, and where stream versions are stored.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Three messages from two participants focused on installing Ente Auth 4.4.27 on Windows 11 with Smart App Control enabled. A suggested workaround was to extract the Windows ZIP and run &lt;strong&gt;auth.exe&lt;/strong&gt; directly, while also checking whether earlier versions were affected.&lt;/p&gt;
+
+&lt;h3&gt;#ensu&lt;/h3&gt;
+&lt;p&gt;Two messages clarified that Ensu is an on-device AI chat app.&lt;/p&gt;
+
+&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
+&lt;p&gt;One reaction-only message was posted.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 21, 2026 - 14 messages in 2 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -633,28 +655,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;One member posted a brief “Hey y’all” introduction.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 22, 2026 - 17 messages in 5 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 12:16:14 +0000</pubDate>
-      <description>&lt;p&gt;The server saw light activity across five channels, with 17 messages from a small group of participants. Discussion centered on Photos updates, widespread website outages, authentication storage, and community introductions.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;Eight messages from six participants covered screenshot requests, brief release excitement, and a question about offline mode. piedcipher also shared progress on Gujarati translations, reporting an increase from 1% to 25%, and asked whether the update belonged in this channel. A &lt;a href="https://klipy.com/gifs/hype-benjammins"&gt;GIF&lt;/a&gt; was shared.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Five messages discussed widespread outages affecting government websites and school platforms, with a &lt;a href="https://www.bbc.com/news/articles/cmly0lg3w5x2o"&gt;BBC News link&lt;/a&gt; shared for context.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Two messages focused on trusted free services for storing Ente Auth 2FA credentials. The response noted that Auth uses shared infrastructure with Ente Photos servers, unless self-hosted.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;piedcipher introduced Tirth, sharing enthusiasm for Flutter, photography, mobile project contributions, and Gujarati translations.&lt;/p&gt;
-
-&lt;h3&gt;#clicks&lt;/h3&gt;
-&lt;p&gt;One post mentioned a photo setup using a Pixel 9a and Snapseed during a first trip to Goa and Hyderabad.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
