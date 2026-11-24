@@ -4,7 +4,30 @@
     <title>Ente development digest</title>
     <link>https://github.com/ente/ente</link>
     <description>AI-generated daily digest of PRs opened and merged in the Ente monorepo</description>
-    <lastBuildDate>Mon, 23 Nov 2026 17:35:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 17:05:48 +0000</lastBuildDate>
+    <item>
+      <title>Ente digest Nov 24, 2026 - 51 shipped, 10 in progress</title>
+      <link>https://github.com/ente/ente/pulls</link>
+      <guid isPermaLink="false">ente-digest-2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 17:05:48 +0000</pubDate>
+      <description>&lt;p&gt;Today’s changes were led by a substantial Ente Photos Rewind push, with faster loading, smoother exports, and launch preparation. Account administration also gained family-plan and security controls, while Photos web and desktop continued their interface refresh.&lt;/p&gt;
+
+&lt;h3&gt;Shipped&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Accounts and CLI:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14906"&gt;Family plan management&lt;/a&gt; is now available through the Rust accounts library and &lt;code&gt;ente account family&lt;/code&gt; commands, including creating families, inviting or removing members, setting storage limits, and leaving a family. The CLI also gained &lt;a href="https://github.com/ente/ente/pull/14849"&gt;email MFA, authenticator disabling, and email-change commands&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ente Photos mobile — Rewind:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14924"&gt;Rewind can appear as soon as the library syncs&lt;/a&gt;, while ML-powered cards populate once indexing reaches 90%. Its story now loads only referenced files via &lt;a href="https://github.com/ente/ente/pull/14921"&gt;faster report-based loading&lt;/a&gt;, retries after sync through &lt;a href="https://github.com/ente/ente/pull/14899"&gt;additional refresh logic&lt;/a&gt;, and &lt;a href="https://github.com/ente/ente/pull/14923"&gt;pre-renders share videos in the background&lt;/a&gt; on capable phones.&lt;/li&gt;
+  &lt;li&gt;Rewind also received &lt;a href="https://github.com/ente/ente/pull/14861"&gt;disk-cached thumbnails with retries&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14919"&gt;its own remotely changeable music manifest&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14917"&gt;haptic globe feedback&lt;/a&gt;, and a &lt;a href="https://github.com/ente/ente/pull/14892"&gt;new video-export end card&lt;/a&gt;. It is prepared for launch while remaining gated until December 5 through &lt;a href="https://github.com/ente/ente/pull/14890"&gt;pre-generation work&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Photos web and desktop:&lt;/strong&gt; The desktop app began its &lt;a href="https://github.com/ente/ente/pull/14907"&gt;2.0 beta&lt;/a&gt; and received updated &lt;a href="https://github.com/ente/ente/pull/14920"&gt;What’s New content&lt;/a&gt;. Web gained more consistent dialogs and dropdowns via &lt;a href="https://github.com/ente/ente/pull/14910"&gt;UI refreshes&lt;/a&gt;, improved keyboard focus handling in the viewer through &lt;a href="https://github.com/ente/ente/pull/14908"&gt;follow-up accessibility fixes&lt;/a&gt;, and a &lt;a href="https://github.com/ente/ente/pull/14847"&gt;collapsed Home navigation panel&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Smaller user-facing updates include the &lt;a href="https://github.com/ente/ente/pull/14820"&gt;NY.gov Auth icon&lt;/a&gt;, corrected security and deletion translations across 14 languages in &lt;a href="https://github.com/ente/ente/pull/14850"&gt;the mobile apps&lt;/a&gt;, and faster large-image decoding in &lt;a href="https://github.com/ente/ente/pull/14891"&gt;Photos’ image pipeline&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;In progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14893"&gt;Screen-sized JPEG previews&lt;/a&gt; should make viewers and slideshows become clear faster, while &lt;a href="https://github.com/ente/ente/pull/14884"&gt;reusing photo bytes in the editor&lt;/a&gt; reduces duplicate loading. &lt;a href="https://github.com/ente/ente/pull/14902"&gt;Paged selection actions and faster sheet gestures&lt;/a&gt; are also in review.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Onboarding and Ensu:&lt;/strong&gt; &lt;a href="https://github.com/ente/ente/pull/14883"&gt;A redesigned permission screen&lt;/a&gt; is coming for users continuing without an account, and &lt;a href="https://github.com/ente/ente/pull/14898"&gt;manual notes-index updates&lt;/a&gt; are being added across Android, iOS, and desktop.&lt;/li&gt;
+  &lt;li&gt;Additional translation corrections are proposed in &lt;a href="https://github.com/ente/ente/pull/14889"&gt;a second 33-language pass&lt;/a&gt;; the remaining opened changes are dependency and test-infrastructure work.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ente digest Nov 23, 2026 - 38 shipped, 10 in progress</title>
       <link>https://github.com/ente/ente/pulls</link>
@@ -677,32 +700,6 @@
 &lt;li&gt;&lt;strong&gt;Upcoming Photos web:&lt;/strong&gt; A Places sidebar will list matched cities with photo covers, powered by the shared Rust location matcher. &lt;a href="https://github.com/ente/ente/pull/14077"&gt;Places sidebar&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Server work would increase primary database pool limits. &lt;a href="https://github.com/ente/ente/pull/14101"&gt;Database pool limits&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Documentation updates clarify iOS backup selection, Auth manual-entry errors, macOS menu-bar mode, and shared-album permissions. &lt;a href="https://github.com/ente/ente/pull/14092"&gt;Help updates&lt;/a&gt; · &lt;a href="https://github.com/ente/ente/pull/14088"&gt;Sharing FAQ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Ente digest Oct 25, 2026 - 13 shipped, 6 in progress</title>
-      <link>https://github.com/ente/ente/pulls</link>
-      <guid isPermaLink="false">ente-digest-2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 10:54:59 +0000</pubDate>
-      <description>&lt;p&gt;Photos received a broad web design and usability refresh, including faster navigation, better settings discovery, and clearer album and link controls. Video playback behavior also improved across the web viewer and Space feed, while several mobile and server improvements are now in progress.&lt;/p&gt;
-
-&lt;h3&gt;Shipped&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Added searchable settings with keyboard navigation in &lt;a href="https://github.com/ente/ente/pull/14065"&gt;#14065&lt;/a&gt;, a default Links overview in &lt;a href="https://github.com/ente/ente/pull/14064"&gt;#14064&lt;/a&gt;, and improved public-link details and removal controls in &lt;a href="https://github.com/ente/ente/pull/14067"&gt;#14067&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos web:&lt;/strong&gt; Sidebar opening and closing now animate smoothly while respecting reduced-motion preferences (&lt;a href="https://github.com/ente/ente/pull/14066"&gt;#14066&lt;/a&gt;). Album and People headers show covers or face thumbnails on larger screens (&lt;a href="https://github.com/ente/ente/pull/14040"&gt;#14040&lt;/a&gt;), and album actions move into a compact menu on small screens (&lt;a href="https://github.com/ente/ente/pull/14038"&gt;#14038&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos:&lt;/strong&gt; Introduced a focused, virtualized album-cover picker shared across album and public-link settings (&lt;a href="https://github.com/ente/ente/pull/14050"&gt;#14050"&gt;#14050&lt;/a&gt;). Album creation is now more prominent, with refreshed cover styling (&lt;a href="https://github.com/ente/ente/pull/14039"&gt;#14039&lt;/a&gt;), and navigation icons were updated (&lt;a href="https://github.com/ente/ente/pull/14037"&gt;#14037&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space web:&lt;/strong&gt; Video swiping and carousel playback now preserve decoded frames and avoid unnecessary cover flashes or playback delays (&lt;a href="https://github.com/ente/ente/pull/14041"&gt;#14041&lt;/a&gt;, &lt;a href="https://github.com/ente/ente/pull/14049"&gt;#14049&lt;/a&gt;). Finished videos show their cover again instead of a black replay screen on iPhone browsers (&lt;a href="https://github.com/ente/ente/pull/14058"&gt;#14058&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; Added a Labcorp account icon (&lt;a href="https://github.com/ente/ente/pull/14062"&gt;#14062&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;In progress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; A subscription-screen redesign adds new plan, FAQ, family, and Locker preview cards while keeping billing behavior unchanged (&lt;a href="https://github.com/ente/ente/pull/14060"&gt;#14060&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Album-cover transitions in list views and search results are being fixed to prevent duplicate animations (&lt;a href="https://github.com/ente/ente/pull/14054"&gt;#14054&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Photos mobile:&lt;/strong&gt; Review suggestions will refresh automatically after photo or group edits and reviews, removing stale candidates from People (&lt;a href="https://github.com/ente/ente/pull/14053"&gt;#14053&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Locker:&lt;/strong&gt; A trash-retention notice is being added (&lt;a href="https://github.com/ente/ente/pull/14059"&gt;#14059&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Server:&lt;/strong&gt; Account deletion will disable memory share links immediately, closing a window where deleted users’ photos could remain accessible for up to seven days (&lt;a href="https://github.com/ente/ente/pull/14057"&gt;#14057&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ensu docs:&lt;/strong&gt; Setup guidance is being updated for optional packs and notes, including how to defer or revisit setup (&lt;a href="https://github.com/ente/ente/pull/14042"&gt;#14042&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
