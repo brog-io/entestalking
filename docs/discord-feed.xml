@@ -4,7 +4,23 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Mon, 23 Nov 2026 18:39:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 18:09:14 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 24, 2026 - 28 messages in 3 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 18:09:14 +0000</pubDate>
+      <description>&lt;p&gt;The Ente Community saw light-to-moderate activity across four channels, with 28 messages sampled overall. Conversation was led by off-topic discussion, alongside feature requests and an Ente Auth update.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;18 messages from 4 participants&lt;/strong&gt; covered NVIDIA-related memes and reactions, plus a discussion about whether an email address visible in an attachment constituted inadvertent self-doxxing. Members also shared links to &lt;a href="https://fxtwitter.com/Breaking911/status/2124942897942282449"&gt;Breaking911&lt;/a&gt; and &lt;a href="https://jaydip.me/notes#24/11/2026"&gt;Jaydip’s notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;#photos&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;9 messages from 4 participants&lt;/strong&gt; focused on improving the photo picker, including album access, favorites, search, and a more familiar app-style interface. A participant said these changes are expected in an upcoming release, hopefully this month; another asked about sharing machine-learning results with family members.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;One message&lt;/strong&gt; reported that Ente Auth successfully updated to version 4.4.27 and that Smart App Control was no longer blocking it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 23, 2026 - 67 messages in 5 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -639,25 +655,6 @@
 
 &lt;h3&gt;#introduce-yourself&lt;/h3&gt;
 &lt;p&gt;One participant posted a smiling emoji.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 24, 2026 - 23 messages in 4 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-24</guid>
-      <pubDate>Sat, 24 Oct 2026 11:27:39 +0000</pubDate>
-      <description>&lt;p&gt;The Ente Community saw 23 messages across four active channels, with discussion centered on the ongoing web gallery redesign, app issues, and storage questions. Activity was highest in &lt;strong&gt;#photos&lt;/strong&gt;, while the remaining channels had lighter conversation and sharing.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 13 messages from seven participants, members discussed the web redesign, including the absence of person search on the web app and plans for continued improvements, including a matching desktop UI. The channel also surfaced broken &lt;a href="https://ente.com/help/cli/"&gt;CLI documentation links&lt;/a&gt;, a possible photo-display issue being handled through support, and positive feedback on the refreshed interface.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;Five messages from four participants shared a meme about the updated web gallery and praised its polished appearance. A further social-media link was posted, while staff teased upcoming animations and interactions.&lt;/p&gt;
-
-&lt;h3&gt;#space&lt;/h3&gt;
-&lt;p&gt;Four messages from three participants clarified that Space storage is separate from Ente Photos storage, addressing a question about whether Space data counts toward Photos limits.&lt;/p&gt;
-
-&lt;h3&gt;#ensu&lt;/h3&gt;
-&lt;p&gt;One participant reported being unable to open Ensu on an iPhone Duo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
