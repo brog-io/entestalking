@@ -4,7 +4,20 @@
     <title>Ente Community Discord digest</title>
     <link>https://discord.com/channels/948937918347608085</link>
     <description>AI-generated daily recap of activity in the Ente Community Discord server</description>
-    <lastBuildDate>Wed, 25 Nov 2026 17:31:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 17:13:59 +0000</lastBuildDate>
+    <item>
+      <title>Ente Community Discord Nov 26, 2026 - 7 messages in 2 channels</title>
+      <link>https://discord.com/channels/948937918347608085</link>
+      <guid isPermaLink="false">discord-digest-2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 17:13:59 +0000</pubDate>
+      <description>&lt;p&gt;Activity was light over the past day, with 7 messages across two channels. Discussion focused mainly on authenticator app improvements and account migration support, alongside one security-related article share.&lt;/p&gt;
+
+&lt;h3&gt;#auth&lt;/h3&gt;
+&lt;p&gt;Six messages from five participants covered a &lt;a href="https://github.com/ente/ente/discussions/14709"&gt;GitHub feature discussion&lt;/a&gt; involving shared symbols or logos, including copyright and backup-size considerations. A user also asked about moving data from an older phone to a new one; the suggested approach was to reinstall the iOS app and import the backup.&lt;/p&gt;
+
+&lt;h3&gt;#off-topic&lt;/h3&gt;
+&lt;p&gt;One link was shared to a TechCrunch report about 1Password’s internal systems being breached while customer passwords remained safe.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ente Community Discord Nov 25, 2026 - 17 messages in 3 channels</title>
       <link>https://discord.com/channels/948937918347608085</link>
@@ -627,31 +640,6 @@
 
 &lt;h3&gt;#ensu&lt;/h3&gt;
 &lt;p&gt;A user reported that deleting and reinstalling the app resolved an issue.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ente Community Discord Oct 26, 2026 - 67 messages in 6 channels</title>
-      <link>https://discord.com/channels/948937918347608085</link>
-      <guid isPermaLink="false">discord-digest-2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 13:27:33 +0000</pubDate>
-      <description>&lt;p&gt;Activity was concentrated in &lt;strong&gt;#photos&lt;/strong&gt;, with members discussing photo metadata, exports, migration, and self-hosting. Smaller conversations covered AI and open-source projects, Ente Locker’s intended use, authentication tooling, and community introductions.&lt;/p&gt;
-
-&lt;h3&gt;#photos&lt;/h3&gt;
-&lt;p&gt;With 49 messages from 7 participants, the channel focused on exporting photos and associated metadata, including sidecar files, embedded data, and migration from Google Photos. Members also discussed Ente self-hosting, Jellyfin, Immich, and how to contact the developers about exports.&lt;/p&gt;
-
-&lt;h3&gt;#off-topic&lt;/h3&gt;
-&lt;p&gt;Ten messages from 4 participants debated AI-assisted development, moderation, and the open-source community’s response to low-effort AI projects, including whether projects such as Ente and Linux might be excluded. Members also shared links, including &lt;a href="https://fxtwitter.com/LundukeJournal/status/2114146664554631217"&gt;a post from Lunduke Journal&lt;/a&gt; and a Tom’s Hardware article about Linux kernel development.&lt;/p&gt;
-
-&lt;h3&gt;#locker&lt;/h3&gt;
-&lt;p&gt;Four messages from 3 participants clarified why Locker is limited to sensitive or important documents rather than serving as a general-purpose cloud drive like Mega. The discussion also touched on migration limits and supported file types.&lt;/p&gt;
-
-&lt;h3&gt;#auth&lt;/h3&gt;
-&lt;p&gt;Two messages discussed an authentication-related issue and a GitHub repository containing issuer-to-URL mappings, with concerns that the mapping approach is fragile and incomplete.&lt;/p&gt;
-
-&lt;h3&gt;#introduce-yourself&lt;/h3&gt;
-&lt;p&gt;One new member introduced themselves, praised Ente Auth, and said they were considering trying Locker.&lt;/p&gt;
-
-&lt;h3&gt;#memes&lt;/h3&gt;
-&lt;p&gt;One attachment was shared.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
